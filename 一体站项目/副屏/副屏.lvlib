@@ -5,4 +5,6 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="MAIN.vi" Type="VI" URL="../MAIN.vi"/>
+	<Item Name="副屏设置.vi" Type="VI" URL="../副屏设置.vi"/>
+	<Item Name="副屏设置全局变量.vi" Type="VI" URL="../副屏设置全局变量.vi"/>
 </Library>
