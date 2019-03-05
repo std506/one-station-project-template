@@ -34,5 +34,6 @@
 		<Item Name="运行间隔计算.vi" Type="VI" URL="../运行间隔计算.vi"/>
 		<Item Name="单步启动对话框.vi" Type="VI" URL="../单步启动对话框.vi"/>
 		<Item Name="FATEK_HexToString.vi" Type="VI" URL="../subvi/FATEK_HexToString.vi"/>
+		<Item Name="手动启动选择对话框.vi" Type="VI" URL="../手动启动选择对话框.vi"/>
 	</Item>
 </Library>
