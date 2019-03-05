@@ -32,6 +32,6 @@
 	<Item Name="subvi" Type="Folder">
 		<Item Name="运行间隔计算.vi" Type="VI" URL="../运行间隔计算.vi"/>
 		<Item Name="单步启动对话框.vi" Type="VI" URL="../单步启动对话框.vi"/>
-		<Item Name="HexToString.vi" Type="VI" URL="../subvi/HexToString.vi"/>
+		<Item Name="FATEK_HexToString.vi" Type="VI" URL="../subvi/FATEK_HexToString.vi"/>
 	</Item>
 </Library>
