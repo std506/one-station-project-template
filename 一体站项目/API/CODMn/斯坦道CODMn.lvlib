@@ -73,6 +73,7 @@
 		<Item Name="运行时序全局变量.vi" Type="VI" URL="../运行时序全局变量.vi"/>
 		<Item Name="COD浓度全局变量.vi" Type="VI" URL="../COD浓度全局变量.vi"/>
 	</Item>
+	<Item Name="CODMn手动控制框.vi" Type="VI" URL="../CODMn手动控制框.vi"/>
 	<Item Name="窗口弹出对话框(子VI).vi" Type="VI" URL="../窗口弹出对话框(子VI).vi"/>
 	<Item Name="CODMn停止命令 (子VI).vi" Type="VI" URL="../CODMn停止命令 (子VI).vi"/>
 </Library>

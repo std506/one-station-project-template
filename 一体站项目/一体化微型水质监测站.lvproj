@@ -104,7 +104,7 @@
 			</Item>
 		</Item>
 		<Item Name="Modbus Slave" Type="Folder">
-			<Item Name="Modbus Slave.vi" Type="VI" URL="../Modbus Slave/Modbus Slave.vi"/>
+			<Item Name="MODBUS  SLAVE.vi" Type="VI" URL="../Modbus Slave/MODBUS  SLAVE.vi"/>
 		</Item>
 		<Item Name="全局变量" Type="Folder">
 			<Item Name="系统变量.vi" Type="VI" URL="../全局变量/系统变量.vi"/>
@@ -139,7 +139,6 @@
 		<Item Name="斯坦道CODMn.lvlib" Type="Library" URL="../API/CODMn/斯坦道CODMn.lvlib"/>
 		<Item Name="多参数横条运行状态.xctl" Type="XControl" URL="../API/斯坦道仪器/常规五参数/Control/多参数横条运行状态/多参数横条运行状态.xctl"/>
 		<Item Name="HACH多参.lvlib" Type="Library" URL="../API/HACH多参/HACH多参.lvlib"/>
-		<Item Name="质控中断报警全局.vi" Type="VI" URL="../API/质控单元/质控中断报警全局.vi"/>
 		<Item Name="副屏.lvlib" Type="Library" URL="../副屏/副屏.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -319,6 +318,7 @@
 				<Item Name="Waveform Array To Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Waveform Array To Dynamic.vi"/>
 				<Item Name="ex_SetAllExpressAttribs.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/ex_SetAllExpressAttribs.vi"/>
 				<Item Name="Build Exp Wvfrm (Wvfrm).vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Build Exp Wvfrm (Wvfrm).vi"/>
+				<Item Name="Modbus Slave.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Modbus/slave/Modbus Slave.lvclass"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
@@ -421,6 +421,8 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="数字密码键盘.vi" Type="VI" URL="../Subvi/数字密码键盘.vi"/>
+			<Item Name="停止整机测试(子VI).vi" Type="VI" URL="../Modbus Slave/停止整机测试(子VI).vi"/>
+			<Item Name="启动整机测试 (子VI).vi" Type="VI" URL="../Modbus Slave/启动整机测试 (子VI).vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="一体化微型水质监测站" Type="EXE">
@@ -589,7 +591,7 @@
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[8].type" Type="Str">Library</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/我的电脑/质控中断报警全局.vi</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/我的电脑/质控单元.lvlib/全局变量/质控中断报警全局.vi</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">29</Property>

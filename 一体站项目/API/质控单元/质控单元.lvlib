@@ -40,6 +40,7 @@
 		<Item Name="氨氮加标回收状态全局变量.vi" Type="VI" URL="../氨氮加标回收状态全局变量.vi"/>
 		<Item Name="COD浓度全局变量.vi" Type="VI" URL="../COD浓度全局变量.vi"/>
 		<Item Name="串口参数全局.vi" Type="VI" URL="../串口参数全局.vi"/>
+		<Item Name="质控中断报警全局.vi" Type="VI" URL="../质控中断报警全局.vi"/>
 	</Item>
 	<Item Name="通讯" Type="Folder">
 		<Item Name="单个写入.vi" Type="VI" URL="../单个写入.vi"/>
