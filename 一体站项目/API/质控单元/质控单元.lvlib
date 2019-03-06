@@ -18,11 +18,11 @@
 		<Item Name="Regression Equation String2.vi" Type="VI" URL="../Regression Equation String2.vi"/>
 	</Item>
 	<Item Name="流程" Type="Folder">
-		<Item Name="古田户外一体站流程质控自动启动.vi" Type="VI" URL="../古田户外一体站流程质控自动启动.vi"/>
+		<Item Name="一体站流程质控自动启动.vi" Type="VI" URL="../一体站流程质控自动启动.vi"/>
 		<Item Name="氨氮流程质控自动启动.vi" Type="VI" URL="../氨氮流程质控自动启动.vi"/>
 		<Item Name="总磷总氮流程质控自动启动.vi" Type="VI" URL="../总磷总氮流程质控自动启动.vi"/>
 		<Item Name="CODMn流程质控自动启动.vi" Type="VI" URL="../CODMn流程质控自动启动.vi"/>
-		<Item Name="古田户外一体站流程平行样自动启动.vi" Type="VI" URL="../古田户外一体站流程平行样自动启动.vi"/>
+		<Item Name="一体站流程平行样自动启动.vi" Type="VI" URL="../一体站流程平行样自动启动.vi"/>
 		<Item Name="COD平行样流程 (子VI).vi" Type="VI" URL="../COD平行样流程 (子VI).vi"/>
 		<Item Name="COD质控流程 (子VI).vi" Type="VI" URL="../COD质控流程 (子VI).vi"/>
 		<Item Name="氨氮总磷平行样流程.vi" Type="VI" URL="../氨氮总磷平行样流程.vi"/>
