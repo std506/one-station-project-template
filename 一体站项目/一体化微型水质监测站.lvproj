@@ -430,7 +430,11 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
+<<<<<<< HEAD
 				<Property Name="Bld_version.build" Type="Int">21</Property>
+=======
+				<Property Name="Bld_version.build" Type="Int">24</Property>
+>>>>>>> 75a6251ca6f5e0eee8f55dabc83bc97440ffc627
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化微型水质监测站.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站.exe</Property>
