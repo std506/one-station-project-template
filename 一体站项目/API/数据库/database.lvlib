@@ -9,7 +9,7 @@
 	<Item Name="水质测量数据table定义.vi" Type="VI" URL="../水质测量数据table定义.vi"/>
 	<Item Name="水质状态告警table定义.vi" Type="VI" URL="../水质状态告警table定义.vi"/>
 	<Item Name="多参数状态告警table定义.vi" Type="VI" URL="../多参数状态告警table定义.vi"/>
-	<Item Name="总磷氨氮插入数据.vi" Type="VI" URL="../总磷氨氮插入数据.vi"/>
+	<Item Name="总磷氨氮插入数据.vi" Type="VI" URL="../../../../../古田项目/GT/一体站项目/API/数据库/总磷氨氮插入数据.vi"/>
 	<Item Name="插入数据.vi" Type="VI" URL="../插入数据.vi"/>
 	<Item Name="查询数据.vi" Type="VI" URL="../查询数据.vi"/>
 	<Item Name="SQL查询.vi" Type="VI" URL="../SQL查询.vi"/>
