@@ -31,6 +31,7 @@
 			<Item Name="浮点转DCBA整形.vi" Type="VI" URL="../Subvi/浮点转DCBA整形.vi"/>
 			<Item Name="日期键盘.vi" Type="VI" URL="../Subvi/日期键盘.vi"/>
 			<Item Name="数字键盘.vi" Type="VI" URL="../Subvi/数字键盘.vi"/>
+			<Item Name="数字密码键盘.vi" Type="VI" URL="../Subvi/数字密码键盘.vi"/>
 			<Item Name="斯坦道XML解析.vi" Type="VI" URL="../Subvi/斯坦道XML解析.vi"/>
 			<Item Name="线性公式.vi" Type="VI" URL="../Subvi/线性公式.vi"/>
 			<Item Name="营养盐XML解析.vi" Type="VI" URL="../Subvi/营养盐XML解析.vi"/>
@@ -143,7 +144,6 @@
 		<Item Name="多参数横条运行状态.xctl" Type="XControl" URL="../API/斯坦道仪器/常规五参数/Control/多参数横条运行状态/多参数横条运行状态.xctl"/>
 		<Item Name="HACH多参.lvlib" Type="Library" URL="../API/HACH多参/HACH多参.lvlib"/>
 		<Item Name="副屏.lvlib" Type="Library" URL="../副屏/副屏.lvlib"/>
-		<Item Name="数字密码键盘.vi" Type="VI" URL="../Subvi/数字密码键盘.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
