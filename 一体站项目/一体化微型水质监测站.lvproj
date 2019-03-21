@@ -410,8 +410,8 @@
 			<Item Name="查询启动项.vi" Type="VI" URL="../系统/查询启动项.vi"/>
 			<Item Name="停止整机测试(子VI).vi" Type="VI" URL="../Modbus Slave/停止整机测试(子VI).vi"/>
 			<Item Name="启动整机测试 (子VI).vi" Type="VI" URL="../Modbus Slave/启动整机测试 (子VI).vi"/>
-			<Item Name="database.lvlib" Type="Library" URL="../../../古田项目/GT/一体站项目/API/数据库/database.lvlib"/>
 			<Item Name="database.lvlib" Type="Library" URL="../API/数据库/database.lvlib"/>
+			<Item Name="总磷氨氮插入数据.vi" Type="VI" URL="../API/数据库/总磷氨氮插入数据.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="我的应用程序" Type="EXE">
@@ -427,25 +427,21 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/芜湖内外一体站</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-<<<<<<< HEAD
-				<Property Name="Bld_version.build" Type="Int">21</Property>
-=======
-				<Property Name="Bld_version.build" Type="Int">24</Property>
->>>>>>> 75a6251ca6f5e0eee8f55dabc83bc97440ffc627
+				<Property Name="Bld_version.build" Type="Int">14</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">一体化微型水质监测站.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">芜湖内外一体站.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/芜湖内外一体站/芜湖内外一体站.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/芜湖内外一体站/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{94C795DD-E4A4-4E34-A8C7-73560E1C990C}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4F67FE2D-B807-48D9-9C88-DD94363F768C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/UI/VIS/启动.vi</Property>
@@ -552,12 +548,6 @@
 				<Property Name="Source[28].itemID" Type="Ref">/我的电脑/UI/VIS/运维调试.vi</Property>
 				<Property Name="Source[28].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[28].type" Type="Str">VI</Property>
-				<Property Name="Source[29].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[29].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[29].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[29].itemID" Type="Ref">/我的电脑/UI/控件</Property>
-				<Property Name="Source[29].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[29].type" Type="Str">Container</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/我的电脑/副屏.lvlib</Property>
 				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
@@ -575,7 +565,7 @@
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">Library</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/我的电脑/依赖关系/Item[@Label='database.lvlib' and @Type='Library']</Property>
+				<Property Name="Source[6].itemID" Type="Ref"></Property>
 				<Property Name="Source[6].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">Library</Property>
@@ -593,13 +583,13 @@
 				<Property Name="Source[9].itemID" Type="Ref">/我的电脑/质控单元.lvlib/全局变量/质控中断报警全局.vi</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">30</Property>
+				<Property Name="SourceCount" Type="Int">29</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">我的应用程序</Property>
 				<Property Name="TgtF_internalName" Type="Str">我的应用程序</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">版权 2019 </Property>
 				<Property Name="TgtF_productName" Type="Str">我的应用程序</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{F20B5619-0396-433C-B501-F0A70FA24780}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">一体化微型水质监测站.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">芜湖内外一体站.exe</Property>
 			</Item>
 		</Item>
 	</Item>
