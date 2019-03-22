@@ -92,7 +92,9 @@
 			<Item Name="总磷氨氮操作日志.vi" Type="VI" URL="../总磷氨氮/总磷氨氮操作日志.vi"/>
 			<Item Name="总磷氨氮报警信息.vi" Type="VI" URL="../总磷氨氮/总磷氨氮报警信息.vi"/>
 		</Item>
-		<Item Name="流程" Type="Folder"/>
+		<Item Name="流程" Type="Folder">
+			<Item Name="总磷氨氮测量流程.vi" Type="VI" URL="../总磷氨氮/测量流程/总磷氨氮测量流程.vi"/>
+		</Item>
 		<Item Name="subvi" Type="Folder">
 			<Item Name="总磷氨氮启动命令.vi" Type="VI" URL="../总磷氨氮/总磷氨氮启动命令.vi"/>
 			<Item Name="总磷氨氮启动参数对话框.vi" Type="VI" URL="../总磷氨氮/UI/总磷氨氮启动参数对话框.vi"/>
