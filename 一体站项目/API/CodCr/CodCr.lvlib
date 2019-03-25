@@ -27,6 +27,6 @@
 		<Item Name="CODcr测试流程.vi" Type="VI" URL="../流程/CODcr测试流程.vi"/>
 		<Item Name="CODcr启动命令.vi" Type="VI" URL="../流程/CODcr启动命令.vi"/>
 		<Item Name="CODcr全局变量.vi" Type="VI" URL="../流程/CODcr全局变量.vi"/>
+		<Item Name="CODCr数据插入DATA (子VI).vi" Type="VI" URL="../CODCr数据插入DATA (子VI).vi"/>
 	</Item>
-	<Item Name="CODCr数据插入DATA (子VI).vi" Type="VI" URL="../CODCr数据插入DATA (子VI).vi"/>
 </Library>
