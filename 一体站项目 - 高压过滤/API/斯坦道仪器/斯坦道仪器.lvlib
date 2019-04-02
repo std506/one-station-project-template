@@ -42,6 +42,7 @@
 			<Item Name="多参数关键参数读取.vi" Type="VI" URL="../常规五参数/多参数关键参数读取.vi"/>
 			<Item Name="多参数测量数据读取.vi" Type="VI" URL="../常规五参数/多参数测量数据读取.vi"/>
 			<Item Name="多参数状态告警区读取.vi" Type="VI" URL="../常规五参数/多参数状态告警区读取.vi"/>
+			<Item Name="多参数据转列表.vi" Type="VI" URL="../常规五参数/多参数据转列表.vi"/>
 		</Item>
 		<Item Name="数据" Type="Folder">
 			<Item Name="多参数测量数据存储.vi" Type="VI" URL="../常规五参数/数据/多参数测量数据存储.vi"/>
