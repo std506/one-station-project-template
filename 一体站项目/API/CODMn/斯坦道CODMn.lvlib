@@ -68,6 +68,7 @@
 		<Item Name="写入多个寄存器新.vi" Type="VI" URL="../写入多个寄存器新.vi"/>
 		<Item Name="CODMn手动控制框.vi" Type="VI" URL="../CODMn手动控制框.vi"/>
 		<Item Name="窗口弹出对话框(子VI).vi" Type="VI" URL="../窗口弹出对话框(子VI).vi"/>
+		<Item Name="波形存储(子VI).vi" Type="VI" URL="../波形存储(子VI).vi"/>
 		<Item Name="CODMn停止命令 (子VI).vi" Type="VI" URL="../CODMn停止命令 (子VI).vi"/>
 	</Item>
 	<Item Name="全局变量" Type="Folder">
