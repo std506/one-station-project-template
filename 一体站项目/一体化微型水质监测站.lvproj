@@ -123,8 +123,23 @@
 			<Item Name="氨氮.lvlib" Type="Library" URL="../API/氨氮/氨氮.lvlib"/>
 		</Item>
 		<Item Name="流量计" Type="Folder">
-			<Item Name="LDM51明渠流量计.lvlib" Type="Library" URL="../API/LDM51流量计/LDM51明渠流量计.lvlib"/>
-			<Item Name="流量计.lvlib" Type="Library" URL="../API/流量计/流量计.lvlib"/>
+			<Item Name="MGG-KL-QC流量计" Type="Folder">
+				<Item Name="MGG-KL-QC流量计.lvlib" Type="Library" URL="../API/流量计/MGG-KL-QC流量计/MGG-KL-QC流量计.lvlib"/>
+			</Item>
+			<Item Name="变量" Type="Folder">
+				<Item Name="流量计全局变量.vi" Type="VI" URL="../API/流量计/变量/流量计全局变量.vi"/>
+			</Item>
+			<Item Name="控件" Type="Folder">
+				<Item Name="流量计类型.ctl" Type="VI" URL="../API/流量计/控件/流量计类型.ctl"/>
+			</Item>
+			<Item Name="流量计" Type="Folder"/>
+			<Item Name="斯坦道功率测流" Type="Folder">
+				<Item Name="斯坦道功率测流.lvlib" Type="Library" URL="../API/流量计/斯坦道功率测流/斯坦道功率测流.lvlib"/>
+			</Item>
+			<Item Name="LDM51明渠流量计" Type="Folder">
+				<Item Name="LDM51明渠流量计.lvlib" Type="Library" URL="../API/流量计/LDM51明渠流量计/LDM51明渠流量计.lvlib"/>
+			</Item>
+			<Item Name="流量计.lvlib" Type="Library" URL="../API/流量计/流量计/流量计.lvlib"/>
 			<Item Name="流量计UI.vi" Type="VI" URL="../API/流量计/流量计UI.vi"/>
 		</Item>
 		<Item Name="系统设置" Type="Folder">
@@ -599,7 +614,7 @@
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">Library</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/我的电脑/流量计/LDM51明渠流量计.lvlib</Property>
+				<Property Name="Source[8].itemID" Type="Ref"></Property>
 				<Property Name="Source[8].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[8].type" Type="Str">Library</Property>
