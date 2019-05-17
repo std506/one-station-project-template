@@ -159,7 +159,6 @@
 		<Item Name="多参数横条运行状态.xctl" Type="XControl" URL="../API/斯坦道仪器/常规五参数/Control/多参数横条运行状态/多参数横条运行状态.xctl"/>
 		<Item Name="HACH多参.lvlib" Type="Library" URL="../API/HACH多参/HACH多参.lvlib"/>
 		<Item Name="副屏.lvlib" Type="Library" URL="../副屏/副屏.lvlib"/>
-		<Item Name="列表框.ctl" Type="VI" URL="../UI/控件/列表框.ctl"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -485,7 +484,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/一体站项目模板/一体化微型水质监测站</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化微型水质监测站.exe</Property>
@@ -497,7 +496,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/LabVIEW Project/builds/一体站项目模板/一体化微型水质监测站/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{93A8EC64-FEC8-438C-BF29-06A8A330CE09}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0C0B6195-6E97-4087-B3F5-FD6BC00D9ECB}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/UI/VIS/启动.vi</Property>
