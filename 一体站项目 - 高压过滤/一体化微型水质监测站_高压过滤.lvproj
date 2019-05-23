@@ -484,7 +484,11 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/一体站项目模板/一体化微型水质监测站</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
+<<<<<<< HEAD
 				<Property Name="Bld_version.build" Type="Int">18</Property>
+=======
+				<Property Name="Bld_version.build" Type="Int">6</Property>
+>>>>>>> 734c5d178d026bc0ac4e1ffa53a116352b179deb
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化微型水质监测站.exe</Property>
@@ -496,7 +500,11 @@
 				<Property Name="Destination[1].path" Type="Path">/C/LabVIEW Project/builds/一体站项目模板/一体化微型水质监测站/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
+<<<<<<< HEAD
 				<Property Name="Source[0].itemID" Type="Str">{7B1B195B-7A1D-4D61-8B46-D125233E8F0F}</Property>
+=======
+				<Property Name="Source[0].itemID" Type="Str">{0C0B6195-6E97-4087-B3F5-FD6BC00D9ECB}</Property>
+>>>>>>> 734c5d178d026bc0ac4e1ffa53a116352b179deb
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/UI/VIS/启动.vi</Property>
