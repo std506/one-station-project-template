@@ -20,11 +20,13 @@
 		<Item Name="HexToWord.vi" Type="VI" URL="../UI/HexToWord.vi"/>
 		<Item Name="监测块.vi" Type="VI" URL="../UI/监测块.vi"/>
 		<Item Name="总磷氨氮通讯.vi" Type="VI" URL="../UI/总磷氨氮通讯.vi"/>
+		<Item Name="CODCr状态告警区.vi" Type="VI" URL="../UI/CODCr状态告警区.vi"/>
 		<Item Name="CODCr启动命令 (子VI).vi" Type="VI" URL="../UI/CODCr启动命令 (子VI).vi"/>
-		<Item Name="CODCr工作状态.vi" Type="VI" URL="../UI/CODCr工作状态.vi"/>
+		<Item Name="CODCr停止命令 (子VI).vi" Type="VI" URL="../UI/CODCr停止命令 (子VI).vi"/>
 	</Item>
 	<Item Name="流程" Type="Folder">
 		<Item Name="CODcr测试流程.vi" Type="VI" URL="../流程/CODcr测试流程.vi"/>
+		<Item Name="CODCr工作状态.vi" Type="VI" URL="../UI/CODCr工作状态.vi"/>
 		<Item Name="CODcr启动命令.vi" Type="VI" URL="../流程/CODcr启动命令.vi"/>
 		<Item Name="CODcr全局变量.vi" Type="VI" URL="../流程/CODcr全局变量.vi"/>
 		<Item Name="CODCr数据插入DATA (子VI).vi" Type="VI" URL="../CODCr数据插入DATA (子VI).vi"/>
