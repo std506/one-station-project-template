@@ -9,16 +9,16 @@
 	<Property Name="NI.XItem.Express" Type="Bool">false</Property>
 	<Property Name="NI.XItem.Name" Type="Str">XControl 1</Property>
 	<Property Name="NI.XItem.SupportsFatalErrorOut" Type="Bool">false</Property>
-	<Item Name="初始化 2.vi" Type="Ability VI" URL="../../../../API/斯坦道仪器/Control/多参数测量数据/初始化 2.vi">
+	<Item Name="初始化 2.vi" Type="Ability VI" URL="../初始化 2.vi">
 		<Property Name="NI.XItem.Name" Type="Str">Init</Property>
 	</Item>
-	<Item Name="数据 1.ctl" Type="Ability VI" URL="../../../../API/斯坦道仪器/Control/多参数测量数据/数据 1.ctl">
+	<Item Name="数据 1.ctl" Type="Ability VI" URL="../数据 1.ctl">
 		<Property Name="NI.XItem.Name" Type="Str">Data</Property>
 	</Item>
-	<Item Name="外观 2.vi" Type="Ability VI" URL="../../../../API/斯坦道仪器/Control/多参数测量数据/外观 2.vi">
+	<Item Name="外观 2.vi" Type="Ability VI" URL="../外观 2.vi">
 		<Property Name="NI.XItem.Name" Type="Str">Facade</Property>
 	</Item>
-	<Item Name="状态 1.ctl" Type="Ability VI" URL="../../../../API/斯坦道仪器/Control/多参数测量数据/状态 1.ctl">
+	<Item Name="状态 1.ctl" Type="Ability VI" URL="../状态 1.ctl">
 		<Property Name="NI.XItem.Name" Type="Str">State</Property>
 	</Item>
 </XControl>

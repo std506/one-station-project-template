@@ -20,6 +20,7 @@
 		<Item Name="HexToWord.vi" Type="VI" URL="../UI/HexToWord.vi"/>
 		<Item Name="监测块.vi" Type="VI" URL="../UI/监测块.vi"/>
 		<Item Name="总磷氨氮通讯.vi" Type="VI" URL="../UI/总磷氨氮通讯.vi"/>
+		<Item Name="CODCr状态告警区.vi" Type="VI" URL="../UI/CODCr状态告警区.vi"/>
 		<Item Name="CODCr启动命令 (子VI).vi" Type="VI" URL="../UI/CODCr启动命令 (子VI).vi"/>
 		<Item Name="CODCr停止命令 (子VI).vi" Type="VI" URL="../UI/CODCr停止命令 (子VI).vi"/>
 	</Item>
