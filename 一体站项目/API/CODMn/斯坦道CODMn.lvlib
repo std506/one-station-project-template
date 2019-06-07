@@ -47,6 +47,7 @@
 		<Item Name="数据写入database.vi" Type="VI" URL="../数据写入database.vi"/>
 		<Item Name="浮点CDAB转换COD.vi" Type="VI" URL="../浮点CDAB转换COD.vi"/>
 		<Item Name="浮点转CDAB整形cod.vi" Type="VI" URL="../浮点转CDAB整形cod.vi"/>
+		<Item Name="与工控机通讯.vi" Type="VI" URL="../与工控机通讯.vi"/>
 		<Item Name="Regression Equation String1.vi" Type="VI" URL="../Regression Equation String1.vi"/>
 		<Item Name="线性公式CODMn用.vi" Type="VI" URL="../线性公式CODMn用.vi"/>
 	</Item>
