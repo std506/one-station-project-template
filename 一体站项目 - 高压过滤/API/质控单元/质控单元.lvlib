@@ -34,6 +34,7 @@
 		<Item Name="质控启动参数选择对话框.vi" Type="VI" URL="../质控启动参数选择对话框.vi"/>
 		<Item Name="加标模块单控对话框.vi" Type="VI" URL="../加标模块单控对话框.vi"/>
 		<Item Name="氨氮总磷质控流程.vi" Type="VI" URL="../氨氮总磷质控流程.vi"/>
+		<Item Name="氨氮总磷流程质控自动启动.vi" Type="VI" URL="../氨氮总磷流程质控自动启动.vi"/>
 	</Item>
 	<Item Name="全局变量" Type="Folder">
 		<Item Name="质控测完标志全局 1.vi" Type="VI" URL="../质控测完标志全局 1.vi"/>
