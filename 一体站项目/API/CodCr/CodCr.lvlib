@@ -6,11 +6,20 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="UI" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="data to hex" Type="Folder">
+			<Item Name="FloatToHex.vi" Type="VI" URL="../UI/DataToHex/FloatToHex.vi"/>
+			<Item Name="WordToHex.vi" Type="VI" URL="../UI/DataToHex/WordToHex.vi"/>
+			<Item Name="DateToHex.vi" Type="VI" URL="../UI/DateToHex.vi"/>
+		</Item>
+		<Item Name="键盘" Type="Folder">
+			<Item Name="CODCR日期键盘.vi" Type="VI" URL="../UI/键盘/CODCR日期键盘.vi"/>
+			<Item Name="CODCR数字键盘.vi" Type="VI" URL="../UI/键盘/CODCR数字键盘.vi"/>
+			<Item Name="CODCR字符键盘.vi" Type="VI" URL="../UI/键盘/CODCR字符键盘.vi"/>
+		</Item>
 		<Item Name="运维调试_CODCr.vi" Type="VI" URL="../UI/运维调试_CODCr.vi"/>
 		<Item Name="CODCr插入数据.vi" Type="VI" URL="../UI/CODCr插入数据.vi"/>
 		<Item Name="CODCr水质测量数据table定义.vi" Type="VI" URL="../UI/CODCr水质测量数据table定义.vi"/>
 		<Item Name="CODCr通讯.vi" Type="VI" URL="../UI/CODCr通讯.vi"/>
-		<Item Name="DateToHex.vi" Type="VI" URL="../UI/DateToHex.vi"/>
 		<Item Name="HexToDate1.vi" Type="VI" URL="../UI/HexToDate1.vi"/>
 		<Item Name="HexToFloat.vi" Type="VI" URL="../UI/HexToFloat.vi"/>
 		<Item Name="CODcr测量数据区.vi" Type="VI" URL="../UI/CODcr测量数据区.vi"/>
@@ -20,9 +29,9 @@
 		<Item Name="HexToWord.vi" Type="VI" URL="../UI/HexToWord.vi"/>
 		<Item Name="监测块.vi" Type="VI" URL="../UI/监测块.vi"/>
 		<Item Name="总磷氨氮通讯.vi" Type="VI" URL="../UI/总磷氨氮通讯.vi"/>
-		<Item Name="CODCr状态告警区.vi" Type="VI" URL="../UI/CODCr状态告警区.vi"/>
 		<Item Name="CODCr启动命令 (子VI).vi" Type="VI" URL="../UI/CODCr启动命令 (子VI).vi"/>
 		<Item Name="CODCr停止命令 (子VI).vi" Type="VI" URL="../UI/CODCr停止命令 (子VI).vi"/>
+		<Item Name="状态告警区.vi" Type="VI" URL="../UI/状态告警区.vi"/>
 	</Item>
 	<Item Name="流程" Type="Folder">
 		<Item Name="CODcr测试流程.vi" Type="VI" URL="../流程/CODcr测试流程.vi"/>
