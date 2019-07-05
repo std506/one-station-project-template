@@ -139,6 +139,9 @@
 			<Item Name="LDM51明渠流量计" Type="Folder">
 				<Item Name="LDM51明渠流量计.lvlib" Type="Library" URL="../API/流量计/LDM51明渠流量计/LDM51明渠流量计.lvlib"/>
 			</Item>
+			<Item Name="九波明渠流量计" Type="Folder">
+				<Item Name="WL-1A1.lvlib" Type="Library" URL="../API/流量计/九波明渠流量计/WL-1A1.lvlib"/>
+			</Item>
 			<Item Name="流量计.lvlib" Type="Library" URL="../API/流量计/流量计/流量计.lvlib"/>
 			<Item Name="流量计UI.vi" Type="VI" URL="../API/流量计/流量计UI.vi"/>
 		</Item>
