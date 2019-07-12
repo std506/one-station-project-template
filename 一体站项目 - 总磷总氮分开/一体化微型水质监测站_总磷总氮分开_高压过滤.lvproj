@@ -474,7 +474,6 @@
 			<Item Name="在线监测仪器仪表参数.vi" Type="VI" URL="../全局变量/在线监测仪器仪表参数.vi"/>
 			<Item Name="仪器参数转data in.vi" Type="VI" URL="../Subvi/仪器参数转data in.vi"/>
 			<Item Name="CODMn参数WR (子VI).vi" Type="VI" URL="../Subvi/CODMn参数WR (子VI).vi"/>
-			<Item Name="氨氮总磷总氮公式WR.vi" Type="VI" URL="../Subvi/氨氮总磷总氮公式WR.vi"/>
 			<Item Name="CODCr参数WR (子VI) .vi" Type="VI" URL="../Subvi/CODCr参数WR (子VI) .vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
