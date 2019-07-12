@@ -96,7 +96,6 @@
 					<Item Name="数据查询_仪器数据.vi" Type="VI" URL="../UI/VIS/数据查询_仪器数据.vi"/>
 					<Item Name="数据查询筛选.vi" Type="VI" URL="../UI/VIS/数据查询筛选.vi"/>
 				</Item>
-				<Item Name="运维调试" Type="Folder"/>
 				<Item Name="首页.vi" Type="VI" URL="../UI/VIS/首页.vi"/>
 				<Item Name="主画面.vi" Type="VI" URL="../UI/VIS/主画面.vi"/>
 				<Item Name="数据查询.vi" Type="VI" URL="../UI/VIS/数据查询.vi"/>
@@ -486,7 +485,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">79</Property>
+				<Property Name="Bld_version.build" Type="Int">80</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化微型水质监测站.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站/一体化微型水质监测站.exe</Property>
@@ -580,7 +579,7 @@
 				<Property Name="Source[23].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[23].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[23].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[23].itemID" Type="Ref">/我的电脑/UI/VIS/运维调试</Property>
+				<Property Name="Source[23].itemID" Type="Ref"></Property>
 				<Property Name="Source[23].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[23].type" Type="Str">Container</Property>
 				<Property Name="Source[24].destinationIndex" Type="Int">0</Property>
