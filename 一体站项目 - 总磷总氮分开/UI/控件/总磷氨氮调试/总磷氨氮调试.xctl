@@ -15,7 +15,7 @@
 	<Item Name="数据 2.ctl" Type="Ability VI" URL="../数据 2.ctl">
 		<Property Name="NI.XItem.Name" Type="Str">Data</Property>
 	</Item>
-	<Item Name="数字键盘.vi" Type="VI" URL="../数字键盘.vi"/>
+	<Item Name="数字键盘.vi" Type="VI" URL="../subvi/数字键盘.vi"/>
 	<Item Name="外观 2.vi" Type="Ability VI" URL="../外观 2.vi">
 		<Property Name="NI.XItem.Name" Type="Str">Facade</Property>
 	</Item>
