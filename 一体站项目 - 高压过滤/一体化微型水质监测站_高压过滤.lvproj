@@ -148,6 +148,24 @@
 			<Item Name="删除启动项.vi" Type="VI" URL="../系统/删除启动项.vi"/>
 			<Item Name="查询启动项.vi" Type="VI" URL="../系统/查询启动项.vi"/>
 		</Item>
+		<Item Name="氨氮总磷" Type="Folder">
+			<Item Name="Control" Type="Folder">
+				<Item Name="总磷氨氮测量数据" Type="Folder"/>
+				<Item Name="总磷氨氮调试" Type="Folder">
+					<Item Name="subvi" Type="Folder"/>
+				</Item>
+				<Item Name="总磷氨氮运行状态" Type="Folder"/>
+			</Item>
+			<Item Name="DataToHex" Type="Folder"/>
+			<Item Name="HexToData" Type="Folder"/>
+			<Item Name="Subvi" Type="Folder"/>
+			<Item Name="数据库" Type="Folder"/>
+			<Item Name="总磷氨氮" Type="Folder">
+				<Item Name="COM" Type="Folder"/>
+				<Item Name="UI" Type="Folder"/>
+			</Item>
+			<Item Name="氨氮总磷.lvlib" Type="Library" URL="../API/氨氮总磷/氨氮总磷.lvlib"/>
+		</Item>
 		<Item Name="PLC.lvlib" Type="Library" URL="../PLC/PLC.lvlib"/>
 		<Item Name="database.lvlib" Type="Library" URL="../API/数据库/database.lvlib"/>
 		<Item Name="斯坦道仪器.lvlib" Type="Library" URL="../API/斯坦道仪器/斯坦道仪器.lvlib"/>
