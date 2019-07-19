@@ -30,13 +30,13 @@
 		</Item>
 		<Item Name="数字键盘.vi" Type="VI" URL="../Subvi/数字键盘.vi"/>
 	</Item>
-	<Item Name="总磷氨氮" Type="Folder">
+	<Item Name="氨氮" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="UI" Type="Folder">
 			<Item Name="运维调试_氨氮.vi" Type="VI" URL="../总磷氨氮/UI/运维调试_氨氮.vi"/>
 		</Item>
 		<Item Name="变量" Type="Folder">
-			<Item Name="VAR总磷氨氮全局变量.vi" Type="VI" URL="../总磷氨氮/VAR总磷氨氮全局变量.vi"/>
+			<Item Name="VAR氨氮全局变量.vi" Type="VI" URL="../总磷氨氮/VAR氨氮全局变量.vi"/>
 		</Item>
 		<Item Name="通讯" Type="Folder">
 			<Item Name="参数读取写入" Type="Folder">
