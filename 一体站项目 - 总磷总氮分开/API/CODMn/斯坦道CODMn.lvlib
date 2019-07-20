@@ -38,7 +38,9 @@
 		<Item Name="数字键盘.vi" Type="VI" URL="../数字键盘.vi"/>
 		<Item Name="字符键盘.vi" Type="VI" URL="../字符键盘.vi"/>
 	</Item>
-	<Item Name="周期设置" Type="Folder"/>
+	<Item Name="周期设置" Type="Folder">
+		<Item Name="周期设置.vi" Type="VI" URL="../周期设置.vi"/>
+	</Item>
 	<Item Name="流程" Type="Folder"/>
 	<Item Name="Subvi" Type="Folder">
 		<Item Name="DateToHex.vi" Type="VI" URL="../DateToHex.vi"/>
@@ -76,5 +78,6 @@
 		<Item Name="COD读取DATA全局.vi" Type="VI" URL="../COD读取DATA全局.vi"/>
 		<Item Name="运行时序全局变量.vi" Type="VI" URL="../运行时序全局变量.vi"/>
 		<Item Name="COD浓度全局变量.vi" Type="VI" URL="../COD浓度全局变量.vi"/>
+		<Item Name="CODMn断电保存全局变量.vi" Type="VI" URL="../CODMn断电保存全局变量.vi"/>
 	</Item>
 </Library>

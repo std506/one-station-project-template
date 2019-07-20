@@ -27,6 +27,7 @@
 		</Item>
 		<Item Name="变量" Type="Folder">
 			<Item Name="VAR总氮全局变量.vi" Type="VI" URL="../总磷氨氮/VAR总氮全局变量.vi"/>
+			<Item Name="总氮断电保存全局变量.vi" Type="VI" URL="../总磷氨氮/总氮断电保存全局变量.vi"/>
 		</Item>
 		<Item Name="通讯" Type="Folder">
 			<Item Name="参数读取写入" Type="Folder">
@@ -60,6 +61,7 @@
 			<Item Name="总氮启动参数对话框.vi" Type="VI" URL="../总磷氨氮/UI/总氮启动参数对话框.vi"/>
 			<Item Name="定时启动对话框.vi" Type="VI" URL="../总磷氨氮/UI/定时启动对话框.vi"/>
 			<Item Name="总氮控制命令区.vi" Type="VI" URL="../总磷氨氮/总氮控制命令区.vi"/>
+			<Item Name="周期设置.vi" Type="VI" URL="../总磷氨氮/周期设置.vi"/>
 		</Item>
 	</Item>
 </Library>
