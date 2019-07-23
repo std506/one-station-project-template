@@ -6,34 +6,34 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="电源管理" Type="Folder">
-		<Item Name="多参数电源命令.vi" Type="VI" URL="../电源管理/多参数电源命令.vi"/>
-		<Item Name="CODMn电源命令.vi" Type="VI" URL="../电源管理/CODMn电源命令.vi"/>
-		<Item Name="CODCr电源命令.vi" Type="VI" URL="../电源管理/CODCr电源命令.vi"/>
-		<Item Name="氨氮电源命令.vi" Type="VI" URL="../电源管理/氨氮电源命令.vi"/>
+		<Item Name="多参数电源命令.vi" Type="VI" URL="../../../../../../Desktop/整合氨氮总磷总氮/氨氮总磷/一体站项目 - 高压过滤/PLC/电源管理/多参数电源命令.vi"/>
+		<Item Name="CODMn电源命令.vi" Type="VI" URL="../../../../../../Desktop/整合氨氮总磷总氮/氨氮总磷/一体站项目 - 高压过滤/PLC/电源管理/CODMn电源命令.vi"/>
+		<Item Name="CODCr电源命令.vi" Type="VI" URL="../../../../../../Desktop/整合氨氮总磷总氮/氨氮总磷/一体站项目 - 高压过滤/PLC/电源管理/CODCr电源命令.vi"/>
+		<Item Name="氨氮电源命令.vi" Type="VI" URL="../../../../../../Desktop/整合氨氮总磷总氮/氨氮总磷/一体站项目 - 高压过滤/PLC/电源管理/氨氮电源命令.vi"/>
 		<Item Name="总氮电源命令.vi" Type="VI" URL="../电源管理/总氮电源命令.vi"/>
-		<Item Name="总磷总氮电源命令.vi" Type="VI" URL="../电源管理/总磷总氮电源命令.vi"/>
+		<Item Name="总磷总氮电源命令.vi" Type="VI" URL="../../../../../../Desktop/整合氨氮总磷总氮/氨氮总磷/一体站项目 - 高压过滤/PLC/电源管理/总磷总氮电源命令.vi"/>
 		<Item Name="电源管理UI.vi" Type="VI" URL="../电源管理/电源管理UI.vi"/>
 	</Item>
 	<Item Name="通讯" Type="Folder">
 		<Item Name="采配水通讯指令.vi" Type="VI" URL="../采配水通讯指令.vi"/>
-		<Item Name="流程日志字段定义.vi" Type="VI" URL="../数据存储/流程日志字段定义.vi"/>
-		<Item Name="报警信息字段定义.vi" Type="VI" URL="../报警信息字段定义.vi"/>
+		<Item Name="流程日志字段定义.vi" Type="VI" URL="../../../../../../Desktop/整合氨氮总磷总氮/氨氮总磷/一体站项目 - 高压过滤/PLC/数据存储/流程日志字段定义.vi"/>
+		<Item Name="报警信息字段定义.vi" Type="VI" URL="../../../../../../Desktop/整合氨氮总磷总氮/氨氮总磷/一体站项目 - 高压过滤/PLC/报警信息字段定义.vi"/>
 	</Item>
 	<Item Name="UI" Type="Folder">
 		<Item Name="运维调试_采配水.vi" Type="VI" URL="../运维调试_采配水.vi"/>
 	</Item>
 	<Item Name="数据" Type="Folder">
-		<Item Name="报警信息.vi" Type="VI" URL="../报警信息.vi"/>
+		<Item Name="报警信息.vi" Type="VI" URL="../../../../../../Desktop/整合氨氮总磷总氮/氨氮总磷/一体站项目 - 高压过滤/PLC/报警信息.vi"/>
 	</Item>
 	<Item Name="变量" Type="Folder">
-		<Item Name="采配水全局变量.vi" Type="VI" URL="../采配水全局变量.vi"/>
+		<Item Name="采配水全局变量.vi" Type="VI" URL="../../../../../../Desktop/整合氨氮总磷总氮/氨氮总磷/一体站项目 - 高压过滤/PLC/采配水全局变量.vi"/>
 	</Item>
 	<Item Name="流程" Type="Folder">
-		<Item Name="一体站流程自动启动.vi" Type="VI" URL="../一体站流程自动启动.vi"/>
+		<Item Name="一体站流程自动启动.vi" Type="VI" URL="../../../../../../Desktop/整合氨氮总磷总氮/氨氮总磷/一体站项目 - 高压过滤/PLC/一体站流程自动启动.vi"/>
 	</Item>
 	<Item Name="subvi" Type="Folder">
 		<Item Name="运行间隔计算.vi" Type="VI" URL="../运行间隔计算.vi"/>
-		<Item Name="单步启动对话框.vi" Type="VI" URL="../单步启动对话框.vi"/>
+		<Item Name="单步启动对话框.vi" Type="VI" URL="../../../../../../Desktop/整合氨氮总磷总氮/氨氮总磷/一体站项目 - 高压过滤/PLC/单步启动对话框.vi"/>
 		<Item Name="FATEK_HexToString.vi" Type="VI" URL="../subvi/FATEK_HexToString.vi"/>
 		<Item Name="手动启动选择对话框.vi" Type="VI" URL="../手动启动选择对话框.vi"/>
 	</Item>
