@@ -88,7 +88,6 @@
 			<Item Name="控制命令区.vi" Type="VI" URL="../总磷氨氮/控制命令区.vi"/>
 			<Item Name="状态告警区.vi" Type="VI" URL="../总磷氨氮/状态告警区.vi"/>
 			<Item Name="总磷氨氮通讯.vi" Type="VI" URL="../总磷氨氮/总磷氨氮通讯.vi"/>
-			<Item Name="总磷数据时间处理.vi" Type="VI" URL="../总磷氨氮/总磷数据时间处理.vi"/>
 		</Item>
 		<Item Name="数据" Type="Folder">
 			<Item Name="总磷氨氮测量数据储存.vi" Type="VI" URL="../总磷氨氮/总磷氨氮测量数据储存.vi"/>

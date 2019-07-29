@@ -37,6 +37,11 @@
 			<Item Name="营养盐XML解析.vi" Type="VI" URL="../Subvi/营养盐XML解析.vi"/>
 			<Item Name="总磷总氮XML解析.vi" Type="VI" URL="../Subvi/总磷总氮XML解析.vi"/>
 			<Item Name="Force Quit LabVIEW.vi" Type="VI" URL="../Subvi/Force Quit LabVIEW.vi"/>
+			<Item Name="仪器参数存表.vi" Type="VI" URL="../Subvi/仪器参数存表.vi"/>
+			<Item Name="在线监测仪器仪表参数.vi" Type="VI" URL="../全局变量/在线监测仪器仪表参数.vi"/>
+			<Item Name="仪器参数转data in.vi" Type="VI" URL="../Subvi/仪器参数转data in.vi"/>
+			<Item Name="CODMn参数WR (子VI).vi" Type="VI" URL="../Subvi/CODMn参数WR (子VI).vi"/>
+			<Item Name="CODCr参数WR (子VI) .vi" Type="VI" URL="../Subvi/CODCr参数WR (子VI) .vi"/>
 			<Item Name="Removable devices detection v8.5.vi" Type="VI" URL="../Subvi/Removable devices detection v8.5.vi"/>
 		</Item>
 		<Item Name="UI" Type="Folder">
@@ -159,6 +164,8 @@
 		<Item Name="HACH多参.lvlib" Type="Library" URL="../API/HACH多参/HACH多参.lvlib"/>
 		<Item Name="副屏.lvlib" Type="Library" URL="../副屏/副屏.lvlib"/>
 		<Item Name="总氮.lvlib" Type="Library" URL="../API/总氮/总氮.lvlib"/>
+		<Item Name="超标留样.lvlib" Type="Library" URL="../API/超标留样/超标留样.lvlib"/>
+		<Item Name="国弘多参数.lvlib" Type="Library" URL="../API/国弘多参数/lib/国弘多参数.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -468,14 +475,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
-			<Item Name="超标留样.lvlib" Type="Library" URL="../API/超标留样/超标留样.lvlib"/>
-			<Item Name="仪器参数存表.vi" Type="VI" URL="../Subvi/仪器参数存表.vi"/>
-			<Item Name="在线监测仪器仪表参数.vi" Type="VI" URL="../全局变量/在线监测仪器仪表参数.vi"/>
-			<Item Name="仪器参数转data in.vi" Type="VI" URL="../Subvi/仪器参数转data in.vi"/>
-			<Item Name="CODMn参数WR (子VI).vi" Type="VI" URL="../Subvi/CODMn参数WR (子VI).vi"/>
-			<Item Name="CODCr参数WR (子VI) .vi" Type="VI" URL="../Subvi/CODCr参数WR (子VI) .vi"/>
-			<Item Name="氨氮总磷总氮公式WR.vi" Type="VI" URL="../Subvi/氨氮总磷总氮公式WR.vi"/>
-			<Item Name="国弘多参数.lvlib" Type="Library" URL="../API/国泓多参数/lib/国弘多参数.lvlib"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="一体化微型水质监测站" Type="EXE">
@@ -494,7 +493,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/一体站样板总氮总磷分开/一体化微型水质监测站_高压过滤</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">100</Property>
+				<Property Name="Bld_version.build" Type="Int">102</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化微型水质监测站.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/一体站样板总氮总磷分开/一体化微型水质监测站_高压过滤/一体化微型水质监测站.exe</Property>
