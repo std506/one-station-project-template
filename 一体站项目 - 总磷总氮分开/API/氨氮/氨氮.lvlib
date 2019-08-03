@@ -74,6 +74,7 @@
 			<Item Name="Regression Equation String.vi" Type="VI" URL="../Subvi/Regression Equation String.vi"/>
 			<Item Name="定时启动对话框.vi" Type="VI" URL="../总磷氨氮/UI/定时启动对话框.vi"/>
 			<Item Name="周期设置.vi" Type="VI" URL="../总磷氨氮/周期设置.vi"/>
+			<Item Name="质控参数设置.vi" Type="VI" URL="../总磷氨氮/质控参数设置.vi"/>
 		</Item>
 	</Item>
 </Library>

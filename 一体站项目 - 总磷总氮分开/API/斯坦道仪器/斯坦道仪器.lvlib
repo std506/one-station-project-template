@@ -27,6 +27,7 @@
 			<Item Name="运维调试_五参数.vi" Type="VI" URL="../常规五参数/UI/运维调试_五参数.vi"/>
 		</Item>
 		<Item Name="变量" Type="Folder">
+			<Item Name="多参数断电保存全局变量.vi" Type="VI" URL="../常规五参数/多参数断电保存全局变量.vi"/>
 			<Item Name="多参数全局变量.vi" Type="VI" URL="../常规五参数/多参数全局变量.vi"/>
 		</Item>
 		<Item Name="通讯" Type="Folder">
@@ -51,6 +52,7 @@
 		</Item>
 		<Item Name="SubVI" Type="Folder">
 			<Item Name="多参数启动参数对话框.vi" Type="VI" URL="../常规五参数/UI/多参数启动参数对话框.vi"/>
+			<Item Name="多参数质控参数设置.vi" Type="VI" URL="../常规五参数/多参数质控参数设置.vi"/>
 		</Item>
 		<Item Name="流程VI" Type="Folder">
 			<Item Name="五参数水样测试.vi" Type="VI" URL="../常规五参数/流程VI/五参数水样测试.vi"/>
@@ -102,6 +104,7 @@
 			<Item Name="总磷氨氮启动参数对话框.vi" Type="VI" URL="../总磷氨氮/UI/总磷氨氮启动参数对话框.vi"/>
 			<Item Name="定时启动对话框.vi" Type="VI" URL="../总磷氨氮/UI/定时启动对话框.vi"/>
 			<Item Name="周期设置.vi" Type="VI" URL="../总磷氨氮/周期设置.vi"/>
+			<Item Name="总磷质控参数设置.vi" Type="VI" URL="../总磷氨氮/总磷质控参数设置.vi"/>
 		</Item>
 	</Item>
 </Library>
