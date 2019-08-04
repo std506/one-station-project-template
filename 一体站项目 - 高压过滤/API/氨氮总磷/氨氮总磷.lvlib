@@ -50,6 +50,7 @@
 		</Item>
 		<Item Name="变量" Type="Folder">
 			<Item Name="VAR总磷氨氮全局变量.vi" Type="VI" URL="../总磷氨氮/VAR总磷氨氮全局变量.vi"/>
+			<Item Name="总磷氨氮断电保存全局变量.vi" Type="VI" URL="../总磷氨氮/总磷氨氮断电保存全局变量.vi"/>
 		</Item>
 		<Item Name="通讯" Type="Folder">
 			<Item Name="参数读取写入" Type="Folder">
@@ -75,7 +76,9 @@
 			<Item Name="总磷氨氮报警信息.vi" Type="VI" URL="../总磷氨氮/总磷氨氮报警信息.vi"/>
 			<Item Name="总磷数据时间处理.vi" Type="VI" URL="../总磷氨氮/总磷数据时间处理.vi"/>
 		</Item>
-		<Item Name="流程" Type="Folder"/>
+		<Item Name="流程" Type="Folder">
+			<Item Name="总磷氨氮测量流程.vi" Type="VI" URL="../总磷氨氮/测量流程/总磷氨氮测量流程.vi"/>
+		</Item>
 		<Item Name="subvi" Type="Folder">
 			<Item Name="总磷氨氮启动命令.vi" Type="VI" URL="../总磷氨氮/总磷氨氮启动命令.vi"/>
 			<Item Name="总磷氨氮启动参数对话框.vi" Type="VI" URL="../总磷氨氮/UI/总磷氨氮启动参数对话框.vi"/>
@@ -83,7 +86,8 @@
 			<Item Name="斯坦道XML解析.vi" Type="VI" URL="../Subvi/斯坦道XML解析.vi"/>
 			<Item Name="线性公式.vi" Type="VI" URL="../Subvi/线性公式.vi"/>
 			<Item Name="Regression Equation String.vi" Type="VI" URL="../Subvi/Regression Equation String.vi"/>
-			<Item Name="定时启动对话框.vi" Type="VI" URL="../总磷氨氮/UI/定时启动对话框.vi"/>
+			<Item Name="总磷氨氮质控参数设置.vi" Type="VI" URL="../总磷氨氮/总磷氨氮质控参数设置.vi"/>
+			<Item Name="总磷氨氮周期设置.vi" Type="VI" URL="../总磷氨氮/总磷氨氮周期设置.vi"/>
 		</Item>
 	</Item>
 </Library>

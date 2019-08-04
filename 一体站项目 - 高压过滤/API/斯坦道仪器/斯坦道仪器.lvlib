@@ -27,6 +27,7 @@
 			<Item Name="运维调试_五参数.vi" Type="VI" URL="../常规五参数/UI/运维调试_五参数.vi"/>
 		</Item>
 		<Item Name="变量" Type="Folder">
+			<Item Name="多参数断电保存全局变量.vi" Type="VI" URL="../常规五参数/多参数断电保存全局变量.vi"/>
 			<Item Name="多参数全局变量.vi" Type="VI" URL="../常规五参数/多参数全局变量.vi"/>
 		</Item>
 		<Item Name="通讯" Type="Folder">
@@ -50,6 +51,7 @@
 			<Item Name="多参数操作日志.vi" Type="VI" URL="../常规五参数/多参数操作日志.vi"/>
 		</Item>
 		<Item Name="SubVI" Type="Folder">
+			<Item Name="多参数质控参数设置.vi" Type="VI" URL="../常规五参数/多参数质控参数设置.vi"/>
 			<Item Name="多参数启动参数对话框.vi" Type="VI" URL="../常规五参数/UI/多参数启动参数对话框.vi"/>
 		</Item>
 		<Item Name="流程VI" Type="Folder">
@@ -68,6 +70,7 @@
 			<Item Name="运维调试_总磷总氮.vi" Type="VI" URL="../总磷氨氮/UI/运维调试_总磷总氮.vi"/>
 		</Item>
 		<Item Name="变量" Type="Folder">
+			<Item Name="总磷总氮断电保存全局变量.vi" Type="VI" URL="../总磷氨氮/总磷总氮断电保存全局变量.vi"/>
 			<Item Name="VAR总磷总氮全局变量.vi" Type="VI" URL="../总磷氨氮/VAR总磷总氮全局变量.vi"/>
 		</Item>
 		<Item Name="通讯" Type="Folder">
@@ -101,6 +104,8 @@
 			<Item Name="总磷总氮启动命令.vi" Type="VI" URL="../总磷氨氮/总磷总氮启动命令.vi"/>
 			<Item Name="总磷总氮启动参数对话框.vi" Type="VI" URL="../总磷氨氮/UI/总磷总氮启动参数对话框.vi"/>
 			<Item Name="定时启动对话框.vi" Type="VI" URL="../总磷氨氮/UI/定时启动对话框.vi"/>
+			<Item Name="总磷总氮质控参数设置.vi" Type="VI" URL="../总磷氨氮/总磷总氮质控参数设置.vi"/>
+			<Item Name="总磷总氮周期设置.vi" Type="VI" URL="../总磷氨氮/总磷总氮周期设置.vi"/>
 		</Item>
 	</Item>
 </Library>

@@ -160,13 +160,6 @@
 			<Item Name="HexToData" Type="Folder"/>
 			<Item Name="Subvi" Type="Folder"/>
 			<Item Name="数据库" Type="Folder"/>
-			<Item Name="总磷氨氮" Type="Folder">
-				<Item Name="COM" Type="Folder"/>
-				<Item Name="UI" Type="Folder"/>
-				<Item Name="测量流程" Type="Folder">
-					<Item Name="总磷氨氮测量流程.vi" Type="VI" URL="../API/氨氮总磷/总磷氨氮/测量流程/总磷氨氮测量流程.vi"/>
-				</Item>
-			</Item>
 			<Item Name="氨氮总磷.lvlib" Type="Library" URL="../API/氨氮总磷/氨氮总磷.lvlib"/>
 		</Item>
 		<Item Name="PLC.lvlib" Type="Library" URL="../PLC/PLC.lvlib"/>
@@ -179,6 +172,7 @@
 		<Item Name="多参数横条运行状态.xctl" Type="XControl" URL="../API/斯坦道仪器/常规五参数/Control/多参数横条运行状态/多参数横条运行状态.xctl"/>
 		<Item Name="HACH多参.lvlib" Type="Library" URL="../API/HACH多参/HACH多参.lvlib"/>
 		<Item Name="副屏.lvlib" Type="Library" URL="../副屏/副屏.lvlib"/>
+		<Item Name="总氮.lvlib" Type="Library" URL="../API/总氮/总氮.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>

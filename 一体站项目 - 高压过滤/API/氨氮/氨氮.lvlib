@@ -36,6 +36,7 @@
 			<Item Name="运维调试_氨氮.vi" Type="VI" URL="../总磷氨氮/UI/运维调试_氨氮.vi"/>
 		</Item>
 		<Item Name="变量" Type="Folder">
+			<Item Name="氨氮断电保存全局变量.vi" Type="VI" URL="../总磷氨氮/氨氮断电保存全局变量.vi"/>
 			<Item Name="VAR氨氮全局变量.vi" Type="VI" URL="../总磷氨氮/VAR氨氮全局变量.vi"/>
 		</Item>
 		<Item Name="通讯" Type="Folder">
@@ -54,14 +55,16 @@
 			<Item Name="关键参数区.vi" Type="VI" URL="../总磷氨氮/关键参数区.vi"/>
 			<Item Name="控制命令区.vi" Type="VI" URL="../总磷氨氮/控制命令区.vi"/>
 			<Item Name="状态告警区.vi" Type="VI" URL="../总磷氨氮/状态告警区.vi"/>
-			<Item Name="总磷氨氮通讯.vi" Type="VI" URL="../总磷氨氮/总磷氨氮通讯.vi"/>
+			<Item Name="氨氮通讯.vi" Type="VI" URL="../总磷氨氮/氨氮通讯.vi"/>
 		</Item>
 		<Item Name="数据" Type="Folder">
 			<Item Name="总磷氨氮测量数据储存.vi" Type="VI" URL="../总磷氨氮/总磷氨氮测量数据储存.vi"/>
 			<Item Name="总磷氨氮操作日志.vi" Type="VI" URL="../总磷氨氮/总磷氨氮操作日志.vi"/>
 			<Item Name="总磷氨氮报警信息.vi" Type="VI" URL="../总磷氨氮/总磷氨氮报警信息.vi"/>
 		</Item>
-		<Item Name="流程" Type="Folder"/>
+		<Item Name="流程" Type="Folder">
+			<Item Name="氨氮测量流程.vi" Type="VI" URL="../测量流程/氨氮测量流程.vi"/>
+		</Item>
 		<Item Name="subvi" Type="Folder">
 			<Item Name="总磷氨氮启动命令.vi" Type="VI" URL="../总磷氨氮/总磷氨氮启动命令.vi"/>
 			<Item Name="总磷氨氮启动参数对话框.vi" Type="VI" URL="../总磷氨氮/UI/总磷氨氮启动参数对话框.vi"/>
@@ -70,6 +73,8 @@
 			<Item Name="线性公式.vi" Type="VI" URL="../Subvi/线性公式.vi"/>
 			<Item Name="Regression Equation String.vi" Type="VI" URL="../Subvi/Regression Equation String.vi"/>
 			<Item Name="定时启动对话框.vi" Type="VI" URL="../总磷氨氮/UI/定时启动对话框.vi"/>
+			<Item Name="周期设置.vi" Type="VI" URL="../总磷氨氮/周期设置.vi"/>
+			<Item Name="质控参数设置.vi" Type="VI" URL="../总磷氨氮/质控参数设置.vi"/>
 		</Item>
 	</Item>
 </Library>
