@@ -61,7 +61,6 @@
 		<Item Name="COD定时启动对话框.vi" Type="VI" URL="../COD定时启动对话框.vi"/>
 		<Item Name="报警信息字段定义.vi" Type="VI" URL="../报警信息字段定义.vi"/>
 		<Item Name="单步启动选择对话框.vi" Type="VI" URL="../单步启动选择对话框.vi"/>
-		<Item Name="读取寄存器(子VI).vi" Type="VI" URL="../读取寄存器(子VI).vi"/>
 		<Item Name="读取寄存器新.vi" Type="VI" URL="../读取寄存器新.vi"/>
 		<Item Name="启动测量模式选择对话框.vi" Type="VI" URL="../启动测量模式选择对话框.vi"/>
 		<Item Name="启动模式地址赋值 (子VI).vi" Type="VI" URL="../启动模式地址赋值 (子VI).vi"/>
@@ -72,6 +71,7 @@
 		<Item Name="窗口弹出对话框(子VI).vi" Type="VI" URL="../窗口弹出对话框(子VI).vi"/>
 		<Item Name="波形存储(子VI).vi" Type="VI" URL="../波形存储(子VI).vi"/>
 		<Item Name="CODMn停止命令 (子VI).vi" Type="VI" URL="../CODMn停止命令 (子VI).vi"/>
+		<Item Name="存数据cloumns(子VI).vi" Type="VI" URL="../存数据cloumns(子VI).vi"/>
 	</Item>
 	<Item Name="全局变量" Type="Folder">
 		<Item Name="COD测量模式全局.vi" Type="VI" URL="../COD测量模式全局.vi"/>
