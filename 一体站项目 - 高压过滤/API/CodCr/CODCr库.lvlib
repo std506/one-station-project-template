@@ -19,6 +19,7 @@
 		<Item Name="监测块.vi" Type="VI" URL="../CODCr/监测块.vi"/>
 		<Item Name="状态告警区.vi" Type="VI" URL="../CODCr/状态告警区.vi"/>
 		<Item Name="总磷氨氮操作日志.vi" Type="VI" URL="../CODCr/总磷氨氮操作日志.vi"/>
+		<Item Name="CODCr定时启动对话框.vi" Type="VI" URL="../CODCr/CODCr定时启动对话框.vi"/>
 	</Item>
 	<Item Name="DataToHex" Type="Folder">
 		<Item Name="DateToHex.vi" Type="VI" URL="../DataToHex/DateToHex.vi"/>
