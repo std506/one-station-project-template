@@ -148,20 +148,6 @@
 			<Item Name="删除启动项.vi" Type="VI" URL="../系统/删除启动项.vi"/>
 			<Item Name="查询启动项.vi" Type="VI" URL="../系统/查询启动项.vi"/>
 		</Item>
-		<Item Name="氨氮总磷" Type="Folder">
-			<Item Name="Control" Type="Folder">
-				<Item Name="总磷氨氮测量数据" Type="Folder"/>
-				<Item Name="总磷氨氮调试" Type="Folder">
-					<Item Name="subvi" Type="Folder"/>
-				</Item>
-				<Item Name="总磷氨氮运行状态" Type="Folder"/>
-			</Item>
-			<Item Name="DataToHex" Type="Folder"/>
-			<Item Name="HexToData" Type="Folder"/>
-			<Item Name="Subvi" Type="Folder"/>
-			<Item Name="数据库" Type="Folder"/>
-			<Item Name="氨氮总磷.lvlib" Type="Library" URL="../API/氨氮总磷/氨氮总磷.lvlib"/>
-		</Item>
 		<Item Name="PLC.lvlib" Type="Library" URL="../PLC/PLC.lvlib"/>
 		<Item Name="database.lvlib" Type="Library" URL="../API/数据库/database.lvlib"/>
 		<Item Name="斯坦道仪器.lvlib" Type="Library" URL="../API/斯坦道仪器/斯坦道仪器.lvlib"/>
@@ -172,7 +158,6 @@
 		<Item Name="多参数横条运行状态.xctl" Type="XControl" URL="../API/斯坦道仪器/常规五参数/Control/多参数横条运行状态/多参数横条运行状态.xctl"/>
 		<Item Name="HACH多参.lvlib" Type="Library" URL="../API/HACH多参/HACH多参.lvlib"/>
 		<Item Name="副屏.lvlib" Type="Library" URL="../副屏/副屏.lvlib"/>
-		<Item Name="总氮.lvlib" Type="Library" URL="../API/总氮/总氮.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -526,7 +511,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">87</Property>
+				<Property Name="Bld_version.build" Type="Int">88</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化微型水质监测站.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站/一体化微型水质监测站.exe</Property>
