@@ -4,6 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="CODCr" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="运维调试_CODCr.vi" Type="VI" URL="../CODCr/运维调试_CODCr.vi"/>
@@ -18,7 +19,11 @@
 		<Item Name="关键参数区.vi" Type="VI" URL="../CODCr/关键参数区.vi"/>
 		<Item Name="监测块.vi" Type="VI" URL="../CODCr/监测块.vi"/>
 		<Item Name="状态告警区.vi" Type="VI" URL="../CODCr/状态告警区.vi"/>
-		<Item Name="总磷氨氮操作日志.vi" Type="VI" URL="../CODCr/总磷氨氮操作日志.vi"/>
+		<Item Name="CODCr定时启动对话框.vi" Type="VI" URL="../CODCr/CODCr定时启动对话框.vi"/>
+		<Item Name="周期设置.vi" Type="VI" URL="../CODCr/周期设置.vi"/>
+	</Item>
+	<Item Name="24H周期设置" Type="Folder">
+		<Item Name="24H周期设置.xctl" Type="XControl" URL="../Control/24H周期设置/24H周期设置.xctl"/>
 	</Item>
 	<Item Name="DataToHex" Type="Folder">
 		<Item Name="DateToHex.vi" Type="VI" URL="../DataToHex/DateToHex.vi"/>
@@ -41,12 +46,13 @@
 		<Item Name="CODcr测试流程.vi" Type="VI" URL="../流程/CODcr测试流程.vi"/>
 	</Item>
 	<Item Name="全局变量" Type="Folder">
-		<Item Name="CODCr测量状态.vi" Type="VI" URL="../全局变量/CODCr测量状态.vi"/>
-		<Item Name="CODCr工作状态.vi" Type="VI" URL="../全局变量/CODCr工作状态.vi"/>
 		<Item Name="CODcr全局变量.vi" Type="VI" URL="../全局变量/CODcr全局变量.vi"/>
 		<Item Name="CODCr外部API.vi" Type="VI" URL="../全局变量/CODCr外部API.vi"/>
 	</Item>
 	<Item Name="数据库" Type="Folder">
 		<Item Name="插入数据.vi" Type="VI" URL="../数据库/插入数据.vi"/>
+		<Item Name="CODCr报警信息.vi" Type="VI" URL="../数据库/CODCr报警信息.vi"/>
+		<Item Name="报警信息字段定义.vi" Type="VI" URL="../数据库/报警信息字段定义.vi"/>
+		<Item Name="流程日志字段定义.vi" Type="VI" URL="../数据库/流程日志字段定义.vi"/>
 	</Item>
 </Library>

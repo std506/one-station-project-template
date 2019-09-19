@@ -19,7 +19,6 @@
 		<Item Name="关键参数区.vi" Type="VI" URL="../CODCr/关键参数区.vi"/>
 		<Item Name="监测块.vi" Type="VI" URL="../CODCr/监测块.vi"/>
 		<Item Name="状态告警区.vi" Type="VI" URL="../CODCr/状态告警区.vi"/>
-		<Item Name="总磷氨氮操作日志.vi" Type="VI" URL="../CODCr/总磷氨氮操作日志.vi"/>
 		<Item Name="CODCr定时启动对话框.vi" Type="VI" URL="../CODCr/CODCr定时启动对话框.vi"/>
 		<Item Name="周期设置.vi" Type="VI" URL="../CODCr/周期设置.vi"/>
 	</Item>
@@ -52,5 +51,8 @@
 	</Item>
 	<Item Name="数据库" Type="Folder">
 		<Item Name="插入数据.vi" Type="VI" URL="../数据库/插入数据.vi"/>
+		<Item Name="CODCr报警信息.vi" Type="VI" URL="../数据库/CODCr报警信息.vi"/>
+		<Item Name="报警信息字段定义.vi" Type="VI" URL="../数据库/报警信息字段定义.vi"/>
+		<Item Name="流程日志字段定义.vi" Type="VI" URL="../数据库/流程日志字段定义.vi"/>
 	</Item>
 </Library>
