@@ -5,6 +5,8 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="格式化字符串.vi" Type="VI" URL="../格式化字符串.vi"/>
+	<Item Name="环境参数table定义.vi" Type="VI" URL="../环境参数table定义.vi"/>
 	<Item Name="流量计通讯.vi" Type="VI" URL="../流量计通讯.vi"/>
 	<Item Name="数值转换.vi" Type="VI" URL="../数值转换.vi"/>
+	<Item Name="运行间隔计算.vi" Type="VI" URL="../运行间隔计算.vi"/>
 </Library>
