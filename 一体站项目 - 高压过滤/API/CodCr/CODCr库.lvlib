@@ -53,6 +53,7 @@
 		<Item Name="插入数据.vi" Type="VI" URL="../数据库/插入数据.vi"/>
 		<Item Name="CODCr报警信息.vi" Type="VI" URL="../数据库/CODCr报警信息.vi"/>
 		<Item Name="报警信息字段定义.vi" Type="VI" URL="../数据库/报警信息字段定义.vi"/>
+		<Item Name="总磷氨氮操作日志.vi" Type="VI" URL="../CODCr/总磷氨氮操作日志.vi"/>
 		<Item Name="流程日志字段定义.vi" Type="VI" URL="../数据库/流程日志字段定义.vi"/>
 	</Item>
 </Library>

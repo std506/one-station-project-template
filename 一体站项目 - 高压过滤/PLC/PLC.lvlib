@@ -35,5 +35,8 @@
 		<Item Name="单步启动对话框.vi" Type="VI" URL="../单步启动对话框.vi"/>
 		<Item Name="FATEK_HexToString.vi" Type="VI" URL="../subvi/FATEK_HexToString.vi"/>
 		<Item Name="手动启动选择对话框.vi" Type="VI" URL="../手动启动选择对话框.vi"/>
+		<Item Name="集成干预测试数据存储.vi" Type="VI" URL="../subvi/集成干预测试数据存储.vi"/>
+		<Item Name="获取最近两组水样测试数据.vi" Type="VI" URL="../subvi/获取最近两组水样测试数据.vi"/>
+		<Item Name="取水点无水样数据存储.vi" Type="VI" URL="../subvi/取水点无水样数据存储.vi"/>
 	</Item>
 </Library>
