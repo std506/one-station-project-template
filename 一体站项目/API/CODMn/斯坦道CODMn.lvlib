@@ -34,6 +34,7 @@
 		<Item Name="浮点转CDAB整形cod.vi" Type="VI" URL="../HexToData/浮点转CDAB整形cod.vi"/>
 	</Item>
 	<Item Name="Subvi" Type="Folder">
+		<Item Name="CODMnMB_api.vi" Type="VI" URL="../Subvi/CODMnMB_api.vi"/>
 		<Item Name="Regression Equation String1.vi" Type="VI" URL="../Subvi/Regression Equation String1.vi"/>
 		<Item Name="日期键盘.vi" Type="VI" URL="../Subvi/日期键盘.vi"/>
 		<Item Name="数字键盘.vi" Type="VI" URL="../Subvi/数字键盘.vi"/>
@@ -54,10 +55,12 @@
 	</Item>
 	<Item Name="数据库" Type="Folder">
 		<Item Name="CODMn报警信息.vi" Type="VI" URL="../数据库/CODMn报警信息.vi"/>
+		<Item Name="CODMn日志存储 (子VI).vi" Type="VI" URL="../数据库/CODMn日志存储 (子VI).vi"/>
 		<Item Name="报警信息字段定义.vi" Type="VI" URL="../数据库/报警信息字段定义.vi"/>
 		<Item Name="插入数据.vi" Type="VI" URL="../数据库/插入数据.vi"/>
 		<Item Name="存数据cloumns(子VI).vi" Type="VI" URL="../数据库/存数据cloumns(子VI).vi"/>
 		<Item Name="流程日志字段定义.vi" Type="VI" URL="../数据库/流程日志字段定义.vi"/>
 		<Item Name="数据写入database.vi" Type="VI" URL="../数据库/数据写入database.vi"/>
+		<Item Name="数据写入入队列 (子VI).vi" Type="VI" URL="../数据库/数据写入入队列 (子VI).vi"/>
 	</Item>
 </Library>

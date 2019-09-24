@@ -500,6 +500,7 @@
 			<Item Name="总磷氨氮操作日志.vi" Type="VI" URL="../API/CODCr/CODCr/总磷氨氮操作日志.vi"/>
 			<Item Name="运行间隔计算.vi" Type="VI" URL="../API/流量计/流量计/运行间隔计算.vi"/>
 			<Item Name="环境参数table定义.vi" Type="VI" URL="../API/流量计/流量计/环境参数table定义.vi"/>
+			<Item Name="CODMn通讯.vi" Type="VI" URL="../API/CODMn/CODMn/CODMn通讯.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="一体化微型水质监测站" Type="EXE">

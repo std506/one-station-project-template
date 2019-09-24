@@ -16,11 +16,14 @@
 		<Item Name="浮点转CDAB整形ZK.vi" Type="VI" URL="../浮点转CDAB整形ZK.vi"/>
 		<Item Name="浮点CDAB转换质控.vi" Type="VI" URL="../浮点CDAB转换质控.vi"/>
 		<Item Name="Regression Equation String2.vi" Type="VI" URL="../Regression Equation String2.vi"/>
+		<Item Name="数据写入databaseZK.vi" Type="VI" URL="../数据写入databaseZK.vi"/>
 	</Item>
 	<Item Name="流程" Type="Folder">
 		<Item Name="一体站流程质控自动启动.vi" Type="VI" URL="../一体站流程质控自动启动.vi"/>
 		<Item Name="氨氮流程质控自动启动.vi" Type="VI" URL="../氨氮流程质控自动启动.vi"/>
 		<Item Name="总磷总氮流程质控自动启动.vi" Type="VI" URL="../总磷总氮流程质控自动启动.vi"/>
+		<Item Name="CODCr流程质控自动启动.vi" Type="VI" URL="../CODCr流程质控自动启动.vi"/>
+		<Item Name="CODCr质控流程 (子VI).vi" Type="VI" URL="../CODCr质控流程 (子VI).vi"/>
 		<Item Name="CODMn流程质控自动启动.vi" Type="VI" URL="../CODMn流程质控自动启动.vi"/>
 		<Item Name="一体站流程平行样自动启动.vi" Type="VI" URL="../一体站流程平行样自动启动.vi"/>
 		<Item Name="COD平行样流程 (子VI).vi" Type="VI" URL="../COD平行样流程 (子VI).vi"/>
@@ -38,7 +41,6 @@
 		<Item Name="质控测完标志全局 1.vi" Type="VI" URL="../质控测完标志全局 1.vi"/>
 		<Item Name="水样浓度全局.vi" Type="VI" URL="../水样浓度全局.vi"/>
 		<Item Name="氨氮加标回收状态全局变量.vi" Type="VI" URL="../氨氮加标回收状态全局变量.vi"/>
-		<Item Name="COD浓度全局变量.vi" Type="VI" URL="../COD浓度全局变量.vi"/>
 		<Item Name="串口参数全局.vi" Type="VI" URL="../串口参数全局.vi"/>
 		<Item Name="质控中断报警全局.vi" Type="VI" URL="../质控中断报警全局.vi"/>
 	</Item>
