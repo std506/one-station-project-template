@@ -501,6 +501,8 @@
 			</Item>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
 			<Item Name="下拉列表.xctl" Type="XControl" URL="../UI/控件/下拉列表/下拉列表.xctl"/>
+			<Item Name="生成CODMn data (子VI).vi" Type="VI" URL="../API/CODMn/数据库/生成CODMn data (子VI).vi"/>
+			<Item Name="CODMn通讯.vi" Type="VI" URL="../API/CODMn/CODMn/CODMn通讯.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="一体化微型水质监测站" Type="EXE">
@@ -519,7 +521,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/一体站样板总氮总磷分开/一体化微型水质监测站_高压过滤</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">129</Property>
+				<Property Name="Bld_version.build" Type="Int">130</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化微型水质监测站.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/一体站样板总氮总磷分开/一体化微型水质监测站_高压过滤/一体化微型水质监测站.exe</Property>

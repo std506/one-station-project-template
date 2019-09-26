@@ -12,13 +12,11 @@
 		<Item Name="CODMn停止命令 (子VI).vi" Type="VI" URL="../CODMn/CODMn停止命令 (子VI).vi"/>
 		<Item Name="COD定时启动对话框.vi" Type="VI" URL="../CODMn/COD定时启动对话框.vi"/>
 		<Item Name="波形存储(子VI).vi" Type="VI" URL="../CODMn/波形存储(子VI).vi"/>
-		<Item Name="窗口弹出对话框(子VI).vi" Type="VI" URL="../CODMn/窗口弹出对话框(子VI).vi"/>
 		<Item Name="单步启动选择对话框.vi" Type="VI" URL="../CODMn/单步启动选择对话框.vi"/>
-		<Item Name="滴定曲线.vi" Type="VI" URL="../CODMn/滴定曲线.vi"/>
-		<Item Name="读取寄存器新.vi" Type="VI" URL="../CODMn/读取寄存器新.vi"/>
 		<Item Name="启动测量模式选择对话框.vi" Type="VI" URL="../CODMn/启动测量模式选择对话框.vi"/>
-		<Item Name="线性公式CODMn用.vi" Type="VI" URL="../CODMn/线性公式CODMn用.vi"/>
 		<Item Name="周期设置.vi" Type="VI" URL="../CODMn/周期设置.vi"/>
+		<Item Name="线性公式CODMn用.vi" Type="VI" URL="../CODMn/线性公式CODMn用.vi"/>
+		<Item Name="窗口弹出对话框(子VI).vi" Type="VI" URL="../CODMn/窗口弹出对话框(子VI).vi"/>
 	</Item>
 	<Item Name="Control" Type="Folder">
 		<Item Name="24H周期设置" Type="Folder">
@@ -34,10 +32,13 @@
 		<Item Name="浮点转CDAB整形cod.vi" Type="VI" URL="../HexToData/浮点转CDAB整形cod.vi"/>
 	</Item>
 	<Item Name="Subvi" Type="Folder">
+		<Item Name="CODMnMB_api.vi" Type="VI" URL="../Subvi/CODMnMB_api.vi"/>
 		<Item Name="Regression Equation String1.vi" Type="VI" URL="../Subvi/Regression Equation String1.vi"/>
+		<Item Name="串口配置.vi" Type="VI" URL="../Subvi/串口配置.vi"/>
 		<Item Name="日期键盘.vi" Type="VI" URL="../Subvi/日期键盘.vi"/>
 		<Item Name="数字键盘.vi" Type="VI" URL="../Subvi/数字键盘.vi"/>
 		<Item Name="数字密码键盘.vi" Type="VI" URL="../Subvi/数字密码键盘.vi"/>
+		<Item Name="四舍五入取整.vi" Type="VI" URL="../Subvi/四舍五入取整.vi"/>
 		<Item Name="字符键盘.vi" Type="VI" URL="../Subvi/字符键盘.vi"/>
 	</Item>
 	<Item Name="测量流程" Type="Folder">
@@ -53,10 +54,12 @@
 	</Item>
 	<Item Name="数据库" Type="Folder">
 		<Item Name="CODMn报警信息.vi" Type="VI" URL="../数据库/CODMn报警信息.vi"/>
+		<Item Name="CODMn日志存储 (子VI).vi" Type="VI" URL="../数据库/CODMn日志存储 (子VI).vi"/>
 		<Item Name="报警信息字段定义.vi" Type="VI" URL="../数据库/报警信息字段定义.vi"/>
 		<Item Name="插入数据.vi" Type="VI" URL="../数据库/插入数据.vi"/>
 		<Item Name="存数据cloumns(子VI).vi" Type="VI" URL="../数据库/存数据cloumns(子VI).vi"/>
 		<Item Name="流程日志字段定义.vi" Type="VI" URL="../数据库/流程日志字段定义.vi"/>
 		<Item Name="数据写入database.vi" Type="VI" URL="../数据库/数据写入database.vi"/>
+		<Item Name="数据写入入队列 (子VI).vi" Type="VI" URL="../数据库/数据写入入队列 (子VI).vi"/>
 	</Item>
 </Library>
