@@ -542,6 +542,7 @@
 			<Item Name="System.Web" Type="Document" URL="System.Web">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="CODCr24H周期设置.xctl" Type="XControl" URL="../API/CODCr/Control/24H周期设置/CODCr24H周期设置.xctl"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="一体化微型水质监测站" Type="EXE">
