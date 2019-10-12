@@ -10,8 +10,8 @@
 		<Item Name="CODMn电源命令.vi" Type="VI" URL="../电源管理/CODMn电源命令.vi"/>
 		<Item Name="CODCr电源命令.vi" Type="VI" URL="../电源管理/CODCr电源命令.vi"/>
 		<Item Name="氨氮电源命令.vi" Type="VI" URL="../电源管理/氨氮电源命令.vi"/>
-		<Item Name="总氮电源命令.vi" Type="VI" URL="../电源管理/总氮电源命令.vi"/>
 		<Item Name="电源管理UI.vi" Type="VI" URL="../电源管理/电源管理UI.vi"/>
+		<Item Name="总氮电源命令.vi" Type="VI" URL="../电源管理/总氮电源命令.vi"/>
 		<Item Name="总磷电源命令.vi" Type="VI" URL="../电源管理/总磷电源命令.vi"/>
 	</Item>
 	<Item Name="通讯" Type="Folder">
@@ -36,5 +36,8 @@
 		<Item Name="单步启动对话框.vi" Type="VI" URL="../单步启动对话框.vi"/>
 		<Item Name="FATEK_HexToString.vi" Type="VI" URL="../subvi/FATEK_HexToString.vi"/>
 		<Item Name="手动启动选择对话框.vi" Type="VI" URL="../手动启动选择对话框.vi"/>
+		<Item Name="集成干预测试数据存储.vi" Type="VI" URL="../subvi/集成干预测试数据存储.vi"/>
+		<Item Name="获取最近两组水样测试数据.vi" Type="VI" URL="../subvi/获取最近两组水样测试数据.vi"/>
+		<Item Name="取水点无水样数据存储.vi" Type="VI" URL="../subvi/取水点无水样数据存储.vi"/>
 	</Item>
 </Library>
