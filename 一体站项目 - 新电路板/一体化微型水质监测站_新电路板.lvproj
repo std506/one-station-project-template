@@ -545,6 +545,7 @@
 			<Item Name="总磷氨氮量程读取N.vi" Type="VI" URL="../API/斯坦道仪器氨氮/氨氮/COM/总磷氨氮量程读取N.vi"/>
 			<Item Name="总磷氨氮量程写入N.vi" Type="VI" URL="../API/斯坦道仪器氨氮/氨氮/COM/总磷氨氮量程写入N.vi"/>
 			<Item Name="CODMn24H周期设置.xctl" Type="XControl" URL="../API/CODMn/Control/24H周期设置/CODMn24H周期设置.xctl"/>
+			<Item Name="CODCr24H周期设置.xctl" Type="XControl" URL="../API/CodCr/Control/24H周期设置/CODCr24H周期设置.xctl"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="一体化微型水质监测站" Type="EXE">
