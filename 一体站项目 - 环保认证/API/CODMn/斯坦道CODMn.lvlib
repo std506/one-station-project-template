@@ -8,8 +8,8 @@
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="COD主界面（列队使用）.vi" Type="VI" URL="../CODMn/COD主界面（列队使用）.vi"/>
 		<Item Name="CODMn启动命令 (子VI).vi" Type="VI" URL="../CODMn/CODMn启动命令 (子VI).vi"/>
-		<Item Name="CODMn手动控制框.vi" Type="VI" URL="../CODMn/CODMn手动控制框.vi"/>
 		<Item Name="CODMn停止命令 (子VI).vi" Type="VI" URL="../CODMn/CODMn停止命令 (子VI).vi"/>
+		<Item Name="CODMn手动控制框.vi" Type="VI" URL="../CODMn/CODMn手动控制框.vi"/>
 		<Item Name="COD定时启动对话框.vi" Type="VI" URL="../CODMn/COD定时启动对话框.vi"/>
 		<Item Name="波形存储(子VI).vi" Type="VI" URL="../CODMn/波形存储(子VI).vi"/>
 		<Item Name="单步启动选择对话框.vi" Type="VI" URL="../CODMn/单步启动选择对话框.vi"/>
@@ -17,11 +17,7 @@
 		<Item Name="周期设置.vi" Type="VI" URL="../CODMn/周期设置.vi"/>
 		<Item Name="线性公式CODMn用.vi" Type="VI" URL="../CODMn/线性公式CODMn用.vi"/>
 		<Item Name="窗口弹出对话框(子VI).vi" Type="VI" URL="../CODMn/窗口弹出对话框(子VI).vi"/>
-	</Item>
-	<Item Name="Control" Type="Folder">
-		<Item Name="24H周期设置" Type="Folder">
-			<Item Name="24H周期设置.xctl" Type="XControl" URL="../Control/24H周期设置/24H周期设置.xctl"/>
-		</Item>
+		<Item Name="CODMn通讯.vi" Type="VI" URL="../CODMn/CODMn通讯.vi"/>
 	</Item>
 	<Item Name="DataToHex" Type="Folder">
 		<Item Name="DateToHex.vi" Type="VI" URL="../DataToHex/DateToHex.vi"/>
@@ -59,6 +55,7 @@
 		<Item Name="插入数据.vi" Type="VI" URL="../数据库/插入数据.vi"/>
 		<Item Name="存数据cloumns(子VI).vi" Type="VI" URL="../数据库/存数据cloumns(子VI).vi"/>
 		<Item Name="流程日志字段定义.vi" Type="VI" URL="../数据库/流程日志字段定义.vi"/>
+		<Item Name="生成CODMn data (子VI).vi" Type="VI" URL="../数据库/生成CODMn data (子VI).vi"/>
 		<Item Name="数据写入database.vi" Type="VI" URL="../数据库/数据写入database.vi"/>
 		<Item Name="数据写入入队列 (子VI).vi" Type="VI" URL="../数据库/数据写入入队列 (子VI).vi"/>
 	</Item>
