@@ -24,7 +24,7 @@
 		<Item Name="水质测量数据table定义.vi" Type="VI" URL="../Subvi/水质测量数据table定义.vi"/>
 		<Item Name="斯坦道XML解析.vi" Type="VI" URL="../Subvi/斯坦道XML解析.vi"/>
 		<Item Name="线性公式.vi" Type="VI" URL="../Subvi/线性公式.vi"/>
-		<Item Name="总磷插入数据.vi" Type="VI" URL="../Subvi/总磷插入数据.vi"/>
+		<Item Name="总氮插入数据.vi" Type="VI" URL="../Subvi/总氮插入数据.vi"/>
 	</Item>
 	<Item Name="总氮" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
