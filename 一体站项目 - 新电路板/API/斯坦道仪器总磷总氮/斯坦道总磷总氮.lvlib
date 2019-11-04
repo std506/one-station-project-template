@@ -19,6 +19,7 @@
 			<Item Name="监测块.vi" Type="VI" URL="../HexToData/监测块.vi"/>
 		</Item>
 		<Item Name="Regression Equation String.vi" Type="VI" URL="../Subvi/Regression Equation String.vi"/>
+		<Item Name="测试流程控件.ctl" Type="VI" URL="../总磷总氮/测试流程控件.ctl"/>
 		<Item Name="插入数据.vi" Type="VI" URL="../Subvi/插入数据.vi"/>
 		<Item Name="数字键盘.vi" Type="VI" URL="../Subvi/数字键盘.vi"/>
 		<Item Name="水质测量数据table定义.vi" Type="VI" URL="../Subvi/水质测量数据table定义.vi"/>
@@ -60,7 +61,7 @@
 			<Item Name="总磷总氮报警信息.vi" Type="VI" URL="../总磷总氮/总磷总氮报警信息.vi"/>
 		</Item>
 		<Item Name="流程" Type="Folder">
-			<Item Name="总磷总氮测量流程.vi" Type="VI" URL="../总磷总氮/测量流程/总磷总氮测量流程.vi"/>
+			<Item Name="测量流程.vi" Type="VI" URL="../总磷总氮/测量流程/测量流程.vi"/>
 		</Item>
 		<Item Name="subvi" Type="Folder">
 			<Item Name="总磷总氮启动命令.vi" Type="VI" URL="../总磷总氮/总磷总氮启动命令.vi"/>
