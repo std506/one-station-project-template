@@ -102,6 +102,7 @@
 				<Item Name="系统设置.vi" Type="VI" URL="../UI/VIS/系统设置.vi"/>
 				<Item Name="运维调试.vi" Type="VI" URL="../UI/VIS/运维调试.vi"/>
 				<Item Name="启动.vi" Type="VI" URL="../UI/启动.vi"/>
+				<Item Name="重启设置.vi" Type="VI" URL="../系统/重启设置.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Modbus Slave" Type="Folder">
@@ -565,7 +566,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">19</Property>
+				<Property Name="Bld_version.build" Type="Int">21</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化微型水质监测站.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站/一体化微型水质监测站.exe</Property>
