@@ -15,6 +15,7 @@
 	<Item Name="命令解析互换" Type="Folder">
 		<Item Name="超标留样状态参数解析.vi" Type="VI" URL="../命令解析互换/超标留样状态参数解析.vi"/>
 		<Item Name="状态参数解析.vi" Type="VI" URL="../命令解析互换/状态参数解析.vi"/>
+		<Item Name="科盛查询命令解析.vi" Type="VI" URL="../命令解析互换/科盛查询命令解析.vi"/>
 	</Item>
 	<Item Name="全局变量" Type="Folder">
 		<Item Name="超标留样全局.vi" Type="VI" URL="../全局变量/超标留样全局.vi"/>
@@ -23,7 +24,10 @@
 		<Item Name="超标留样通讯.vi" Type="VI" URL="../通讯/超标留样通讯.vi"/>
 	</Item>
 	<Item Name="子VI" Type="Folder">
+		<Item Name="超标留样留样命令.vi" Type="VI" URL="../子VI/超标留样留样命令.vi"/>
 		<Item Name="超标留样启动.vi" Type="VI" URL="../超标留样启动.vi"/>
 	</Item>
-	<Item Name="超标留样运行状态.xctl" Type="XControl" URL="../控件/超标留样运行状态/超标留样运行状态.xctl"/>
+	<Item Name="超标留样运行状态" Type="Folder">
+		<Item Name="科盛超标留样运行状态.xctl" Type="XControl" URL="../控件/超标留样运行状态/科盛超标留样运行状态.xctl"/>
+	</Item>
 </Library>
