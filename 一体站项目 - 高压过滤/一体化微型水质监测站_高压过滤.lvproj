@@ -87,11 +87,6 @@
 				<Item Name="锁.ctl" Type="VI" URL="../UI/控件/锁.ctl"/>
 				<Item Name="导出.ctl" Type="VI" URL="../UI/控件/导出.ctl"/>
 				<Item Name="下拉列表.xctl" Type="XControl" URL="../UI/控件/下拉列表/下拉列表.xctl"/>
-				<Item Name="氨氮调试控件.xctl" Type="XControl" URL="../API/斯坦道仪器氨氮/控件/调试控件/氨氮调试控件.xctl"/>
-				<Item Name="氨氮曲线模型.xctl" Type="XControl" URL="../API/斯坦道仪器氨氮/控件/曲线模型/氨氮曲线模型.xctl"/>
-				<Item Name="氨氮运行状态.xctl" Type="XControl" URL="../API/斯坦道仪器氨氮/控件/运行状态/氨氮运行状态.xctl"/>
-				<Item Name="氨氮测量数据.xctl" Type="XControl" URL="../API/斯坦道仪器氨氮/控件/测量数据/氨氮测量数据.xctl"/>
-				<Item Name="氨氮周期设置.xctl" Type="XControl" URL="../API/斯坦道仪器氨氮/控件/周期设置/氨氮周期设置.xctl"/>
 				<Item Name="多参数横条运行状态.xctl" Type="XControl" URL="../API/斯坦道仪器多参数/控件/多参数横条运行状态/多参数横条运行状态.xctl"/>
 				<Item Name="多参数24H周期设置.xctl" Type="XControl" URL="../API/斯坦道仪器多参数/控件/24H周期设置/多参数24H周期设置.xctl"/>
 				<Item Name="总磷总氮调试控件.xctl" Type="XControl" URL="../API/斯坦道仪器总磷总氮/控件/调试控件/总磷总氮调试控件.xctl"/>
@@ -153,6 +148,7 @@
 			<Item Name="查询启动项.vi" Type="VI" URL="../系统/查询启动项.vi"/>
 			<Item Name="模块启用配置框.vi" Type="VI" URL="../系统/模块启用配置框.vi"/>
 			<Item Name="首页显示设置.vi" Type="VI" URL="../系统/首页显示设置.vi"/>
+			<Item Name="重启设置.vi" Type="VI" URL="../系统/重启设置.vi"/>
 		</Item>
 		<Item Name="短信服务" Type="Folder">
 			<Item Name="core" Type="Folder">
@@ -548,6 +544,7 @@
 			<Item Name="测量数据.xctl" Type="XControl" URL="../API/共用控件/测量数据/测量数据.xctl"/>
 			<Item Name="曲线模型.xctl" Type="XControl" URL="../API/共用控件/曲线模型/曲线模型.xctl"/>
 			<Item Name="周期设置.xctl" Type="XControl" URL="../API/共用控件/周期设置/周期设置.xctl"/>
+			<Item Name="CODMn24H周期设置.xctl" Type="XControl" URL="../API/CODMn/Control/24H周期设置/CODMn24H周期设置.xctl"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="一体化微型水质监测站" Type="EXE">
@@ -566,7 +563,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">14</Property>
+				<Property Name="Bld_version.build" Type="Int">18</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化微型水质监测站.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站/一体化微型水质监测站.exe</Property>
