@@ -50,6 +50,7 @@
 			<Item Name="多参数测量数据存储.vi" Type="VI" URL="../常规五参数/数据/多参数测量数据存储.vi"/>
 			<Item Name="多参数报警信息.vi" Type="VI" URL="../常规五参数/多参数报警信息.vi"/>
 			<Item Name="多参数操作日志.vi" Type="VI" URL="../常规五参数/多参数操作日志.vi"/>
+			<Item Name="AccessLog写入.vi" Type="VI" URL="../常规五参数/AccessLog写入.vi"/>
 		</Item>
 		<Item Name="SubVI" Type="Folder">
 			<Item Name="多参数质控参数设置.vi" Type="VI" URL="../常规五参数/多参数质控参数设置.vi"/>
@@ -61,5 +62,9 @@
 			<Item Name="五参数水样测试.vi" Type="VI" URL="../常规五参数/流程VI/五参数水样测试.vi"/>
 			<Item Name="五参数标样核查.vi" Type="VI" URL="../常规五参数/流程VI/五参数标样核查.vi"/>
 		</Item>
+	</Item>
+	<Item Name="控件" Type="Folder">
+		<Item Name="标样核查启动自定义输入参数.ctl" Type="VI" URL="../控件/标样核查启动自定义输入参数.ctl"/>
+		<Item Name="水样测试启动自定义输入参数.ctl" Type="VI" URL="../控件/水样测试启动自定义输入参数.ctl"/>
 	</Item>
 </Library>

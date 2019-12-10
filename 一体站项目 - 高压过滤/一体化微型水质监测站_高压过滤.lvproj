@@ -89,11 +89,6 @@
 				<Item Name="下拉列表.xctl" Type="XControl" URL="../UI/控件/下拉列表/下拉列表.xctl"/>
 				<Item Name="多参数横条运行状态.xctl" Type="XControl" URL="../API/斯坦道仪器多参数/控件/多参数横条运行状态/多参数横条运行状态.xctl"/>
 				<Item Name="多参数24H周期设置.xctl" Type="XControl" URL="../API/斯坦道仪器多参数/控件/24H周期设置/多参数24H周期设置.xctl"/>
-				<Item Name="总磷总氮调试控件.xctl" Type="XControl" URL="../API/斯坦道仪器总磷总氮/控件/调试控件/总磷总氮调试控件.xctl"/>
-				<Item Name="总磷总氮运行状态.xctl" Type="XControl" URL="../API/斯坦道仪器总磷总氮/控件/运行状态/总磷总氮运行状态.xctl"/>
-				<Item Name="总磷总氮测量数据.xctl" Type="XControl" URL="../API/斯坦道仪器总磷总氮/控件/测量数据/总磷总氮测量数据.xctl"/>
-				<Item Name="总磷总氮曲线模型.xctl" Type="XControl" URL="../API/斯坦道仪器总磷总氮/控件/曲线模型/总磷总氮曲线模型.xctl"/>
-				<Item Name="总磷总氮周期设置.xctl" Type="XControl" URL="../API/斯坦道仪器总磷总氮/控件/周期设置/总磷总氮周期设置.xctl"/>
 				<Item Name="大项目框.xctl" Type="XControl" URL="../UI/控件/大项目框/大项目框.xctl"/>
 			</Item>
 			<Item Name="VIS" Type="Folder">
@@ -501,11 +496,7 @@
 				<Item Name="Reorder 1D Array (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array (CDB)__ogtk.vi"/>
 				<Item Name="Sort 1D Array (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (CDB)__ogtk.vi"/>
 				<Item Name="Sort Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort Array__ogtk.vi"/>
-				<Item Name="Write INI Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Write INI Cluster__ogtk.vi"/>
-				<Item Name="Get Cluster Element Names__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Element Names__ogtk.vi"/>
-				<Item Name="Get Cluster Elements TDs__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Elements TDs__ogtk.vi"/>
 				<Item Name="Write Section Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Write Section Cluster__ogtk.vi"/>
-				<Item Name="Read INI Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Read INI Cluster__ogtk.vi"/>
 				<Item Name="Read Section Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Read Section Cluster__ogtk.vi"/>
 				<Item Name="MD5 Message Digest__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 Message Digest__ogtk.vi"/>
 				<Item Name="MD5 Message Digest (Binary String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 Message Digest (Binary String)__ogtk.vi"/>
@@ -565,7 +556,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">33</Property>
+				<Property Name="Bld_version.build" Type="Int">34</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化微型水质监测站.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站/一体化微型水质监测站.exe</Property>

@@ -548,7 +548,6 @@
 			</Item>
 			<Item Name="CODMn24H周期设置.xctl" Type="XControl" URL="../API/CODMn/Control/24H周期设置/CODMn24H周期设置.xctl"/>
 			<Item Name="多参数24H周期设置.xctl" Type="XControl" URL="../API/斯坦道仪器多参数/控件/24H周期设置/多参数24H周期设置.xctl"/>
-			<Item Name="VAR氨氮全局变量.vi" Type="VI" URL="../API/斯坦道仪器氨氮/氨氮/VAR氨氮全局变量.vi"/>
 			<Item Name="Format table - 副本.vi" Type="VI" URL="../Subvi/Format table - 副本.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
