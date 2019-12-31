@@ -160,9 +160,7 @@
 				<Item Name="短信服务全局变量.vi" Type="VI" URL="../API/短信服务/vis/短信服务全局变量.vi"/>
 				<Item Name="字符键盘.vi" Type="VI" URL="../API/短信服务/vis/字符键盘.vi"/>
 			</Item>
-			<Item Name="控件" Type="Folder">
-				<Item Name="周期选择.ctl" Type="VI" URL="../API/短信服务/控件/周期选择.ctl"/>
-			</Item>
+			<Item Name="控件" Type="Folder"/>
 			<Item Name="短信服务.lvproj" Type="Document" URL="../API/短信服务/短信服务.lvproj"/>
 			<Item Name="设置UI.vi" Type="VI" URL="../API/短信服务/设置UI.vi"/>
 		</Item>
@@ -548,7 +546,6 @@
 			</Item>
 			<Item Name="CODMn24H周期设置.xctl" Type="XControl" URL="../API/CODMn/Control/24H周期设置/CODMn24H周期设置.xctl"/>
 			<Item Name="多参数24H周期设置.xctl" Type="XControl" URL="../API/斯坦道仪器多参数/控件/24H周期设置/多参数24H周期设置.xctl"/>
-			<Item Name="Format table - 副本.vi" Type="VI" URL="../Subvi/Format table - 副本.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="一体化微型水质监测站" Type="EXE">
@@ -566,7 +563,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">47</Property>
+				<Property Name="Bld_version.build" Type="Int">48</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化微型水质监测站.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站/一体化微型水质监测站.exe</Property>
