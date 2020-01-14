@@ -112,26 +112,6 @@
 		<Item Name="系统日志" Type="Folder">
 			<Item Name="系统日志.vi" Type="VI" URL="../系统/系统日志.vi"/>
 		</Item>
-		<Item Name="流量计" Type="Folder">
-			<Item Name="MGG-KL-QC流量计" Type="Folder">
-				<Item Name="MGG-KL-QC流量计.lvlib" Type="Library" URL="../API/流量计/MGG-KL-QC流量计/MGG-KL-QC流量计.lvlib"/>
-			</Item>
-			<Item Name="变量" Type="Folder">
-				<Item Name="流量计全局变量.vi" Type="VI" URL="../API/流量计/变量/流量计全局变量.vi"/>
-			</Item>
-			<Item Name="控件" Type="Folder">
-				<Item Name="流量计类型.ctl" Type="VI" URL="../API/流量计/控件/流量计类型.ctl"/>
-			</Item>
-			<Item Name="流量计" Type="Folder"/>
-			<Item Name="斯坦道功率测流" Type="Folder">
-				<Item Name="斯坦道功率测流.lvlib" Type="Library" URL="../API/流量计/斯坦道功率测流/斯坦道功率测流.lvlib"/>
-			</Item>
-			<Item Name="LDM51明渠流量计" Type="Folder">
-				<Item Name="LDM51明渠流量计.lvlib" Type="Library" URL="../API/流量计/LDM51明渠流量计/LDM51明渠流量计.lvlib"/>
-			</Item>
-			<Item Name="流量计.lvlib" Type="Library" URL="../API/流量计/流量计/流量计.lvlib"/>
-			<Item Name="流量计UI.vi" Type="VI" URL="../API/流量计/流量计UI.vi"/>
-		</Item>
 		<Item Name="系统设置" Type="Folder">
 			<Item Name="系统设置全局变量.vi" Type="VI" URL="../系统/系统设置全局变量.vi"/>
 			<Item Name="系统设置页.vi" Type="VI" URL="../系统/系统设置页.vi"/>
@@ -166,6 +146,7 @@
 			<Item Name="短信服务.lvproj" Type="Document" URL="../API/短信服务/短信服务.lvproj"/>
 			<Item Name="设置UI.vi" Type="VI" URL="../API/短信服务/设置UI.vi"/>
 		</Item>
+		<Item Name="流量计集成.lvlib" Type="Library" URL="../API/流量计/流量计集成.lvlib"/>
 		<Item Name="database.lvlib" Type="Library" URL="../API/数据库/database.lvlib"/>
 		<Item Name="副屏.lvlib" Type="Library" URL="../副屏/副屏.lvlib"/>
 		<Item Name="PLC.lvlib" Type="Library" URL="../PLC/PLC.lvlib"/>
@@ -568,7 +549,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">22</Property>
+				<Property Name="Bld_version.build" Type="Int">23</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化微型水质监测站.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站/一体化微型水质监测站.exe</Property>
@@ -669,7 +650,7 @@
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/我的电脑/流量计/流量计.lvlib</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/我的电脑/流量计集成.lvlib/流量计/流量计/流量计.lvlib</Property>
 				<Property Name="Source[8].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[8].type" Type="Str">Library</Property>
