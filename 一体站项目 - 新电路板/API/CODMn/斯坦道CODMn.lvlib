@@ -17,48 +17,63 @@
 		<Item Name="周期设置.vi" Type="VI" URL="../CODMn/周期设置.vi"/>
 		<Item Name="线性公式CODMn用.vi" Type="VI" URL="../CODMn/线性公式CODMn用.vi"/>
 		<Item Name="窗口弹出对话框(子VI).vi" Type="VI" URL="../CODMn/窗口弹出对话框(子VI).vi"/>
+		<Item Name="定时启动 (子VI).vi" Type="VI" URL="../CODMn/定时启动 (子VI).vi"/>
+		<Item Name="高锰酸钾-ORP滴定曲线(子VI).vi" Type="VI" URL="../CODMn/高锰酸钾-ORP滴定曲线(子VI).vi"/>
 		<Item Name="CODMn通讯.vi" Type="VI" URL="../CODMn/CODMn通讯.vi"/>
 		<Item Name="周期设置_CODMn.vi" Type="VI" URL="../CODMn/周期设置_CODMn.vi"/>
+		<Item Name="AccessLog写入.vi" Type="VI" URL="../CODMn/AccessLog写入.vi"/>
 	</Item>
 	<Item Name="DataToHex" Type="Folder">
 		<Item Name="DateToHex.vi" Type="VI" URL="../DataToHex/DateToHex.vi"/>
+		<Item Name="StringToHex.vi" Type="VI" URL="../DataToHex/StringToHex.vi"/>
 	</Item>
 	<Item Name="HexToData" Type="Folder">
 		<Item Name="FATEK_HexToString.vi" Type="VI" URL="../HexToData/FATEK_HexToString.vi"/>
 		<Item Name="HexToDate.vi" Type="VI" URL="../HexToData/HexToDate.vi"/>
+		<Item Name="HexToString.vi" Type="VI" URL="../HexToData/HexToString.vi"/>
 		<Item Name="浮点CDAB转换COD.vi" Type="VI" URL="../HexToData/浮点CDAB转换COD.vi"/>
 		<Item Name="浮点转CDAB整形cod.vi" Type="VI" URL="../HexToData/浮点转CDAB整形cod.vi"/>
 	</Item>
 	<Item Name="Subvi" Type="Folder">
 		<Item Name="CODMnMB_api.vi" Type="VI" URL="../Subvi/CODMnMB_api.vi"/>
+		<Item Name="CODMn字符串显示移位(子VI).vi" Type="VI" URL="../Subvi/CODMn字符串显示移位(子VI).vi"/>
 		<Item Name="Regression Equation String1.vi" Type="VI" URL="../Subvi/Regression Equation String1.vi"/>
 		<Item Name="串口配置.vi" Type="VI" URL="../Subvi/串口配置.vi"/>
 		<Item Name="日期键盘.vi" Type="VI" URL="../Subvi/日期键盘.vi"/>
 		<Item Name="数字键盘.vi" Type="VI" URL="../Subvi/数字键盘.vi"/>
 		<Item Name="数字密码键盘.vi" Type="VI" URL="../Subvi/数字密码键盘.vi"/>
 		<Item Name="四舍五入取整.vi" Type="VI" URL="../Subvi/四舍五入取整.vi"/>
+		<Item Name="仪器参数设置.vi" Type="VI" URL="../Subvi/仪器参数设置.vi"/>
+		<Item Name="字符串移位显示.vi" Type="VI" URL="../Subvi/字符串移位显示.vi"/>
 		<Item Name="字符键盘.vi" Type="VI" URL="../Subvi/字符键盘.vi"/>
 	</Item>
 	<Item Name="测量流程" Type="Folder">
+		<Item Name="固定站CODMn测量流程.vi" Type="VI" URL="../测量流程/固定站CODMn测量流程.vi"/>
 		<Item Name="一体站CODMn启动.vi" Type="VI" URL="../测量流程/一体站CODMn启动.vi"/>
 	</Item>
 	<Item Name="全局变量" Type="Folder">
 		<Item Name="CODMn断电保存全局变量.vi" Type="VI" URL="../全局变量/CODMn断电保存全局变量.vi"/>
 		<Item Name="CODMN外部API.vi" Type="VI" URL="../全局变量/CODMN外部API.vi"/>
 		<Item Name="COD测量模式全局.vi" Type="VI" URL="../全局变量/COD测量模式全局.vi"/>
-		<Item Name="COD读取DATA全局.vi" Type="VI" URL="../全局变量/COD读取DATA全局.vi"/>
+		<Item Name="COD内部交互全局.vi" Type="VI" URL="../全局变量/COD内部交互全局.vi"/>
 		<Item Name="COD浓度全局变量.vi" Type="VI" URL="../全局变量/COD浓度全局变量.vi"/>
 		<Item Name="运行时序全局变量.vi" Type="VI" URL="../全局变量/运行时序全局变量.vi"/>
 	</Item>
 	<Item Name="数据库" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="CODMn报警信息.vi" Type="VI" URL="../数据库/CODMn报警信息.vi"/>
 		<Item Name="CODMn日志存储 (子VI).vi" Type="VI" URL="../数据库/CODMn日志存储 (子VI).vi"/>
 		<Item Name="报警信息字段定义.vi" Type="VI" URL="../数据库/报警信息字段定义.vi"/>
 		<Item Name="插入数据.vi" Type="VI" URL="../数据库/插入数据.vi"/>
 		<Item Name="存数据cloumns(子VI).vi" Type="VI" URL="../数据库/存数据cloumns(子VI).vi"/>
+		<Item Name="待机状态数据存储写入和切换量程(子VI).vi" Type="VI" URL="../数据库/待机状态数据存储写入和切换量程(子VI).vi"/>
+		<Item Name="日志报警状态存储 (子VI).vi" Type="VI" URL="../数据库/日志报警状态存储 (子VI).vi"/>
 		<Item Name="流程日志字段定义.vi" Type="VI" URL="../数据库/流程日志字段定义.vi"/>
 		<Item Name="生成CODMn data (子VI).vi" Type="VI" URL="../数据库/生成CODMn data (子VI).vi"/>
 		<Item Name="数据写入database.vi" Type="VI" URL="../数据库/数据写入database.vi"/>
 		<Item Name="数据写入入队列 (子VI).vi" Type="VI" URL="../数据库/数据写入入队列 (子VI).vi"/>
+	</Item>
+	<Item Name="子程序" Type="Folder">
+		<Item Name="将启用的浓度作为新的浓度数组.vi" Type="VI" URL="../子程序/将启用的浓度作为新的浓度数组.vi"/>
 	</Item>
 </Library>
