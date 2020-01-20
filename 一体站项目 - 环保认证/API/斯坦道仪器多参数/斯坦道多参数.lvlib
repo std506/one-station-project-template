@@ -265,6 +265,7 @@
 	<Item Name="CORE" Type="Folder">
 		<Item Name="open MB.vi" Type="VI" URL="../CORE/open MB.vi"/>
 		<Item Name="close MB.vi" Type="VI" URL="../CORE/close MB.vi"/>
+		<Item Name="探头数据读取.vi" Type="VI" URL="../CORE/探头数据读取.vi"/>
 	</Item>
 	<Item Name="UI" Type="Folder">
 		<Item Name="参数查询" Type="Folder">
@@ -311,6 +312,7 @@
 		<Item Name="Simple Parse State Queue.vi" Type="VI" URL="../Subvi/Simple Parse State Queue.vi"/>
 		<Item Name="程序默认配置.vi" Type="VI" URL="../Subvi/程序默认配置.vi"/>
 		<Item Name="Add State to Queue.vi" Type="VI" URL="../Subvi/Add State to Queue.vi"/>
+		<Item Name="TimeLmtDialog.vi" Type="VI" URL="../Subvi/TimeLmtDialog.vi"/>
 	</Item>
 	<Item Name="SQL" Type="Folder">
 		<Item Name="数据插入.vi" Type="VI" URL="../SQL/数据插入.vi"/>

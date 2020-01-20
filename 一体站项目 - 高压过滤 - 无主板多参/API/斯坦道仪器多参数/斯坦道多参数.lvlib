@@ -19,6 +19,7 @@
 			<Item Name="MQ-pH02说明书.pdf" Type="Document" URL="../Documents/国弘/MQ-pH02说明书.pdf"/>
 			<Item Name="MQ-Turb01说明书.pdf" Type="Document" URL="../Documents/国弘/MQ-Turb01说明书.pdf"/>
 			<Item Name="国弘环保仪器传感器二次开发指导说明书20190606（五参数传感器）.pdf" Type="Document" URL="../Documents/国弘/国弘环保仪器传感器二次开发指导说明书20190606（五参数传感器）.pdf"/>
+			<Item Name="MQ-ORP01说明书.pdf" Type="Document" URL="../Documents/国弘/MQ-ORP01说明书.pdf"/>
 		</Item>
 		<Item Name="纳清" Type="Folder">
 			<Item Name="4_五参数在线监测仪用户手册20180830（二合一）.pdf" Type="Document" URL="../Documents/纳清/4_五参数在线监测仪用户手册20180830（二合一）.pdf"/>
@@ -245,10 +246,26 @@
 				<Item Name="纳清蓝绿藻_校准命令写入.vi" Type="VI" URL="../属性/纳清/蓝绿藻/纳清蓝绿藻_校准命令写入.vi"/>
 			</Item>
 		</Item>
+		<Item Name="ORP" Type="Folder">
+			<Item Name="国弘" Type="Folder">
+				<Item Name="000CH_ORP_ORP偏移修正值写入.vi" Type="VI" URL="../属性/国弘/ORP/000CH_ORP_ORP偏移修正值写入.vi"/>
+				<Item Name="000EH_ORP_温度偏移修正值写入.vi" Type="VI" URL="../属性/国弘/ORP/000EH_ORP_温度偏移修正值写入.vi"/>
+				<Item Name="0010H_ORP_手动温度补偿值写入.vi" Type="VI" URL="../属性/国弘/ORP/0010H_ORP_手动温度补偿值写入.vi"/>
+				<Item Name="0026H_ORP_命令寄存器写入.vi" Type="VI" URL="../属性/国弘/ORP/0026H_ORP_命令寄存器写入.vi"/>
+				<Item Name="0027H_ORP_数位滤波设定写入.vi" Type="VI" URL="../属性/国弘/ORP/0027H_ORP_数位滤波设定写入.vi"/>
+				<Item Name="0028H_ORP_温度模式写入.vi" Type="VI" URL="../属性/国弘/ORP/0028H_ORP_温度模式写入.vi"/>
+				<Item Name="002BH_ORP_串口地址写入.vi" Type="VI" URL="../属性/国弘/ORP/002BH_ORP_串口地址写入.vi"/>
+				<Item Name="002CH_ORP_串口波特率写入.vi" Type="VI" URL="../属性/国弘/ORP/002CH_ORP_串口波特率写入.vi"/>
+				<Item Name="002DH_ORP_串口校验位写入.vi" Type="VI" URL="../属性/国弘/ORP/002DH_ORP_串口校验位写入.vi"/>
+				<Item Name="002EH_ORP_串口停止位写入.vi" Type="VI" URL="../属性/国弘/ORP/002EH_ORP_串口停止位写入.vi"/>
+				<Item Name="ORP_所有参数读取.vi" Type="VI" URL="../属性/国弘/ORP/ORP_所有参数读取.vi"/>
+			</Item>
+		</Item>
 	</Item>
 	<Item Name="CORE" Type="Folder">
 		<Item Name="open MB.vi" Type="VI" URL="../CORE/open MB.vi"/>
 		<Item Name="close MB.vi" Type="VI" URL="../CORE/close MB.vi"/>
+		<Item Name="探头数据读取.vi" Type="VI" URL="../CORE/探头数据读取.vi"/>
 	</Item>
 	<Item Name="UI" Type="Folder">
 		<Item Name="参数查询" Type="Folder">
@@ -263,6 +280,7 @@
 				<Item Name="电导率电极校准.vi" Type="VI" URL="../UI/子界面/国弘/电导率电极校准.vi"/>
 				<Item Name="溶解氧电极校准.vi" Type="VI" URL="../UI/子界面/国弘/溶解氧电极校准.vi"/>
 				<Item Name="浊度电极校准.vi" Type="VI" URL="../UI/子界面/国弘/浊度电极校准.vi"/>
+				<Item Name="ORP电极校准.vi" Type="VI" URL="../UI/子界面/国弘/ORP电极校准.vi"/>
 			</Item>
 			<Item Name="禹山" Type="Folder">
 				<Item Name="禹山溶解氧校准.vi" Type="VI" URL="../UI/子界面/禹山/禹山溶解氧校准.vi"/>
@@ -272,12 +290,12 @@
 				<Item Name="禹山叶绿素a校准.vi" Type="VI" URL="../UI/子界面/禹山/禹山叶绿素a校准.vi"/>
 			</Item>
 			<Item Name="纳清" Type="Folder">
+				<Item Name="纳清DO电极校准.vi" Type="VI" URL="../UI/子界面/纳清/纳清DO电极校准.vi"/>
+				<Item Name="纳清pH电极校准.vi" Type="VI" URL="../UI/子界面/纳清/纳清pH电极校准.vi"/>
+				<Item Name="纳清电导率电极校准.vi" Type="VI" URL="../UI/子界面/纳清/纳清电导率电极校准.vi"/>
+				<Item Name="纳清浊度电极校准.vi" Type="VI" URL="../UI/子界面/纳清/纳清浊度电极校准.vi"/>
 				<Item Name="纳清叶绿素a电极校准.vi" Type="VI" URL="../UI/子界面/纳清/纳清叶绿素a电极校准.vi"/>
 				<Item Name="纳清蓝绿藻电极校准.vi" Type="VI" URL="../UI/子界面/纳清/纳清蓝绿藻电极校准.vi"/>
-				<Item Name="纳清DO电极校准.vi" Type="VI" URL="../UI/子界面/纳清/纳清DO电极校准.vi"/>
-				<Item Name="纳清电导率电极校准.vi" Type="VI" URL="../UI/子界面/纳清/纳清电导率电极校准.vi"/>
-				<Item Name="纳清pH电极校准.vi" Type="VI" URL="../UI/子界面/纳清/纳清pH电极校准.vi"/>
-				<Item Name="纳清浊度电极校准.vi" Type="VI" URL="../UI/子界面/纳清/纳清浊度电极校准.vi"/>
 			</Item>
 			<Item Name="水温校准.vi" Type="VI" URL="../UI/子界面/国弘/水温校准.vi"/>
 			<Item Name="盐度计算.vi" Type="VI" URL="../Subvi/盐度计算.vi"/>
@@ -291,11 +309,16 @@
 		<Item Name="水样测试配置.vi" Type="VI" URL="../Subvi/水样测试配置.vi"/>
 		<Item Name="IP键盘.vi" Type="VI" URL="../Subvi/IP键盘.vi"/>
 		<Item Name="字符键盘.vi" Type="VI" URL="../Subvi/字符键盘.vi"/>
+		<Item Name="Simple Parse State Queue.vi" Type="VI" URL="../Subvi/Simple Parse State Queue.vi"/>
+		<Item Name="程序默认配置.vi" Type="VI" URL="../Subvi/程序默认配置.vi"/>
+		<Item Name="Add State to Queue.vi" Type="VI" URL="../Subvi/Add State to Queue.vi"/>
+		<Item Name="TimeLmtDialog.vi" Type="VI" URL="../Subvi/TimeLmtDialog.vi"/>
 	</Item>
 	<Item Name="SQL" Type="Folder">
 		<Item Name="数据插入.vi" Type="VI" URL="../SQL/数据插入.vi"/>
 		<Item Name="操作日志.vi" Type="VI" URL="../SQL/操作日志.vi"/>
 		<Item Name="报警信息.vi" Type="VI" URL="../SQL/报警信息.vi"/>
+		<Item Name="AccessLog写入.vi" Type="VI" URL="../SQL/AccessLog写入.vi"/>
 	</Item>
 	<Item Name="变量" Type="Folder">
 		<Item Name="断电保存变量.vi" Type="VI" URL="../变量/断电保存变量.vi"/>
@@ -313,4 +336,5 @@
 		<Item Name="与副屏通信master.vi" Type="VI" URL="../通信/与副屏通信master.vi"/>
 		<Item Name="主副屏通信slave.vi" Type="VI" URL="../通信/主副屏通信slave.vi"/>
 	</Item>
+	<Item Name="配置文件保存.vi" Type="VI" URL="../Subvi/配置文件保存.vi"/>
 </Library>
