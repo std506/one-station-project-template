@@ -38,6 +38,7 @@
 			<Item Name="总磷总氮XML解析.vi" Type="VI" URL="../Subvi/总磷总氮XML解析.vi"/>
 			<Item Name="Force Quit LabVIEW.vi" Type="VI" URL="../Subvi/Force Quit LabVIEW.vi"/>
 			<Item Name="Removable devices detection v8.5.vi" Type="VI" URL="../Subvi/Removable devices detection v8.5.vi"/>
+			<Item Name="程序默认配置.vi" Type="VI" URL="../Subvi/程序默认配置.vi"/>
 		</Item>
 		<Item Name="UI" Type="Folder">
 			<Item Name="控件" Type="Folder">
@@ -141,10 +142,11 @@
 			<Item Name="控件" Type="Folder">
 				<Item Name="周期选择.ctl" Type="VI" URL="../API/短信服务/控件/周期选择.ctl"/>
 			</Item>
-			<Item Name="短信服务.aliases" Type="Document" URL="../API/短信服务/短信服务.aliases"/>
-			<Item Name="短信服务.lvlps" Type="Document" URL="../API/短信服务/短信服务.lvlps"/>
 			<Item Name="短信服务.lvproj" Type="Document" URL="../API/短信服务/短信服务.lvproj"/>
 			<Item Name="设置UI.vi" Type="VI" URL="../API/短信服务/设置UI.vi"/>
+		</Item>
+		<Item Name="流程文件" Type="Folder" URL="../流程文件">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="流量计集成.lvlib" Type="Library" URL="../API/流量计/流量计集成.lvlib"/>
 		<Item Name="database.lvlib" Type="Library" URL="../API/数据库/database.lvlib"/>
@@ -157,6 +159,8 @@
 		<Item Name="斯坦道多参数.lvlib" Type="Library" URL="../API/斯坦道仪器多参数/斯坦道多参数.lvlib"/>
 		<Item Name="斯坦道总磷总氮.lvlib" Type="Library" URL="../API/斯坦道仪器总磷总氮/斯坦道总磷总氮.lvlib"/>
 		<Item Name="质控单元.lvlib" Type="Library" URL="../API/质控单元/质控单元.lvlib"/>
+		<Item Name="科盛超标留样.lvlib" Type="Library" URL="../API/超标留样/科盛超标留样.lvlib"/>
+		<Item Name="德润超标留样.lvlib" Type="Library" URL="../API/德润超标留样/德润超标留样.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -525,15 +529,12 @@
 			<Item Name="周期设置.xctl" Type="XControl" URL="../API/共用控件/周期设置/周期设置.xctl"/>
 			<Item Name="多参数24H周期设置.xctl" Type="XControl" URL="../API/斯坦道仪器多参数/控件/24H周期设置/多参数24H周期设置.xctl"/>
 			<Item Name="重启设置.vi" Type="VI" URL="../系统/重启设置.vi"/>
-			<Item Name="德润超标留样.lvlib" Type="Library" URL="../API/德润超标留样/德润超标留样.lvlib"/>
-			<Item Name="科盛超标留样.lvlib" Type="Library" URL="../API/超标留样/科盛超标留样.lvlib"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="一体化微型水质监测站" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{A8D5AD55-61BD-44A5-8A63-8944B086129D}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{ED4C6DEC-2854-4EC6-A759-D3ABBEBF62E9}</Property>
-				<Property Name="App_INI_itemID" Type="Ref">/我的电脑/data/config.ini</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{EEE0CC46-FF1C-4205-A7F3-D53415D06936}</Property>
@@ -545,7 +546,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">25</Property>
+				<Property Name="Bld_version.build" Type="Int">30</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化微型水质监测站.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站/一体化微型水质监测站.exe</Property>
@@ -555,8 +556,12 @@
 				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
 				<Property Name="Destination[1].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6C4A09CA-A686-4C1B-8571-70833D3BF25A}</Property>
+				<Property Name="Destination[2].destName" Type="Str">流程文件</Property>
+				<Property Name="Destination[2].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站/流程文件</Property>
+				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">3</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/data/tubiao.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{45077313-3983-443F-84D3-F927EABD6295}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/UI/VIS/启动.vi</Property>
@@ -620,6 +625,13 @@
 				<Property Name="Source[20].itemID" Type="Ref">/我的电脑/UI/VIS/运维调试.vi</Property>
 				<Property Name="Source[20].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[20].type" Type="Str">VI</Property>
+				<Property Name="Source[21].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[21].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[21].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[21].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[21].itemID" Type="Ref">/我的电脑/流程文件</Property>
+				<Property Name="Source[21].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[21].type" Type="Str">Container</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/我的电脑/副屏.lvlib</Property>
 				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
@@ -655,7 +667,7 @@
 				<Property Name="Source[9].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">21</Property>
+				<Property Name="SourceCount" Type="Int">22</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">一体化微型水质监测站</Property>
 				<Property Name="TgtF_internalName" Type="Str">One station online monitoring system 3.0</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">版权 2019 </Property>
