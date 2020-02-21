@@ -49,7 +49,7 @@
 		</Item>
 		<Item Name="纳清" Type="Folder">
 			<Item Name="4_五参数在线监测仪用户手册20180830（二合一）.pdf" Type="Document" URL="../Documents/纳清/4_五参数在线监测仪用户手册20180830（二合一）.pdf"/>
-			<Item Name="在线式叶绿素蓝绿藻分析仪用户手册20180124.pdf" Type="Document" URL="../Documents/纳清/在线式叶绿素蓝绿藻分析仪用户手册20180124.pdf"/>
+			<Item Name="在线式叶绿素蓝绿藻分析仪用户手册-20200220.pdf" Type="Document" URL="../Documents/纳清/在线式叶绿素蓝绿藻分析仪用户手册-20200220.pdf"/>
 		</Item>
 		<Item Name="禹山" Type="Folder">
 			<Item Name="COD_1.5Modbus说明文档(中文版).docx" Type="Document" URL="../Documents/禹山/COD_1.5Modbus说明文档(中文版).docx"/>
@@ -91,6 +91,8 @@
 				<Item Name="纳清叶绿素a_校准命令写入.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_校准命令写入.vi"/>
 				<Item Name="纳清叶绿素a_温度校准参数写入.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_温度校准参数写入.vi"/>
 				<Item Name="纳清叶绿素a_温度校准命令写入.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_温度校准命令写入.vi"/>
+				<Item Name="纳清叶绿素a_量程写入.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_量程写入.vi"/>
+				<Item Name="纳清叶绿素a_校准量程写入.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_校准量程写入.vi"/>
 			</Item>
 		</Item>
 		<Item Name="pH" Type="Folder">
@@ -270,6 +272,8 @@
 				<Item Name="纳清蓝绿藻_温度校准参数写入.vi" Type="VI" URL="../属性/纳清/蓝绿藻/纳清蓝绿藻_温度校准参数写入.vi"/>
 				<Item Name="纳清蓝绿藻_温度校准命令写入.vi" Type="VI" URL="../属性/纳清/蓝绿藻/纳清蓝绿藻_温度校准命令写入.vi"/>
 				<Item Name="纳清蓝绿藻_校准命令写入.vi" Type="VI" URL="../属性/纳清/蓝绿藻/纳清蓝绿藻_校准命令写入.vi"/>
+				<Item Name="纳清蓝绿藻_量程写入.vi" Type="VI" URL="../属性/纳清/蓝绿藻/纳清蓝绿藻_量程写入.vi"/>
+				<Item Name="纳清蓝绿藻_校准量程写入.vi" Type="VI" URL="../属性/纳清/蓝绿藻/纳清蓝绿藻_校准量程写入.vi"/>
 			</Item>
 		</Item>
 		<Item Name="ORP" Type="Folder">
@@ -342,9 +346,10 @@
 	</Item>
 	<Item Name="SQL" Type="Folder">
 		<Item Name="数据插入.vi" Type="VI" URL="../SQL/数据插入.vi"/>
-		<Item Name="操作日志.vi" Type="VI" URL="../SQL/操作日志.vi"/>
+		<Item Name="校准日志.vi" Type="VI" URL="../SQL/校准日志.vi"/>
 		<Item Name="报警信息.vi" Type="VI" URL="../SQL/报警信息.vi"/>
 		<Item Name="AccessLog写入.vi" Type="VI" URL="../SQL/AccessLog写入.vi"/>
+		<Item Name="操作日志.vi" Type="VI" URL="../SQL/操作日志.vi"/>
 	</Item>
 	<Item Name="变量" Type="Folder">
 		<Item Name="断电保存变量.vi" Type="VI" URL="../变量/断电保存变量.vi"/>
