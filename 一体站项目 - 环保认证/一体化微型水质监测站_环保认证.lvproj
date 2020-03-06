@@ -65,15 +65,6 @@
 				<Item Name="主画面菜单" Type="Folder">
 					<Item Name="主画面菜单.xctl" Type="XControl" URL="../UI/控件/主画面菜单/主画面菜单.xctl"/>
 				</Item>
-				<Item Name="总磷氨氮测量数据" Type="Folder">
-					<Item Name="总磷氨氮测量数据.xctl" Type="XControl" URL="../UI/控件/总磷氨氮测量数据/总磷氨氮测量数据.xctl"/>
-				</Item>
-				<Item Name="总磷氨氮调试" Type="Folder">
-					<Item Name="总磷氨氮调试.xctl" Type="XControl" URL="../UI/控件/总磷氨氮调试/总磷氨氮调试.xctl"/>
-				</Item>
-				<Item Name="总磷氨氮运行状态" Type="Folder">
-					<Item Name="总磷氨氮运行状态.xctl" Type="XControl" URL="../UI/控件/总磷氨氮运行状态/总磷氨氮运行状态.xctl"/>
-				</Item>
 				<Item Name="检测周期.ctl" Type="VI" URL="../UI/控件/检测周期.ctl"/>
 				<Item Name="快捷运维.ctl" Type="VI" URL="../UI/控件/快捷运维.ctl"/>
 				<Item Name="全屏按钮.ctl" Type="VI" URL="../UI/控件/全屏按钮.ctl"/>
@@ -86,7 +77,11 @@
 				<Item Name="左箭头.ctl" Type="VI" URL="../UI/控件/左箭头.ctl"/>
 				<Item Name="锁.ctl" Type="VI" URL="../UI/控件/锁.ctl"/>
 				<Item Name="导出.ctl" Type="VI" URL="../UI/控件/导出.ctl"/>
+				<Item Name="数据查询页列表框.ctl" Type="VI" URL="../UI/控件/数据查询页列表框.ctl"/>
+				<Item Name="数据查询大列表框.ctl" Type="VI" URL="../UI/控件/数据查询大列表框.ctl"/>
+				<Item Name="数据列表选择框.xctl" Type="XControl" URL="../UI/控件/数据列表选择框/数据列表选择框.xctl"/>
 				<Item Name="大项目框.xctl" Type="XControl" URL="../UI/控件/大项目框/大项目框.xctl"/>
+				<Item Name="下拉列表.xctl" Type="XControl" URL="../UI/控件/下拉列表/下拉列表.xctl"/>
 			</Item>
 			<Item Name="VIS" Type="Folder">
 				<Item Name="数据查询" Type="Folder">
@@ -176,8 +171,6 @@
 		<Item Name="斯坦道总氮.lvlib" Type="Library" URL="../API/斯坦道仪器总氮/斯坦道总氮.lvlib"/>
 		<Item Name="斯坦道氨氮.lvlib" Type="Library" URL="../API/斯坦道仪器氨氮/斯坦道氨氮.lvlib"/>
 		<Item Name="斯坦道多参数.lvlib" Type="Library" URL="../API/斯坦道仪器多参数/斯坦道多参数.lvlib"/>
-		<Item Name="数据查询页列表框.ctl" Type="VI" URL="../UI/控件/数据查询页列表框.ctl"/>
-		<Item Name="数据查询大列表框.ctl" Type="VI" URL="../UI/控件/数据查询大列表框.ctl"/>
 		<Item Name="自动更新.lvlib" Type="Library" URL="../API/自动升级程序/自动更新.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -435,7 +428,6 @@
 				<Item Name="Open Panel.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Open Panel.vi"/>
 				<Item Name="Close Panel.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Close Panel.vi"/>
 				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
-				<Item Name="Notify Icon Menu.rtm" Type="Document" URL="/&lt;vilib&gt;/Averna/Notify Icon/Notify Icon Menu.rtm"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
@@ -669,9 +661,9 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">/C/LabVIEW Project/builds/一体化微型水质监测站_环保认证/一体化微型水质监测站/一体化微型水质监测站_环保认证_一体化微型水质监测站_log.txt</Property>
-				<Property Name="Bld_version.build" Type="Int">72</Property>
+				<Property Name="Bld_version.build" Type="Int">73</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
-				<Property Name="Bld_version.patch" Type="Int">6</Property>
+				<Property Name="Bld_version.patch" Type="Int">7</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化微型水质监测站.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站/一体化微型水质监测站.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
@@ -682,7 +674,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/data/tubiao.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{68085BAB-0CD3-4DDA-8B32-FAF84B40D417}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{368BDD2F-29FE-47C9-AA85-08EEAF7D8CD1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/UI/VIS/启动.vi</Property>
