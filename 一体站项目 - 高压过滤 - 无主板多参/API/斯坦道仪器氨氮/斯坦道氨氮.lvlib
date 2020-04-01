@@ -18,6 +18,7 @@
 			<Item Name="HexToWord.vi" Type="VI" URL="../HexToData/HexToWord.vi"/>
 			<Item Name="监测块.vi" Type="VI" URL="../HexToData/监测块.vi"/>
 		</Item>
+		<Item Name="AccessLog写入.vi" Type="VI" URL="../main/AccessLog写入.vi"/>
 		<Item Name="Regression Equation String.vi" Type="VI" URL="../Subvi/Regression Equation String.vi"/>
 		<Item Name="氨氮插入数据.vi" Type="VI" URL="../Subvi/氨氮插入数据.vi"/>
 		<Item Name="氨氮启动参数对话框.vi" Type="VI" URL="../main/UI/氨氮启动参数对话框.vi"/>
@@ -71,4 +72,6 @@
 		<Item Name="状态告警区.vi" Type="VI" URL="../main/状态告警区.vi"/>
 		<Item Name="总磷数据时间处理.vi" Type="VI" URL="../main/总磷数据时间处理.vi"/>
 	</Item>
+	<Item Name="关键参数存表.vi" Type="VI" URL="../Subvi/关键参数存表.vi"/>
+	<Item Name="关键参数交互.vi" Type="VI" URL="../Subvi/关键参数交互.vi"/>
 </Library>

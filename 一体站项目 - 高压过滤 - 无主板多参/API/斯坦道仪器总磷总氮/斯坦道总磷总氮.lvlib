@@ -18,6 +18,7 @@
 			<Item Name="HexToWord.vi" Type="VI" URL="../HexToData/HexToWord.vi"/>
 			<Item Name="监测块.vi" Type="VI" URL="../HexToData/监测块.vi"/>
 		</Item>
+		<Item Name="AccessLog写入.vi" Type="VI" URL="../总磷总氮/AccessLog写入.vi"/>
 		<Item Name="Regression Equation String.vi" Type="VI" URL="../Subvi/Regression Equation String.vi"/>
 		<Item Name="测试流程控件.ctl" Type="VI" URL="../总磷总氮/测试流程控件.ctl"/>
 		<Item Name="插入数据.vi" Type="VI" URL="../Subvi/插入数据.vi"/>
