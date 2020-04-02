@@ -8,6 +8,7 @@
 	<Item Name="CODCr" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="运维调试_CODCr.vi" Type="VI" URL="../CODCr/运维调试_CODCr.vi"/>
+		<Item Name="AccessLog写入.vi" Type="VI" URL="../CODCr/AccessLog写入.vi"/>
 		<Item Name="CODcr测量数据区.vi" Type="VI" URL="../CODCr/CODcr测量数据区.vi"/>
 		<Item Name="CODCr插入数据.vi" Type="VI" URL="../CODCr/CODCr插入数据.vi"/>
 		<Item Name="CODCr启动命令 (子VI).vi" Type="VI" URL="../CODCr/CODCr启动命令 (子VI).vi"/>
@@ -22,6 +23,8 @@
 		<Item Name="CODCr定时启动对话框.vi" Type="VI" URL="../CODCr/CODCr定时启动对话框.vi"/>
 		<Item Name="周期设置.vi" Type="VI" URL="../CODCr/周期设置.vi"/>
 		<Item Name="串口配置.vi" Type="VI" URL="../CODCr/串口配置.vi"/>
+		<Item Name="周期设置_CODCr.vi" Type="VI" URL="../CODCr/周期设置_CODCr.vi"/>
+		<Item Name="定时启动 (子VI).vi" Type="VI" URL="../CODCr/定时启动 (子VI).vi"/>
 	</Item>
 	<Item Name="DataToHex" Type="Folder">
 		<Item Name="DateToHex.vi" Type="VI" URL="../DataToHex/DateToHex.vi"/>
@@ -42,6 +45,7 @@
 	</Item>
 	<Item Name="流程" Type="Folder">
 		<Item Name="CODcr测试流程.vi" Type="VI" URL="../流程/CODcr测试流程.vi"/>
+		<Item Name="固定站CODCr测量流程.vi" Type="VI" URL="../流程/固定站CODCr测量流程.vi"/>
 	</Item>
 	<Item Name="全局变量" Type="Folder">
 		<Item Name="CODcr全局变量.vi" Type="VI" URL="../全局变量/CODcr全局变量.vi"/>
@@ -58,4 +62,7 @@
 		<Item Name="CODCrMB_api.vi" Type="VI" URL="../通讯/CODCrMB_api.vi"/>
 		<Item Name="CODCr通讯.vi" Type="VI" URL="../通讯/CODCr通讯.vi"/>
 	</Item>
+	<Item Name="关键参数存表.vi" Type="VI" URL="../CODCr/关键参数存表.vi"/>
+	<Item Name="关键参数交互.vi" Type="VI" URL="../CODCr/关键参数交互.vi"/>
+	<Item Name="公式写入.vi" Type="VI" URL="../CODCr/公式写入.vi"/>
 </Library>

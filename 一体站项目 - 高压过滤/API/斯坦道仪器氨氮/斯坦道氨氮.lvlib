@@ -72,4 +72,6 @@
 		<Item Name="状态告警区.vi" Type="VI" URL="../main/状态告警区.vi"/>
 		<Item Name="总磷数据时间处理.vi" Type="VI" URL="../main/总磷数据时间处理.vi"/>
 	</Item>
+	<Item Name="关键参数存表.vi" Type="VI" URL="../Subvi/关键参数存表.vi"/>
+	<Item Name="关键参数交互.vi" Type="VI" URL="../Subvi/关键参数交互.vi"/>
 </Library>

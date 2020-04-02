@@ -6,55 +6,105 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="UI" Type="Folder">
-		<Item Name="运维调试_质控单元.vi" Type="VI" URL="../运维调试_质控单元.vi"/>
-	</Item>
-	<Item Name="加标回收率公式" Type="Folder">
-		<Item Name="加标回收率计算.vi" Type="VI" URL="../加标回收率计算.vi"/>
-	</Item>
-	<Item Name="Subvi" Type="Folder">
-		<Item Name="线性公式质控用.vi" Type="VI" URL="../线性公式质控用.vi"/>
-		<Item Name="浮点转CDAB整形ZK.vi" Type="VI" URL="../浮点转CDAB整形ZK.vi"/>
-		<Item Name="浮点CDAB转换质控.vi" Type="VI" URL="../浮点CDAB转换质控.vi"/>
-		<Item Name="Regression Equation String2.vi" Type="VI" URL="../Regression Equation String2.vi"/>
-		<Item Name="数据写入databaseZK.vi" Type="VI" URL="../数据写入databaseZK.vi"/>
-	</Item>
-	<Item Name="流程" Type="Folder">
-		<Item Name="一体站流程质控自动启动.vi" Type="VI" URL="../一体站流程质控自动启动.vi"/>
-		<Item Name="氨氮流程质控自动启动.vi" Type="VI" URL="../氨氮流程质控自动启动.vi"/>
-		<Item Name="总磷总氮流程质控自动启动.vi" Type="VI" URL="../总磷总氮流程质控自动启动.vi"/>
-		<Item Name="CODCr流程质控自动启动.vi" Type="VI" URL="../CODCr流程质控自动启动.vi"/>
-		<Item Name="CODCr质控流程 (子VI).vi" Type="VI" URL="../CODCr质控流程 (子VI).vi"/>
-		<Item Name="CODMn流程质控自动启动.vi" Type="VI" URL="../CODMn流程质控自动启动.vi"/>
-		<Item Name="一体站流程平行样自动启动.vi" Type="VI" URL="../一体站流程平行样自动启动.vi"/>
-		<Item Name="COD平行样流程 (子VI).vi" Type="VI" URL="../COD平行样流程 (子VI).vi"/>
-		<Item Name="COD质控流程 (子VI).vi" Type="VI" URL="../COD质控流程 (子VI).vi"/>
-		<Item Name="氨氮总磷平行样流程.vi" Type="VI" URL="../氨氮总磷平行样流程.vi"/>
-		<Item Name="氨氮质控流程.vi" Type="VI" URL="../氨氮质控流程.vi"/>
-		<Item Name="总氮总磷质控流程.vi" Type="VI" URL="../总氮总磷质控流程.vi"/>
-		<Item Name="平行样启动流程对话框.vi" Type="VI" URL="../平行样启动流程对话框.vi"/>
-		<Item Name="平行样启动参数选择对话框.vi" Type="VI" URL="../平行样启动参数选择对话框.vi"/>
-		<Item Name="质控启动流程对话框.vi" Type="VI" URL="../质控启动流程对话框.vi"/>
-		<Item Name="质控启动参数选择对话框.vi" Type="VI" URL="../质控启动参数选择对话框.vi"/>
-		<Item Name="加标模块单控对话框.vi" Type="VI" URL="../加标模块单控对话框.vi"/>
-	</Item>
-	<Item Name="全局变量" Type="Folder">
-		<Item Name="质控测完标志全局 1.vi" Type="VI" URL="../质控测完标志全局 1.vi"/>
-		<Item Name="水样浓度全局.vi" Type="VI" URL="../水样浓度全局.vi"/>
-		<Item Name="氨氮加标回收状态全局变量.vi" Type="VI" URL="../氨氮加标回收状态全局变量.vi"/>
-		<Item Name="串口参数全局.vi" Type="VI" URL="../串口参数全局.vi"/>
-		<Item Name="质控中断报警全局.vi" Type="VI" URL="../质控中断报警全局.vi"/>
-	</Item>
-	<Item Name="通讯" Type="Folder">
-		<Item Name="单个写入.vi" Type="VI" URL="../单个写入.vi"/>
-		<Item Name="写入参数.vi" Type="VI" URL="../写入参数.vi"/>
-		<Item Name="读取参数.vi" Type="VI" URL="../读取参数.vi"/>
-		<Item Name="多个线圈写入.vi" Type="VI" URL="../多个线圈写入.vi"/>
-	</Item>
-	<Item Name="参数保存与读取" Type="Folder">
-		<Item Name="质控参数保存.vi" Type="VI" URL="../质控参数保存.vi"/>
-		<Item Name="质控参数读取.vi" Type="VI" URL="../质控参数读取.vi"/>
+		<Item Name="运维调试_质控单元.vi" Type="VI" URL="../质控主界面/运维调试_质控单元.vi"/>
 	</Item>
 	<Item Name="Xcontrol" Type="Folder">
-		<Item Name="模块选择.ctl" Type="VI" URL="../模块选择.ctl"/>
+		<Item Name="模块选择.ctl" Type="VI" URL="../Control/模块选择.ctl"/>
+		<Item Name="平行样测试流程.ctl" Type="VI" URL="../Control/平行样测试流程.ctl"/>
+	</Item>
+	<Item Name="data to hex" Type="Folder">
+		<Item Name="DateToHex.vi" Type="VI" URL="../data to hex/DateToHex.vi"/>
+		<Item Name="FloatToHex.vi" Type="VI" URL="../data to hex/FloatToHex.vi"/>
+		<Item Name="WordToHex.vi" Type="VI" URL="../data to hex/WordToHex.vi"/>
+		<Item Name="浮点CDAB转换质控.vi" Type="VI" URL="../data to hex/浮点CDAB转换质控.vi"/>
+		<Item Name="浮点转CDAB整形ZK.vi" Type="VI" URL="../data to hex/浮点转CDAB整形ZK.vi"/>
+	</Item>
+	<Item Name="hex to data" Type="Folder">
+		<Item Name="HexToCDABFloat.vi" Type="VI" URL="../hex to data/HexToCDABFloat.vi"/>
+		<Item Name="HexToDate.vi" Type="VI" URL="../hex to data/HexToDate.vi"/>
+		<Item Name="HexToDword.vi" Type="VI" URL="../hex to data/HexToDword.vi"/>
+		<Item Name="HexToFloat.vi" Type="VI" URL="../hex to data/HexToFloat.vi"/>
+		<Item Name="HexToString.vi" Type="VI" URL="../hex to data/HexToString.vi"/>
+		<Item Name="HexToWord.vi" Type="VI" URL="../hex to data/HexToWord.vi"/>
+	</Item>
+	<Item Name="Subvi" Type="Folder">
+		<Item Name="Regression Equation String2.vi" Type="VI" URL="../Subvi/Regression Equation String2.vi"/>
+		<Item Name="加标回收率计算.vi" Type="VI" URL="../Subvi/加标回收率计算.vi"/>
+		<Item Name="交互测量数据区解析.vi" Type="VI" URL="../Subvi/交互测量数据区解析.vi"/>
+		<Item Name="交互监测块.vi" Type="VI" URL="../Subvi/交互监测块.vi"/>
+		<Item Name="交互状态告警区解析.vi" Type="VI" URL="../Subvi/交互状态告警区解析.vi"/>
+		<Item Name="数字键盘.vi" Type="VI" URL="../Subvi/数字键盘.vi"/>
+		<Item Name="线性公式质控用.vi" Type="VI" URL="../Subvi/线性公式质控用.vi"/>
+		<Item Name="氨氮加标回收 (子VI).vi" Type="VI" URL="../Subvi/氨氮加标回收 (子VI).vi"/>
+		<Item Name="总氮总磷加标回收 (子VI).vi" Type="VI" URL="../Subvi/总氮总磷加标回收 (子VI).vi"/>
+		<Item Name="CODMn加标回收(子VI).vi" Type="VI" URL="../Subvi/CODMn加标回收(子VI).vi"/>
+		<Item Name="CODCr加标回收(子VI).vi" Type="VI" URL="../Subvi/CODCr加标回收(子VI).vi"/>
+		<Item Name="串口配置.vi" Type="VI" URL="../Subvi/串口配置.vi"/>
+	</Item>
+	<Item Name="测量流程" Type="Folder">
+		<Item Name="CODCr流程质控自动启动.vi" Type="VI" URL="../测量流程/CODCr流程质控自动启动.vi"/>
+		<Item Name="CODCr质控流程 (子VI).vi" Type="VI" URL="../测量流程/CODCr质控流程 (子VI).vi"/>
+		<Item Name="CODCr启动命令 (子VI).vi" Type="VI" URL="../测量流程/CODCr启动命令 (子VI).vi"/>
+		<Item Name="CODCr停止命令 (子VI).vi" Type="VI" URL="../测量流程/CODCr停止命令 (子VI).vi"/>
+		<Item Name="CODMn流程质控自动启动.vi" Type="VI" URL="../测量流程/CODMn流程质控自动启动.vi"/>
+		<Item Name="CODMn启动命令 (子VI).vi" Type="VI" URL="../测量流程/CODMn启动命令 (子VI).vi"/>
+		<Item Name="CODMn停止命令 (子VI).vi" Type="VI" URL="../测量流程/CODMn停止命令 (子VI).vi"/>
+		<Item Name="COD平行样流程 (子VI).vi" Type="VI" URL="../测量流程/COD平行样流程 (子VI).vi"/>
+		<Item Name="COD质控流程 (子VI).vi" Type="VI" URL="../测量流程/COD质控流程 (子VI).vi"/>
+		<Item Name="氨氮流程质控自动启动.vi" Type="VI" URL="../测量流程/氨氮流程质控自动启动.vi"/>
+		<Item Name="氨氮启动命令.vi" Type="VI" URL="../测量流程/氨氮启动命令.vi"/>
+		<Item Name="氨氮质控流程.vi" Type="VI" URL="../测量流程/氨氮质控流程.vi"/>
+		<Item Name="氨氮总磷流程质控自动启动.vi" Type="VI" URL="../测量流程/氨氮总磷流程质控自动启动.vi"/>
+		<Item Name="氨氮总磷平行样流程.vi" Type="VI" URL="../测量流程/氨氮总磷平行样流程.vi"/>
+		<Item Name="控制命令参数.vi" Type="VI" URL="../测量流程/控制命令参数.vi"/>
+		<Item Name="一体站流程平行样自动启动.vi" Type="VI" URL="../测量流程/一体站流程平行样自动启动.vi"/>
+		<Item Name="一体站流程质控自动启动.vi" Type="VI" URL="../测量流程/一体站流程质控自动启动.vi"/>
+		<Item Name="总氮控制命令区.vi" Type="VI" URL="../测量流程/总氮控制命令区.vi"/>
+		<Item Name="总氮启动命令.vi" Type="VI" URL="../测量流程/总氮启动命令.vi"/>
+		<Item Name="总氮总磷质控流程.vi" Type="VI" URL="../测量流程/总氮总磷质控流程.vi"/>
+		<Item Name="总磷启动命令.vi" Type="VI" URL="../测量流程/总磷启动命令.vi"/>
+		<Item Name="总磷总氮流程质控自动启动.vi" Type="VI" URL="../测量流程/总磷总氮流程质控自动启动.vi"/>
+	</Item>
+	<Item Name="全局变量" Type="Folder">
+		<Item Name="质控测完标志全局 1.vi" Type="VI" URL="../全局变量/质控测完标志全局 1.vi"/>
+		<Item Name="水样浓度全局.vi" Type="VI" URL="../全局变量/水样浓度全局.vi"/>
+		<Item Name="加标回收状态全局变量.vi" Type="VI" URL="../全局变量/加标回收状态全局变量.vi"/>
+		<Item Name="质控中断报警全局.vi" Type="VI" URL="../全局变量/质控中断报警全局.vi"/>
+		<Item Name="与采配水交互全局.vi" Type="VI" URL="../全局变量/与采配水交互全局.vi"/>
+		<Item Name="与CODCr交互全局.vi" Type="VI" URL="../全局变量/与CODCr交互全局.vi"/>
+		<Item Name="与CODMn交互全局.vi" Type="VI" URL="../全局变量/与CODMn交互全局.vi"/>
+		<Item Name="与氨氮交互全局.vi" Type="VI" URL="../全局变量/与氨氮交互全局.vi"/>
+		<Item Name="与总氮交互全局.vi" Type="VI" URL="../全局变量/与总氮交互全局.vi"/>
+		<Item Name="与总磷交互全局.vi" Type="VI" URL="../全局变量/与总磷交互全局.vi"/>
+		<Item Name="断电保存全局.vi" Type="VI" URL="../全局变量/断电保存全局.vi"/>
+		<Item Name="质控内部交互全局.vi" Type="VI" URL="../全局变量/质控内部交互全局.vi"/>
+	</Item>
+	<Item Name="数据库" Type="Folder">
+		<Item Name="插入数据.vi" Type="VI" URL="../数据库/插入数据.vi"/>
+		<Item Name="数据写入databaseZK.vi" Type="VI" URL="../数据库/数据写入databaseZK.vi"/>
+		<Item Name="质控报警信息.vi" Type="VI" URL="../数据库/质控报警信息.vi"/>
+		<Item Name="平行样测试数据写入.vi" Type="VI" URL="../数据库/平行样测试数据写入.vi"/>
+		<Item Name="质控报警信息存储 (子VI).vi" Type="VI" URL="../数据库/质控报警信息存储 (子VI).vi"/>
+		<Item Name="质控日志存储 (子VI).vi" Type="VI" URL="../数据库/质控日志存储 (子VI).vi"/>
+		<Item Name="质控数据存储(子VI).vi" Type="VI" URL="../数据库/质控数据存储(子VI).vi"/>
+	</Item>
+	<Item Name="通讯" Type="Folder">
+		<Item Name="单个写入.vi" Type="VI" URL="../通讯/单个写入.vi"/>
+		<Item Name="写入参数.vi" Type="VI" URL="../通讯/写入参数.vi"/>
+		<Item Name="读取参数.vi" Type="VI" URL="../通讯/读取参数.vi"/>
+		<Item Name="多个线圈写入.vi" Type="VI" URL="../通讯/多个线圈写入.vi"/>
+		<Item Name="通信并与其他模块交互 (子VI).vi" Type="VI" URL="../通讯/通信并与其他模块交互 (子VI).vi"/>
+		<Item Name="质控单元MB_api.vi" Type="VI" URL="../通讯/质控单元MB_api.vi"/>
+	</Item>
+	<Item Name="中间子VI" Type="Folder">
+		<Item Name="平行样启动流程对话框.vi" Type="VI" URL="../中间子VI/平行样启动流程对话框.vi"/>
+		<Item Name="平行样启动参数选择对话框.vi" Type="VI" URL="../中间子VI/平行样启动参数选择对话框.vi"/>
+		<Item Name="质控启动流程对话框.vi" Type="VI" URL="../中间子VI/质控启动流程对话框.vi"/>
+		<Item Name="质控启动参数选择对话框.vi" Type="VI" URL="../中间子VI/质控启动参数选择对话框.vi"/>
+		<Item Name="加标模块单控对话框.vi" Type="VI" URL="../中间子VI/加标模块单控对话框.vi"/>
+		<Item Name="质控参数保存.vi" Type="VI" URL="../中间子VI/质控参数保存.vi"/>
+		<Item Name="质控参数读取.vi" Type="VI" URL="../中间子VI/质控参数读取.vi"/>
+		<Item Name="手动调试界面.vi" Type="VI" URL="../中间子VI/手动调试界面.vi"/>
+		<Item Name="柱塞泵调试界面.vi" Type="VI" URL="../中间子VI/柱塞泵调试界面.vi"/>
 	</Item>
 </Library>
