@@ -11,6 +11,7 @@
 	<Item Name="Xcontrol" Type="Folder">
 		<Item Name="模块选择.ctl" Type="VI" URL="../Control/模块选择.ctl"/>
 		<Item Name="平行样测试流程.ctl" Type="VI" URL="../Control/平行样测试流程.ctl"/>
+		<Item Name="质控24H周期设置.xctl" Type="XControl" URL="../Control/24H周期设置/质控24H周期设置.xctl"/>
 	</Item>
 	<Item Name="data to hex" Type="Folder">
 		<Item Name="DateToHex.vi" Type="VI" URL="../data to hex/DateToHex.vi"/>
@@ -54,6 +55,7 @@
 		<Item Name="氨氮流程质控自动启动.vi" Type="VI" URL="../测量流程/氨氮流程质控自动启动.vi"/>
 		<Item Name="氨氮启动命令.vi" Type="VI" URL="../测量流程/氨氮启动命令.vi"/>
 		<Item Name="氨氮质控流程.vi" Type="VI" URL="../测量流程/氨氮质控流程.vi"/>
+		<Item Name="氨氮总磷质控流程.vi" Type="VI" URL="../测量流程/氨氮总磷质控流程.vi"/>
 		<Item Name="氨氮总磷流程质控自动启动.vi" Type="VI" URL="../测量流程/氨氮总磷流程质控自动启动.vi"/>
 		<Item Name="氨氮总磷平行样流程.vi" Type="VI" URL="../测量流程/氨氮总磷平行样流程.vi"/>
 		<Item Name="控制命令参数.vi" Type="VI" URL="../测量流程/控制命令参数.vi"/>
@@ -67,6 +69,7 @@
 	</Item>
 	<Item Name="全局变量" Type="Folder">
 		<Item Name="质控测完标志全局 1.vi" Type="VI" URL="../全局变量/质控测完标志全局 1.vi"/>
+		<Item Name="平行样测试全局变量.vi" Type="VI" URL="../全局变量/平行样测试全局变量.vi"/>
 		<Item Name="水样浓度全局.vi" Type="VI" URL="../全局变量/水样浓度全局.vi"/>
 		<Item Name="加标回收状态全局变量.vi" Type="VI" URL="../全局变量/加标回收状态全局变量.vi"/>
 		<Item Name="质控中断报警全局.vi" Type="VI" URL="../全局变量/质控中断报警全局.vi"/>
@@ -106,5 +109,7 @@
 		<Item Name="质控参数读取.vi" Type="VI" URL="../中间子VI/质控参数读取.vi"/>
 		<Item Name="手动调试界面.vi" Type="VI" URL="../中间子VI/手动调试界面.vi"/>
 		<Item Name="柱塞泵调试界面.vi" Type="VI" URL="../中间子VI/柱塞泵调试界面.vi"/>
+		<Item Name="周期启动 (子VI).vi" Type="VI" URL="../中间子VI/周期启动 (子VI).vi"/>
+		<Item Name="周期设置.vi" Type="VI" URL="../中间子VI/周期设置.vi"/>
 	</Item>
 </Library>
