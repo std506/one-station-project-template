@@ -426,7 +426,6 @@
 				<Item Name="Add File to Zip.vi" Type="VI" URL="/&lt;vilib&gt;/zip/Add File to Zip.vi"/>
 				<Item Name="Relative Path To Platform Independent String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Relative Path To Platform Independent String.vi"/>
 				<Item Name="Close Zip File.vi" Type="VI" URL="/&lt;vilib&gt;/zip/Close Zip File.vi"/>
-				<Item Name="Notify Icon Menu.rtm" Type="Document" URL="/&lt;vilib&gt;/Averna/Notify Icon/Notify Icon Menu.rtm"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
@@ -593,7 +592,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化微型水质监测站.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站/一体化微型水质监测站.exe</Property>
@@ -604,7 +603,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3EE0118C-11E0-4AD7-8C0C-5686362632BF}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{22C2343B-E7F7-476B-AD41-CAD8275703C1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/UI/VIS/启动.vi</Property>
@@ -698,6 +697,7 @@
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">20</Property>
+				<Property Name="TgtF_fastFileFormat" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">一体化微型水质监测站</Property>
 				<Property Name="TgtF_internalName" Type="Str">One station online monitoring system 2.0</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">版权 2019 </Property>
