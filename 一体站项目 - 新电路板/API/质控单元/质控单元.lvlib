@@ -81,6 +81,7 @@
 		<Item Name="与总磷交互全局.vi" Type="VI" URL="../全局变量/与总磷交互全局.vi"/>
 		<Item Name="断电保存全局.vi" Type="VI" URL="../全局变量/断电保存全局.vi"/>
 		<Item Name="质控内部交互全局.vi" Type="VI" URL="../全局变量/质控内部交互全局.vi"/>
+		<Item Name="系统交互.vi" Type="VI" URL="../全局变量/系统交互.vi"/>
 	</Item>
 	<Item Name="数据库" Type="Folder">
 		<Item Name="插入数据.vi" Type="VI" URL="../数据库/插入数据.vi"/>
@@ -90,6 +91,7 @@
 		<Item Name="质控报警信息存储 (子VI).vi" Type="VI" URL="../数据库/质控报警信息存储 (子VI).vi"/>
 		<Item Name="质控日志存储 (子VI).vi" Type="VI" URL="../数据库/质控日志存储 (子VI).vi"/>
 		<Item Name="质控数据存储(子VI).vi" Type="VI" URL="../数据库/质控数据存储(子VI).vi"/>
+		<Item Name="data insert core.vi" Type="VI" URL="../数据库/data insert core.vi"/>
 	</Item>
 	<Item Name="通讯" Type="Folder">
 		<Item Name="单个写入.vi" Type="VI" URL="../通讯/单个写入.vi"/>
