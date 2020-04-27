@@ -144,8 +144,6 @@
 			<Item Name="控件" Type="Folder">
 				<Item Name="周期选择.ctl" Type="VI" URL="../API/短信服务/控件/周期选择.ctl"/>
 			</Item>
-			<Item Name="短信服务.aliases" Type="Document" URL="../API/短信服务/短信服务.aliases"/>
-			<Item Name="短信服务.lvlps" Type="Document" URL="../API/短信服务/短信服务.lvlps"/>
 			<Item Name="短信服务.lvproj" Type="Document" URL="../API/短信服务/短信服务.lvproj"/>
 			<Item Name="设置UI.vi" Type="VI" URL="../API/短信服务/设置UI.vi"/>
 		</Item>
@@ -590,11 +588,10 @@
 			<Item Name="关键参数存表.vi" Type="VI" URL="../API/斯坦道仪器总磷总氮/Subvi/关键参数存表.vi"/>
 			<Item Name="关键参数交互.vi" Type="VI" URL="../API/斯坦道仪器总磷总氮/Subvi/关键参数交互.vi"/>
 			<Item Name="仪器参数设置.vi" Type="VI" URL="../API/CodCr/CODCr/仪器参数设置.vi"/>
-			<Item Name="平行样测试全局变量.vi" Type="VI" URL="../API/质控单元/全局变量/平行样测试全局变量.vi"/>
-			<Item Name="氨氮总磷质控流程.vi" Type="VI" URL="../API/质控单元/测量流程/氨氮总磷质控流程.vi"/>
 			<Item Name="反控参数设置.vi" Type="VI" URL="../Modbus Slave/反控参数设置.vi"/>
 			<Item Name="反控仪器单参数通用.vi" Type="VI" URL="../Modbus Slave/反控仪器单参数通用.vi"/>
 			<Item Name="反控仪器参数公式.vi" Type="VI" URL="../Modbus Slave/反控仪器参数公式.vi"/>
+			<Item Name="data insert core.vi" Type="VI" URL="../Subvi/SQL/data insert core.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="一体化微型水质监测站" Type="EXE">
@@ -613,7 +610,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">7</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化微型水质监测站.exe</Property>
