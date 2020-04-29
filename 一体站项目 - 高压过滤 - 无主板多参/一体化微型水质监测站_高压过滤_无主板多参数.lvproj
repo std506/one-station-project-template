@@ -585,8 +585,6 @@
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="关键参数存表.vi" Type="VI" URL="../API/斯坦道仪器总磷总氮/Subvi/关键参数存表.vi"/>
-			<Item Name="关键参数交互.vi" Type="VI" URL="../API/斯坦道仪器总磷总氮/Subvi/关键参数交互.vi"/>
 			<Item Name="仪器参数设置.vi" Type="VI" URL="../API/CodCr/CODCr/仪器参数设置.vi"/>
 			<Item Name="反控参数设置.vi" Type="VI" URL="../Modbus Slave/反控参数设置.vi"/>
 			<Item Name="反控仪器单参数通用.vi" Type="VI" URL="../Modbus Slave/反控仪器单参数通用.vi"/>
@@ -610,7 +608,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化微型水质监测站.exe</Property>
