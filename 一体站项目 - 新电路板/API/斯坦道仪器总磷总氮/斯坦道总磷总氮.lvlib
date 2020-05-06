@@ -47,6 +47,7 @@
 		<Item Name="AccessLog写入.vi" Type="VI" URL="../总磷总氮/AccessLog写入.vi"/>
 		<Item Name="balloon入队列.vi" Type="VI" URL="../Subvi/balloon入队列.vi"/>
 		<Item Name="Create balloon 队列.vi" Type="VI" URL="../Subvi/Create balloon 队列.vi"/>
+		<Item Name="data insert core.vi" Type="VI" URL="../Subvi/data insert core.vi"/>
 		<Item Name="id参数转换.vi" Type="VI" URL="../Subvi/id参数转换.vi"/>
 		<Item Name="Regression Equation String.vi" Type="VI" URL="../Subvi/Regression Equation String.vi"/>
 		<Item Name="测试流程控件.ctl" Type="VI" URL="../总磷总氮/测试流程控件.ctl"/>
