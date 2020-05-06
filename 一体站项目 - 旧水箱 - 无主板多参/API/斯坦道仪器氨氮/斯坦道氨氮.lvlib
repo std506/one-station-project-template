@@ -19,6 +19,7 @@
 			<Item Name="监测块.vi" Type="VI" URL="../HexToData/监测块.vi"/>
 		</Item>
 		<Item Name="AccessLog写入.vi" Type="VI" URL="../main/AccessLog写入.vi"/>
+		<Item Name="data insert core.vi" Type="VI" URL="../Subvi/data insert core.vi"/>
 		<Item Name="Regression Equation String.vi" Type="VI" URL="../Subvi/Regression Equation String.vi"/>
 		<Item Name="氨氮插入数据.vi" Type="VI" URL="../Subvi/氨氮插入数据.vi"/>
 		<Item Name="氨氮启动参数对话框.vi" Type="VI" URL="../main/UI/氨氮启动参数对话框.vi"/>

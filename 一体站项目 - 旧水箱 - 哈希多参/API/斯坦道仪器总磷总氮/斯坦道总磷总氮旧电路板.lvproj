@@ -17,9 +17,6 @@
 		<Item Name="运行状态.xctl" Type="XControl" URL="../../共用控件/运行状态/运行状态.xctl"/>
 		<Item Name="周期设置.xctl" Type="XControl" URL="../../共用控件/周期设置/周期设置.xctl"/>
 		<Item Name="斯坦道总磷总氮.lvlib" Type="Library" URL="../斯坦道总磷总氮.lvlib"/>
-		<Item Name="关键参数存表.vi" Type="VI" URL="../Subvi/关键参数存表.vi"/>
-		<Item Name="关键参数交互.vi" Type="VI" URL="../Subvi/关键参数交互.vi"/>
-		<Item Name="仪器参数设置.vi" Type="VI" URL="../Subvi/仪器参数设置.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
