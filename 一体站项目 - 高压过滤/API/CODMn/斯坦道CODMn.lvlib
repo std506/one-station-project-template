@@ -80,7 +80,7 @@
 	</Item>
 	<Item Name="测量流程" Type="Folder">
 		<Item Name="固定站CODMn测量流程.vi" Type="VI" URL="../测量流程/固定站CODMn测量流程.vi"/>
-		<Item Name="一体站CODMn启动.vi" Type="VI" URL="../测量流程/一体站CODMn启动.vi"/>
+		<Item Name="CODMn测量流程.vi" Type="VI" URL="../测量流程/CODMn测量流程.vi"/>
 	</Item>
 	<Item Name="全局变量" Type="Folder">
 		<Item Name="CODMn断电保存全局变量.vi" Type="VI" URL="../全局变量/CODMn断电保存全局变量.vi"/>
