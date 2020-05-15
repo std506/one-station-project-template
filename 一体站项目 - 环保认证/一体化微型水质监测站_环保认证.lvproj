@@ -701,7 +701,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">/C/LabVIEW Project/builds/一体化微型水质监测站_环保认证/一体化微型水质监测站/一体化微型水质监测站_环保认证_一体化微型水质监测站_log.txt</Property>
-				<Property Name="Bld_version.build" Type="Int">91</Property>
+				<Property Name="Bld_version.build" Type="Int">93</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Bld_version.patch" Type="Int">14</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化微型水质监测站.exe</Property>
@@ -718,7 +718,7 @@
 				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/data/tubiao.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F31405BD-CE70-498C-BE0A-EFC71C07DD0D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9D79777E-48B1-4149-83EC-6FC79AE8DC9D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/UI/VIS/启动.vi</Property>
@@ -828,7 +828,6 @@
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">23</Property>
-				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">一体化微型水质监测站</Property>
 				<Property Name="TgtF_internalName" Type="Str">One station online monitoring system 3.0</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">版权 2019 </Property>
