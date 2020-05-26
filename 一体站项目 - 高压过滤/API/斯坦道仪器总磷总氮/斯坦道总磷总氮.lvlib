@@ -25,6 +25,7 @@
 		<Item Name="插入数据.vi" Type="VI" URL="../Subvi/插入数据.vi"/>
 		<Item Name="关键参数存表.vi" Type="VI" URL="../Subvi/关键参数存表.vi"/>
 		<Item Name="关键参数交互.vi" Type="VI" URL="../Subvi/关键参数交互.vi"/>
+		<Item Name="过滤筛选流程.vi" Type="VI" URL="../Subvi/过滤筛选流程.vi"/>
 		<Item Name="数字键盘.vi" Type="VI" URL="../Subvi/数字键盘.vi"/>
 		<Item Name="水质测量数据table定义.vi" Type="VI" URL="../Subvi/水质测量数据table定义.vi"/>
 		<Item Name="斯坦道XML解析.vi" Type="VI" URL="../Subvi/斯坦道XML解析.vi"/>
