@@ -11,7 +11,8 @@
 		<Item Name="CODCr电源命令.vi" Type="VI" URL="../电源管理/CODCr电源命令.vi"/>
 		<Item Name="氨氮电源命令.vi" Type="VI" URL="../电源管理/氨氮电源命令.vi"/>
 		<Item Name="总磷总氮电源命令.vi" Type="VI" URL="../电源管理/总磷总氮电源命令.vi"/>
-		<Item Name="电源管理UI.vi" Type="VI" URL="../电源管理/电源管理UI.vi"/>
+		<Item Name="电源管理UI - V2.vi" Type="VI" URL="../电源管理/电源管理UI - V2.vi"/>
+		<Item Name="电源管理UI - V1.vi" Type="VI" URL="../电源管理/电源管理UI - V1.vi"/>
 	</Item>
 	<Item Name="通讯" Type="Folder">
 		<Item Name="采配水通讯指令.vi" Type="VI" URL="../采配水通讯指令.vi"/>
@@ -19,7 +20,8 @@
 		<Item Name="报警信息字段定义.vi" Type="VI" URL="../报警信息字段定义.vi"/>
 	</Item>
 	<Item Name="UI" Type="Folder">
-		<Item Name="运维调试_采配水.vi" Type="VI" URL="../运维调试_采配水.vi"/>
+		<Item Name="运维调试_采配水V2.vi" Type="VI" URL="../运维调试_采配水V2.vi"/>
+		<Item Name="运维调试_采配水V1.vi" Type="VI" URL="../运维调试_采配水V1.vi"/>
 	</Item>
 	<Item Name="数据" Type="Folder">
 		<Item Name="报警信息.vi" Type="VI" URL="../报警信息.vi"/>
