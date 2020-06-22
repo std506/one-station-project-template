@@ -31,11 +31,22 @@
 			<Item Name="氨氮禁用读取 4.vi" Type="Property VI" URL="../属性/氨氮禁用读取 4.vi"/>
 			<Item Name="氨氮禁用写入 4.vi" Type="Property VI" URL="../属性/氨氮禁用写入 4.vi"/>
 		</Item>
+		<Item Name="氨氮模块名称" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">氨氮模块名称</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">氨氮模块名称</Property>
+			<Item Name="氨氮模块名称写入 2.vi" Type="Property VI" URL="../属性/氨氮模块名称写入 2.vi"/>
+		</Item>
 		<Item Name="采配水禁用" Type="Property Folder">
 			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">采配水使能</Property>
 			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">采配水禁用</Property>
 			<Item Name="采配水禁用读取.vi" Type="Property VI" URL="../属性/采配水禁用读取.vi"/>
 			<Item Name="采配水禁用写入.vi" Type="Property VI" URL="../属性/采配水禁用写入.vi"/>
+		</Item>
+		<Item Name="超标留样禁用" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">超标留样禁用</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">超标留样禁用</Property>
+			<Item Name="超标留样禁用读取 2.vi" Type="Property VI" URL="../属性/超标留样禁用读取 2.vi"/>
+			<Item Name="超标留样禁用写入 2.vi" Type="Property VI" URL="../属性/超标留样禁用写入 2.vi"/>
 		</Item>
 		<Item Name="电源管理禁用" Type="Property Folder">
 			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">电源管理禁用</Property>
@@ -73,11 +84,10 @@
 			<Item Name="总磷总氮禁用读取 5.vi" Type="Property VI" URL="../属性/总磷总氮禁用读取 5.vi"/>
 			<Item Name="总磷总氮禁用写入 5.vi" Type="Property VI" URL="../属性/总磷总氮禁用写入 5.vi"/>
 		</Item>
-		<Item Name="超标留样禁用" Type="Property Folder">
-			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">超标留样禁用</Property>
-			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">超标留样禁用</Property>
-			<Item Name="超标留样禁用读取 2.vi" Type="Property VI" URL="../属性/超标留样禁用读取 2.vi"/>
-			<Item Name="超标留样禁用写入 2.vi" Type="Property VI" URL="../属性/超标留样禁用写入 2.vi"/>
+		<Item Name="总磷总氮模块名称" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">总磷总氮模块名称</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">总磷总氮模块名称</Property>
+			<Item Name="总磷总氮模块名称写入 3.vi" Type="Property VI" URL="../属性/总磷总氮模块名称写入 3.vi"/>
 		</Item>
 	</Item>
 	<Item Name="初始化 1.vi" Type="Ability VI" URL="../初始化 1.vi">

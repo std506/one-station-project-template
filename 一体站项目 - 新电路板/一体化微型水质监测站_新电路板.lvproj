@@ -67,15 +67,6 @@
 				<Item Name="主画面菜单" Type="Folder">
 					<Item Name="主画面菜单.xctl" Type="XControl" URL="../UI/控件/主画面菜单/主画面菜单.xctl"/>
 				</Item>
-				<Item Name="总磷氨氮测量数据" Type="Folder">
-					<Item Name="总磷氨氮测量数据.xctl" Type="XControl" URL="../UI/控件/总磷氨氮测量数据/总磷氨氮测量数据.xctl"/>
-				</Item>
-				<Item Name="总磷氨氮调试" Type="Folder">
-					<Item Name="总磷氨氮调试.xctl" Type="XControl" URL="../UI/控件/总磷氨氮调试/总磷氨氮调试.xctl"/>
-				</Item>
-				<Item Name="总磷氨氮运行状态" Type="Folder">
-					<Item Name="总磷氨氮运行状态.xctl" Type="XControl" URL="../UI/控件/总磷氨氮运行状态/总磷氨氮运行状态.xctl"/>
-				</Item>
 				<Item Name="检测周期.ctl" Type="VI" URL="../UI/控件/检测周期.ctl"/>
 				<Item Name="快捷运维.ctl" Type="VI" URL="../UI/控件/快捷运维.ctl"/>
 				<Item Name="全屏按钮.ctl" Type="VI" URL="../UI/控件/全屏按钮.ctl"/>
@@ -463,6 +454,7 @@
 				<Item Name="Draw Flattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Flattened Pixmap.vi"/>
 				<Item Name="FixBadRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/FixBadRect.vi"/>
 				<Item Name="Reply Msg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/ActorFramework/Reply Msg/Reply Msg.lvclass"/>
+				<Item Name="LVStringsAndValuesArrayTypeDef_U16.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVStringsAndValuesArrayTypeDef_U16.ctl"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
@@ -633,7 +625,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">39</Property>
+				<Property Name="Bld_version.build" Type="Int">43</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.patch" Type="Int">3</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化微型水质监测站.exe</Property>
