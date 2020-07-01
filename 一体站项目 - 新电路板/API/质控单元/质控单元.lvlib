@@ -61,7 +61,6 @@
 		<Item Name="控制命令参数.vi" Type="VI" URL="../测量流程/控制命令参数.vi"/>
 		<Item Name="一体站流程平行样自动启动.vi" Type="VI" URL="../测量流程/一体站流程平行样自动启动.vi"/>
 		<Item Name="一体站流程质控自动启动.vi" Type="VI" URL="../测量流程/一体站流程质控自动启动.vi"/>
-		<Item Name="总氮控制命令区.vi" Type="VI" URL="../测量流程/总氮控制命令区.vi"/>
 		<Item Name="总氮启动命令.vi" Type="VI" URL="../测量流程/总氮启动命令.vi"/>
 		<Item Name="总氮总磷质控流程.vi" Type="VI" URL="../测量流程/总氮总磷质控流程.vi"/>
 		<Item Name="总磷启动命令.vi" Type="VI" URL="../测量流程/总磷启动命令.vi"/>
