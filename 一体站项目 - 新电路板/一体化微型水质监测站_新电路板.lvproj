@@ -609,6 +609,14 @@
 			<Item Name="user32.dll" Type="Document" URL="user32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="单独启动模块流程.vi" Type="VI" URL="../API/质控单元/测量流程/单独启动模块流程.vi"/>
+			<Item Name="总氮流程质控自动启动.vi" Type="VI" URL="../API/质控单元/测量流程/总氮流程质控自动启动.vi"/>
+			<Item Name="总氮质控流程.vi" Type="VI" URL="../API/质控单元/测量流程/总氮质控流程.vi"/>
+			<Item Name="总磷流程质控自动启动.vi" Type="VI" URL="../API/质控单元/测量流程/总磷流程质控自动启动.vi"/>
+			<Item Name="总磷质控流程.vi" Type="VI" URL="../API/质控单元/测量流程/总磷质控流程.vi"/>
+			<Item Name="流程汇总.vi" Type="VI" URL="../API/质控单元/测量流程/流程汇总.vi"/>
+			<Item Name="一体站氨氮总磷流程质控自动启动.vi" Type="VI" URL="../API/质控单元/测量流程/一体站氨氮总磷流程质控自动启动.vi"/>
+			<Item Name="一体站单参数流程质控自动启动.vi" Type="VI" URL="../API/质控单元/测量流程/一体站单参数流程质控自动启动.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="一体化微型水质监测站" Type="EXE">
@@ -626,7 +634,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">49</Property>
+				<Property Name="Bld_version.build" Type="Int">50</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.patch" Type="Int">5</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化微型水质监测站.exe</Property>
