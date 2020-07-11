@@ -33,6 +33,7 @@
 		<Item Name="斯坦道功率测流" Type="Folder">
 			<Item Name="斯坦道功率测流.lvlib" Type="Library" URL="../斯坦道功率测流/斯坦道功率测流.lvlib"/>
 		</Item>
+		<Item Name="流量计.vi" Type="VI" URL="../流量计.vi"/>
 		<Item Name="流量计UI.vi" Type="VI" URL="../流量计UI.vi"/>
 	</Item>
 </Library>
