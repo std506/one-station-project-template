@@ -89,6 +89,11 @@
 			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">总磷总氮模块名称</Property>
 			<Item Name="总磷总氮模块名称写入 3.vi" Type="Property VI" URL="../属性/总磷总氮模块名称写入 3.vi"/>
 		</Item>
+		<Item Name="总氮禁用" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">总氮禁用</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">总氮禁用</Property>
+			<Item Name="总氮禁用写入 2.vi" Type="Property VI" URL="../属性/总氮禁用写入 2.vi"/>
+		</Item>
 	</Item>
 	<Item Name="初始化 1.vi" Type="Ability VI" URL="../初始化 1.vi">
 		<Property Name="NI.XItem.Name" Type="Str">Init</Property>
