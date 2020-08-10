@@ -17,6 +17,7 @@
 	</Item>
 	<Item Name="控件" Type="Folder">
 		<Item Name="曲线模型外观.ctl" Type="VI" URL="../曲线模型外观.ctl"/>
+		<Item Name="切换按钮.ctl" Type="VI" URL="../control/切换按钮.ctl"/>
 	</Item>
 	<Item Name="曲线模型属性" Type="Property Folder">
 		<Property Name="NI.LibItem.Prop.Identifier" Type="Str">属性</Property>
