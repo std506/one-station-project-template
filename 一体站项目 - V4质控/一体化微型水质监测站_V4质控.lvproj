@@ -647,7 +647,7 @@
 			<Item Name="update.lvlib" Type="Library" URL="../API/update/update.lvlib"/>
 			<Item Name="DR803M4.lvlib" Type="Library" URL="../API/超标留样集成/DR803M4/DR803M4.lvlib"/>
 			<Item Name="质控单元V4.lvlib" Type="Library" URL="../API/质控单元V4/质控单元V4.lvlib"/>
-			<Item Name="HAL.vi" Type="VI" URL="../API/质控单元V4/HAL/HAL.vi"/>
+			<Item Name="ZK HAL.vi" Type="VI" URL="../API/质控单元V4/HAL/ZK HAL.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="一体化微型水质监测站" Type="EXE">
@@ -665,7 +665,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化微型水质监测站.exe</Property>

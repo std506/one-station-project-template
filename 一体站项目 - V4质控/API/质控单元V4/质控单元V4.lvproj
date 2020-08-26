@@ -11,7 +11,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="HAL" Type="Folder">
-			<Item Name="HAL.vi" Type="VI" URL="../HAL/HAL.vi"/>
+			<Item Name="ZK HAL.vi" Type="VI" URL="../HAL/ZK HAL.vi"/>
 		</Item>
 		<Item Name="质控单元V4.lvlib" Type="Library" URL="../质控单元V4.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
@@ -107,7 +107,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{85524C75-1887-4D91-B5BE-EA66FA12067C}</Property>
-				<Property Name="Bld_version.build" Type="Int">14</Property>
+				<Property Name="Bld_version.build" Type="Int">16</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">加标回收V4.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/我的应用程序/加标回收V4.exe</Property>

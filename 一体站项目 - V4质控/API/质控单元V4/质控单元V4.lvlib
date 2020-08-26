@@ -45,6 +45,8 @@
 	<Item Name="SQL" Type="Folder">
 		<Item Name="data insert core.vi" Type="VI" URL="../SQL/data insert core.vi"/>
 		<Item Name="data insert.vi" Type="VI" URL="../SQL/data insert.vi"/>
+		<Item Name="报警信息记录.vi" Type="VI" URL="../SQL/报警信息记录.vi"/>
+		<Item Name="启动日志.vi" Type="VI" URL="../SQL/启动日志.vi"/>
 	</Item>
 	<Item Name="subvi" Type="Folder">
 		<Item Name="DataToHex" Type="Folder">
@@ -87,12 +89,28 @@
 		<Item Name="系统交互.vi" Type="VI" URL="../全局变量/系统交互.vi"/>
 	</Item>
 	<Item Name="通讯" Type="Folder">
+		<Item Name="Interfaca" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="采配水启动器.vi" Type="VI" URL="../通讯/Interface/采配水启动器.vi"/>
+			<Item Name="氨氮启动器.vi" Type="VI" URL="../通讯/Interface/氨氮启动器.vi"/>
+			<Item Name="总氮启动器.vi" Type="VI" URL="../通讯/Interface/总氮启动器.vi"/>
+			<Item Name="总磷启动器.vi" Type="VI" URL="../通讯/Interface/总磷启动器.vi"/>
+			<Item Name="CODmn启动器.vi" Type="VI" URL="../通讯/Interface/CODmn启动器.vi"/>
+			<Item Name="获取仪器仪表状态.vi" Type="VI" URL="../通讯/Interface/获取仪器仪表状态.vi"/>
+		</Item>
 		<Item Name="采配水" Type="Folder">
 			<Item Name="采配水启动命令.vi" Type="VI" URL="../通讯/采配水/采配水启动命令.vi"/>
 			<Item Name="获取采配水运行状态.vi" Type="VI" URL="../通讯/采配水/获取采配水运行状态.vi"/>
 			<Item Name="质控模块润洗OK命令.vi" Type="VI" URL="../通讯/采配水/质控模块润洗OK命令.vi"/>
 		</Item>
 		<Item Name="仪器仪表" Type="Folder">
+			<Item Name="PLC版CODMn" Type="Folder">
+				<Item Name="PLC_CODMn 获取加标回收数据.vi" Type="VI" URL="../通讯/仪器仪表/PLC版CODMn/PLC_CODMn 获取加标回收数据.vi"/>
+				<Item Name="PLC_CODMn 获取水样数据.vi" Type="VI" URL="../通讯/仪器仪表/PLC版CODMn/PLC_CODMn 获取水样数据.vi"/>
+				<Item Name="PLC_CODMn 获取仪器状态.vi" Type="VI" URL="../通讯/仪器仪表/PLC版CODMn/PLC_CODMn 获取仪器状态.vi"/>
+				<Item Name="PLC_CODMn 启动命令.vi" Type="VI" URL="../通讯/仪器仪表/PLC版CODMn/PLC_CODMn 启动命令.vi"/>
+				<Item Name="PLC_CODMn 停止命令.vi" Type="VI" URL="../通讯/仪器仪表/PLC版CODMn/PLC_CODMn 停止命令.vi"/>
+			</Item>
 			<Item Name="国标仪器" Type="Folder">
 				<Item Name="国标仪器获取加标回收数据.vi" Type="VI" URL="../通讯/仪器仪表/国标仪器/国标仪器获取加标回收数据.vi"/>
 				<Item Name="国标仪器获取水样数据.vi" Type="VI" URL="../通讯/仪器仪表/国标仪器/国标仪器获取水样数据.vi"/>
