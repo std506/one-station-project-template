@@ -83,4 +83,9 @@
 		<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">引用参数</Property>
 		<Item Name="引用参数写入.vi" Type="Property VI" URL="../subvi/属性/引用参数写入.vi"/>
 	</Item>
+	<Item Name="启动参数" Type="Property Folder">
+		<Property Name="NI.LibItem.Prop.Identifier" Type="Str">启动参数</Property>
+		<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">启动参数</Property>
+		<Item Name="启动参数写入.vi" Type="Property VI" URL="../subvi/属性/启动参数写入.vi"/>
+	</Item>
 </XControl>
