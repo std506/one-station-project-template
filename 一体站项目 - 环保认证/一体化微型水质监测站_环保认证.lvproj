@@ -105,6 +105,7 @@
 				<Item Name="系统设置.vi" Type="VI" URL="../UI/VIS/系统设置.vi"/>
 				<Item Name="运维调试.vi" Type="VI" URL="../UI/VIS/运维调试.vi"/>
 				<Item Name="启动.vi" Type="VI" URL="../UI/启动.vi"/>
+				<Item Name="多参15分钟延时启动.vi" Type="VI" URL="../多参15分钟延时启动.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Modbus Slave" Type="Folder">
@@ -443,6 +444,7 @@
 				<Item Name="Add File to Zip.vi" Type="VI" URL="/&lt;vilib&gt;/zip/Add File to Zip.vi"/>
 				<Item Name="Relative Path To Platform Independent String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Relative Path To Platform Independent String.vi"/>
 				<Item Name="Close Zip File.vi" Type="VI" URL="/&lt;vilib&gt;/zip/Close Zip File.vi"/>
+				<Item Name="Notify Icon Menu.rtm" Type="Document" URL="/&lt;vilib&gt;/Averna/Notify Icon/Notify Icon Menu.rtm"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
