@@ -14,6 +14,7 @@
 	<Item Name="update log.vi" Type="VI" URL="../update log.vi"/>
 	<Item Name="Update.vi" Type="VI" URL="../Update.vi"/>
 	<Item Name="UTF-8toGBK.vi" Type="VI" URL="../UTF-8toGBK.vi"/>
+	<Item Name="服务器更改对话框.vi" Type="VI" URL="../服务器更改对话框.vi"/>
 	<Item Name="更新全局变量.vi" Type="VI" URL="../更新全局变量.vi"/>
 	<Item Name="关于.ctl" Type="VI" URL="../关于.ctl"/>
 </Library>
