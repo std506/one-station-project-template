@@ -6,6 +6,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="读取数值.vi" Type="VI" URL="../读取数值.vi"/>
 	<Item Name="格式化字符串.vi" Type="VI" URL="../格式化字符串.vi"/>
 	<Item Name="环境参数table定义.vi" Type="VI" URL="../环境参数table定义.vi"/>
 	<Item Name="流量计通讯.vi" Type="VI" URL="../流量计通讯.vi"/>
