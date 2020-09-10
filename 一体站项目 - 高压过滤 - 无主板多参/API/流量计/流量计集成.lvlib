@@ -15,6 +15,9 @@
 			<Item Name="插入数据.vi" Type="VI" URL="../Subvi/插入数据.vi"/>
 			<Item Name="数字键盘.vi" Type="VI" URL="../Subvi/数字键盘.vi"/>
 		</Item>
+		<Item Name="WL1A1流量计" Type="Folder">
+			<Item Name="WL1A1明渠流量计.lvlib" Type="Library" URL="../WL1A1明渠流量计/WL1A1明渠流量计.lvlib"/>
+		</Item>
 		<Item Name="变量" Type="Folder">
 			<Item Name="流量计全局变量.vi" Type="VI" URL="../变量/流量计全局变量.vi"/>
 		</Item>
@@ -27,12 +30,10 @@
 		<Item Name="控件" Type="Folder">
 			<Item Name="流量计类型.ctl" Type="VI" URL="../控件/流量计类型.ctl"/>
 		</Item>
-		<Item Name="流量计" Type="Folder">
-			<Item Name="流量计.lvlib" Type="Library" URL="../流量计/流量计.lvlib"/>
-		</Item>
 		<Item Name="斯坦道功率测流" Type="Folder">
 			<Item Name="斯坦道功率测流.lvlib" Type="Library" URL="../斯坦道功率测流/斯坦道功率测流.lvlib"/>
 		</Item>
+		<Item Name="流量计.vi" Type="VI" URL="../流量计.vi"/>
 		<Item Name="流量计UI.vi" Type="VI" URL="../流量计UI.vi"/>
 	</Item>
 </Library>
