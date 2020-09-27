@@ -49,6 +49,7 @@
 		<Item Name="AccessLog写入.vi" Type="VI" URL="../CODMn/AccessLog写入.vi"/>
 		<Item Name="公式读取.vi" Type="VI" URL="../CODMn/公式读取.vi"/>
 		<Item Name="公式写入.vi" Type="VI" URL="../CODMn/公式写入.vi"/>
+		<Item Name="时间-温度曲线(子VI).vi" Type="VI" URL="../CODMn/时间-温度曲线(子VI).vi"/>
 	</Item>
 	<Item Name="DataToHex" Type="Folder">
 		<Item Name="DateToHex.vi" Type="VI" URL="../DataToHex/DateToHex.vi"/>
@@ -75,6 +76,7 @@
 		<Item Name="序列号写入.vi" Type="VI" URL="../Subvi/序列号写入.vi"/>
 		<Item Name="字符串移位显示.vi" Type="VI" URL="../Subvi/字符串移位显示.vi"/>
 		<Item Name="字符键盘.vi" Type="VI" URL="../Subvi/字符键盘.vi"/>
+		<Item Name="生成校准信息.vi" Type="VI" URL="../Subvi/生成校准信息.vi"/>
 	</Item>
 	<Item Name="测量流程" Type="Folder">
 		<Item Name="固定站CODMn测量流程.vi" Type="VI" URL="../测量流程/固定站CODMn测量流程.vi"/>
