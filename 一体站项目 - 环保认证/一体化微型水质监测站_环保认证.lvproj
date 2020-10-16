@@ -109,9 +109,32 @@
 			</Item>
 		</Item>
 		<Item Name="Modbus Slave" Type="Folder">
-			<Item Name="停止整机测试(子VI).vi" Type="VI" URL="../Modbus Slave/停止整机测试(子VI).vi"/>
+			<Item Name="全局变量" Type="Folder">
+				<Item Name="modbus slave全局.vi" Type="VI" URL="../Modbus Slave/全局变量/modbus slave全局.vi"/>
+			</Item>
+			<Item Name="数据库" Type="Folder">
+				<Item Name="报警信息.vi" Type="VI" URL="../Modbus Slave/数据库/报警信息.vi"/>
+				<Item Name="插入数据.vi" Type="VI" URL="../Modbus Slave/数据库/插入数据.vi"/>
+				<Item Name="日志存储 (子VI).vi" Type="VI" URL="../Modbus Slave/数据库/日志存储 (子VI).vi"/>
+			</Item>
+			<Item Name="CODCr启动 (子VI).vi" Type="VI" URL="../Modbus Slave/CODCr启动 (子VI).vi"/>
+			<Item Name="CODMn启动 (子VI).vi" Type="VI" URL="../Modbus Slave/CODMn启动 (子VI).vi"/>
+			<Item Name="External Interface.vi" Type="VI" URL="../Modbus Slave/External Interface.vi"/>
+			<Item Name="modbus slave new.vi" Type="VI" URL="../Modbus Slave/modbus slave new.vi"/>
+			<Item Name="氨氮启动 (子VI).vi" Type="VI" URL="../Modbus Slave/氨氮启动 (子VI).vi"/>
+			<Item Name="反控参数设置.vi" Type="VI" URL="../Modbus Slave/反控参数设置.vi"/>
+			<Item Name="反控启动.vi" Type="VI" URL="../Modbus Slave/反控启动.vi"/>
+			<Item Name="反控仪器参数公式.vi" Type="VI" URL="../Modbus Slave/反控仪器参数公式.vi"/>
+			<Item Name="反控仪器单参数通用.vi" Type="VI" URL="../Modbus Slave/反控仪器单参数通用.vi"/>
+			<Item Name="加标回收启动 (子VI).vi" Type="VI" URL="../Modbus Slave/加标回收启动 (子VI).vi"/>
 			<Item Name="启动整机测试 (子VI).vi" Type="VI" URL="../Modbus Slave/启动整机测试 (子VI).vi"/>
-			<Item Name="MODBUS  SLAVE.vi" Type="VI" URL="../Modbus Slave/MODBUS  SLAVE.vi"/>
+			<Item Name="停止整机测试(子VI).vi" Type="VI" URL="../Modbus Slave/停止整机测试(子VI).vi"/>
+			<Item Name="仪器参数存表.vi" Type="VI" URL="../Modbus Slave/仪器参数存表.vi"/>
+			<Item Name="仪器参数转data in.vi" Type="VI" URL="../Modbus Slave/仪器参数转data in.vi"/>
+			<Item Name="在线监测仪器仪表参数.vi" Type="VI" URL="../Modbus Slave/在线监测仪器仪表参数.vi"/>
+			<Item Name="执行结果反馈与日志存储.vi" Type="VI" URL="../Modbus Slave/执行结果反馈与日志存储.vi"/>
+			<Item Name="总氮启动(子VI).vi" Type="VI" URL="../Modbus Slave/总氮启动(子VI).vi"/>
+			<Item Name="总磷启动(子VI).vi" Type="VI" URL="../Modbus Slave/总磷启动(子VI).vi"/>
 		</Item>
 		<Item Name="系统日志" Type="Folder">
 			<Item Name="系统日志.vi" Type="VI" URL="../系统/系统日志.vi"/>
@@ -444,6 +467,7 @@
 				<Item Name="Add File to Zip.vi" Type="VI" URL="/&lt;vilib&gt;/zip/Add File to Zip.vi"/>
 				<Item Name="Relative Path To Platform Independent String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Relative Path To Platform Independent String.vi"/>
 				<Item Name="Close Zip File.vi" Type="VI" URL="/&lt;vilib&gt;/zip/Close Zip File.vi"/>
+				<Item Name="Notify Icon Menu.rtm" Type="Document" URL="/&lt;vilib&gt;/Averna/Notify Icon/Notify Icon Menu.rtm"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
@@ -684,6 +708,7 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="定时设置.xctl" Type="XControl" URL="../API/共用控件/定时周期/定时设置.xctl"/>
+			<Item Name="超标留样启动.vi" Type="VI" URL="../API/超标留样/子VI/超标留样启动.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="一体化微型水质监测站" Type="EXE">
@@ -702,7 +727,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">/C/LabVIEW Project/builds/一体化微型水质监测站_环保认证/一体化微型水质监测站/一体化微型水质监测站_环保认证_一体化微型水质监测站_log.txt</Property>
-				<Property Name="Bld_version.build" Type="Int">119</Property>
+				<Property Name="Bld_version.build" Type="Int">122</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Bld_version.patch" Type="Int">16</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化微型水质监测站.exe</Property>
@@ -738,7 +763,7 @@
 				<Property Name="Source[12].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[12].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/我的电脑/Modbus Slave</Property>
+				<Property Name="Source[12].itemID" Type="Ref"></Property>
 				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[12].type" Type="Str">Container</Property>
 				<Property Name="Source[13].Container.applyInclusion" Type="Bool">true</Property>
