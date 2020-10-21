@@ -4,11 +4,18 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Property Name="NI.XClass.Flags" Type="Int">0</Property>
 	<Property Name="NI.XItem.DeclaredLeakProof" Type="Bool">false</Property>
 	<Property Name="NI.XItem.Express" Type="Bool">false</Property>
 	<Property Name="NI.XItem.Name" Type="Str">XControl 1</Property>
 	<Property Name="NI.XItem.SupportsFatalErrorOut" Type="Bool">false</Property>
+	<Item Name="属性" Type="Property Folder">
+		<Property Name="NI.LibItem.Prop.Identifier" Type="Str">属性 (2)</Property>
+		<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">属性</Property>
+		<Item Name="属性读取.vi" Type="Property VI" URL="../属性读取.vi"/>
+		<Item Name="属性写入.vi" Type="Property VI" URL="../属性写入.vi"/>
+	</Item>
 	<Item Name="初始化 1.vi" Type="Ability VI" URL="../初始化 1.vi">
 		<Property Name="NI.XItem.Name" Type="Str">Init</Property>
 	</Item>
