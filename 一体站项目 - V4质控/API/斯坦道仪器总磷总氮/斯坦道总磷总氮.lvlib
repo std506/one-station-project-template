@@ -88,6 +88,7 @@
 		<Item Name="故障告警分析.vi" Type="VI" URL="../Subvi/故障告警分析.vi"/>
 		<Item Name="故障码字段定义.vi" Type="VI" URL="../Subvi/故障码字段定义.vi"/>
 		<Item Name="过滤筛选流程.vi" Type="VI" URL="../Subvi/过滤筛选流程.vi"/>
+		<Item Name="获取默认流程路径.vi" Type="VI" URL="../Subvi/获取默认流程路径.vi"/>
 		<Item Name="流程文件XML解析.vi" Type="VI" URL="../Subvi/流程文件XML解析.vi"/>
 		<Item Name="密码键盘.vi" Type="VI" URL="../Subvi/密码键盘.vi"/>
 		<Item Name="配置文件路径.vi" Type="VI" URL="../Subvi/配置文件路径.vi"/>
