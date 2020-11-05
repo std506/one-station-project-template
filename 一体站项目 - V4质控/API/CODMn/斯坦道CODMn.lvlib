@@ -64,11 +64,6 @@
 		<Item Name="浮点转CDAB整形cod.vi" Type="VI" URL="../HexToData/浮点转CDAB整形cod.vi"/>
 	</Item>
 	<Item Name="Subvi" Type="Folder">
-		<Item Name="仪器参数设置.vi" Type="VI" URL="../Subvi/仪器参数设置.vi"/>
-		<Item Name="关键参数存表.vi" Type="VI" URL="../Subvi/关键参数存表.vi"/>
-		<Item Name="关键参数交互.vi" Type="VI" URL="../Subvi/关键参数交互.vi"/>
-		<Item Name="配置文件保存.vi" Type="VI" URL="../Subvi/配置文件保存.vi"/>
-		<Item Name="单步测试一键复位.vi" Type="VI" URL="../CODMn/单步测试一键复位.vi"/>
 		<Item Name="balloon入队列.vi" Type="VI" URL="../Subvi/balloon入队列.vi"/>
 		<Item Name="CODMnMB_api.vi" Type="VI" URL="../Subvi/CODMnMB_api.vi"/>
 		<Item Name="CODMn字符串显示移位(子VI).vi" Type="VI" URL="../Subvi/CODMn字符串显示移位(子VI).vi"/>
@@ -113,4 +108,9 @@
 	<Item Name="子程序" Type="Folder">
 		<Item Name="将启用的浓度作为新的浓度数组.vi" Type="VI" URL="../子程序/将启用的浓度作为新的浓度数组.vi"/>
 	</Item>
+	<Item Name="仪器参数设置.vi" Type="VI" URL="../Subvi/仪器参数设置.vi"/>
+	<Item Name="关键参数存表.vi" Type="VI" URL="../Subvi/关键参数存表.vi"/>
+	<Item Name="关键参数交互.vi" Type="VI" URL="../Subvi/关键参数交互.vi"/>
+	<Item Name="配置文件保存.vi" Type="VI" URL="../Subvi/配置文件保存.vi"/>
+	<Item Name="单步测试一键复位.vi" Type="VI" URL="../CODMn/单步测试一键复位.vi"/>
 </Library>
