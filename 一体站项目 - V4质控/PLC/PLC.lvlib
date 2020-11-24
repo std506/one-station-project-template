@@ -20,8 +20,7 @@
 		<Item Name="报警信息字段定义.vi" Type="VI" URL="../报警信息字段定义.vi"/>
 	</Item>
 	<Item Name="UI" Type="Folder">
-		<Item Name="运维调试_采配水V3.vi" Type="VI" URL="../运维调试_采配水V3.vi"/>
-		<Item Name="运维调试_采配水V4.vi" Type="VI" URL="../运维调试_采配水V4.vi"/>
+		<Item Name="运维调试_采配水.vi" Type="VI" URL="../运维调试_采配水.vi"/>
 	</Item>
 	<Item Name="数据" Type="Folder">
 		<Item Name="报警信息.vi" Type="VI" URL="../报警信息.vi"/>
@@ -31,6 +30,7 @@
 	</Item>
 	<Item Name="流程" Type="Folder">
 		<Item Name="一体站流程自动启动.vi" Type="VI" URL="../一体站流程自动启动.vi"/>
+		<Item Name="采配水流程与超标留样交互.vi" Type="VI" URL="../采配水流程与超标留样交互.vi"/>
 	</Item>
 	<Item Name="subvi" Type="Folder">
 		<Item Name="运行间隔计算.vi" Type="VI" URL="../运行间隔计算.vi"/>
@@ -40,5 +40,8 @@
 		<Item Name="集成干预测试数据存储.vi" Type="VI" URL="../subvi/集成干预测试数据存储.vi"/>
 		<Item Name="获取最近两组水样测试数据.vi" Type="VI" URL="../subvi/获取最近两组水样测试数据.vi"/>
 		<Item Name="取水点无水样数据存储.vi" Type="VI" URL="../subvi/取水点无水样数据存储.vi"/>
+	</Item>
+	<Item Name="control" Type="Folder">
+		<Item Name="switch.ctl" Type="VI" URL="../control/switch.ctl"/>
 	</Item>
 </Library>
