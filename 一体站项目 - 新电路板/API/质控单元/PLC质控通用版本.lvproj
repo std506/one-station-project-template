@@ -13,8 +13,8 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="流程汇总.vi" Type="VI" URL="../测量流程/流程汇总.vi"/>
 		<Item Name="单独启动模块流程.vi" Type="VI" URL="../测量流程/单独启动模块流程.vi"/>
-		<Item Name="一体站氨氮总磷流程质控自动启动.vi" Type="VI" URL="../测量流程/一体站氨氮总磷流程质控自动启动.vi"/>
 		<Item Name="一体站单参数流程质控自动启动.vi" Type="VI" URL="../测量流程/一体站单参数流程质控自动启动.vi"/>
+		<Item Name="一体站氨氮总磷流程质控自动启动.vi" Type="VI" URL="../测量流程/一体站氨氮总磷流程质控自动启动.vi"/>
 		<Item Name="总氮质控流程.vi" Type="VI" URL="../测量流程/总氮质控流程.vi"/>
 		<Item Name="总氮流程质控自动启动.vi" Type="VI" URL="../测量流程/总氮流程质控自动启动.vi"/>
 		<Item Name="总磷质控流程.vi" Type="VI" URL="../测量流程/总磷质控流程.vi"/>
@@ -128,6 +128,10 @@
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="写配置参数.vi" Type="VI" URL="../通讯/写配置参数.vi"/>
+			<Item Name="内部参数读写.vi" Type="VI" URL="../中间子VI/内部参数读写.vi"/>
+			<Item Name="写入加标体积.vi" Type="VI" URL="../测量流程/新版加标流程/写入加标体积.vi"/>
+			<Item Name="读配置参数.vi" Type="VI" URL="../通讯/读配置参数.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="PLC质控通用版本" Type="EXE">
