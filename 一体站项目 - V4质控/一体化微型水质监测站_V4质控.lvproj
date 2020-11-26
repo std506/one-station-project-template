@@ -167,6 +167,11 @@
 		</Item>
 		<Item Name="任务流程" Type="Folder">
 			<Item Name="Monitoring task.vi" Type="VI" URL="../任务处理/Monitoring task.vi"/>
+			<Item Name="高温报警流程.vi" Type="VI" URL="../任务处理/高温报警流程.vi"/>
+			<Item Name="高温告警对话框.vi" Type="VI" URL="../任务处理/高温告警对话框.vi"/>
+			<Item Name="断开市电.vi" Type="VI" URL="../任务处理/断开市电.vi"/>
+			<Item Name="电脑关机.vi" Type="VI" URL="../任务处理/电脑关机.vi"/>
+			<Item Name="仪器全部断电.vi" Type="VI" URL="../任务处理/仪器全部断电.vi"/>
 		</Item>
 		<Item Name="流量计集成.lvlib" Type="Library" URL="../API/流量计/流量计集成.lvlib"/>
 		<Item Name="database.lvlib" Type="Library" URL="../API/数据库/database.lvlib"/>
@@ -692,7 +697,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">18</Property>
+				<Property Name="Bld_version.build" Type="Int">21</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">4</Property>
