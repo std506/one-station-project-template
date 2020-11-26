@@ -64,11 +64,21 @@
 		<Item Name="线性公式质控用.vi" Type="VI" URL="../Subvi/线性公式质控用.vi"/>
 		<Item Name="氨氮加标回收 (子VI).vi" Type="VI" URL="../Subvi/氨氮加标回收 (子VI).vi"/>
 		<Item Name="总氮总磷加标回收 (子VI).vi" Type="VI" URL="../Subvi/总氮总磷加标回收 (子VI).vi"/>
-		<Item Name="CODMn加标回收(子VI).vi" Type="VI" URL="../Subvi/CODMn加标回收(子VI).vi"/>
 		<Item Name="CODCr加标回收(子VI).vi" Type="VI" URL="../Subvi/CODCr加标回收(子VI).vi"/>
+		<Item Name="CODMn加标回收(子VI).vi" Type="VI" URL="../Subvi/CODMn加标回收(子VI).vi"/>
 		<Item Name="串口配置.vi" Type="VI" URL="../Subvi/串口配置.vi"/>
+		<Item Name="Simple Parse State Queue.vi" Type="VI" URL="../Subvi/Simple Parse State Queue.vi"/>
+		<Item Name="Add State to Queue.vi" Type="VI" URL="../Subvi/Add State to Queue.vi"/>
 	</Item>
 	<Item Name="测量流程" Type="Folder">
+		<Item Name="新版加标流程" Type="Folder">
+			<Item Name="新版加标流程.vi" Type="VI" URL="../测量流程/新版加标流程/新版加标流程.vi"/>
+			<Item Name="仪器启动命令.vi" Type="VI" URL="../测量流程/新版加标流程/仪器启动命令.vi"/>
+			<Item Name="获取仪器状态.vi" Type="VI" URL="../测量流程/新版加标流程/获取仪器状态.vi"/>
+			<Item Name="获取质控状态.vi" Type="VI" URL="../测量流程/新版加标流程/获取质控状态.vi"/>
+			<Item Name="流程启动命令.vi" Type="VI" URL="../测量流程/新版加标流程/流程启动命令.vi"/>
+			<Item Name="计算加标体积.vi" Type="VI" URL="../测量流程/新版加标流程/计算加标体积.vi"/>
+		</Item>
 		<Item Name="CODCr流程质控自动启动.vi" Type="VI" URL="../测量流程/CODCr流程质控自动启动.vi"/>
 		<Item Name="CODCr质控流程 (子VI).vi" Type="VI" URL="../测量流程/CODCr质控流程 (子VI).vi"/>
 		<Item Name="CODCr启动命令 (子VI).vi" Type="VI" URL="../测量流程/CODCr启动命令 (子VI).vi"/>
