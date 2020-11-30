@@ -649,6 +649,8 @@
 			<Item Name="内部参数读写.vi" Type="VI" URL="../API/质控单元/中间子VI/内部参数读写.vi"/>
 			<Item Name="读配置参数.vi" Type="VI" URL="../API/质控单元/通讯/读配置参数.vi"/>
 			<Item Name="写配置参数.vi" Type="VI" URL="../API/质控单元/通讯/写配置参数.vi"/>
+			<Item Name="加标回收量程配置界面.vi" Type="VI" URL="../API/质控单元/中间子VI/加标回收量程配置界面.vi"/>
+			<Item Name="SQL查询 (子VI).vi" Type="VI" URL="../API/质控单元/数据库/SQL查询 (子VI).vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="一体化微型水质监测站" Type="EXE">
@@ -666,7 +668,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">122</Property>
+				<Property Name="Bld_version.build" Type="Int">123</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.patch" Type="Int">12</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化微型水质监测站.exe</Property>

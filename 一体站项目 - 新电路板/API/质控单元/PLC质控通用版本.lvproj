@@ -20,6 +20,7 @@
 		<Item Name="总磷质控流程.vi" Type="VI" URL="../测量流程/总磷质控流程.vi"/>
 		<Item Name="总磷流程质控自动启动.vi" Type="VI" URL="../测量流程/总磷流程质控自动启动.vi"/>
 		<Item Name="质控单元.lvlib" Type="Library" URL="../质控单元.lvlib"/>
+		<Item Name="加标回收量程配置界面.vi" Type="VI" URL="../中间子VI/加标回收量程配置界面.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
@@ -132,6 +133,7 @@
 			<Item Name="内部参数读写.vi" Type="VI" URL="../中间子VI/内部参数读写.vi"/>
 			<Item Name="写入加标体积.vi" Type="VI" URL="../测量流程/新版加标流程/写入加标体积.vi"/>
 			<Item Name="读配置参数.vi" Type="VI" URL="../通讯/读配置参数.vi"/>
+			<Item Name="SQL查询 (子VI).vi" Type="VI" URL="../数据库/SQL查询 (子VI).vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="PLC质控通用版本" Type="EXE">
@@ -150,7 +152,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{69159BB2-8D14-4207-B412-0177CC8B4752}</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">PLC质控通用版本.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/PLC质控通用版本PLC质控通用版本/NI_AB_PROJECTNAME.exe</Property>
