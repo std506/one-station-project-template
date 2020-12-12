@@ -102,13 +102,13 @@
 		<Item Name="CODMn日志存储 (子VI).vi" Type="VI" URL="../数据库/CODMn日志存储 (子VI).vi"/>
 		<Item Name="报警信息字段定义.vi" Type="VI" URL="../数据库/报警信息字段定义.vi"/>
 		<Item Name="插入数据.vi" Type="VI" URL="../数据库/插入数据.vi"/>
-		<Item Name="存数据cloumns(子VI).vi" Type="VI" URL="../数据库/存数据cloumns(子VI).vi"/>
 		<Item Name="待机状态数据存储写入和切换量程(子VI).vi" Type="VI" URL="../数据库/待机状态数据存储写入和切换量程(子VI).vi"/>
 		<Item Name="日志报警状态存储 (子VI).vi" Type="VI" URL="../数据库/日志报警状态存储 (子VI).vi"/>
 		<Item Name="流程日志字段定义.vi" Type="VI" URL="../数据库/流程日志字段定义.vi"/>
 		<Item Name="生成CODMn data (子VI).vi" Type="VI" URL="../数据库/生成CODMn data (子VI).vi"/>
 		<Item Name="数据写入database.vi" Type="VI" URL="../数据库/数据写入database.vi"/>
 		<Item Name="数据写入入队列 (子VI).vi" Type="VI" URL="../数据库/数据写入入队列 (子VI).vi"/>
+		<Item Name="data insert core.vi" Type="VI" URL="../数据库/data insert core.vi"/>
 	</Item>
 	<Item Name="子程序" Type="Folder">
 		<Item Name="将启用的浓度作为新的浓度数组.vi" Type="VI" URL="../子程序/将启用的浓度作为新的浓度数组.vi"/>
