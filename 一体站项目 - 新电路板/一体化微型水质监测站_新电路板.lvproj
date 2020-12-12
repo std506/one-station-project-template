@@ -159,6 +159,13 @@
 			<Item Name="短信服务.lvproj" Type="Document" URL="../API/短信服务/短信服务.lvproj"/>
 			<Item Name="设置UI.vi" Type="VI" URL="../API/短信服务/设置UI.vi"/>
 		</Item>
+		<Item Name="任务处理" Type="Folder">
+			<Item Name="电脑关机.vi" Type="VI" URL="../任务处理/电脑关机.vi"/>
+			<Item Name="断开市电.vi" Type="VI" URL="../任务处理/断开市电.vi"/>
+			<Item Name="高温报警流程.vi" Type="VI" URL="../任务处理/高温报警流程.vi"/>
+			<Item Name="高温告警对话框.vi" Type="VI" URL="../任务处理/高温告警对话框.vi"/>
+			<Item Name="仪器全部断电.vi" Type="VI" URL="../任务处理/仪器全部断电.vi"/>
+		</Item>
 		<Item Name="流程文件" Type="Folder" URL="../流程文件">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -459,7 +466,6 @@
 				<Item Name="FixBadRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/FixBadRect.vi"/>
 				<Item Name="Reply Msg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/ActorFramework/Reply Msg/Reply Msg.lvclass"/>
 				<Item Name="LVStringsAndValuesArrayTypeDef_U16.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVStringsAndValuesArrayTypeDef_U16.ctl"/>
-				<Item Name="Notify Icon Menu.rtm" Type="Document" URL="/&lt;vilib&gt;/Averna/Notify Icon/Notify Icon Menu.rtm"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
@@ -668,7 +674,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">123</Property>
+				<Property Name="Bld_version.build" Type="Int">125</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.patch" Type="Int">12</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化微型水质监测站.exe</Property>
