@@ -54,6 +54,7 @@
 		<Item Name="Regression Equation String.vi" Type="VI" URL="../Subvi/Regression Equation String.vi"/>
 		<Item Name="Simple Parse State Queue.vi" Type="VI" URL="../Subvi/Simple Parse State Queue.vi"/>
 		<Item Name="TimeLmtDialog.vi" Type="VI" URL="../Subvi/TimeLmtDialog.vi"/>
+		<Item Name="参数转id.vi" Type="VI" URL="../Subvi/参数转id.vi"/>
 		<Item Name="测试流程控件.ctl" Type="VI" URL="../总磷总氮/测试流程控件.ctl"/>
 		<Item Name="插入数据.vi" Type="VI" URL="../Subvi/插入数据.vi"/>
 		<Item Name="告警码字段定义.vi" Type="VI" URL="../Subvi/告警码字段定义.vi"/>
@@ -65,6 +66,7 @@
 		<Item Name="密码键盘.vi" Type="VI" URL="../Subvi/密码键盘.vi"/>
 		<Item Name="密码权限设置.vi" Type="VI" URL="../Subvi/密码权限设置.vi"/>
 		<Item Name="配置文件路径.vi" Type="VI" URL="../Subvi/配置文件路径.vi"/>
+		<Item Name="曲线模型计算.vi" Type="VI" URL="../Subvi/曲线模型计算.vi"/>
 		<Item Name="取中心点.vi" Type="VI" URL="../Subvi/取中心点.vi"/>
 		<Item Name="设置模块队列名.vi" Type="VI" URL="../Subvi/设置模块队列名.vi"/>
 		<Item Name="数字键盘.vi" Type="VI" URL="../Subvi/数字键盘.vi"/>
@@ -89,8 +91,11 @@
 	</Item>
 	<Item Name="调试界面" Type="Folder">
 		<Item Name="简易流程调试界面.vi" Type="VI" URL="../调试UI/简易流程调试界面.vi"/>
+		<Item Name="警示对话框.vi" Type="VI" URL="../调试UI/警示对话框.vi"/>
+		<Item Name="一键清洗流程.vi" Type="VI" URL="../调试UI/一键清洗流程.vi"/>
 	</Item>
 	<Item Name="控件" Type="Folder">
+		<Item Name="固件升级步骤.ctl" Type="VI" URL="../控件/固件升级步骤.ctl"/>
 		<Item Name="关键参数.ctl" Type="VI" URL="../控件/关键参数.ctl"/>
 		<Item Name="切换按钮.ctl" Type="VI" URL="../控件/切换按钮.ctl"/>
 		<Item Name="数据查询大列表框.ctl" Type="VI" URL="../控件/数据查询大列表框.ctl"/>
@@ -114,6 +119,7 @@
 			<Item Name="Write File Record.vi" Type="VI" URL="../总磷总氮/COM/Modbus Write File Record/Write File Record.vi"/>
 			<Item Name="读取固件状态.vi" Type="VI" URL="../总磷总氮/COM/Modbus Write File Record/读取固件状态.vi"/>
 			<Item Name="读取外设配置.vi" Type="VI" URL="../总磷总氮/COM/Modbus Write File Record/读取外设配置.vi"/>
+			<Item Name="固件升级（包含参数恢复）.vi" Type="VI" URL="../总磷总氮/COM/Modbus Write File Record/固件升级（包含参数恢复）.vi"/>
 			<Item Name="固件升级对话框.vi" Type="VI" URL="../总磷总氮/COM/Modbus Write File Record/固件升级对话框.vi"/>
 			<Item Name="流程固件设置对话框.vi" Type="VI" URL="../总磷总氮/COM/Modbus Write File Record/流程固件设置对话框.vi"/>
 			<Item Name="流程写入.vi" Type="VI" URL="../总磷总氮/COM/Modbus Write File Record/流程写入.vi"/>
@@ -203,10 +209,13 @@
 			<Item Name="校准数据写入配置文件.vi" Type="VI" URL="../参数设置/校准数据写入配置文件.vi"/>
 			<Item Name="校准流程.vi" Type="VI" URL="../参数设置/校准流程.vi"/>
 			<Item Name="校准记录.vi" Type="VI" URL="../参数设置/校准记录.vi"/>
+			<Item Name="校准任务设置.vi" Type="VI" URL="../参数设置/校准任务设置.vi"/>
+			<Item Name="校准条件设置.vi" Type="VI" URL="../参数设置/校准条件设置.vi"/>
+			<Item Name="校准任务流程.vi" Type="VI" URL="../参数设置/校准任务流程.vi"/>
+			<Item Name="校准任务.ctl" Type="VI" URL="../参数设置/校准任务.ctl"/>
 		</Item>
 	</Item>
 	<Item Name="关键参数存表.vi" Type="VI" URL="../Subvi/关键参数存表.vi"/>
 	<Item Name="启动参数设置.vi" Type="VI" URL="../参数设置/启动参数设置.vi"/>
 	<Item Name="数据时间对齐处理.vi" Type="VI" URL="../Subvi/数据时间对齐处理.vi"/>
-	<Item Name="仪器参数设置.vi" Type="VI" URL="../Subvi/仪器参数设置.vi"/>
 </Library>
