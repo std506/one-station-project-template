@@ -33,6 +33,7 @@
 	<Item Name="subvi" Type="Folder">
 		<Item Name="SQL" Type="Folder">
 			<Item Name="List tables.vi" Type="VI" URL="../subvi/SQL/List tables.vi"/>
+			<Item Name="table重新排序.vi" Type="VI" URL="../subvi/SQL/table重新排序.vi"/>
 			<Item Name="查询数据.vi" Type="VI" URL="../subvi/SQL/查询数据.vi"/>
 			<Item Name="创建水质参数数据表.vi" Type="VI" URL="../subvi/SQL/创建水质参数数据表.vi"/>
 			<Item Name="读取数据库.vi" Type="VI" URL="../subvi/SQL/读取数据库.vi"/>
@@ -44,6 +45,7 @@
 			<Item Name="get echarts JS.vi" Type="VI" URL="../web/get echarts JS.vi"/>
 		</Item>
 		<Item Name="Format table.vi" Type="VI" URL="../subvi/Format table.vi"/>
+		<Item Name="标识说明.vi" Type="VI" URL="../subvi/标识说明.vi"/>
 		<Item Name="日期键盘.vi" Type="VI" URL="../subvi/日期键盘.vi"/>
 		<Item Name="数据查询筛选.vi" Type="VI" URL="../subvi/数据查询筛选.vi"/>
 		<Item Name="数据导出Excel.vi" Type="VI" URL="../subvi/数据导出Excel.vi"/>
