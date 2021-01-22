@@ -44,11 +44,13 @@
 		<Item Name="线性公式CODMn用.vi" Type="VI" URL="../CODMn/线性公式CODMn用.vi"/>
 		<Item Name="窗口弹出对话框(子VI).vi" Type="VI" URL="../CODMn/窗口弹出对话框(子VI).vi"/>
 		<Item Name="高锰酸钾-ORP滴定曲线(子VI).vi" Type="VI" URL="../CODMn/高锰酸钾-ORP滴定曲线(子VI).vi"/>
+		<Item Name="时间-温度曲线(子VI).vi" Type="VI" URL="../CODMn/时间-温度曲线(子VI).vi"/>
 		<Item Name="CODMn通讯.vi" Type="VI" URL="../CODMn/CODMn通讯.vi"/>
 		<Item Name="周期设置_CODMn.vi" Type="VI" URL="../CODMn/周期设置_CODMn.vi"/>
 		<Item Name="AccessLog写入.vi" Type="VI" URL="../CODMn/AccessLog写入.vi"/>
 		<Item Name="公式读取.vi" Type="VI" URL="../CODMn/公式读取.vi"/>
 		<Item Name="公式写入.vi" Type="VI" URL="../CODMn/公式写入.vi"/>
+		<Item Name="生成校准信息.vi" Type="VI" URL="../Subvi/生成校准信息.vi"/>
 	</Item>
 	<Item Name="DataToHex" Type="Folder">
 		<Item Name="DateToHex.vi" Type="VI" URL="../DataToHex/DateToHex.vi"/>
@@ -62,6 +64,11 @@
 		<Item Name="浮点转CDAB整形cod.vi" Type="VI" URL="../HexToData/浮点转CDAB整形cod.vi"/>
 	</Item>
 	<Item Name="Subvi" Type="Folder">
+		<Item Name="仪器参数设置.vi" Type="VI" URL="../Subvi/仪器参数设置.vi"/>
+		<Item Name="关键参数存表.vi" Type="VI" URL="../Subvi/关键参数存表.vi"/>
+		<Item Name="关键参数交互.vi" Type="VI" URL="../Subvi/关键参数交互.vi"/>
+		<Item Name="配置文件保存.vi" Type="VI" URL="../Subvi/配置文件保存.vi"/>
+		<Item Name="单步测试一键复位.vi" Type="VI" URL="../CODMn/单步测试一键复位.vi"/>
 		<Item Name="balloon入队列.vi" Type="VI" URL="../Subvi/balloon入队列.vi"/>
 		<Item Name="CODMnMB_api.vi" Type="VI" URL="../Subvi/CODMnMB_api.vi"/>
 		<Item Name="CODMn字符串显示移位(子VI).vi" Type="VI" URL="../Subvi/CODMn字符串显示移位(子VI).vi"/>
@@ -106,9 +113,4 @@
 	<Item Name="子程序" Type="Folder">
 		<Item Name="将启用的浓度作为新的浓度数组.vi" Type="VI" URL="../子程序/将启用的浓度作为新的浓度数组.vi"/>
 	</Item>
-	<Item Name="仪器参数设置.vi" Type="VI" URL="../Subvi/仪器参数设置.vi"/>
-	<Item Name="关键参数存表.vi" Type="VI" URL="../Subvi/关键参数存表.vi"/>
-	<Item Name="关键参数交互.vi" Type="VI" URL="../Subvi/关键参数交互.vi"/>
-	<Item Name="配置文件保存.vi" Type="VI" URL="../Subvi/配置文件保存.vi"/>
-	<Item Name="单步测试一键复位.vi" Type="VI" URL="../CODMn/单步测试一键复位.vi"/>
 </Library>

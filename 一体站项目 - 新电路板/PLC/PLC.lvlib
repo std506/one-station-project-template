@@ -5,6 +5,9 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Item Name="control" Type="Folder">
+		<Item Name="switch.ctl" Type="VI" URL="../control/switch.ctl"/>
+	</Item>
 	<Item Name="电源管理" Type="Folder">
 		<Item Name="多参数电源命令.vi" Type="VI" URL="../电源管理/多参数电源命令.vi"/>
 		<Item Name="CODMn电源命令.vi" Type="VI" URL="../电源管理/CODMn电源命令.vi"/>
