@@ -141,5 +141,6 @@
 	<Item Name="关键参数存表.vi" Type="VI" URL="../Subvi/关键参数存表.vi"/>
 	<Item Name="关键参数交互.vi" Type="VI" URL="../Subvi/关键参数交互.vi"/>
 	<Item Name="启动参数设置.vi" Type="VI" URL="../总磷总氮/启动参数设置.vi"/>
+	<Item Name="数据时间对齐处理.vi" Type="VI" URL="../Subvi/数据时间对齐处理.vi"/>
 	<Item Name="仪器参数设置.vi" Type="VI" URL="../Subvi/仪器参数设置.vi"/>
 </Library>
