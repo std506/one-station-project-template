@@ -129,6 +129,7 @@
 			<Item Name="首页显示设置.vi" Type="VI" URL="../系统/首页显示设置.vi"/>
 			<Item Name="非断电保持全局变量.vi" Type="VI" URL="../系统/非断电保持全局变量.vi"/>
 			<Item Name="站点信息设置.vi" Type="VI" URL="../系统/站点信息设置.vi"/>
+			<Item Name="停止流程.vi" Type="VI" URL="../系统/停止流程.vi"/>
 		</Item>
 		<Item Name="短信服务" Type="Folder">
 			<Item Name="core" Type="Folder">
@@ -733,7 +734,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">38</Property>
+				<Property Name="Bld_version.build" Type="Int">39</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">7</Property>
