@@ -11,6 +11,7 @@
 	<Item Name="DOS cmd.vi" Type="VI" URL="../DOS cmd.vi"/>
 	<Item Name="get update file.vi" Type="VI" URL="../get update file.vi"/>
 	<Item Name="get update log.vi" Type="VI" URL="../get update log.vi"/>
+	<Item Name="specialUrlEncode.vi" Type="VI" URL="../specialUrlEncode.vi"/>
 	<Item Name="update log.vi" Type="VI" URL="../update log.vi"/>
 	<Item Name="Update.vi" Type="VI" URL="../Update.vi"/>
 	<Item Name="UTF-8toGBK.vi" Type="VI" URL="../UTF-8toGBK.vi"/>
