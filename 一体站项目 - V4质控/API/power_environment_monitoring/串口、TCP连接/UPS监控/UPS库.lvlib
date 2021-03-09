@@ -8,11 +8,18 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="UPS通信" Type="Folder">
+		<Item Name="华为UPS2000-G通信.vi" Type="VI" URL="../华为UPS2000-G通信.vi"/>
 		<Item Name="梦幻城堡C1~3通信.vi" Type="VI" URL="../梦幻城堡C1~3通信.vi"/>
 		<Item Name="梦幻城堡C6~20通信.vi" Type="VI" URL="../梦幻城堡C6~20通信.vi"/>
 		<Item Name="梦幻城堡C1~C3解析.vi" Type="VI" URL="../梦幻城堡C1~C3解析.vi"/>
 		<Item Name="梦幻城堡C6~C20-Q6解析.vi" Type="VI" URL="../梦幻城堡C6~C20-Q6解析.vi"/>
 		<Item Name="梦幻城堡C6~C20-WA解析.vi" Type="VI" URL="../梦幻城堡C6~C20-WA解析.vi"/>
+		<Item Name="华为UPS2000-G获取UPS状态.vi" Type="VI" URL="../华为UPS2000-G获取UPS状态.vi"/>
+		<Item Name="华为UPS2000-G获取电池状态.vi" Type="VI" URL="../华为UPS2000-G获取电池状态.vi"/>
+		<Item Name="open Serial MB.vi" Type="VI" URL="../open Serial MB.vi"/>
+		<Item Name="open TCP MB.vi" Type="VI" URL="../open TCP MB.vi"/>
+		<Item Name="close MB.vi" Type="VI" URL="../close MB.vi"/>
+		<Item Name="write single MB.vi" Type="VI" URL="../write single MB.vi"/>
 	</Item>
 	<Item Name="subvi" Type="Folder">
 		<Item Name="串口配置.vi" Type="VI" URL="../subvi/串口配置.vi"/>
@@ -23,4 +30,5 @@
 	<Item Name="UPS监控.vi" Type="VI" URL="../UPS监控.vi"/>
 	<Item Name="梦幻城堡C1~3界面.vi" Type="VI" URL="../梦幻城堡C1~3界面.vi"/>
 	<Item Name="梦幻城堡C6~20界面.vi" Type="VI" URL="../梦幻城堡C6~20界面.vi"/>
+	<Item Name="华为UPS2000-G-(1-3KVA)界面.vi" Type="VI" URL="../华为UPS2000-G-(1-3KVA)界面.vi"/>
 </Library>
