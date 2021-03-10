@@ -90,8 +90,8 @@
 			<Item Name="太阳能控制器界面.vi" Type="VI" URL="../串口、TCP连接/太阳能控制器/MTTP/太阳能控制器界面.vi"/>
 		</Item>
 	</Item>
-	<Item Name="电源管理" Type="Folder">
-		<Item Name="电源管理库.lvlib" Type="Library" URL="../电源管理/电源管理库.lvlib"/>
+	<Item Name="固定站电源管理" Type="Folder">
+		<Item Name="G电源管理库.lvlib" Type="Library" URL="../固定站电源管理/G电源管理库.lvlib"/>
 	</Item>
 	<Item Name="控件" Type="Folder">
 		<Item Name="锁.ctl" Type="VI" URL="../控件/锁.ctl"/>
@@ -113,6 +113,9 @@
 	</Item>
 	<Item Name="浮标电源管理" Type="Folder">
 		<Item Name="浮标电源管理.lvlib" Type="Library" URL="../浮标电源管理/浮标电源管理.lvlib"/>
+	</Item>
+	<Item Name="微站电源管理" Type="Folder">
+		<Item Name="V电源管理库.lvlib" Type="Library" URL="../微站电源管理/V电源管理库.lvlib"/>
 	</Item>
 	<Item Name="动力环境监测系统.vi" Type="VI" URL="../动力环境监测系统.vi"/>
 	<Item Name="动力和环境监控系统首页.vi" Type="VI" URL="../动力和环境监控系统首页.vi"/>
