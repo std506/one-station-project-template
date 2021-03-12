@@ -41,4 +41,5 @@
 	<Item Name="空调控制.vi" Type="VI" URL="../空调控制.vi"/>
 	<Item Name="黑盾空调.vi" Type="VI" URL="../黑盾空调.vi"/>
 	<Item Name="英维克空调.vi" Type="VI" URL="../英维克空调.vi"/>
+	<Item Name="空调监测配置同步 (子VI).vi" Type="VI" URL="../空调监测配置同步 (子VI).vi"/>
 </Library>

@@ -26,6 +26,10 @@
 		<Item Name="触发环动报警入队列.vi" Type="VI" URL="../数据存储/触发环动报警入队列.vi"/>
 		<Item Name="PING网络状态.vi" Type="VI" URL="../Subvi/PING网络状态.vi"/>
 		<Item Name="设置DO状态.vi" Type="VI" URL="../Subvi/设置DO状态.vi"/>
+		<Item Name="Create balloon 队列.vi" Type="VI" URL="../Subvi/Create balloon 队列.vi"/>
+		<Item Name="balloon入队列.vi" Type="VI" URL="../Subvi/balloon入队列.vi"/>
+		<Item Name="IP键盘.vi" Type="VI" URL="../Subvi/IP键盘.vi"/>
+		<Item Name="字符键盘.vi" Type="VI" URL="../Subvi/字符键盘.vi"/>
 	</Item>
 	<Item Name="IO连接" Type="Folder">
 		<Item Name="红外入侵监测" Type="Folder">
@@ -88,6 +92,7 @@
 			<Item Name="close MB.vi" Type="VI" URL="../串口、TCP连接/太阳能控制器/MTTP/close MB.vi"/>
 			<Item Name="线性转换.vi" Type="VI" URL="../串口、TCP连接/太阳能控制器/MTTP/线性转换.vi"/>
 			<Item Name="太阳能控制器界面.vi" Type="VI" URL="../串口、TCP连接/太阳能控制器/MTTP/太阳能控制器界面.vi"/>
+			<Item Name="蓄电池配置同步 (子VI).vi" Type="VI" URL="../串口、TCP连接/太阳能控制器/MTTP/蓄电池配置同步 (子VI).vi"/>
 		</Item>
 	</Item>
 	<Item Name="固定站电源管理" Type="Folder">
@@ -121,6 +126,6 @@
 	<Item Name="动力和环境监控系统首页.vi" Type="VI" URL="../动力和环境监控系统首页.vi"/>
 	<Item Name="设备配置界面.vi" Type="VI" URL="../设备配置界面.vi"/>
 	<Item Name="IO参数设置.vi" Type="VI" URL="../IO参数设置.vi"/>
-	<Item Name="TCP设备参数设置.vi" Type="VI" URL="../TCP设备参数设置.vi"/>
 	<Item Name="串口设备参数设置.vi" Type="VI" URL="../串口设备参数设置.vi"/>
+	<Item Name="开机添加默认配置文件.vi" Type="VI" URL="../Subvi/开机添加默认配置文件.vi"/>
 </Library>
