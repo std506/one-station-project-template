@@ -91,8 +91,8 @@
 			<Item Name="open TCP MB.vi" Type="VI" URL="../串口、TCP连接/太阳能控制器/MTTP/open TCP MB.vi"/>
 			<Item Name="close MB.vi" Type="VI" URL="../串口、TCP连接/太阳能控制器/MTTP/close MB.vi"/>
 			<Item Name="线性转换.vi" Type="VI" URL="../串口、TCP连接/太阳能控制器/MTTP/线性转换.vi"/>
-			<Item Name="太阳能控制器界面.vi" Type="VI" URL="../串口、TCP连接/太阳能控制器/MTTP/太阳能控制器界面.vi"/>
 			<Item Name="蓄电池配置同步 (子VI).vi" Type="VI" URL="../串口、TCP连接/太阳能控制器/MTTP/蓄电池配置同步 (子VI).vi"/>
+			<Item Name="太阳能控制器界面.vi" Type="VI" URL="../串口、TCP连接/太阳能控制器/MTTP/太阳能控制器界面.vi"/>
 		</Item>
 	</Item>
 	<Item Name="固定站电源管理" Type="Folder">
@@ -124,6 +124,7 @@
 	</Item>
 	<Item Name="动力环境监测系统.vi" Type="VI" URL="../动力环境监测系统.vi"/>
 	<Item Name="动力和环境监控系统首页.vi" Type="VI" URL="../动力和环境监控系统首页.vi"/>
+	<Item Name="动力和环境监控系统状态详情.vi" Type="VI" URL="../动力和环境监控系统状态详情.vi"/>
 	<Item Name="设备配置界面.vi" Type="VI" URL="../设备配置界面.vi"/>
 	<Item Name="IO参数设置.vi" Type="VI" URL="../IO参数设置.vi"/>
 	<Item Name="串口设备参数设置.vi" Type="VI" URL="../串口设备参数设置.vi"/>
