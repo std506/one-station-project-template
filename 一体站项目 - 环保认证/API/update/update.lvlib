@@ -4,12 +4,18 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="about.vi" Type="VI" URL="../about.vi"/>
+	<Item Name="check File Version.vi" Type="VI" URL="../check File Version.vi"/>
 	<Item Name="create backup files.vi" Type="VI" URL="../create backup files.vi"/>
 	<Item Name="create batch files.vi" Type="VI" URL="../create batch files.vi"/>
 	<Item Name="DOS cmd.vi" Type="VI" URL="../DOS cmd.vi"/>
-	<Item Name="update.bat" Type="Document" URL="../update.bat"/>
+	<Item Name="get update file.vi" Type="VI" URL="../get update file.vi"/>
+	<Item Name="get update log.vi" Type="VI" URL="../get update log.vi"/>
+	<Item Name="specialUrlEncode.vi" Type="VI" URL="../specialUrlEncode.vi"/>
+	<Item Name="update log.vi" Type="VI" URL="../update log.vi"/>
 	<Item Name="Update.vi" Type="VI" URL="../Update.vi"/>
 	<Item Name="UTF-8toGBK.vi" Type="VI" URL="../UTF-8toGBK.vi"/>
+	<Item Name="服务器更改对话框.vi" Type="VI" URL="../服务器更改对话框.vi"/>
 	<Item Name="更新全局变量.vi" Type="VI" URL="../更新全局变量.vi"/>
-	<Item Name="更新文件.vi" Type="VI" URL="../更新文件.vi"/>
+	<Item Name="关于.ctl" Type="VI" URL="../关于.ctl"/>
 </Library>

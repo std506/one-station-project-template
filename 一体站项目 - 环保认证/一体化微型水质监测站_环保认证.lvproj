@@ -709,10 +709,12 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="定时设置.xctl" Type="XControl" URL="../API/共用控件/定时周期/定时设置.xctl"/>
-			<Item Name="超标留样启动.vi" Type="VI" URL="../API/超标留样/子VI/超标留样启动.vi"/>
 			<Item Name="postMSG.vi" Type="VI" URL="../Subvi/postMSG.vi"/>
 			<Item Name="调试控件V3.xctl" Type="XControl" URL="../API/共用控件/调试控件V3/调试控件V3.xctl"/>
 			<Item Name="总氮插入数据.vi" Type="VI" URL="../API/斯坦道仪器总氮/Subvi/总氮插入数据.vi"/>
+			<Item Name="关键参数.ctl" Type="VI" URL="../API/斯坦道仪器总磷总氮/控件/关键参数.ctl"/>
+			<Item Name="VAR总磷总氮全局变量.vi" Type="VI" URL="../API/斯坦道仪器氨氮/总磷总氮/VAR总磷总氮全局变量.vi"/>
+			<Item Name="VAR总磷总氮全局变量.vi" Type="VI" URL="../API/斯坦道仪器总磷总氮/总磷总氮/VAR总磷总氮全局变量.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="一体化微型水质监测站" Type="EXE">
@@ -731,7 +733,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">/C/LabVIEW Project/builds/一体化微型水质监测站_环保认证/一体化微型水质监测站/一体化微型水质监测站_环保认证_一体化微型水质监测站_log.txt</Property>
-				<Property Name="Bld_version.build" Type="Int">137</Property>
+				<Property Name="Bld_version.build" Type="Int">138</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Bld_version.patch" Type="Int">16</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化微型水质监测站.exe</Property>
