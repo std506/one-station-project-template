@@ -1802,7 +1802,27 @@
 </DBL>
 <Array>
 <Name>XY图</Name>
+<Dimsize>2</Dimsize>
+<Cluster>
+<Name></Name>
+<NumElts>2</NumElts>
+<Array>
+<Name>X Values</Name>
 <Dimsize>0</Dimsize>
+<DBL>
+<Name>数值</Name>
+<Val></Val>
+</DBL>
+</Array>
+<Array>
+<Name>Y Values</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name>数值</Name>
+<Val></Val>
+</DBL>
+</Array>
+</Cluster>
 <Cluster>
 <Name></Name>
 <NumElts>2</NumElts>
@@ -1826,11 +1846,11 @@
 </Array>
 <String>
 <Name>拟合公式</Name>
-<Val></Val>
+<Val>y = NaN + NaN*x</Val>
 </String>
 <DBL>
 <Name>r^2</Name>
-<Val>0.00000000000000</Val>
+<Val>NaN</Val>
 </DBL>
 <Timestamp>
 <Name>标样一校准时间</Name>
@@ -1952,11 +1972,11 @@
 <NumElts>3</NumElts>
 <DBL>
 <Name>c</Name>
-<Val>0.00000000000000</Val>
+<Val>NaN</Val>
 </DBL>
 <DBL>
 <Name>x</Name>
-<Val>0.00000000000000</Val>
+<Val>NaN</Val>
 </DBL>
 <DBL>
 <Name>x^2</Name>
