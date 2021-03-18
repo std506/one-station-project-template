@@ -94,6 +94,12 @@
 			<Item Name="蓄电池配置同步 (子VI).vi" Type="VI" URL="../串口、TCP连接/太阳能控制器/MTTP/蓄电池配置同步 (子VI).vi"/>
 			<Item Name="太阳能控制器界面.vi" Type="VI" URL="../串口、TCP连接/太阳能控制器/MTTP/太阳能控制器界面.vi"/>
 		</Item>
+		<Item Name="AIRMAR WeatherCaster" Type="Folder">
+			<Item Name="AIRMAR WeatherCaster.lvlib" Type="Library" URL="../串口、TCP连接/AIRMAR WeatherCaster/AIRMAR WeatherCaster.lvlib"/>
+		</Item>
+		<Item Name="NMEA" Type="Folder">
+			<Item Name="NMEA.lvlib" Type="Library" URL="../串口、TCP连接/NMEA/NMEA.lvlib"/>
+		</Item>
 	</Item>
 	<Item Name="固定站电源管理" Type="Folder">
 		<Item Name="G电源管理库.lvlib" Type="Library" URL="../固定站电源管理/G电源管理库.lvlib"/>
