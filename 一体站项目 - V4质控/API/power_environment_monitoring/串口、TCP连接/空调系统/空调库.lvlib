@@ -14,6 +14,7 @@
 		<Item Name="遥控参数对话框.vi" Type="VI" URL="../subvi/遥控参数对话框.vi"/>
 		<Item Name="英维克设定参数对话框.vi" Type="VI" URL="../subvi/英维克设定参数对话框.vi"/>
 		<Item Name="英维克遥控参数对话框.vi" Type="VI" URL="../subvi/英维克遥控参数对话框.vi"/>
+		<Item Name="英维克空调告警存储.vi" Type="VI" URL="../subvi/英维克空调告警存储.vi"/>
 	</Item>
 	<Item Name="空调通信" Type="Folder">
 		<Item Name="CHKSUM计算 (子VI).vi" Type="VI" URL="../空调通信/CHKSUM计算 (子VI).vi"/>
