@@ -27,6 +27,7 @@
 		<Item Name="NMEA_ChecksumOk.vi" Type="VI" URL="../NMEA_ChecksumOk.vi"/>
 		<Item Name="NMEA_经纬度转换.vi" Type="VI" URL="../NMEA_经纬度转换.vi"/>
 		<Item Name="串口配置.vi" Type="VI" URL="../串口配置.vi"/>
+		<Item Name="手动配置经纬度.vi" Type="VI" URL="../手动配置经纬度.vi"/>
 		<Item Name="数字键盘.vi" Type="VI" URL="../数字键盘.vi"/>
 	</Item>
 	<Item Name="UI" Type="Folder">
@@ -67,5 +68,6 @@
 		<Item Name="NMEA过程全局变量.vi" Type="VI" URL="../NMEA过程全局变量.vi"/>
 	</Item>
 	<Item Name="GPS配置同步(子VI).vi" Type="VI" URL="../GPS配置同步(子VI).vi"/>
+	<Item Name="GPS通讯(子VI).vi" Type="VI" URL="../GPS通讯(子VI).vi"/>
 	<Item Name="北斗配置同步 (子VI).vi" Type="VI" URL="../北斗配置同步 (子VI).vi"/>
 </Library>
