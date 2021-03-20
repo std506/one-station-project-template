@@ -113,4 +113,5 @@
 	<Item Name="子程序" Type="Folder">
 		<Item Name="将启用的浓度作为新的浓度数组.vi" Type="VI" URL="../子程序/将启用的浓度作为新的浓度数组.vi"/>
 	</Item>
+	<Item Name="获取公式.vi" Type="VI" URL="../获取公式.vi"/>
 </Library>

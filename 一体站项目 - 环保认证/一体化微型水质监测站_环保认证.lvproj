@@ -42,6 +42,7 @@
 			<Item Name="总磷总氮XML解析.vi" Type="VI" URL="../Subvi/总磷总氮XML解析.vi"/>
 			<Item Name="Force Quit LabVIEW.vi" Type="VI" URL="../Subvi/Force Quit LabVIEW.vi"/>
 			<Item Name="Removable devices detection v8.5.vi" Type="VI" URL="../Subvi/Removable devices detection v8.5.vi"/>
+			<Item Name="短信告警.vi" Type="VI" URL="../后台任务/短信告警.vi"/>
 		</Item>
 		<Item Name="UI" Type="Folder">
 			<Item Name="控件" Type="Folder">
@@ -122,7 +123,6 @@
 			<Item Name="External Interface.vi" Type="VI" URL="../Modbus Slave/External Interface.vi"/>
 			<Item Name="modbus slave new.vi" Type="VI" URL="../Modbus Slave/modbus slave new.vi"/>
 			<Item Name="氨氮启动 (子VI).vi" Type="VI" URL="../Modbus Slave/氨氮启动 (子VI).vi"/>
-			<Item Name="反控参数设置.vi" Type="VI" URL="../Modbus Slave/反控参数设置.vi"/>
 			<Item Name="反控启动.vi" Type="VI" URL="../Modbus Slave/反控启动.vi"/>
 			<Item Name="反控仪器参数公式.vi" Type="VI" URL="../Modbus Slave/反控仪器参数公式.vi"/>
 			<Item Name="反控仪器单参数通用.vi" Type="VI" URL="../Modbus Slave/反控仪器单参数通用.vi"/>
@@ -206,7 +206,6 @@
 		<Item Name="update.lvlib" Type="Library" URL="../API/update/update.lvlib"/>
 		<Item Name="wxpusher.lvlib" Type="Library" URL="../API/WxMessage/wxpusher.lvlib"/>
 		<Item Name="簇转文本处理.vi" Type="VI" URL="../数据处理/簇转文本处理.vi"/>
-		<Item Name="仿真数据.lvlib" Type="Library" URL="../API/仿真数据/仿真数据.lvlib"/>
 		<Item Name="VarToString.vi" Type="VI" URL="../Subvi/VarToString.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -712,9 +711,19 @@
 			<Item Name="postMSG.vi" Type="VI" URL="../Subvi/postMSG.vi"/>
 			<Item Name="调试控件V3.xctl" Type="XControl" URL="../API/共用控件/调试控件V3/调试控件V3.xctl"/>
 			<Item Name="总氮插入数据.vi" Type="VI" URL="../API/斯坦道仪器总氮/Subvi/总氮插入数据.vi"/>
-			<Item Name="关键参数.ctl" Type="VI" URL="../API/斯坦道仪器总磷总氮/控件/关键参数.ctl"/>
-			<Item Name="VAR总磷总氮全局变量.vi" Type="VI" URL="../API/斯坦道仪器氨氮/总磷总氮/VAR总磷总氮全局变量.vi"/>
-			<Item Name="VAR总磷总氮全局变量.vi" Type="VI" URL="../API/斯坦道仪器总磷总氮/总磷总氮/VAR总磷总氮全局变量.vi"/>
+			<Item Name="random number.lvlib" Type="Library" URL="../API/RND/random number/random number.lvlib"/>
+			<Item Name="Process var.vi" Type="VI" URL="../API/RND/example/Process var.vi"/>
+			<Item Name="Holding Var.vi" Type="VI" URL="../API/RND/example/Holding Var.vi"/>
+			<Item Name="NH3N 随机数出数.vi" Type="VI" URL="../API/RND/example/NH3N 随机数出数.vi"/>
+			<Item Name="TP 随机数出数.vi" Type="VI" URL="../API/RND/example/TP 随机数出数.vi"/>
+			<Item Name="TN 随机数出数.vi" Type="VI" URL="../API/RND/example/TN 随机数出数.vi"/>
+			<Item Name="CODcr 随机数出数.vi" Type="VI" URL="../API/RND/example/CODcr 随机数出数.vi"/>
+			<Item Name="CODMn 随机数出数.vi" Type="VI" URL="../API/RND/example/CODMn 随机数出数.vi"/>
+			<Item Name="配置文件写入.vi" Type="VI" URL="../API/RND/example/配置文件写入.vi"/>
+			<Item Name="设置窗口.vi" Type="VI" URL="../API/RND/example/设置窗口.vi"/>
+			<Item Name="配置文件读取.vi" Type="VI" URL="../API/RND/example/配置文件读取.vi"/>
+			<Item Name="定时控制后台任务.vi" Type="VI" URL="../API/RND/example/定时控制后台任务.vi"/>
+			<Item Name="Create balloon 队列.vi" Type="VI" URL="../Subvi/Create balloon 队列.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="一体化微型水质监测站" Type="EXE">
@@ -733,7 +742,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">/C/LabVIEW Project/builds/一体化微型水质监测站_环保认证/一体化微型水质监测站/一体化微型水质监测站_环保认证_一体化微型水质监测站_log.txt</Property>
-				<Property Name="Bld_version.build" Type="Int">140</Property>
+				<Property Name="Bld_version.build" Type="Int">143</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Bld_version.patch" Type="Int">16</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化微型水质监测站.exe</Property>
