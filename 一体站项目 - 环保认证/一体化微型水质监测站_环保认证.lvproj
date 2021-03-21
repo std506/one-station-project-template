@@ -184,6 +184,7 @@
 		<Item Name="wxpusher.lvlib" Type="Library" URL="../API/WxMessage/wxpusher.lvlib"/>
 		<Item Name="簇转文本处理.vi" Type="VI" URL="../数据处理/簇转文本处理.vi"/>
 		<Item Name="VarToString.vi" Type="VI" URL="../Subvi/VarToString.vi"/>
+		<Item Name="崩溃文件路径.vi" Type="VI" URL="../后台任务/崩溃文件路径.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -691,7 +692,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">/C/LabVIEW Project/builds/一体化微型水质监测站_环保认证/一体化微型水质监测站/一体化微型水质监测站_环保认证_一体化微型水质监测站_log.txt</Property>
-				<Property Name="Bld_version.build" Type="Int">145</Property>
+				<Property Name="Bld_version.build" Type="Int">147</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Bld_version.patch" Type="Int">16</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化微型水质监测站.exe</Property>
