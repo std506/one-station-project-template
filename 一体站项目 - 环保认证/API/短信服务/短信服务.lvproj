@@ -13,6 +13,7 @@
 		<Item Name="core" Type="Folder">
 			<Item Name="SMS.vi" Type="VI" URL="../core/SMS.vi"/>
 			<Item Name="specialUrlEncode.vi" Type="VI" URL="../core/specialUrlEncode.vi"/>
+			<Item Name="VMS.vi" Type="VI" URL="../core/VMS.vi"/>
 			<Item Name="阿里云SMS.xmind" Type="Document" URL="../core/阿里云SMS.xmind"/>
 			<Item Name="待签名字符串.vi" Type="VI" URL="../core/待签名字符串.vi"/>
 			<Item Name="获取最新数据.vi" Type="VI" URL="../core/获取最新数据.vi"/>
@@ -99,6 +100,7 @@
 				<Item Name="i3-json.lvlib" Type="Library" URL="/&lt;vilib&gt;/LVH/i3 JSON/i3-json.lvlib"/>
 				<Item Name="i3-oauth.lvlib" Type="Library" URL="/&lt;vilib&gt;/LVH/i3 OAuth/i3-oauth.lvlib"/>
 				<Item Name="LabVIEWHTTPClient.lvlib" Type="Library" URL="/&lt;vilib&gt;/httpClient/LabVIEWHTTPClient.lvlib"/>
+				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
 				<Item Name="NI_Database_API.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/database/NI_Database_API.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
@@ -118,6 +120,7 @@
 			<Item Name="System.Web" Type="Document" URL="System.Web">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="语音请求参数.vi" Type="VI" URL="../core/语音请求参数.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build"/>
 	</Item>
