@@ -674,6 +674,8 @@
 			<Item Name="配置文件读取.vi" Type="VI" URL="../API/RND/example/配置文件读取.vi"/>
 			<Item Name="定时控制后台任务.vi" Type="VI" URL="../API/RND/example/定时控制后台任务.vi"/>
 			<Item Name="Create balloon 队列.vi" Type="VI" URL="../Subvi/Create balloon 队列.vi"/>
+			<Item Name="VMS.vi" Type="VI" URL="../API/短信服务/core/VMS.vi"/>
+			<Item Name="语音请求参数.vi" Type="VI" URL="../API/短信服务/core/语音请求参数.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="一体化微型水质监测站" Type="EXE">
@@ -692,7 +694,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">/C/LabVIEW Project/builds/一体化微型水质监测站_环保认证/一体化微型水质监测站/一体化微型水质监测站_环保认证_一体化微型水质监测站_log.txt</Property>
-				<Property Name="Bld_version.build" Type="Int">149</Property>
+				<Property Name="Bld_version.build" Type="Int">150</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Bld_version.patch" Type="Int">16</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化微型水质监测站.exe</Property>
