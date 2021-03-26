@@ -40,11 +40,13 @@
 		</Item>
 		<Item Name="门禁开关监测" Type="Folder">
 			<Item Name="门禁开关监测界面.vi" Type="VI" URL="../IO连接/门禁开关监测/门禁开关监测界面.vi"/>
+			<Item Name="门禁开关监测2界面.vi" Type="VI" URL="../IO连接/门禁开关监测/门禁开关监测2界面.vi"/>
 		</Item>
 		<Item Name="温度湿度" Type="Folder">
 			<Item Name="温湿度告警字符串组合 (子VI).vi" Type="VI" URL="../IO连接/温度湿度/温湿度告警字符串组合 (子VI).vi"/>
 			<Item Name="温度湿度监测界面.vi" Type="VI" URL="../IO连接/温度湿度/温度湿度监测界面.vi"/>
 			<Item Name="高温告警对话框.vi" Type="VI" URL="../IO连接/温度湿度/高温告警对话框.vi"/>
+			<Item Name="温湿度参数配置.vi" Type="VI" URL="../IO连接/温度湿度/温湿度参数配置.vi"/>
 		</Item>
 		<Item Name="烟雾监测" Type="Folder">
 			<Item Name="烟雾监测界面.vi" Type="VI" URL="../IO连接/烟雾监测/烟雾监测界面.vi"/>
@@ -59,9 +61,11 @@
 			<Item Name="视频监测界面.vi" Type="VI" URL="../IO连接/视频监测/视频监测界面.vi"/>
 		</Item>
 		<Item Name="冰箱监测" Type="Folder">
+			<Item Name="冰箱参数配置.vi" Type="VI" URL="../IO连接/冰箱监测/冰箱参数配置.vi"/>
 			<Item Name="冰箱监测界面.vi" Type="VI" URL="../IO连接/冰箱监测/冰箱监测界面.vi"/>
 		</Item>
 		<Item Name="排气扇监测" Type="Folder">
+			<Item Name="排气扇参数配置.vi" Type="VI" URL="../IO连接/排气扇监测/排气扇参数配置.vi"/>
 			<Item Name="排气扇监测界面.vi" Type="VI" URL="../IO连接/排气扇监测/排气扇监测界面.vi"/>
 		</Item>
 	</Item>
@@ -84,6 +88,7 @@
 				<Item Name="获取阵列信息.vi" Type="VI" URL="../串口、TCP连接/太阳能控制器/MTTP/获取阵列信息.vi"/>
 				<Item Name="获取直流负载信息.vi" Type="VI" URL="../串口、TCP连接/太阳能控制器/MTTP/获取直流负载信息.vi"/>
 			</Item>
+			<Item Name="太阳能控制器参数配置.vi" Type="VI" URL="../串口、TCP连接/太阳能控制器/MTTP/太阳能控制器参数配置.vi"/>
 			<Item Name="报警设置.vi" Type="VI" URL="../串口、TCP连接/太阳能控制器/MTTP/报警设置.vi"/>
 			<Item Name="太阳能控制器全局.vi" Type="VI" URL="../串口、TCP连接/太阳能控制器/MTTP/太阳能控制器全局.vi"/>
 			<Item Name="太阳能控制器断电保存全局.vi" Type="VI" URL="../串口、TCP连接/太阳能控制器/MTTP/太阳能控制器断电保存全局.vi"/>
@@ -92,7 +97,8 @@
 			<Item Name="close MB.vi" Type="VI" URL="../串口、TCP连接/太阳能控制器/MTTP/close MB.vi"/>
 			<Item Name="线性转换.vi" Type="VI" URL="../串口、TCP连接/太阳能控制器/MTTP/线性转换.vi"/>
 			<Item Name="蓄电池配置同步 (子VI).vi" Type="VI" URL="../串口、TCP连接/太阳能控制器/MTTP/蓄电池配置同步 (子VI).vi"/>
-			<Item Name="太阳能控制器界面.vi" Type="VI" URL="../串口、TCP连接/太阳能控制器/MTTP/太阳能控制器界面.vi"/>
+			<Item Name="太阳能控制器MPPT12.vi" Type="VI" URL="../串口、TCP连接/太阳能控制器/MTTP/太阳能控制器MPPT12.vi"/>
+			<Item Name="太阳能控制器MPPT24.vi" Type="VI" URL="../串口、TCP连接/太阳能控制器/MTTP/太阳能控制器MPPT24.vi"/>
 		</Item>
 		<Item Name="AIRMAR WeatherCaster" Type="Folder">
 			<Item Name="AIRMAR WeatherCaster.lvlib" Type="Library" URL="../串口、TCP连接/AIRMAR WeatherCaster/AIRMAR WeatherCaster.lvlib"/>
