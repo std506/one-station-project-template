@@ -189,7 +189,7 @@
 		<Item Name="界面UI.vi" Type="VI" URL="../API/超标留样集成/界面UI.vi"/>
 		<Item Name="外部交互全局.vi" Type="VI" URL="../API/超标留样集成/外部交互全局.vi"/>
 		<Item Name="斯坦道总氮.lvlib" Type="Library" URL="../API/斯坦道仪器总氮/斯坦道总氮.lvlib"/>
-		<Item Name="斯坦道CODCr.lvlib" Type="Library" URL="../API/斯坦道仪器CODCr/斯坦道CODCr.lvlib"/>
+		<Item Name="斯坦道CODcr.lvlib" Type="Library" URL="../API/斯坦道仪器CODCr/斯坦道CODCr.lvlib"/>
 		<Item Name="update.lvlib" Type="Library" URL="../API/update/update.lvlib"/>
 		<Item Name="数据查询.lvlib" Type="Library" URL="../UI/VIS/数据查询/数据查询.lvlib"/>
 		<Item Name="质控单元V4.lvlib" Type="Library" URL="../API/质控单元V4/质控单元V4.lvlib"/>
