@@ -12,6 +12,7 @@
 		<Item Name="LED电源命令.vi" Type="VI" URL="../LED电源命令.vi"/>
 		<Item Name="氨氮电源命令.vi" Type="VI" URL="../氨氮电源命令.vi"/>
 		<Item Name="多参数电源命令.vi" Type="VI" URL="../多参数电源命令.vi"/>
+		<Item Name="声光报警电源命令.vi" Type="VI" URL="../声光报警电源命令.vi"/>
 		<Item Name="总氮电源命令.vi" Type="VI" URL="../总氮电源命令.vi"/>
 		<Item Name="总磷电源命令.vi" Type="VI" URL="../总磷电源命令.vi"/>
 	</Item>

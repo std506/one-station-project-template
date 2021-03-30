@@ -141,4 +141,5 @@
 	<Item Name="IO参数设置.vi" Type="VI" URL="../IO参数设置.vi"/>
 	<Item Name="串口设备参数设置.vi" Type="VI" URL="../串口设备参数设置.vi"/>
 	<Item Name="开机添加默认配置文件.vi" Type="VI" URL="../Subvi/开机添加默认配置文件.vi"/>
+	<Item Name="联动声光报警(子VI).vi" Type="VI" URL="../IO连接/联动声光报警(子VI).vi"/>
 </Library>
