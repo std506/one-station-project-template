@@ -12,13 +12,11 @@
 	</Item>
 	<Item Name="subvi" Type="Folder">
 		<Item Name="串口配置.vi" Type="VI" URL="../subvi/串口配置.vi"/>
-		<Item Name="原始值工程转换.vi" Type="VI" URL="../subvi/原始值工程转换.vi"/>
 		<Item Name="有符号24位转32位有符号数.vi" Type="VI" URL="../subvi/有符号24位转32位有符号数.vi"/>
 		<Item Name="操作日志.vi" Type="VI" URL="../subvi/操作日志.vi"/>
 		<Item Name="报警信息.vi" Type="VI" URL="../subvi/报警信息.vi"/>
-		<Item Name="模拟量配置.vi" Type="VI" URL="../subvi/模拟量配置.vi"/>
-		<Item Name="线性转换.vi" Type="VI" URL="../subvi/线性转换.vi"/>
 		<Item Name="数字键盘.vi" Type="VI" URL="../subvi/数字键盘.vi"/>
+		<Item Name="参数输出转换.vi" Type="VI" URL="../subvi/参数输出转换.vi"/>
 	</Item>
 	<Item Name="通讯" Type="Folder">
 		<Item Name="ART-3158A" Type="Folder">
@@ -39,5 +37,4 @@
 		<Item Name="read IR.vi" Type="VI" URL="../通讯/read IR.vi"/>
 		<Item Name="write HRs.vi" Type="VI" URL="../通讯/write HRs.vi"/>
 	</Item>
-	<Item Name="参数输出转换.vi" Type="VI" URL="../subvi/参数输出转换.vi"/>
 </Library>

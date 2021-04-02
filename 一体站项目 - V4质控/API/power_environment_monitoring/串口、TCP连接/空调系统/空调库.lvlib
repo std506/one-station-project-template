@@ -8,6 +8,12 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="subvi" Type="Folder">
+		<Item Name="仁科空调控制器告警存储.vi" Type="VI" URL="../subvi/仁科空调控制器告警存储.vi"/>
+		<Item Name="仁科遥控对话框.vi" Type="VI" URL="../subvi/仁科遥控对话框.vi"/>
+		<Item Name="仁科设定参数对话框.vi" Type="VI" URL="../subvi/仁科设定参数对话框.vi"/>
+		<Item Name="仁科参数读取.vi" Type="VI" URL="../subvi/仁科参数读取.vi"/>
+		<Item Name="仁科参数写入.vi" Type="VI" URL="../subvi/仁科参数写入.vi"/>
+		<Item Name="仁科设置说明.vi" Type="VI" URL="../subvi/仁科设置说明.vi"/>
 		<Item Name="串口配置.vi" Type="VI" URL="../subvi/串口配置.vi"/>
 		<Item Name="空调型号选择对话框.vi" Type="VI" URL="../subvi/空调型号选择对话框.vi"/>
 		<Item Name="设定参数对话框.vi" Type="VI" URL="../subvi/设定参数对话框.vi"/>
@@ -37,10 +43,16 @@
 		<Item Name="英维克空调解析.vi" Type="VI" URL="../空调通信/英维克空调解析.vi"/>
 		<Item Name="英维克通讯.vi" Type="VI" URL="../空调通信/英维克通讯.vi"/>
 		<Item Name="英维克系统参数解析.vi" Type="VI" URL="../空调通信/英维克系统参数解析.vi"/>
+		<Item Name="仁科测控RS-KTC-N01温湿度解析.vi" Type="VI" URL="../空调通信/仁科测控RS-KTC-N01温湿度解析.vi"/>
+		<Item Name="仁科电流状态解析.vi" Type="VI" URL="../空调通信/仁科电流状态解析.vi"/>
+		<Item Name="仁科告警状态解析.vi" Type="VI" URL="../空调通信/仁科告警状态解析.vi"/>
+		<Item Name="仁科空调状态解析.vi" Type="VI" URL="../空调通信/仁科空调状态解析.vi"/>
 		<Item Name="英维克运行状态解析.vi" Type="VI" URL="../空调通信/英维克运行状态解析.vi"/>
+		<Item Name="仁科测控通讯.vi" Type="VI" URL="../空调通信/仁科测控通讯.vi"/>
 	</Item>
 	<Item Name="空调控制.vi" Type="VI" URL="../空调控制.vi"/>
 	<Item Name="黑盾空调.vi" Type="VI" URL="../黑盾空调.vi"/>
 	<Item Name="英维克空调.vi" Type="VI" URL="../英维克空调.vi"/>
+	<Item Name="仁科测控RS-KTC-N01空调控制器.vi" Type="VI" URL="../仁科测控RS-KTC-N01空调控制器.vi"/>
 	<Item Name="空调监测配置同步 (子VI).vi" Type="VI" URL="../空调监测配置同步 (子VI).vi"/>
 </Library>
