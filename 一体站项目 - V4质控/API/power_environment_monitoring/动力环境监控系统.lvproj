@@ -183,7 +183,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4C6C3664-ADE1-4BC1-BB38-46DEE0B24486}</Property>
-				<Property Name="Bld_version.build" Type="Int">107</Property>
+				<Property Name="Bld_version.build" Type="Int">111</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">应用程序.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/我的应用程序/应用程序.exe</Property>
@@ -192,7 +192,7 @@
 				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/我的应用程序/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{ECEADDFB-AF08-4A42-ACF3-EF22577D783A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{27B1DC6B-3760-48B9-9A7B-E735E8509FEE}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/环境动力监测库.lvlib</Property>
@@ -201,43 +201,59 @@
 				<Property Name="Source[10].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[10].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/我的电脑/环境动力监测库.lvlib/全局交互</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/我的电脑/环境动力监测库.lvlib/数据存储</Property>
 				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[10].type" Type="Str">Container</Property>
-				<Property Name="Source[11].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[11].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/我的电脑/环境动力监测库.lvlib/数据存储</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/我的电脑/环境动力监测库.lvlib/动力和环境监控系统状态详情.vi</Property>
 				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[11].type" Type="Str">Container</Property>
+				<Property Name="Source[11].type" Type="Str">VI</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/我的电脑/环境动力监测库.lvlib/动力和环境监控系统状态详情.vi</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/我的电脑/环境动力监测库.lvlib/设备配置界面.vi</Property>
 				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[12].type" Type="Str">VI</Property>
 				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/我的电脑/环境动力监测库.lvlib/设备配置界面.vi</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/我的电脑/环境动力监测库.lvlib/IO参数设置.vi</Property>
 				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[13].type" Type="Str">VI</Property>
 				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[14].itemID" Type="Ref">/我的电脑/环境动力监测库.lvlib/IO参数设置.vi</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/我的电脑/环境动力监测库.lvlib/串口设备参数设置.vi</Property>
 				<Property Name="Source[14].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[14].type" Type="Str">VI</Property>
+				<Property Name="Source[15].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[15].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[15].itemID" Type="Ref"></Property>
+				<Property Name="Source[15].itemID" Type="Ref">/我的电脑/环境动力监测库.lvlib/固定站电源管理</Property>
 				<Property Name="Source[15].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[15].type" Type="Str">VI</Property>
+				<Property Name="Source[15].type" Type="Str">Container</Property>
+				<Property Name="Source[16].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[16].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[16].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[16].itemID" Type="Ref">/我的电脑/环境动力监测库.lvlib/串口设备参数设置.vi</Property>
+				<Property Name="Source[16].itemID" Type="Ref">/我的电脑/环境动力监测库.lvlib/浮标电源管理</Property>
 				<Property Name="Source[16].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[16].type" Type="Str">VI</Property>
+				<Property Name="Source[16].type" Type="Str">Container</Property>
+				<Property Name="Source[17].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[17].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[17].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[17].itemID" Type="Ref"></Property>
+				<Property Name="Source[17].itemID" Type="Ref">/我的电脑/环境动力监测库.lvlib/微站电源管理</Property>
 				<Property Name="Source[17].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[17].type" Type="Str">VI</Property>
+				<Property Name="Source[17].type" Type="Str">Container</Property>
+				<Property Name="Source[18].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[18].itemID" Type="Ref">/我的电脑/环境动力监测库.lvlib/动力和环境监控系统首页.vi</Property>
+				<Property Name="Source[18].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[18].type" Type="Str">VI</Property>
+				<Property Name="Source[19].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[19].itemID" Type="Ref">/我的电脑/环境动力监测库.lvlib/开机添加默认配置文件.vi</Property>
+				<Property Name="Source[19].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[19].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/我的电脑/环境动力监测库.lvlib/动力环境监测系统.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[20].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[20].itemID" Type="Ref">/我的电脑/环境动力监测库.lvlib/联动声光报警(子VI).vi</Property>
+				<Property Name="Source[20].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[20].type" Type="Str">VI</Property>
 				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
@@ -271,16 +287,16 @@
 				<Property Name="Source[8].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[8].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/我的电脑/环境动力监测库.lvlib/电源管理</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/我的电脑/环境动力监测库.lvlib/控件</Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[8].type" Type="Str">Container</Property>
 				<Property Name="Source[9].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[9].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/我的电脑/环境动力监测库.lvlib/控件</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/我的电脑/环境动力监测库.lvlib/全局交互</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">18</Property>
+				<Property Name="SourceCount" Type="Int">21</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">我的应用程序</Property>
 				<Property Name="TgtF_internalName" Type="Str">我的应用程序</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">版权 2020 </Property>
