@@ -51,6 +51,8 @@
 		<Item Name="公式写入.vi" Type="VI" URL="../CODMn/公式写入.vi"/>
 		<Item Name="生成校准信息.vi" Type="VI" URL="../Subvi/生成校准信息.vi"/>
 		<Item Name="CODMn线性公式.vi" Type="VI" URL="../CODMn/CODMn线性公式.vi"/>
+		<Item Name="反算.vi" Type="VI" URL="../CODMn/反算.vi"/>
+		<Item Name="获取公式.vi" Type="VI" URL="../CODMn/获取公式.vi"/>
 	</Item>
 	<Item Name="DataToHex" Type="Folder">
 		<Item Name="DateToHex.vi" Type="VI" URL="../DataToHex/DateToHex.vi"/>
