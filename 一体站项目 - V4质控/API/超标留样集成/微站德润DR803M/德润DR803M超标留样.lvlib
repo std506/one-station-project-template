@@ -9,6 +9,7 @@
 		<Item Name="界面UI.vi" Type="VI" URL="../main/界面UI.vi"/>
 	</Item>
 	<Item Name="参数设置" Type="Folder">
+		<Item Name="参数设置对画框.vi" Type="VI" URL="../参数设置/参数设置对画框.vi"/>
 		<Item Name="超标留样参数设定.vi" Type="VI" URL="../参数设置/超标留样参数设定.vi"/>
 		<Item Name="外控留样模式参数.vi" Type="VI" URL="../参数设置/外控留样模式参数.vi"/>
 	</Item>

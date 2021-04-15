@@ -11,6 +11,8 @@
 	<Item Name="subvi" Type="Folder">
 		<Item Name="超标浓度设置.vi" Type="VI" URL="../subvi/超标浓度设置.vi"/>
 		<Item Name="数字键盘.vi" Type="VI" URL="../subvi/数字键盘.vi"/>
+		<Item Name="时间字符串至时间格式转换.vi" Type="VI" URL="../../DR803M4/Vis/subvi/时间字符串至时间格式转换.vi"/>
+		<Item Name="参数设置对话框.vi" Type="VI" URL="../subvi/参数设置对话框.vi"/>
 	</Item>
 	<Item Name="超标留样运行状态" Type="Folder">
 		<Item Name="科盛超标留样运行状态.xctl" Type="XControl" URL="../控件/超标留样运行状态/科盛超标留样运行状态.xctl"/>

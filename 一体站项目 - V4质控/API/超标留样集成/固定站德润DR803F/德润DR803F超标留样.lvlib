@@ -9,6 +9,7 @@
 		<Item Name="界面UI.vi" Type="VI" URL="../main/界面UI.vi"/>
 	</Item>
 	<Item Name="subvi" Type="Folder">
+		<Item Name="参数设置对话框.vi" Type="VI" URL="../subvi/参数设置对话框.vi"/>
 		<Item Name="超标浓度设置.vi" Type="VI" URL="../subvi/超标浓度设置.vi"/>
 		<Item Name="数字键盘.vi" Type="VI" URL="../subvi/数字键盘.vi"/>
 	</Item>
