@@ -86,6 +86,8 @@
 		<Item Name="字符键盘.vi" Type="VI" URL="../Subvi/字符键盘.vi"/>
 		<Item Name="根据监测浓度升序排列.vi" Type="VI" URL="../Subvi/根据监测浓度升序排列.vi"/>
 		<Item Name="监测浓度升序排列 (子VI).vi" Type="VI" URL="../Subvi/监测浓度升序排列 (子VI).vi"/>
+		<Item Name="TimeLmtDialog.vi" Type="VI" URL="../Subvi/TimeLmtDialog.vi"/>
+		<Item Name="密码权限设置.vi" Type="VI" URL="../Subvi/密码权限设置.vi"/>
 	</Item>
 	<Item Name="测量流程" Type="Folder">
 		<Item Name="固定站CODMn测量流程.vi" Type="VI" URL="../测量流程/固定站CODMn测量流程.vi"/>
