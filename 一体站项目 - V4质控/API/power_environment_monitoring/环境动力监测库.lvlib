@@ -146,10 +146,7 @@
 		<Item Name="外部交互全局变量.vi" Type="VI" URL="../全局交互/外部交互全局变量.vi"/>
 	</Item>
 	<Item Name="数据存储" Type="Folder">
-		<Item Name="报警信息.vi" Type="VI" URL="../数据存储/报警信息.vi"/>
-		<Item Name="报警信息字段定义.vi" Type="VI" URL="../数据存储/报警信息字段定义.vi"/>
 		<Item Name="插入数据.vi" Type="VI" URL="../数据存储/插入数据.vi"/>
-		<Item Name="流程日志字段定义.vi" Type="VI" URL="../数据存储/流程日志字段定义.vi"/>
 		<Item Name="操作日志.vi" Type="VI" URL="../数据存储/操作日志.vi"/>
 		<Item Name="报警信息通用.vi" Type="VI" URL="../数据存储/报警信息通用.vi"/>
 		<Item Name="data insert core.vi" Type="VI" URL="../数据存储/data insert core.vi"/>

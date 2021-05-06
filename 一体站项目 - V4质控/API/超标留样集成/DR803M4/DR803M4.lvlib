@@ -24,7 +24,6 @@
 		<Item Name="input variable.vi" Type="VI" URL="../Vis/Global variable/input variable.vi"/>
 	</Item>
 	<Item Name="subvi" Type="Folder">
-		<Item Name="超标浓度设置.vi" Type="VI" URL="../Vis/subvi/超标浓度设置.vi"/>
 		<Item Name="数字键盘.vi" Type="VI" URL="../Vis/subvi/数字键盘.vi"/>
 	</Item>
 	<Item Name="UI.vi" Type="VI" URL="../Vis/UI.vi"/>

@@ -11,7 +11,7 @@
 	<Property Name="Enable Data Logging" Type="Bool">true</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(]!!!*Q(C=\&gt;8"=&gt;MQ%!8143;(8.6"2CVM#WJ",7Q,SN&amp;(N&lt;!NK!7VM#WI"&lt;8A0$%94UZ2$P%E"Y.?G@I%A7=11U&gt;M\7P%FXB^VL\`NHV=@X&lt;^39O0^N(_&lt;8NZOEH@@=^_CM?,3)VK63LD-&gt;8LS%=_]J'0@/1N&lt;XH,7^\SFJ?]Z#5P?=F,HP+5JTTF+5`Z&gt;MB$(P+1)YX*RU2DU$(![)Q3YW.YBG&gt;YBM@8'*\B':\B'2Z&gt;9HC':XC':XD=&amp;M-T0--T0-.DK%USWS(H'2\$2`-U4`-U4`/9-JKH!&gt;JE&lt;?!W#%;UC_WE?:KH?:R']T20]T20]\A=T&gt;-]T&gt;-]T?/7&lt;66[UTQ//9^BIHC+JXC+JXA-(=640-640-6DOCC?YCG)-G%:(#(+4;6$_6)]R?.8&amp;%`R&amp;%`R&amp;)^,WR/K&lt;75?GM=BZUG?Z%G?Z%E?1U4S*%`S*%`S'$;3*XG3*XG3RV320-G40!G3*D6^J-(3D;F4#J,(T\:&lt;=HN+P5FS/S,7ZIWV+7.NNFC&lt;+.&lt;GC0819TX-7!]JVO,(7N29CR6L%7,^=&lt;(1M4#R*IFV][.DX(X?V&amp;6&gt;V&amp;G&gt;V&amp;%&gt;V&amp;\N(L@_Z9\X_TVONVN=L^?Y8#ZR0J`D&gt;$L&amp;]8C-Q_%1_`U_&gt;LP&gt;WWPAG_0NB@$TP@4C`%`KH@[8`A@PRPA=PYZLD8Y!#/7SO!!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
-	<Property Name="NI.Lib.Version" Type="Str">1.1.47.0</Property>
+	<Property Name="NI.Lib.Version" Type="Str">1.7.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Property Name="OdbcAlarmLoggingTableName" Type="Str">NI_ALARM_EVENTS</Property>
@@ -46,6 +46,7 @@
 			<Item Name="MQ-Turb01说明书.pdf" Type="Document" URL="../Documents/国弘/MQ-Turb01说明书.pdf"/>
 			<Item Name="国弘环保仪器传感器二次开发指导说明书20190606（五参数传感器）.pdf" Type="Document" URL="../Documents/国弘/国弘环保仪器传感器二次开发指导说明书20190606（五参数传感器）.pdf"/>
 			<Item Name="MQ-ORP01说明书.pdf" Type="Document" URL="../Documents/国弘/MQ-ORP01说明书.pdf"/>
+			<Item Name="MQ-Turb02说明书 - 20200716.pdf" Type="Document" URL="../Documents/国弘/MQ-Turb02说明书 - 20200716.pdf"/>
 		</Item>
 		<Item Name="纳清" Type="Folder">
 			<Item Name="4_五参数在线监测仪用户手册20180830（二合一）.pdf" Type="Document" URL="../Documents/纳清/4_五参数在线监测仪用户手册20180830（二合一）.pdf"/>
@@ -67,6 +68,7 @@
 		<Item Name="选择.ctl" Type="VI" URL="../控件/选择.ctl"/>
 		<Item Name="通知队列类型.ctl" Type="VI" URL="../控件/通知队列类型.ctl"/>
 		<Item Name="校准步骤.ctl" Type="VI" URL="../control/校准步骤.ctl"/>
+		<Item Name="切换按钮.ctl" Type="VI" URL="../控件/切换按钮.ctl"/>
 	</Item>
 	<Item Name="属性" Type="Folder">
 		<Item Name="国弘" Type="Folder">
@@ -180,12 +182,21 @@
 				<Item Name="0036H_COD_第三点标准值写入.vi" Type="VI" URL="../属性/国弘/COD/0036H_COD_第三点标准值写入.vi"/>
 				<Item Name="COD_所有参数读取.vi" Type="VI" URL="../属性/国弘/COD/COD_所有参数读取.vi"/>
 			</Item>
+			<Item Name="Public" Type="Folder">
+				<Item Name="国弘第一点校准指令.vi" Type="VI" URL="../属性/国弘/Public/国弘第一点校准指令.vi"/>
+				<Item Name="国弘第二点校准指令.vi" Type="VI" URL="../属性/国弘/Public/国弘第二点校准指令.vi"/>
+				<Item Name="国弘第三点校准指令.vi" Type="VI" URL="../属性/国弘/Public/国弘第三点校准指令.vi"/>
+				<Item Name="国弘温度偏移修正值.vi" Type="VI" URL="../属性/国弘/Public/国弘温度偏移修正值.vi"/>
+				<Item Name="国弘探头手动清洗.vi" Type="VI" URL="../属性/国弘/Public/国弘探头手动清洗.vi"/>
+				<Item Name="国弘探头清洗间隔.vi" Type="VI" URL="../属性/国弘/Public/国弘探头清洗间隔.vi"/>
+				<Item Name="国弘测量偏移修正值.vi" Type="VI" URL="../属性/国弘/Public/国弘测量偏移修正值.vi"/>
+				<Item Name="国弘滤波次数设置.vi" Type="VI" URL="../属性/国弘/Public/国弘滤波次数设置.vi"/>
+				<Item Name="国弘恢复出厂.vi" Type="VI" URL="../属性/国弘/Public/国弘恢复出厂.vi"/>
+			</Item>
 		</Item>
 		<Item Name="禹山" Type="Folder">
 			<Item Name="pH" Type="Folder">
 				<Item Name="禹山pH_获取温度和测量值.vi" Type="VI" URL="../属性/禹山/pH/禹山pH_获取温度和测量值.vi"/>
-				<Item Name="禹山pH_获取用户校准参数.vi" Type="VI" URL="../属性/禹山/pH/禹山pH_获取用户校准参数.vi"/>
-				<Item Name="禹山pH_设置用户校准参数.vi" Type="VI" URL="../属性/禹山/pH/禹山pH_设置用户校准参数.vi"/>
 			</Item>
 			<Item Name="DO" Type="Folder">
 				<Item Name="禹山溶解氧_获取温度和测量值.vi" Type="VI" URL="../属性/禹山/DO/禹山溶解氧_获取温度和测量值.vi"/>
@@ -208,18 +219,16 @@
 				<Item Name="禹山电导率_获取用户校准参数.vi" Type="VI" URL="../属性/禹山/电导率/禹山电导率_获取用户校准参数.vi"/>
 				<Item Name="禹山电导率_设置用户校准参数.vi" Type="VI" URL="../属性/禹山/电导率/禹山电导率_设置用户校准参数.vi"/>
 			</Item>
-			<Item Name="YL get sn.vi" Type="VI" URL="../属性/禹山/YL get sn.vi"/>
+			<Item Name="Public" Type="Folder">
+				<Item Name="禹山获取用户校准参数.vi" Type="VI" URL="../属性/禹山/Public/禹山获取用户校准参数.vi"/>
+				<Item Name="禹山获取系列号.vi" Type="VI" URL="../属性/禹山/Public/禹山获取系列号.vi"/>
+				<Item Name="禹山设置用户校准参数.vi" Type="VI" URL="../属性/禹山/Public/禹山设置用户校准参数.vi"/>
+			</Item>
 		</Item>
 		<Item Name="纳清" Type="Folder">
 			<Item Name="蓝绿藻" Type="Folder">
 				<Item Name="纳清蓝绿藻_所有参数读取.vi" Type="VI" URL="../属性/纳清/蓝绿藻/纳清蓝绿藻_所有参数读取.vi"/>
 				<Item Name="纳清蓝绿藻_波特率写入.vi" Type="VI" URL="../属性/纳清/蓝绿藻/纳清蓝绿藻_波特率写入.vi"/>
-				<Item Name="纳清蓝绿藻_第二点校准数据写入.vi" Type="VI" URL="../属性/纳清/蓝绿藻/纳清蓝绿藻_第二点校准数据写入.vi"/>
-				<Item Name="纳清蓝绿藻_第二点原始光强值写入.vi" Type="VI" URL="../属性/纳清/蓝绿藻/纳清蓝绿藻_第二点原始光强值写入.vi"/>
-				<Item Name="纳清蓝绿藻_第三点校准数据写入.vi" Type="VI" URL="../属性/纳清/蓝绿藻/纳清蓝绿藻_第三点校准数据写入.vi"/>
-				<Item Name="纳清蓝绿藻_第三点原始光强值写入.vi" Type="VI" URL="../属性/纳清/蓝绿藻/纳清蓝绿藻_第三点原始光强值写入.vi"/>
-				<Item Name="纳清蓝绿藻_第一点校准数据写入.vi" Type="VI" URL="../属性/纳清/蓝绿藻/纳清蓝绿藻_第一点校准数据写入.vi"/>
-				<Item Name="纳清蓝绿藻_第一点原始光强值写入.vi" Type="VI" URL="../属性/纳清/蓝绿藻/纳清蓝绿藻_第一点原始光强值写入.vi"/>
 				<Item Name="纳清蓝绿藻_平均次数写入.vi" Type="VI" URL="../属性/纳清/蓝绿藻/纳清蓝绿藻_平均次数写入.vi"/>
 				<Item Name="纳清蓝绿藻_清扫次数写入.vi" Type="VI" URL="../属性/纳清/蓝绿藻/纳清蓝绿藻_清扫次数写入.vi"/>
 				<Item Name="纳清蓝绿藻_清扫间隔写入.vi" Type="VI" URL="../属性/纳清/蓝绿藻/纳清蓝绿藻_清扫间隔写入.vi"/>
@@ -227,7 +236,6 @@
 				<Item Name="纳清蓝绿藻_通讯地址写入.vi" Type="VI" URL="../属性/纳清/蓝绿藻/纳清蓝绿藻_通讯地址写入.vi"/>
 				<Item Name="纳清蓝绿藻_温度校准参数写入.vi" Type="VI" URL="../属性/纳清/蓝绿藻/纳清蓝绿藻_温度校准参数写入.vi"/>
 				<Item Name="纳清蓝绿藻_温度校准命令写入.vi" Type="VI" URL="../属性/纳清/蓝绿藻/纳清蓝绿藻_温度校准命令写入.vi"/>
-				<Item Name="纳清蓝绿藻_校准命令写入.vi" Type="VI" URL="../属性/纳清/蓝绿藻/纳清蓝绿藻_校准命令写入.vi"/>
 				<Item Name="纳清蓝绿藻_量程写入.vi" Type="VI" URL="../属性/纳清/蓝绿藻/纳清蓝绿藻_量程写入.vi"/>
 				<Item Name="纳清蓝绿藻_校准量程写入.vi" Type="VI" URL="../属性/纳清/蓝绿藻/纳清蓝绿藻_校准量程写入.vi"/>
 			</Item>
@@ -306,6 +314,22 @@
 				<Item Name="纳清叶绿素a_量程写入.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_量程写入.vi"/>
 				<Item Name="纳清叶绿素a_校准量程写入.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_校准量程写入.vi"/>
 			</Item>
+			<Item Name="Public" Type="Folder">
+				<Item Name="纳清_第一点原始光强值写入.vi" Type="VI" URL="../属性/纳清/Public/纳清_第一点原始光强值写入.vi"/>
+				<Item Name="纳清_第一点校准数据写入.vi" Type="VI" URL="../属性/纳清/Public/纳清_第一点校准数据写入.vi"/>
+				<Item Name="纳清_第二点原始光强值写入.vi" Type="VI" URL="../属性/纳清/Public/纳清_第二点原始光强值写入.vi"/>
+				<Item Name="纳清_第二点校准数据写入.vi" Type="VI" URL="../属性/纳清/Public/纳清_第二点校准数据写入.vi"/>
+				<Item Name="纳清_第三点原始光强值写入.vi" Type="VI" URL="../属性/纳清/Public/纳清_第三点原始光强值写入.vi"/>
+				<Item Name="纳清_第三点校准数据写入.vi" Type="VI" URL="../属性/纳清/Public/纳清_第三点校准数据写入.vi"/>
+				<Item Name="纳清_校准命令写入.vi" Type="VI" URL="../属性/纳清/Public/纳清_校准命令写入.vi"/>
+				<Item Name="纳清_温度校准.vi" Type="VI" URL="../属性/纳清/Public/纳清_温度校准.vi"/>
+				<Item Name="纳清_手动清洗.vi" Type="VI" URL="../属性/纳清/Public/纳清_手动清洗.vi"/>
+				<Item Name="纳清_清扫次数.vi" Type="VI" URL="../属性/纳清/Public/纳清_清扫次数.vi"/>
+				<Item Name="纳清_清扫间隔.vi" Type="VI" URL="../属性/纳清/Public/纳清_清扫间隔.vi"/>
+				<Item Name="纳清_清扫模式.vi" Type="VI" URL="../属性/纳清/Public/纳清_清扫模式.vi"/>
+				<Item Name="纳清_测量量程设置.vi" Type="VI" URL="../属性/纳清/Public/纳清_测量量程设置.vi"/>
+				<Item Name="纳清_校准量程设置.vi" Type="VI" URL="../属性/纳清/Public/纳清_校准量程设置.vi"/>
+			</Item>
 		</Item>
 	</Item>
 	<Item Name="CORE" Type="Folder">
@@ -314,47 +338,11 @@
 		<Item Name="探头数据读取.vi" Type="VI" URL="../CORE/探头数据读取.vi"/>
 	</Item>
 	<Item Name="UI" Type="Folder">
-		<Item Name="参数查询" Type="Folder">
-			<Item Name="pH参数显示.vi" Type="VI" URL="../UI/子界面/国弘/pH参数显示.vi"/>
-			<Item Name="Cond参数显示.vi" Type="VI" URL="../UI/子界面/国弘/Cond参数显示.vi"/>
-			<Item Name="DO参数显示.vi" Type="VI" URL="../UI/子界面/国弘/DO参数显示.vi"/>
-			<Item Name="Turb参数显示.vi" Type="VI" URL="../UI/子界面/国弘/Turb参数显示.vi"/>
-		</Item>
-		<Item Name="探头校正" Type="Folder">
-			<Item Name="国弘" Type="Folder">
-				<Item Name="pH电极校准.vi" Type="VI" URL="../UI/子界面/国弘/pH电极校准.vi"/>
-				<Item Name="电导率电极校准.vi" Type="VI" URL="../UI/子界面/国弘/电导率电极校准.vi"/>
-				<Item Name="溶解氧电极校准.vi" Type="VI" URL="../UI/子界面/国弘/溶解氧电极校准.vi"/>
-				<Item Name="浊度电极校准.vi" Type="VI" URL="../UI/子界面/国弘/浊度电极校准.vi"/>
-				<Item Name="ORP电极校准.vi" Type="VI" URL="../UI/子界面/国弘/ORP电极校准.vi"/>
-				<Item Name="COD电极校准.vi" Type="VI" URL="../UI/子界面/国弘/COD电极校准.vi"/>
-			</Item>
-			<Item Name="禹山" Type="Folder">
-				<Item Name="禹山溶解氧校准.vi" Type="VI" URL="../UI/子界面/禹山/禹山溶解氧校准.vi"/>
-				<Item Name="禹山浊度校准.vi" Type="VI" URL="../UI/子界面/禹山/禹山浊度校准.vi"/>
-				<Item Name="禹山pH校准.vi" Type="VI" URL="../UI/子界面/禹山/禹山pH校准.vi"/>
-				<Item Name="禹山电导率校准.vi" Type="VI" URL="../UI/子界面/禹山/禹山电导率校准.vi"/>
-				<Item Name="禹山叶绿素a校准.vi" Type="VI" URL="../UI/子界面/禹山/禹山叶绿素a校准.vi"/>
-			</Item>
-			<Item Name="纳清" Type="Folder">
-				<Item Name="纳清DO电极校准.vi" Type="VI" URL="../UI/子界面/纳清/纳清DO电极校准.vi"/>
-				<Item Name="纳清pH电极校准.vi" Type="VI" URL="../UI/子界面/纳清/纳清pH电极校准.vi"/>
-				<Item Name="纳清电导率电极校准.vi" Type="VI" URL="../UI/子界面/纳清/纳清电导率电极校准.vi"/>
-				<Item Name="纳清浊度电极校准.vi" Type="VI" URL="../UI/子界面/纳清/纳清浊度电极校准.vi"/>
-				<Item Name="纳清叶绿素a电极校准.vi" Type="VI" URL="../UI/子界面/纳清/纳清叶绿素a电极校准.vi"/>
-				<Item Name="纳清蓝绿藻电极校准.vi" Type="VI" URL="../UI/子界面/纳清/纳清蓝绿藻电极校准.vi"/>
-			</Item>
-			<Item Name="斯坦道" Type="Folder">
-				<Item Name="斯坦道溶解氧校准.vi" Type="VI" URL="../UI/子界面/斯坦道/斯坦道溶解氧校准.vi"/>
-			</Item>
-			<Item Name="水温校准.vi" Type="VI" URL="../UI/子界面/国弘/水温校准.vi"/>
-			<Item Name="盐度计算.vi" Type="VI" URL="../Subvi/盐度计算.vi"/>
-		</Item>
 		<Item Name="运维调试_五参数.vi" Type="VI" URL="../UI/运维调试_五参数.vi"/>
 		<Item Name="周期设置.vi" Type="VI" URL="../UI/周期设置.vi"/>
 		<Item Name="系列号查询.vi" Type="VI" URL="../UI/系列号查询.vi"/>
+		<Item Name="探头启用设置.vi" Type="VI" URL="../UI/探头启用设置.vi"/>
 		<Item Name="量程参数设置对话框.vi" Type="VI" URL="../UI/量程参数设置对话框.vi"/>
-		<Item Name="校准页面.vi" Type="VI" URL="../UI/校准页面.vi"/>
 		<Item Name="周期设置_多参数.vi" Type="VI" URL="../UI/周期设置_多参数.vi"/>
 	</Item>
 	<Item Name="subvi" Type="Folder">
@@ -372,6 +360,7 @@
 		<Item Name="稳定条件判断.vi" Type="VI" URL="../Subvi/稳定条件判断.vi"/>
 		<Item Name="插入数据.vi" Type="VI" URL="../Subvi/插入数据.vi"/>
 		<Item Name="密码键盘.vi" Type="VI" URL="../Subvi/密码键盘.vi"/>
+		<Item Name="盐度计算.vi" Type="VI" URL="../Subvi/盐度计算.vi"/>
 	</Item>
 	<Item Name="SQL" Type="Folder">
 		<Item Name="校准日志.vi" Type="VI" URL="../SQL/校准日志.vi"/>
@@ -379,7 +368,6 @@
 		<Item Name="AccessLog写入.vi" Type="VI" URL="../SQL/AccessLog写入.vi"/>
 		<Item Name="操作日志.vi" Type="VI" URL="../SQL/操作日志.vi"/>
 		<Item Name="多参数数据插入.vi" Type="VI" URL="../SQL/多参数数据插入.vi"/>
-		<Item Name="data insert core.vi" Type="VI" URL="../SQL/data insert core.vi"/>
 		<Item Name="data insert.vi" Type="VI" URL="../SQL/data insert.vi"/>
 	</Item>
 	<Item Name="变量" Type="Folder">
@@ -397,6 +385,28 @@
 		<Item Name="数据流读取.vi" Type="VI" URL="../多机通讯/数据流读取.vi"/>
 		<Item Name="数据流类型.ctl" Type="VI" URL="../多机通讯/数据流类型.ctl"/>
 		<Item Name="数据流写入.vi" Type="VI" URL="../多机通讯/数据流写入.vi"/>
+	</Item>
+	<Item Name="校准" Type="Folder">
+		<Item Name="校准UI.vi" Type="VI" URL="../校准/校准UI.vi"/>
+		<Item Name="禹山探头校准.vi" Type="VI" URL="../校准/禹山探头校准.vi"/>
+		<Item Name="纳清探头校准.vi" Type="VI" URL="../校准/纳清探头校准.vi"/>
+		<Item Name="探头温度显示.vi" Type="VI" URL="../校准/探头温度显示.vi"/>
+		<Item Name="探头测量值显示.vi" Type="VI" URL="../校准/探头测量值显示.vi"/>
+		<Item Name="探头型号.vi" Type="VI" URL="../校准/探头型号.vi"/>
+		<Item Name="探头校准标准值显示.vi" Type="VI" URL="../校准/探头校准标准值显示.vi"/>
+		<Item Name="探头校准标准值设置.vi" Type="VI" URL="../校准/探头校准标准值设置.vi"/>
+		<Item Name="国弘探头校准.vi" Type="VI" URL="../校准/国弘探头校准.vi"/>
+		<Item Name="执行校准.vi" Type="VI" URL="../校准/执行校准.vi"/>
+		<Item Name="生成校准记录.vi" Type="VI" URL="../校准/生成校准记录.vi"/>
+		<Item Name="温度校准.vi" Type="VI" URL="../校准/温度校准.vi"/>
+		<Item Name="探头手动清洗.vi" Type="VI" URL="../校准/探头手动清洗.vi"/>
+		<Item Name="探头清洗间隔.vi" Type="VI" URL="../校准/探头清洗间隔.vi"/>
+		<Item Name="探头偏移修正值.vi" Type="VI" URL="../校准/探头偏移修正值.vi"/>
+		<Item Name="探头滤波次数.vi" Type="VI" URL="../校准/探头滤波次数.vi"/>
+		<Item Name="探头测量量程设置.vi" Type="VI" URL="../校准/探头测量量程设置.vi"/>
+		<Item Name="探头校准量程设置.vi" Type="VI" URL="../校准/探头校准量程设置.vi"/>
+		<Item Name="探头恢复出厂.vi" Type="VI" URL="../校准/探头恢复出厂.vi"/>
+		<Item Name="探头温度系数.vi" Type="VI" URL="../校准/探头温度系数.vi"/>
 	</Item>
 	<Item Name="配置文件保存.vi" Type="VI" URL="../Subvi/配置文件保存.vi"/>
 	<Item Name="运行时间输出.vi" Type="VI" URL="../Subvi/运行时间输出.vi"/>

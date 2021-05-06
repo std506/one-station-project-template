@@ -25,7 +25,6 @@
 	</Item>
 	<Item Name="数据库" Type="Folder">
 		<Item Name="报警信息.vi" Type="VI" URL="../数据库/报警信息.vi"/>
-		<Item Name="插入数据.vi" Type="VI" URL="../数据库/插入数据.vi"/>
 		<Item Name="日志、报警信息存储 (子VI).vi" Type="VI" URL="../数据库/日志、报警信息存储 (子VI).vi"/>
 		<Item Name="日志存储 (子VI).vi" Type="VI" URL="../数据库/日志存储 (子VI).vi"/>
 	</Item>
@@ -37,7 +36,6 @@
 		<Item Name="超标留样启动留样.vi" Type="VI" URL="../子VI/超标留样启动留样.vi"/>
 	</Item>
 	<Item Name="subvi" Type="Folder">
-		<Item Name="超标浓度设置.vi" Type="VI" URL="../subvi/超标浓度设置.vi"/>
 		<Item Name="数字键盘.vi" Type="VI" URL="../subvi/数字键盘.vi"/>
 	</Item>
 </Library>

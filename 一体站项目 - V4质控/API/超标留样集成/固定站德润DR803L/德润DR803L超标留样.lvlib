@@ -11,7 +11,6 @@
 	<Item Name="Subvi" Type="Folder">
 		<Item Name="串口配置.vi" Type="VI" URL="../Subvi/串口配置.vi"/>
 		<Item Name="数字键盘.vi" Type="VI" URL="../Subvi/数字键盘.vi"/>
-		<Item Name="超标浓度设置.vi" Type="VI" URL="../Subvi/超标浓度设置.vi"/>
 	</Item>
 	<Item Name="参数设置" Type="Folder">
 		<Item Name="超标留样参数设定.vi" Type="VI" URL="../参数设置/超标留样参数设定.vi"/>
@@ -45,11 +44,8 @@
 	</Item>
 	<Item Name="数据库" Type="Folder">
 		<Item Name="日志、报警信息存储 (子VI).vi" Type="VI" URL="../数据库/日志、报警信息存储 (子VI).vi"/>
-		<Item Name="插入数据.vi" Type="VI" URL="../数据库/插入数据.vi"/>
 		<Item Name="日志存储 (子VI).vi" Type="VI" URL="../数据库/日志存储 (子VI).vi"/>
 		<Item Name="报警信息.vi" Type="VI" URL="../数据库/报警信息.vi"/>
-		<Item Name="超标留样data insert core.vi" Type="VI" URL="../../超标留样data insert core.vi"/>
-		<Item Name="留样信息存储.vi" Type="VI" URL="../数据库/留样信息存储.vi"/>
 	</Item>
 	<Item Name="流程" Type="Folder">
 		<Item Name="超标留样启动流程.vi" Type="VI" URL="../流程/超标留样启动流程.vi"/>
