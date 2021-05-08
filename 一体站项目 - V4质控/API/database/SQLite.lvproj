@@ -23,6 +23,8 @@
 			<Item Name="流量计字段定义.ctl" Type="VI" URL="../control/流量计字段定义.ctl"/>
 			<Item Name="校准日志字段定义.ctl" Type="VI" URL="../control/校准日志字段定义.ctl"/>
 			<Item Name="营养盐字段定义.ctl" Type="VI" URL="../control/营养盐字段定义.ctl"/>
+			<Item Name="原位多参数单参数字段定义.ctl" Type="VI" URL="../control/原位多参数单参数字段定义.ctl"/>
+			<Item Name="原位多参数全参数字段定义.ctl" Type="VI" URL="../control/原位多参数全参数字段定义.ctl"/>
 		</Item>
 		<Item Name="example" Type="Folder">
 			<Item Name="Access example.vi" Type="VI" URL="../Access example.vi"/>
@@ -36,14 +38,13 @@
 			<Item Name="校准日志数据插入.vi" Type="VI" URL="../Interface/校准日志数据插入.vi"/>
 			<Item Name="单片机版CODMn数据插入.vi" Type="VI" URL="../Interface/单片机版CODMn数据插入.vi"/>
 			<Item Name="PLC版CODMn数据插入.vi" Type="VI" URL="../Interface/PLC版CODMn数据插入.vi"/>
-			<Item Name="点创CODCr数据插入.vi" Type="VI" URL="../Interface/点创CODCr数据插入.vi"/>
 			<Item Name="集成多参数单参数数据插入.vi" Type="VI" URL="../Interface/集成多参数单参数数据插入.vi"/>
 			<Item Name="集成多参数全参数数据插入.vi" Type="VI" URL="../Interface/集成多参数全参数数据插入.vi"/>
 			<Item Name="集成干预数据插入.vi" Type="VI" URL="../Interface/集成干预数据插入.vi"/>
 			<Item Name="加标回收数据插入.vi" Type="VI" URL="../Interface/加标回收数据插入.vi"/>
 			<Item Name="流量计数据插入.vi" Type="VI" URL="../Interface/流量计数据插入.vi"/>
-			<Item Name="超标留样数据插入.vi" Type="VI" URL="../Interface/超标留样数据插入.vi"/>
-			<Item Name="环境参数数据插入.vi" Type="VI" URL="../Interface/环境参数数据插入.vi"/>
+			<Item Name="原位多参数全参数数据插入.vi" Type="VI" URL="../Interface/原位多参数全参数数据插入.vi"/>
+			<Item Name="原位多参数单参数数据插入.vi" Type="VI" URL="../Interface/原位多参数单参数数据插入.vi"/>
 		</Item>
 		<Item Name="SQLite Lib.lvlib" Type="Library" URL="../SQLite/SQLite Lib.lvlib"/>
 		<Item Name="Access Lib.lvlib" Type="Library" URL="../Access/Access Lib.lvlib"/>

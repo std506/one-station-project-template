@@ -46,7 +46,6 @@
 		<Item Name="质控组合命令区.ctl" Type="VI" URL="../control/质控组合命令区.ctl"/>
 	</Item>
 	<Item Name="SQL" Type="Folder">
-		<Item Name="data insert core.vi" Type="VI" URL="../SQL/data insert core.vi"/>
 		<Item Name="data insert.vi" Type="VI" URL="../SQL/data insert.vi"/>
 		<Item Name="报警信息记录.vi" Type="VI" URL="../SQL/报警信息记录.vi"/>
 		<Item Name="启动日志.vi" Type="VI" URL="../SQL/启动日志.vi"/>

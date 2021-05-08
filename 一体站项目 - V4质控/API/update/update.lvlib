@@ -4,6 +4,8 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Item Name="拉取dll.vi" Type="VI" URL="../拉取dll.vi"/>
 	<Item Name="about.vi" Type="VI" URL="../about.vi"/>
 	<Item Name="check File Version.vi" Type="VI" URL="../check File Version.vi"/>
 	<Item Name="create backup files.vi" Type="VI" URL="../create backup files.vi"/>
@@ -18,4 +20,5 @@
 	<Item Name="服务器更改对话框.vi" Type="VI" URL="../服务器更改对话框.vi"/>
 	<Item Name="更新全局变量.vi" Type="VI" URL="../更新全局变量.vi"/>
 	<Item Name="关于.ctl" Type="VI" URL="../关于.ctl"/>
+	<Item Name="自定义双按钮对话框.vi" Type="VI" URL="../自定义双按钮对话框.vi"/>
 </Library>

@@ -32,9 +32,14 @@
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="subvi" Type="Folder">
 		<Item Name="SQL" Type="Folder">
+			<Item Name="Access DB Path.vi" Type="VI" URL="../subvi/Access DB Path.vi"/>
+			<Item Name="Create Access Database.vi" Type="VI" URL="../subvi/Create Access Database.vi"/>
+			<Item Name="List columns.vi" Type="VI" URL="../subvi/List columns.vi"/>
 			<Item Name="List tables.vi" Type="VI" URL="../subvi/SQL/List tables.vi"/>
+			<Item Name="SQLite DB Path.vi" Type="VI" URL="../subvi/SQLite DB Path.vi"/>
 			<Item Name="table重新排序.vi" Type="VI" URL="../subvi/SQL/table重新排序.vi"/>
 			<Item Name="查询数据.vi" Type="VI" URL="../subvi/SQL/查询数据.vi"/>
+			<Item Name="创建数据表.vi" Type="VI" URL="../subvi/创建数据表.vi"/>
 			<Item Name="创建水质参数数据表.vi" Type="VI" URL="../subvi/SQL/创建水质参数数据表.vi"/>
 			<Item Name="读取数据库.vi" Type="VI" URL="../subvi/SQL/读取数据库.vi"/>
 			<Item Name="索引数据并插入.vi" Type="VI" URL="../subvi/SQL/索引数据并插入.vi"/>
@@ -46,6 +51,7 @@
 		</Item>
 		<Item Name="Format table.vi" Type="VI" URL="../subvi/Format table.vi"/>
 		<Item Name="标识说明.vi" Type="VI" URL="../subvi/标识说明.vi"/>
+		<Item Name="精度表.vi" Type="VI" URL="../subvi/精度表.vi"/>
 		<Item Name="日期键盘.vi" Type="VI" URL="../subvi/日期键盘.vi"/>
 		<Item Name="数据查询筛选.vi" Type="VI" URL="../subvi/数据查询筛选.vi"/>
 		<Item Name="数据导出Excel.vi" Type="VI" URL="../subvi/数据导出Excel.vi"/>
@@ -53,10 +59,9 @@
 	</Item>
 	<Item Name="UI" Type="Folder">
 		<Item Name="数据查询.vi" Type="VI" URL="../UI/数据查询.vi"/>
-		<Item Name="数据查询_报警信息.vi" Type="VI" URL="../UI/数据查询_报警信息.vi"/>
 		<Item Name="数据查询_数据查询.vi" Type="VI" URL="../UI/数据查询_数据查询.vi"/>
-		<Item Name="数据查询_校准记录.vi" Type="VI" URL="../UI/数据查询_校准记录.vi"/>
 		<Item Name="数据查询_仪器日志.vi" Type="VI" URL="../UI/数据查询_仪器日志.vi"/>
 		<Item Name="数据查询_仪器数据.vi" Type="VI" URL="../UI/数据查询_仪器数据.vi"/>
 	</Item>
+	<Item Name="全局变量.vi" Type="VI" URL="../var/全局变量.vi"/>
 </Library>
