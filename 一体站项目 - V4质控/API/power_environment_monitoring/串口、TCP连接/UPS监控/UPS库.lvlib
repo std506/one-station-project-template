@@ -25,7 +25,6 @@
 		<Item Name="串口配置.vi" Type="VI" URL="../subvi/串口配置.vi"/>
 		<Item Name="UPS型号选择对话框.vi" Type="VI" URL="../subvi/UPS型号选择对话框.vi"/>
 	</Item>
-	<Item Name="UPS断电保存全局.vi" Type="VI" URL="../UPS断电保存全局.vi"/>
 	<Item Name="UPS内部交互全局.vi" Type="VI" URL="../UPS内部交互全局.vi"/>
 	<Item Name="UPS监控.vi" Type="VI" URL="../UPS监控.vi"/>
 	<Item Name="梦幻城堡C1~3界面.vi" Type="VI" URL="../梦幻城堡C1~3界面.vi"/>

@@ -46,6 +46,10 @@
 			<Item Name="原位多参数全参数数据插入.vi" Type="VI" URL="../Interface/原位多参数全参数数据插入.vi"/>
 			<Item Name="原位多参数单参数数据插入.vi" Type="VI" URL="../Interface/原位多参数单参数数据插入.vi"/>
 		</Item>
+		<Item Name="config" Type="Folder">
+			<Item Name="load config.vi" Type="VI" URL="../config/load config.vi"/>
+			<Item Name="save config.vi" Type="VI" URL="../config/save config.vi"/>
+		</Item>
 		<Item Name="SQLite Lib.lvlib" Type="Library" URL="../SQLite/SQLite Lib.lvlib"/>
 		<Item Name="Access Lib.lvlib" Type="Library" URL="../Access/Access Lib.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
@@ -141,6 +145,7 @@
 				<Item Name="SQLite_Prepared Execute-Int64.vi" Type="VI" URL="/&lt;userlib&gt;/_LVST/sqlite_api/Core/Low Level/SQLite Execute/SQLite_Prepared Execute-Int64.vi"/>
 				<Item Name="SQLite_Implode Prepared.vi" Type="VI" URL="/&lt;userlib&gt;/_LVST/sqlite_api/Core/Utils/Implode/SQLite_Implode Prepared.vi"/>
 				<Item Name="SQLite_Upsert.vi" Type="VI" URL="/&lt;userlib&gt;/_LVST/sqlite_api/Core/Insert/SQLite_Upsert.vi"/>
+				<Item Name="Clear Error.vi" Type="VI" URL="/&lt;userlib&gt;/_LVST/sqlite_api/Examples/Applications/Error Logger/Clear Error.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
@@ -156,6 +161,7 @@
 				<Item Name="GOOP Object Repository Statistics.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository Statistics.ctl"/>
 				<Item Name="GOOP Object Repository Method.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository Method.ctl"/>
 				<Item Name="GOOP Object Repository.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository.vi"/>
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 			</Item>
 			<Item Name="data insert core.vi" Type="VI" URL="../Access/data insert core.vi"/>
 			<Item Name="数据库类型.ctl" Type="VI" URL="../control/数据库类型.ctl"/>

@@ -64,7 +64,6 @@
 		<Item Name="信息接收.vi" Type="VI" URL="../subvi/信息接收.vi"/>
 	</Item>
 	<Item Name="变量" Type="Folder">
-		<Item Name="NMEA断电保存全局变量.vi" Type="VI" URL="../NMEA断电保存全局变量.vi"/>
 		<Item Name="NMEA过程全局变量.vi" Type="VI" URL="../NMEA过程全局变量.vi"/>
 	</Item>
 	<Item Name="GPSMODBUSTCP解析.vi" Type="VI" URL="../GPSMODBUSTCP解析.vi"/>

@@ -58,6 +58,8 @@
 		<Item Name="模拟量设置窗口.vi" Type="VI" URL="../Subvi/模拟量设置窗口.vi"/>
 		<Item Name="线性转换.vi" Type="VI" URL="../Subvi/线性转换.vi"/>
 		<Item Name="原始值线性转换.vi" Type="VI" URL="../Subvi/原始值线性转换.vi"/>
+		<Item Name="load.vi" Type="VI" URL="../Subvi/load.vi"/>
+		<Item Name="save.vi" Type="VI" URL="../Subvi/save.vi"/>
 	</Item>
 	<Item Name="IO连接" Type="Folder">
 		<Item Name="红外入侵监测" Type="Folder">
@@ -119,7 +121,6 @@
 			<Item Name="太阳能控制器参数配置.vi" Type="VI" URL="../串口、TCP连接/太阳能控制器/MTTP/太阳能控制器参数配置.vi"/>
 			<Item Name="报警设置.vi" Type="VI" URL="../串口、TCP连接/太阳能控制器/MTTP/报警设置.vi"/>
 			<Item Name="太阳能控制器全局.vi" Type="VI" URL="../串口、TCP连接/太阳能控制器/MTTP/太阳能控制器全局.vi"/>
-			<Item Name="太阳能控制器断电保存全局.vi" Type="VI" URL="../串口、TCP连接/太阳能控制器/MTTP/太阳能控制器断电保存全局.vi"/>
 			<Item Name="open Serial MB.vi" Type="VI" URL="../串口、TCP连接/太阳能控制器/MTTP/open Serial MB.vi"/>
 			<Item Name="open TCP MB.vi" Type="VI" URL="../串口、TCP连接/太阳能控制器/MTTP/open TCP MB.vi"/>
 			<Item Name="close MB.vi" Type="VI" URL="../串口、TCP连接/太阳能控制器/MTTP/close MB.vi"/>
