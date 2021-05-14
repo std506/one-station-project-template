@@ -32,11 +32,8 @@
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="subvi" Type="Folder">
 		<Item Name="SQL" Type="Folder">
-			<Item Name="Access DB Path.vi" Type="VI" URL="../subvi/Access DB Path.vi"/>
-			<Item Name="Create Access Database.vi" Type="VI" URL="../subvi/Create Access Database.vi"/>
 			<Item Name="List columns.vi" Type="VI" URL="../subvi/List columns.vi"/>
 			<Item Name="List tables.vi" Type="VI" URL="../subvi/SQL/List tables.vi"/>
-			<Item Name="SQLite DB Path.vi" Type="VI" URL="../subvi/SQLite DB Path.vi"/>
 			<Item Name="table重新排序.vi" Type="VI" URL="../subvi/SQL/table重新排序.vi"/>
 			<Item Name="查询数据.vi" Type="VI" URL="../subvi/SQL/查询数据.vi"/>
 			<Item Name="创建数据表.vi" Type="VI" URL="../subvi/创建数据表.vi"/>
