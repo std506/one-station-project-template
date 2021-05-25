@@ -50,6 +50,7 @@
 			<Item Name="database path.vi" Type="VI" URL="../Interface/database path.vi"/>
 			<Item Name="database platform path.vi" Type="VI" URL="../Interface/database platform path.vi"/>
 			<Item Name="获取最新一笔数据.vi" Type="VI" URL="../Interface/获取最新一笔数据.vi"/>
+			<Item Name="Select Str.vi" Type="VI" URL="../Interface/Select Str.vi"/>
 		</Item>
 		<Item Name="config" Type="Folder">
 			<Item Name="load config.vi" Type="VI" URL="../config/load config.vi"/>
