@@ -37,7 +37,6 @@
 			<Item Name="table重新排序.vi" Type="VI" URL="../subvi/SQL/table重新排序.vi"/>
 			<Item Name="查询数据.vi" Type="VI" URL="../subvi/SQL/查询数据.vi"/>
 			<Item Name="创建数据表.vi" Type="VI" URL="../subvi/创建数据表.vi"/>
-			<Item Name="创建水质参数数据表.vi" Type="VI" URL="../subvi/SQL/创建水质参数数据表.vi"/>
 			<Item Name="读取数据库.vi" Type="VI" URL="../subvi/SQL/读取数据库.vi"/>
 			<Item Name="索引数据并插入.vi" Type="VI" URL="../subvi/SQL/索引数据并插入.vi"/>
 			<Item Name="自动添加所有参数数据.vi" Type="VI" URL="../subvi/SQL/自动添加所有参数数据.vi"/>

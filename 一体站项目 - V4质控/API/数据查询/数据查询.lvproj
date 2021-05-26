@@ -10,7 +10,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Select Str.vi" Type="VI" URL="../../database/Interface/Select Str.vi"/>
 		<Item Name="数据查询.lvlib" Type="Library" URL="../数据查询.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -316,7 +315,9 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Select Str.vi" Type="VI" URL="../../database/Interface/Select Str.vi"/>
 			<Item Name="SQLite Lib.lvlib" Type="Library" URL="../../database/SQLite/SQLite Lib.lvlib"/>
+			<Item Name="SQLite Upsert.vi" Type="VI" URL="../../database/Interface/SQLite Upsert.vi"/>
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
