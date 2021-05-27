@@ -26,6 +26,7 @@
 			<Item Name="原位多参数单参数字段定义.ctl" Type="VI" URL="../control/原位多参数单参数字段定义.ctl"/>
 			<Item Name="原位多参数全参数字段定义.ctl" Type="VI" URL="../control/原位多参数全参数字段定义.ctl"/>
 			<Item Name="数据库类型.ctl" Type="VI" URL="../control/数据库类型.ctl"/>
+			<Item Name="平行样测试数据字段定义.ctl" Type="VI" URL="../control/平行样测试数据字段定义.ctl"/>
 		</Item>
 		<Item Name="example" Type="Folder">
 			<Item Name="Access example.vi" Type="VI" URL="../Access example.vi"/>

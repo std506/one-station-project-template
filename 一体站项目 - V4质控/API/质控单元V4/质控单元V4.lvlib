@@ -33,6 +33,7 @@
 	<Item Name="control" Type="Folder">
 		<Item Name="采配水通用流程.ctl" Type="VI" URL="../control/采配水通用流程.ctl"/>
 		<Item Name="测试流程.ctl" Type="VI" URL="../control/测试流程.ctl"/>
+		<Item Name="测试子流程.ctl" Type="VI" URL="../control/测试子流程.ctl"/>
 		<Item Name="固件状态.ctl" Type="VI" URL="../control/固件状态.ctl"/>
 		<Item Name="切换按钮.ctl" Type="VI" URL="../control/切换按钮.ctl"/>
 		<Item Name="锁.ctl" Type="VI" URL="../control/锁.ctl"/>
