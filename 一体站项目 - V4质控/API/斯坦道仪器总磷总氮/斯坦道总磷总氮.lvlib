@@ -76,6 +76,7 @@
 		<Item Name="字符键盘.vi" Type="VI" URL="../Subvi/字符键盘.vi"/>
 		<Item Name="总磷氨氮插入数据.vi" Type="VI" URL="../Subvi/总磷氨氮插入数据.vi"/>
 		<Item Name="总磷单步调试对话框.vi" Type="VI" URL="../Subvi/总磷单步调试对话框.vi"/>
+		<Item Name="最小试剂余量百分比.vi" Type="VI" URL="../Subvi/最小试剂余量百分比.vi"/>
 	</Item>
 	<Item Name="参数配置" Type="Folder">
 		<Item Name="模块配置读取.vi" Type="VI" URL="../参数配置/模块配置读取.vi"/>
