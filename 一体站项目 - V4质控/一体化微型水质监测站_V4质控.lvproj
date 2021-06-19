@@ -97,14 +97,8 @@
 			</Item>
 		</Item>
 		<Item Name="Modbus Slave" Type="Folder">
-			<Item Name="全局变量" Type="Folder">
-				<Item Name="modbus slave全局.vi" Type="VI" URL="../Modbus Slave/全局变量/modbus slave全局.vi"/>
-			</Item>
-			<Item Name="数据库" Type="Folder">
-				<Item Name="报警信息.vi" Type="VI" URL="../Modbus Slave/数据库/报警信息.vi"/>
-				<Item Name="插入数据.vi" Type="VI" URL="../Modbus Slave/数据库/插入数据.vi"/>
-				<Item Name="日志存储 (子VI).vi" Type="VI" URL="../Modbus Slave/数据库/日志存储 (子VI).vi"/>
-			</Item>
+			<Item Name="全局变量" Type="Folder"/>
+			<Item Name="数据库" Type="Folder"/>
 			<Item Name="CODCr启动 (子VI).vi" Type="VI" URL="../Modbus Slave/CODCr启动 (子VI).vi"/>
 			<Item Name="CODMn启动 (子VI).vi" Type="VI" URL="../Modbus Slave/CODMn启动 (子VI).vi"/>
 			<Item Name="modbus slave new.vi" Type="VI" URL="../Modbus Slave/modbus slave new.vi"/>
@@ -134,6 +128,7 @@
 			<Item Name="站点信息设置.vi" Type="VI" URL="../系统/站点信息设置.vi"/>
 			<Item Name="停止流程.vi" Type="VI" URL="../系统/停止流程.vi"/>
 			<Item Name="参数初始化.vi" Type="VI" URL="../系统/参数初始化.vi"/>
+			<Item Name="系统交互.vi" Type="VI" URL="../系统/系统交互.vi"/>
 		</Item>
 		<Item Name="短信服务" Type="Folder">
 			<Item Name="core" Type="Folder">
@@ -167,6 +162,7 @@
 		<Item Name="任务流程" Type="Folder">
 			<Item Name="Monitoring task.vi" Type="VI" URL="../任务处理/Monitoring task.vi"/>
 		</Item>
+		<Item Name="MB SLAVE.lvlib" Type="Library" URL="../Modbus Slave/MB SLAVE.lvlib"/>
 		<Item Name="流量计集成.lvlib" Type="Library" URL="../API/流量计/流量计集成.lvlib"/>
 		<Item Name="副屏.lvlib" Type="Library" URL="../副屏/副屏.lvlib"/>
 		<Item Name="PLC.lvlib" Type="Library" URL="../PLC/PLC.lvlib"/>
@@ -176,22 +172,13 @@
 		<Item Name="斯坦道多参数.lvlib" Type="Library" URL="../API/斯坦道仪器多参数/斯坦道多参数.lvlib"/>
 		<Item Name="斯坦道总磷总氮.lvlib" Type="Library" URL="../API/斯坦道仪器总磷总氮/斯坦道总磷总氮.lvlib"/>
 		<Item Name="wxpusher.lvlib" Type="Library" URL="../API/WxMessage/wxpusher.lvlib"/>
-		<Item Name="德润DR803F超标留样.lvlib" Type="Library" URL="../API/超标留样集成/固定站德润DR803F/德润DR803F超标留样.lvlib"/>
-		<Item Name="德润DR803L超标留样.lvlib" Type="Library" URL="../API/超标留样集成/固定站德润DR803L/德润DR803L超标留样.lvlib"/>
-		<Item Name="科盛超标留样.lvlib" Type="Library" URL="../API/超标留样集成/科盛超标留样/科盛超标留样.lvlib"/>
-		<Item Name="德润DR803M超标留样.lvlib" Type="Library" URL="../API/超标留样集成/微站德润DR803M/德润DR803M超标留样.lvlib"/>
-		<Item Name="超标留样流程.vi" Type="VI" URL="../API/超标留样集成/超标留样流程.vi"/>
-		<Item Name="超标留样启动命令.vi" Type="VI" URL="../API/超标留样集成/超标留样启动命令.vi"/>
-		<Item Name="超标留样型号配置.vi" Type="VI" URL="../API/超标留样集成/超标留样型号配置.vi"/>
-		<Item Name="断电保存全局.vi" Type="VI" URL="../API/超标留样集成/断电保存全局.vi"/>
-		<Item Name="界面UI.vi" Type="VI" URL="../API/超标留样集成/界面UI.vi"/>
-		<Item Name="外部交互全局.vi" Type="VI" URL="../API/超标留样集成/外部交互全局.vi"/>
 		<Item Name="斯坦道总氮.lvlib" Type="Library" URL="../API/斯坦道仪器总氮/斯坦道总氮.lvlib"/>
 		<Item Name="斯坦道CODCr.lvlib" Type="Library" URL="../API/斯坦道仪器CODCr/斯坦道CODCr.lvlib"/>
 		<Item Name="update.lvlib" Type="Library" URL="../API/update/update.lvlib"/>
 		<Item Name="数据查询.lvlib" Type="Library" URL="../API/数据查询/数据查询.lvlib"/>
 		<Item Name="质控单元V4.lvlib" Type="Library" URL="../API/质控单元V4/质控单元V4.lvlib"/>
 		<Item Name="环境动力监测库.lvlib" Type="Library" URL="../API/power_environment_monitoring/环境动力监测库.lvlib"/>
+		<Item Name="超标留样集成.lvlib" Type="Library" URL="../API/超标留样集成/超标留样集成.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -820,17 +807,12 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="定时设置.xctl" Type="XControl" URL="../API/共用控件/定时周期/定时设置.xctl"/>
-			<Item Name="反控参数设置.vi" Type="VI" URL="../Modbus Slave/反控参数设置.vi"/>
-			<Item Name="反控仪器单参数通用.vi" Type="VI" URL="../Modbus Slave/反控仪器单参数通用.vi"/>
-			<Item Name="反控仪器参数公式.vi" Type="VI" URL="../Modbus Slave/反控仪器参数公式.vi"/>
 			<Item Name="Create balloon 队列.vi" Type="VI" URL="../Subvi/Create balloon 队列.vi"/>
-			<Item Name="External Interface.vi" Type="VI" URL="../Modbus Slave/External Interface.vi"/>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="user32.dll" Type="Document" URL="user32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="SL1500-3G.lvlib" Type="Library" URL="../API/流量计/SL1500-3G/SL1500-3G.lvlib"/>
-			<Item Name="DR803M4.lvlib" Type="Library" URL="../API/超标留样集成/DR803M4/DR803M4.lvlib"/>
 			<Item Name="ZK HAL.vi" Type="VI" URL="../API/质控单元V4/HAL/ZK HAL.vi"/>
 			<Item Name="ZK定时设置.xctl" Type="XControl" URL="../API/质控单元V4/control/定时周期/ZK定时设置.xctl"/>
 			<Item Name="多状态显示框.ctl" Type="VI" URL="../API/斯坦道仪器多参数/control/多状态显示框.ctl"/>
@@ -855,8 +837,6 @@
 			<Item Name="集成多参数单参数数据插入.vi" Type="VI" URL="../API/database/Interface/集成多参数单参数数据插入.vi"/>
 			<Item Name="校准日志字段定义.ctl" Type="VI" URL="../API/database/control/校准日志字段定义.ctl"/>
 			<Item Name="校准日志数据插入.vi" Type="VI" URL="../API/database/Interface/校准日志数据插入.vi"/>
-			<Item Name="超标浓度设置.vi" Type="VI" URL="../API/超标留样集成/超标浓度设置.vi"/>
-			<Item Name="留样信息存储.vi" Type="VI" URL="../API/超标留样集成/固定站德润DR803L/数据库/留样信息存储.vi"/>
 			<Item Name="超标留样数据插入.vi" Type="VI" URL="../API/database/Interface/超标留样数据插入.vi"/>
 			<Item Name="营养盐字段定义.ctl" Type="VI" URL="../API/database/control/营养盐字段定义.ctl"/>
 			<Item Name="营养盐数据插入.vi" Type="VI" URL="../API/database/Interface/营养盐数据插入.vi"/>
@@ -876,6 +856,16 @@
 			<Item Name="SQLite Upsert.vi" Type="VI" URL="../API/database/Interface/SQLite Upsert.vi"/>
 			<Item Name="lvblas.dll" Type="Document" URL="/&lt;resource&gt;/lvblas.dll"/>
 			<Item Name="多参数24H周期设置.xctl" Type="XControl" URL="../API/共用控件/多参数24H周期设置/多参数24H周期设置.xctl"/>
+			<Item Name="CODCr交互.ctl" Type="VI" URL="../API/共用控件/内部交互/CODCr交互.ctl"/>
+			<Item Name="关键参数.ctl" Type="VI" URL="../API/共用控件/内部交互/关键参数.ctl"/>
+			<Item Name="氨氮交互.ctl" Type="VI" URL="../API/共用控件/内部交互/氨氮交互.ctl"/>
+			<Item Name="总氮交互.ctl" Type="VI" URL="../API/共用控件/内部交互/总氮交互.ctl"/>
+			<Item Name="总磷交互.ctl" Type="VI" URL="../API/共用控件/内部交互/总磷交互.ctl"/>
+			<Item Name="CODMn交互.ctl" Type="VI" URL="../API/共用控件/内部交互/CODMn交互.ctl"/>
+			<Item Name="超标留样交互.ctl" Type="VI" URL="../API/共用控件/内部交互/超标留样交互.ctl"/>
+			<Item Name="测试子流程.ctl" Type="VI" URL="../API/共用控件/内部交互/测试子流程.ctl"/>
+			<Item Name="质控slave id.ctl" Type="VI" URL="../API/共用控件/内部交互/质控slave id.ctl"/>
+			<Item Name="系统交互.ctl" Type="VI" URL="../API/共用控件/内部交互/系统交互.ctl"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="一体化微型水质监测站" Type="EXE">
@@ -893,9 +883,10 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">136</Property>
+				<Property Name="Bld_version.build" Type="Int">137</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.minor" Type="Int">3</Property>
+				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化微型水质监测站.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站/一体化微型水质监测站.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
@@ -909,7 +900,7 @@
 				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/data/tubiao.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C5010AF5-B8DE-4640-8BD5-A5931C9EFFFF}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{80B0B481-7188-4601-8247-2BBE33843BAE}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/UI/VIS/启动.vi</Property>
@@ -954,7 +945,7 @@
 				<Property Name="Source[18].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[18].type" Type="Str">VI</Property>
 				<Property Name="Source[19].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[19].itemID" Type="Ref">/我的电脑/界面UI.vi</Property>
+				<Property Name="Source[19].itemID" Type="Ref">/我的电脑/超标留样集成.lvlib/界面UI.vi</Property>
 				<Property Name="Source[19].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[19].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
@@ -1038,7 +1029,7 @@
 				<Property Name="Source[36].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[36].type" Type="Str">Library</Property>
 				<Property Name="Source[37].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[37].itemID" Type="Ref">/我的电脑/德润DR803F超标留样.lvlib</Property>
+				<Property Name="Source[37].itemID" Type="Ref">/我的电脑/超标留样集成.lvlib/德润DR803F超标留样.lvlib</Property>
 				<Property Name="Source[37].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[37].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[37].type" Type="Str">Library</Property>
@@ -1048,7 +1039,7 @@
 				<Property Name="Source[38].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[38].type" Type="Str">Library</Property>
 				<Property Name="Source[39].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[39].itemID" Type="Ref">/我的电脑/德润DR803L超标留样.lvlib</Property>
+				<Property Name="Source[39].itemID" Type="Ref">/我的电脑/超标留样集成.lvlib/德润DR803L超标留样.lvlib</Property>
 				<Property Name="Source[39].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[39].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[39].type" Type="Str">Library</Property>
@@ -1058,33 +1049,33 @@
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">Library</Property>
 				<Property Name="Source[40].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[40].itemID" Type="Ref">/我的电脑/科盛超标留样.lvlib</Property>
+				<Property Name="Source[40].itemID" Type="Ref">/我的电脑/超标留样集成.lvlib/科盛超标留样.lvlib</Property>
 				<Property Name="Source[40].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[40].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[40].type" Type="Str">Library</Property>
 				<Property Name="Source[41].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[41].itemID" Type="Ref">/我的电脑/德润DR803M超标留样.lvlib</Property>
+				<Property Name="Source[41].itemID" Type="Ref">/我的电脑/超标留样集成.lvlib/德润DR803M超标留样.lvlib</Property>
 				<Property Name="Source[41].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[41].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[41].type" Type="Str">Library</Property>
 				<Property Name="Source[42].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[42].itemID" Type="Ref">/我的电脑/超标留样流程.vi</Property>
+				<Property Name="Source[42].itemID" Type="Ref">/我的电脑/超标留样集成.lvlib/超标留样流程.vi</Property>
 				<Property Name="Source[42].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[42].type" Type="Str">VI</Property>
 				<Property Name="Source[43].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[43].itemID" Type="Ref">/我的电脑/超标留样启动命令.vi</Property>
+				<Property Name="Source[43].itemID" Type="Ref">/我的电脑/超标留样集成.lvlib/超标留样启动命令.vi</Property>
 				<Property Name="Source[43].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[43].type" Type="Str">VI</Property>
 				<Property Name="Source[44].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[44].itemID" Type="Ref">/我的电脑/超标留样型号配置.vi</Property>
+				<Property Name="Source[44].itemID" Type="Ref">/我的电脑/超标留样集成.lvlib/超标留样型号配置.vi</Property>
 				<Property Name="Source[44].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[44].type" Type="Str">VI</Property>
 				<Property Name="Source[45].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[45].itemID" Type="Ref">/我的电脑/断电保存全局.vi</Property>
+				<Property Name="Source[45].itemID" Type="Ref">/我的电脑/超标留样集成.lvlib/断电保存全局.vi</Property>
 				<Property Name="Source[45].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[45].type" Type="Str">VI</Property>
 				<Property Name="Source[46].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[46].itemID" Type="Ref">/我的电脑/外部交互全局.vi</Property>
+				<Property Name="Source[46].itemID" Type="Ref">/我的电脑/超标留样集成.lvlib/外部交互全局.vi</Property>
 				<Property Name="Source[46].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[46].type" Type="Str">VI</Property>
 				<Property Name="Source[47].destinationIndex" Type="Int">0</Property>
