@@ -96,23 +96,6 @@
 				<Item Name="启动.vi" Type="VI" URL="../UI/启动.vi"/>
 			</Item>
 		</Item>
-		<Item Name="Modbus Slave" Type="Folder">
-			<Item Name="全局变量" Type="Folder"/>
-			<Item Name="数据库" Type="Folder"/>
-			<Item Name="CODCr启动 (子VI).vi" Type="VI" URL="../Modbus Slave/CODCr启动 (子VI).vi"/>
-			<Item Name="CODMn启动 (子VI).vi" Type="VI" URL="../Modbus Slave/CODMn启动 (子VI).vi"/>
-			<Item Name="modbus slave new.vi" Type="VI" URL="../Modbus Slave/modbus slave new.vi"/>
-			<Item Name="氨氮启动 (子VI).vi" Type="VI" URL="../Modbus Slave/氨氮启动 (子VI).vi"/>
-			<Item Name="反控启动.vi" Type="VI" URL="../Modbus Slave/反控启动.vi"/>
-			<Item Name="加标回收启动 (子VI).vi" Type="VI" URL="../Modbus Slave/加标回收启动 (子VI).vi"/>
-			<Item Name="启动整机测试 (子VI).vi" Type="VI" URL="../Modbus Slave/启动整机测试 (子VI).vi"/>
-			<Item Name="停止整机测试(子VI).vi" Type="VI" URL="../Modbus Slave/停止整机测试(子VI).vi"/>
-			<Item Name="仪器参数转data in.vi" Type="VI" URL="../Modbus Slave/仪器参数转data in.vi"/>
-			<Item Name="在线监测仪器仪表参数.vi" Type="VI" URL="../Modbus Slave/在线监测仪器仪表参数.vi"/>
-			<Item Name="执行结果反馈与日志存储.vi" Type="VI" URL="../Modbus Slave/执行结果反馈与日志存储.vi"/>
-			<Item Name="总氮启动(子VI).vi" Type="VI" URL="../Modbus Slave/总氮启动(子VI).vi"/>
-			<Item Name="总磷启动(子VI).vi" Type="VI" URL="../Modbus Slave/总磷启动(子VI).vi"/>
-		</Item>
 		<Item Name="系统日志" Type="Folder">
 			<Item Name="系统日志.vi" Type="VI" URL="../系统/系统日志.vi"/>
 		</Item>
@@ -883,7 +866,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">137</Property>
+				<Property Name="Bld_version.build" Type="Int">139</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.minor" Type="Int">3</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
