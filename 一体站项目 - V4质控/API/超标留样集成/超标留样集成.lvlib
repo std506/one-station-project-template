@@ -6,8 +6,8 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="界面UI.vi" Type="VI" URL="../界面UI.vi"/>
-	<Item Name="超标留样启动命令.vi" Type="VI" URL="../超标留样启动命令.vi"/>
 	<Item Name="超标留样流程.vi" Type="VI" URL="../超标留样流程.vi"/>
+	<Item Name="超标留样启动命令.vi" Type="VI" URL="../超标留样启动命令.vi"/>
 	<Item Name="超标留样型号配置.vi" Type="VI" URL="../超标留样型号配置.vi"/>
 	<Item Name="超标浓度设置.vi" Type="VI" URL="../超标浓度设置.vi"/>
 	<Item Name="断电保存全局.vi" Type="VI" URL="../断电保存全局.vi"/>
