@@ -201,6 +201,7 @@
 			<Item Name="操作日志数据插入.vi" Type="VI" URL="../../database/Interface/操作日志数据插入.vi"/>
 			<Item Name="操作日志字段定义.ctl" Type="VI" URL="../../database/control/操作日志字段定义.ctl"/>
 			<Item Name="多参数24H周期设置.xctl" Type="XControl" URL="../../共用控件/多参数24H周期设置/多参数24H周期设置.xctl"/>
+			<Item Name="多参数交互.ctl" Type="VI" URL="../../共用控件/内部交互/多参数交互.ctl"/>
 			<Item Name="集成多参数单参数数据插入.vi" Type="VI" URL="../../database/Interface/集成多参数单参数数据插入.vi"/>
 			<Item Name="集成多参数单参数字段定义.ctl" Type="VI" URL="../../database/control/集成多参数单参数字段定义.ctl"/>
 			<Item Name="集成多参数全参数数据插入.vi" Type="VI" URL="../../database/Interface/集成多参数全参数数据插入.vi"/>

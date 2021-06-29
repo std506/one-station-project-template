@@ -13,6 +13,7 @@
 		<Item Name="CODMn interface.vi" Type="VI" URL="../External Interface/CODMn interface.vi"/>
 		<Item Name="氨氮 interface.vi" Type="VI" URL="../External Interface/氨氮 interface.vi"/>
 		<Item Name="超标留样 interface.vi" Type="VI" URL="../External Interface/超标留样 interface.vi"/>
+		<Item Name="多参数 interface.vi" Type="VI" URL="../External Interface/多参数 interface.vi"/>
 		<Item Name="系统 interface write.vi" Type="VI" URL="../External Interface/系统 interface write.vi"/>
 		<Item Name="系统 interface.vi" Type="VI" URL="../External Interface/系统 interface.vi"/>
 		<Item Name="总氮 interface.vi" Type="VI" URL="../External Interface/总氮 interface.vi"/>

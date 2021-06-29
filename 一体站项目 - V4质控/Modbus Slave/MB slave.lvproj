@@ -165,6 +165,7 @@
 			<Item Name="操作日志字段定义.ctl" Type="VI" URL="../../API/database/control/操作日志字段定义.ctl"/>
 			<Item Name="测试子流程.ctl" Type="VI" URL="../../API/共用控件/内部交互/测试子流程.ctl"/>
 			<Item Name="超标留样交互.ctl" Type="VI" URL="../../API/共用控件/内部交互/超标留样交互.ctl"/>
+			<Item Name="多参数交互.ctl" Type="VI" URL="../../API/共用控件/内部交互/多参数交互.ctl"/>
 			<Item Name="关键参数.ctl" Type="VI" URL="../../API/共用控件/内部交互/关键参数.ctl"/>
 			<Item Name="数据库类型.ctl" Type="VI" URL="../../API/database/control/数据库类型.ctl"/>
 			<Item Name="系统交互.ctl" Type="VI" URL="../../API/共用控件/内部交互/系统交互.ctl"/>
