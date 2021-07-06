@@ -15,6 +15,7 @@
 		<Property Name="server.viscripting.showScriptingOperationsInContextHelp" Type="Bool">false</Property>
 		<Property Name="server.viscripting.showScriptingOperationsInEditor" Type="Bool">false</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="trend.ico" Type="Document" URL="../data/trend.ico"/>
 		<Item Name="多参数状态显示.xctl" Type="XControl" URL="../control/状态显示/多参数状态显示.xctl"/>
 		<Item Name="多状态显示框.ctl" Type="VI" URL="../control/多状态显示框.ctl"/>
 		<Item Name="斯坦道多参数.lvlib" Type="Library" URL="../斯坦道多参数.lvlib"/>
@@ -214,7 +215,6 @@
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{404EF714-6D69-41EA-AA6A-BA7CB0DA2060}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{30E9CEE4-1571-4984-B58C-01AEF468BEAF}</Property>
-				<Property Name="App_INI_itemID" Type="Ref"></Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{A95E0374-08FA-4CA9-928A-B25BA81DA195}</Property>
@@ -227,7 +227,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{1E8D526D-3E36-4864-8450-FCDE13E01BFA}</Property>
-				<Property Name="Bld_version.build" Type="Int">120</Property>
+				<Property Name="Bld_version.build" Type="Int">124</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">斯坦道多参数.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/斯坦道多参数/斯坦道多参数.exe</Property>
@@ -236,7 +236,8 @@
 				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/斯坦道多参数/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1FE5A3DA-5856-4D74-8115-6DAC5E44E919}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/trend.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{BCB6F0BF-57D4-4AAE-AAD8-A646EC146831}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/斯坦道多参数.lvlib/UI/运维调试_五参数.vi</Property>
@@ -265,8 +266,8 @@
 				<Property Name="DistPart[0].productName" Type="Str">NI-VISA运行引擎 16.0</Property>
 				<Property Name="DistPart[0].upgradeCode" Type="Str">{8627993A-3F66-483C-A562-0D3BA3F267B1}</Property>
 				<Property Name="DistPart[1].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[1].productID" Type="Str">{448569AE-EE10-456F-B3A6-CA1D862E2E9C}</Property>
-				<Property Name="DistPart[1].productName" Type="Str">NI LabVIEW运行引擎 2016</Property>
+				<Property Name="DistPart[1].productID" Type="Str">{7683E40C-81DF-43DC-BA19-872415406967}</Property>
+				<Property Name="DistPart[1].productName" Type="Str">NI LabVIEW运行引擎 2016 f5</Property>
 				<Property Name="DistPart[1].SoftDep[0].exclude" Type="Bool">false</Property>
 				<Property Name="DistPart[1].SoftDep[0].productName" Type="Str">NI LabVIEW运行引擎 2016非英语语言支持</Property>
 				<Property Name="DistPart[1].SoftDep[0].upgradeCode" Type="Str">{72AEEB03-DF6A-4C90-B44E-22B1E74CF14F}</Property>
@@ -277,13 +278,13 @@
 				<Property Name="DistPart[1].SoftDep[10].productName" Type="Str">NI VC2015 Runtime</Property>
 				<Property Name="DistPart[1].SoftDep[10].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
 				<Property Name="DistPart[1].SoftDep[11].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[1].SoftDep[11].productName" Type="Str">NI mDNS Responder 14.0</Property>
+				<Property Name="DistPart[1].SoftDep[11].productName" Type="Str">NI mDNS Responder 17.0</Property>
 				<Property Name="DistPart[1].SoftDep[11].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
 				<Property Name="DistPart[1].SoftDep[12].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[1].SoftDep[12].productName" Type="Str">NI Deployment Framework 2016</Property>
+				<Property Name="DistPart[1].SoftDep[12].productName" Type="Str">NI Deployment Framework 2017</Property>
 				<Property Name="DistPart[1].SoftDep[12].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
 				<Property Name="DistPart[1].SoftDep[13].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[1].SoftDep[13].productName" Type="Str">NI错误报告 2016</Property>
+				<Property Name="DistPart[1].SoftDep[13].productName" Type="Str">NI错误报告 2017</Property>
 				<Property Name="DistPart[1].SoftDep[13].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
 				<Property Name="DistPart[1].SoftDep[2].exclude" Type="Bool">false</Property>
 				<Property Name="DistPart[1].SoftDep[2].productName" Type="Str">NI系统Web服务器 16.0</Property>
@@ -292,10 +293,10 @@
 				<Property Name="DistPart[1].SoftDep[3].productName" Type="Str">数学核心库</Property>
 				<Property Name="DistPart[1].SoftDep[3].upgradeCode" Type="Str">{F34FFCA8-C4CB-47CC-8B81-C4E95E227355}</Property>
 				<Property Name="DistPart[1].SoftDep[4].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[1].SoftDep[4].productName" Type="Str">NI Logos 5.8</Property>
+				<Property Name="DistPart[1].SoftDep[4].productName" Type="Str">NI Logos 5.9</Property>
 				<Property Name="DistPart[1].SoftDep[4].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
 				<Property Name="DistPart[1].SoftDep[5].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[1].SoftDep[5].productName" Type="Str">NI TDM Streaming 16.0</Property>
+				<Property Name="DistPart[1].SoftDep[5].productName" Type="Str">NI TDM Streaming 17.0</Property>
 				<Property Name="DistPart[1].SoftDep[5].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
 				<Property Name="DistPart[1].SoftDep[6].exclude" Type="Bool">false</Property>
 				<Property Name="DistPart[1].SoftDep[6].productName" Type="Str">NI LabVIEW Web服务器 2016</Property>
@@ -319,9 +320,9 @@
 				<Property Name="INST_defaultDir" Type="Str">{509B0D10-1082-4553-8E84-4885CDBDC990}</Property>
 				<Property Name="INST_language" Type="Int">2052</Property>
 				<Property Name="INST_productName" Type="Str">斯坦道多参数</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.1</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.4</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">16008010</Property>
+				<Property Name="InstSpecVersion" Type="Str">16008024</Property>
 				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
 				<Property Name="MSI_distID" Type="Str">{EABEB552-1163-4AE3-BABE-FF69246BC420}</Property>
 				<Property Name="MSI_hideNonRuntimes" Type="Bool">true</Property>
