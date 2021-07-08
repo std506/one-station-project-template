@@ -26,6 +26,9 @@
 			<Item Name="原位多参数单参数字段定义.ctl" Type="VI" URL="../control/原位多参数单参数字段定义.ctl"/>
 			<Item Name="原位多参数全参数字段定义.ctl" Type="VI" URL="../control/原位多参数全参数字段定义.ctl"/>
 			<Item Name="数据库类型.ctl" Type="VI" URL="../control/数据库类型.ctl"/>
+			<Item Name="WXA100气象仪字段定义.ctl" Type="VI" URL="../control/WXA100气象仪字段定义.ctl"/>
+			<Item Name="NMAE气象仪字段定义.ctl" Type="VI" URL="../control/NMAE气象仪字段定义.ctl"/>
+			<Item Name="剖面数据字段定义.ctl" Type="VI" URL="../control/剖面数据字段定义.ctl"/>
 			<Item Name="平行样测试数据字段定义.ctl" Type="VI" URL="../control/平行样测试数据字段定义.ctl"/>
 		</Item>
 		<Item Name="example" Type="Folder">
@@ -55,9 +58,11 @@
 			<Item Name="Sqlite Query.vi" Type="VI" URL="../Interface/Sqlite Query.vi"/>
 			<Item Name="SQLite Upsert.vi" Type="VI" URL="../Interface/SQLite Upsert.vi"/>
 			<Item Name="access table insert sqlite.vi" Type="VI" URL="../数据导入工具/access table insert sqlite.vi"/>
-			<Item Name="数据导入工具-main.vi" Type="VI" URL="../数据导入工具/数据导入工具-main.vi"/>
+			<Item Name="剖面数据插入.vi" Type="VI" URL="../Interface/剖面数据插入.vi"/>
 			<Item Name="WXA100气象仪数据插入.vi" Type="VI" URL="../Interface/WXA100气象仪数据插入.vi"/>
 			<Item Name="NMEA气象仪数据插入.vi" Type="VI" URL="../Interface/NMEA气象仪数据插入.vi"/>
+			<Item Name="数据导入工具-main.vi" Type="VI" URL="../数据导入工具/数据导入工具-main.vi"/>
+			<Item Name="剖面数据模拟器.vi" Type="VI" URL="../Interface/剖面数据模拟器.vi"/>
 		</Item>
 		<Item Name="config" Type="Folder">
 			<Item Name="load config.vi" Type="VI" URL="../config/load config.vi"/>
@@ -185,9 +190,8 @@
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
+				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
 			</Item>
-			<Item Name="WXA100气象仪字段定义.ctl" Type="VI" URL="../control/WXA100气象仪字段定义.ctl"/>
-			<Item Name="NMAE气象仪字段定义.ctl" Type="VI" URL="../control/NMAE气象仪字段定义.ctl"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="Access数据迁移工具" Type="EXE">
@@ -228,6 +232,45 @@
 				<Property Name="TgtF_productName" Type="Str">Access数据迁移工具</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{84FB11E5-3BC8-4B4D-9D22-D7196DB853F1}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Access数据迁移工具.exe</Property>
+			</Item>
+			<Item Name="剖面数据模拟器" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{CF7FFCBD-C828-4303-A7C0-14D2BA2D629F}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{FE85C709-71BF-4980-9722-F510A4EF48DA}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{68411AD0-1E67-45B4-BF54-E8EC9EE601A1}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">剖面数据模拟器</Property>
+				<Property Name="Bld_defaultLanguage" Type="Str">ChineseS</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/剖面数据模拟器</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{E8697B06-60AF-4D95-AE54-F6536F262465}</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">剖面数据模拟器.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/剖面数据模拟器/剖面数据模拟器.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/剖面数据模拟器/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{284174AC-A128-46A8-8DF7-D17B5A4688D2}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/Interface/剖面数据模拟器.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">剖面数据模拟器</Property>
+				<Property Name="TgtF_internalName" Type="Str">剖面数据模拟器</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">版权 2021 </Property>
+				<Property Name="TgtF_productName" Type="Str">剖面数据模拟器</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{5F6E0AB5-33F2-4296-B9BF-9630AB6EB077}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">剖面数据模拟器.exe</Property>
 			</Item>
 		</Item>
 	</Item>

@@ -14,7 +14,7 @@
 		<Item Name="调试控件V3.xctl" Type="XControl" URL="../../共用控件/调试控件V3/调试控件V3.xctl"/>
 		<Item Name="周期设置.xctl" Type="XControl" URL="../../共用控件/周期设置/周期设置.xctl"/>
 		<Item Name="定时设置.xctl" Type="XControl" URL="../../共用控件/定时周期/定时设置.xctl"/>
-		<Item Name="斯坦道CODcr.lvlib" Type="Library" URL="../斯坦道CODcr.lvlib"/>
+		<Item Name="斯坦道CODCr.lvlib" Type="Library" URL="../斯坦道CODCr.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
@@ -403,7 +403,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{922D7B7C-6B15-447B-8AB3-939CC26E325E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/斯坦道CODcr.lvlib/总磷总氮/UI/运维调试_总磷总氮.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/斯坦道CODCr.lvlib/总磷总氮/UI/运维调试_总磷总氮.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
