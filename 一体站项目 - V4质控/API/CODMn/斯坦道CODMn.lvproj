@@ -14,7 +14,6 @@
 		<Item Name="定时设置.xctl" Type="XControl" URL="../../共用控件/定时周期/定时设置.xctl"/>
 		<Item Name="CODMn24H周期设置.xctl" Type="XControl" URL="../Control/24H周期设置/CODMn24H周期设置.xctl"/>
 		<Item Name="斯坦道CODMn.lvlib" Type="Library" URL="../斯坦道CODMn.lvlib"/>
-		<Item Name="操作日志数据插入.vi" Type="VI" URL="../../database/Interface/操作日志数据插入.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
@@ -285,6 +284,7 @@
 			<Item Name="PLC版 CODMn字段定义.ctl" Type="VI" URL="../../database/control/PLC版 CODMn字段定义.ctl"/>
 			<Item Name="PLC版CODMn数据插入.vi" Type="VI" URL="../../database/Interface/PLC版CODMn数据插入.vi"/>
 			<Item Name="CODMn交互.ctl" Type="VI" URL="../../共用控件/内部交互/CODMn交互.ctl"/>
+			<Item Name="操作日志数据插入.vi" Type="VI" URL="../../database/Interface/操作日志数据插入.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="我的应用程序" Type="EXE">
