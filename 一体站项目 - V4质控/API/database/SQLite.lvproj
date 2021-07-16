@@ -63,6 +63,9 @@
 			<Item Name="NMEA气象仪数据插入.vi" Type="VI" URL="../Interface/NMEA气象仪数据插入.vi"/>
 			<Item Name="数据导入工具-main.vi" Type="VI" URL="../数据导入工具/数据导入工具-main.vi"/>
 			<Item Name="剖面数据模拟器.vi" Type="VI" URL="../Interface/剖面数据模拟器.vi"/>
+			<Item Name="超标留样数据插入.vi" Type="VI" URL="../Interface/超标留样数据插入.vi"/>
+			<Item Name="点创CODCr数据插入.vi" Type="VI" URL="../Interface/点创CODCr数据插入.vi"/>
+			<Item Name="环境参数数据插入.vi" Type="VI" URL="../Interface/环境参数数据插入.vi"/>
 		</Item>
 		<Item Name="config" Type="Folder">
 			<Item Name="load config.vi" Type="VI" URL="../config/load config.vi"/>
@@ -210,7 +213,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{DEF2A385-C2D3-4934-82E2-EE9DEC8A1FAA}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Access数据迁移工具.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Access数据迁移工具/Access数据迁移工具.exe</Property>
@@ -249,7 +252,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E8697B06-60AF-4D95-AE54-F6536F262465}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">剖面数据模拟器.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/剖面数据模拟器/剖面数据模拟器.exe</Property>

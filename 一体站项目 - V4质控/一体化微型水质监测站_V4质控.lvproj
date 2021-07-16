@@ -163,6 +163,7 @@
 		<Item Name="质控单元V4.lvlib" Type="Library" URL="../API/质控单元V4/质控单元V4.lvlib"/>
 		<Item Name="环境动力监测库.lvlib" Type="Library" URL="../API/power_environment_monitoring/环境动力监测库.lvlib"/>
 		<Item Name="超标留样集成.lvlib" Type="Library" URL="../API/超标留样集成/超标留样集成.lvlib"/>
+		<Item Name="ACCESS加密 (子VI).vi" Type="VI" URL="../系统/ACCESS加密 (子VI).vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -917,6 +918,7 @@
 			<Item Name="系统交互.ctl" Type="VI" URL="../API/共用控件/内部交互/系统交互.ctl"/>
 			<Item Name="测试子流程.ctl" Type="VI" URL="../API/共用控件/内部交互/测试子流程.ctl"/>
 			<Item Name="质控slave id.ctl" Type="VI" URL="../API/共用控件/内部交互/质控slave id.ctl"/>
+			<Item Name="alter database password.vi" Type="VI" URL="../API/database/alter database password.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="一体化微型水质监测站" Type="EXE">
@@ -934,9 +936,10 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">17</Property>
+				<Property Name="Bld_version.build" Type="Int">22</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.minor" Type="Int">4</Property>
+				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化微型水质监测站.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站/一体化微型水质监测站.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
@@ -950,7 +953,7 @@
 				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/data/tubiao.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F52ED4E9-3659-4103-822F-670CD19C9588}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AA531ED8-E0B9-4F11-B0F4-943340EAA391}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/UI/VIS/启动.vi</Property>
@@ -1182,6 +1185,10 @@
 				<Property Name="Source[56].itemID" Type="Ref">/我的电脑/斯坦道CODMn新电路板.lvlib/UI/运维调试_CODMn.vi</Property>
 				<Property Name="Source[56].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[56].type" Type="Str">VI</Property>
+				<Property Name="Source[57].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[57].itemID" Type="Ref">/我的电脑/ACCESS加密 (子VI).vi</Property>
+				<Property Name="Source[57].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[57].type" Type="Str">VI</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[6].itemID" Type="Ref">/我的电脑/其他.lvlib</Property>
 				<Property Name="Source[6].Library.allowMissingMembers" Type="Bool">true</Property>
@@ -1197,7 +1204,7 @@
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[9].itemID" Type="Ref">/我的电脑/UI/VIS/系统设置.vi</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">57</Property>
+				<Property Name="SourceCount" Type="Int">58</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">一体化微型水质监测站</Property>
 				<Property Name="TgtF_internalName" Type="Str">One station online monitoring system 3.0</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">版权 2019 </Property>

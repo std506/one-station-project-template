@@ -1,4 +1,4 @@
-DO	2
+DO	7
 PH	3
 COD	4
 ORP	5

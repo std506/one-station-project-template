@@ -44,7 +44,6 @@
 	</Item>
 	<Item Name="数据库" Type="Folder">
 		<Item Name="报警信息.vi" Type="VI" URL="../数据库/报警信息.vi"/>
-		<Item Name="插入数据.vi" Type="VI" URL="../数据库/插入数据.vi"/>
 		<Item Name="日志存储 (子VI).vi" Type="VI" URL="../数据库/日志存储 (子VI).vi"/>
 		<Item Name="仪器参数转data in.vi" Type="VI" URL="../数据库/仪器参数转data in.vi"/>
 		<Item Name="在线监测仪器仪表参数.vi" Type="VI" URL="../数据库/在线监测仪器仪表参数.vi"/>
