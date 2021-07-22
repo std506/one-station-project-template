@@ -30,6 +30,8 @@
 			<Item Name="NMAE气象仪字段定义.ctl" Type="VI" URL="../control/NMAE气象仪字段定义.ctl"/>
 			<Item Name="剖面数据字段定义.ctl" Type="VI" URL="../control/剖面数据字段定义.ctl"/>
 			<Item Name="平行样测试数据字段定义.ctl" Type="VI" URL="../control/平行样测试数据字段定义.ctl"/>
+			<Item Name="剖面数据_EXO2.ctl" Type="VI" URL="../control/剖面数据_EXO2.ctl"/>
+			<Item Name="剖面数据_bbe_NAQDO.ctl" Type="VI" URL="../control/剖面数据_bbe_NAQDO.ctl"/>
 		</Item>
 		<Item Name="example" Type="Folder">
 			<Item Name="Access example.vi" Type="VI" URL="../Access example.vi"/>
@@ -66,6 +68,8 @@
 			<Item Name="超标留样数据插入.vi" Type="VI" URL="../Interface/超标留样数据插入.vi"/>
 			<Item Name="点创CODCr数据插入.vi" Type="VI" URL="../Interface/点创CODCr数据插入.vi"/>
 			<Item Name="环境参数数据插入.vi" Type="VI" URL="../Interface/环境参数数据插入.vi"/>
+			<Item Name="剖面数据_exo2.vi" Type="VI" URL="../Interface/剖面数据_exo2.vi"/>
+			<Item Name="剖面数据_bbe_NAQDO.vi" Type="VI" URL="../Interface/剖面数据_bbe_NAQDO.vi"/>
 		</Item>
 		<Item Name="config" Type="Folder">
 			<Item Name="load config.vi" Type="VI" URL="../config/load config.vi"/>
