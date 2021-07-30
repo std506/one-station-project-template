@@ -110,6 +110,7 @@
 		<Item Name="数据写入database.vi" Type="VI" URL="../数据库/数据写入database.vi"/>
 		<Item Name="数据写入入队列 (子VI).vi" Type="VI" URL="../数据库/数据写入入队列 (子VI).vi"/>
 		<Item Name="CODMn报警信息转换.vi" Type="VI" URL="../数据库/CODMn报警信息转换.vi"/>
+		<Item Name="PLC版CODMn泵校准数据插入.vi" Type="VI" URL="../数据库/PLC版CODMn泵校准数据插入.vi"/>
 	</Item>
 	<Item Name="子程序" Type="Folder">
 		<Item Name="将启用的浓度作为新的浓度数组.vi" Type="VI" URL="../子程序/将启用的浓度作为新的浓度数组.vi"/>
