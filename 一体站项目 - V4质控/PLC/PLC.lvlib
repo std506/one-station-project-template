@@ -46,4 +46,7 @@
 	<Item Name="control" Type="Folder">
 		<Item Name="switch.ctl" Type="VI" URL="../control/switch.ctl"/>
 	</Item>
+	<Item Name="河水净化" Type="Folder">
+		<Item Name="运维调试_河水净化.vi" Type="VI" URL="../运维调试_河水净化.vi"/>
+	</Item>
 </Library>
