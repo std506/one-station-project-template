@@ -936,7 +936,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">34</Property>
+				<Property Name="Bld_version.build" Type="Int">38</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.minor" Type="Int">4</Property>
 				<Property Name="Bld_version.patch" Type="Int">2</Property>
@@ -953,7 +953,7 @@
 				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/data/tubiao.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6F98EFA8-794D-4496-9C43-3511B272E28E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{11D1F8E5-3E8C-48E8-AADC-6F9079AFA800}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/UI/VIS/启动.vi</Property>
@@ -974,7 +974,7 @@
 				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[12].type" Type="Str">VI</Property>
 				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/我的电脑/PLC.lvlib/UI/运维调试_采配水.vi</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/我的电脑/PLC.lvlib/UI/运维调试_采配水V4.vi</Property>
 				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[13].type" Type="Str">VI</Property>
 				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
@@ -1193,11 +1193,31 @@
 				<Property Name="Source[58].itemID" Type="Ref">/我的电脑/PLC.lvlib/河水净化/运维调试_河水净化.vi</Property>
 				<Property Name="Source[58].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[58].type" Type="Str">VI</Property>
+				<Property Name="Source[59].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[59].itemID" Type="Ref">/我的电脑/PLC.lvlib/UI/运维调试_采配水V1.vi</Property>
+				<Property Name="Source[59].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[59].type" Type="Str">VI</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[6].itemID" Type="Ref">/我的电脑/其他.lvlib</Property>
 				<Property Name="Source[6].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">Library</Property>
+				<Property Name="Source[60].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[60].itemID" Type="Ref">/我的电脑/PLC.lvlib/UI/运维调试_采配水V2.vi</Property>
+				<Property Name="Source[60].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[60].type" Type="Str">VI</Property>
+				<Property Name="Source[61].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[61].itemID" Type="Ref">/我的电脑/PLC.lvlib/UI/运维调试_采配水V3.vi</Property>
+				<Property Name="Source[61].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[61].type" Type="Str">VI</Property>
+				<Property Name="Source[62].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[62].itemID" Type="Ref">/我的电脑/PLC.lvlib/UI/运维调试_采配水SNV1.vi</Property>
+				<Property Name="Source[62].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[62].type" Type="Str">VI</Property>
+				<Property Name="Source[63].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[63].itemID" Type="Ref">/我的电脑/PLC.lvlib/UI/运维调试_采配水SNV2.vi</Property>
+				<Property Name="Source[63].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[63].type" Type="Str">VI</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[7].itemID" Type="Ref">/我的电脑/UI/VIS/主画面.vi</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
@@ -1208,7 +1228,7 @@
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[9].itemID" Type="Ref">/我的电脑/UI/VIS/系统设置.vi</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">59</Property>
+				<Property Name="SourceCount" Type="Int">64</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">一体化微型水质监测站</Property>
 				<Property Name="TgtF_internalName" Type="Str">One station online monitoring system 3.0</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">版权 2019 </Property>
