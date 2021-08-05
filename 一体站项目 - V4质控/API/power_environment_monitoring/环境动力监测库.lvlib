@@ -135,6 +135,9 @@
 		<Item Name="NMEA" Type="Folder">
 			<Item Name="NMEA.lvlib" Type="Library" URL="../串口、TCP连接/NMEA/NMEA.lvlib"/>
 		</Item>
+		<Item Name="智能门禁监测" Type="Folder">
+			<Item Name="智能门禁监测.lvlib" Type="Library" URL="../串口、TCP连接/智能门禁/智能门禁监测.lvlib"/>
+		</Item>
 	</Item>
 	<Item Name="固定站电源管理" Type="Folder">
 		<Item Name="G电源管理库.lvlib" Type="Library" URL="../固定站电源管理/G电源管理库.lvlib"/>
