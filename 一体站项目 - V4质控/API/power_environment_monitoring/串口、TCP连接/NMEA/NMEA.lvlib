@@ -72,4 +72,5 @@
 	<Item Name="GPS通讯(子VI).vi" Type="VI" URL="../GPS通讯(子VI).vi"/>
 	<Item Name="北斗参数配置.vi" Type="VI" URL="../北斗参数配置.vi"/>
 	<Item Name="北斗配置同步 (子VI).vi" Type="VI" URL="../北斗配置同步 (子VI).vi"/>
+	<Item Name="GPS经纬度解析 (子VI).vi" Type="VI" URL="../subvi/GPS经纬度解析 (子VI).vi"/>
 </Library>
