@@ -117,6 +117,7 @@
 	</Item>
 	<Item Name="Interface" Type="Folder">
 		<Item Name="taskqueue ref.vi" Type="VI" URL="../Interface/taskqueue ref.vi"/>
+		<Item Name="报警交互入队列.vi" Type="VI" URL="../Interface/报警交互入队列.vi"/>
 	</Item>
 	<Item Name="task" Type="Folder">
 		<Item Name="task.vi" Type="VI" URL="../task/task.vi"/>

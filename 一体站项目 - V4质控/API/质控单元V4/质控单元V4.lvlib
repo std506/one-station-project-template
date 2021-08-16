@@ -59,6 +59,7 @@
 		<Item Name="仪器日志.vi" Type="VI" URL="../SQL/仪器日志.vi"/>
 	</Item>
 	<Item Name="subvi" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="DataToHex" Type="Folder">
 			<Item Name="DateToHex.vi" Type="VI" URL="../subvi/DataToHex/DateToHex.vi"/>
 			<Item Name="DWordToHex.vi" Type="VI" URL="../subvi/DataToHex/DWordToHex.vi"/>
@@ -72,6 +73,7 @@
 			<Item Name="HexToString.vi" Type="VI" URL="../subvi/HexToData/HexToString.vi"/>
 			<Item Name="HexToWord.vi" Type="VI" URL="../subvi/HexToData/HexToWord.vi"/>
 		</Item>
+		<Item Name="报警交互入队列.vi" Type="VI" URL="../subvi/报警交互入队列.vi"/>
 		<Item Name="Add State to Queue.vi" Type="VI" URL="../subvi/Add State to Queue.vi"/>
 		<Item Name="Simple Parse State Queue.vi" Type="VI" URL="../subvi/Simple Parse State Queue.vi"/>
 		<Item Name="TimeLmtDialog.vi" Type="VI" URL="../subvi/TimeLmtDialog.vi"/>
