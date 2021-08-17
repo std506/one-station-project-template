@@ -9,7 +9,7 @@
 		<Item Name="Write XML.vi" Type="VI" URL="../subvi/Write XML.vi"/>
 		<Item Name="Read XML.vi" Type="VI" URL="../subvi/Read XML.vi"/>
 		<Item Name="Read configure.vi" Type="VI" URL="../subvi/Read configure.vi"/>
-		<Item Name="Write configure(子VI).vi" Type="VI" URL="../subvi/Write configure(子VI).vi"/>
+		<Item Name="Write configure.vi" Type="VI" URL="../subvi/Write configure.vi"/>
 		<Item Name="数字键盘.vi" Type="VI" URL="../subvi/数字键盘.vi"/>
 		<Item Name="操作.vi" Type="VI" URL="../subvi/操作.vi"/>
 		<Item Name="code.vi" Type="VI" URL="../subvi/code.vi"/>
