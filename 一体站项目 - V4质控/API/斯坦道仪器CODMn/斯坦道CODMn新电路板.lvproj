@@ -382,8 +382,6 @@
 			<Item Name="Sqlite Query.vi" Type="VI" URL="../../database/Interface/Sqlite Query.vi"/>
 			<Item Name="lvblas.dll" Type="Document" URL="/&lt;resource&gt;/lvblas.dll"/>
 			<Item Name="CODMn交互.ctl" Type="VI" URL="../../共用控件/内部交互/CODMn交互.ctl"/>
-			<Item Name="报警交互入队列.vi" Type="VI" URL="../../database/Interface/报警交互入队列.vi"/>
-			<Item Name="Read XML.vi" Type="VI" URL="../../database/Interface/Read XML.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="CODMn-新电路板" Type="EXE">

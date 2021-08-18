@@ -127,6 +127,9 @@
 				<Item Name="FindCloseTagByName.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindCloseTagByName.vi"/>
 				<Item Name="FindElementStartByName.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindElementStartByName.vi"/>
 				<Item Name="Read From XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File(string).vi"/>
+				<Item Name="Write to XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(string).vi"/>
+				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
+				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
@@ -286,8 +289,6 @@
 			<Item Name="操作日志数据插入.vi" Type="VI" URL="../../database/Interface/操作日志数据插入.vi"/>
 			<Item Name="load config.vi" Type="VI" URL="../../database/config/load config.vi"/>
 			<Item Name="save config.vi" Type="VI" URL="../../database/config/save config.vi"/>
-			<Item Name="报警交互入队列.vi" Type="VI" URL="../../database/Interface/报警交互入队列.vi"/>
-			<Item Name="Read XML.vi" Type="VI" URL="../../database/Interface/Read XML.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="我的应用程序" Type="EXE">

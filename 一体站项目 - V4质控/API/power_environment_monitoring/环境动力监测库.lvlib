@@ -31,6 +31,10 @@
 	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
 	<Property Name="Serialized ACL" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
+	<Item Name="interface" Type="Folder">
+		<Item Name="Alarm interface.vi" Type="VI" URL="../interface/Alarm interface.vi"/>
+		<Item Name="Read alarm XML.vi" Type="VI" URL="../interface/Read alarm XML.vi"/>
+	</Item>
 	<Item Name="DataToHex" Type="Folder">
 		<Item Name="DateToHex.vi" Type="VI" URL="../DataToHex/DateToHex.vi"/>
 		<Item Name="FloatToHex.vi" Type="VI" URL="../DataToHex/FloatToHex.vi"/>

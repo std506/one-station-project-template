@@ -49,6 +49,10 @@
 		<Item Name="质控状态.ctl" Type="VI" URL="../control/质控状态.ctl"/>
 		<Item Name="质控组合命令区.ctl" Type="VI" URL="../control/质控组合命令区.ctl"/>
 	</Item>
+	<Item Name="interface" Type="Folder">
+		<Item Name="Alarm interface.vi" Type="VI" URL="../interface/Alarm interface.vi"/>
+		<Item Name="Read alarm XML.vi" Type="VI" URL="../interface/Read alarm XML.vi"/>
+	</Item>
 	<Item Name="SQL" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="报警信息记录.vi" Type="VI" URL="../SQL/报警信息记录.vi"/>
@@ -73,7 +77,6 @@
 			<Item Name="HexToString.vi" Type="VI" URL="../subvi/HexToData/HexToString.vi"/>
 			<Item Name="HexToWord.vi" Type="VI" URL="../subvi/HexToData/HexToWord.vi"/>
 		</Item>
-		<Item Name="报警交互入队列.vi" Type="VI" URL="../subvi/报警交互入队列.vi"/>
 		<Item Name="Add State to Queue.vi" Type="VI" URL="../subvi/Add State to Queue.vi"/>
 		<Item Name="Simple Parse State Queue.vi" Type="VI" URL="../subvi/Simple Parse State Queue.vi"/>
 		<Item Name="TimeLmtDialog.vi" Type="VI" URL="../subvi/TimeLmtDialog.vi"/>

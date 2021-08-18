@@ -31,8 +31,9 @@
 	<Property Name="Serialized ACL" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Interface" Type="Folder">
+		<Item Name="Alarm interface.vi" Type="VI" URL="../Interface/Alarm interface.vi"/>
+		<Item Name="Read alarm XML.vi" Type="VI" URL="../Interface/Read alarm XML.vi"/>
 		<Item Name="taskqueue ref.vi" Type="VI" URL="../Interface/taskqueue ref.vi"/>
-		<Item Name="报警交互入队列.vi" Type="VI" URL="../Interface/报警交互入队列.vi"/>
 	</Item>
 	<Item Name="Subvi" Type="Folder">
 		<Item Name="DataToHex" Type="Folder">

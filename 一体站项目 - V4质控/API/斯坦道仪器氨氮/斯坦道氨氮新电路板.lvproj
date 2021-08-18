@@ -373,8 +373,6 @@
 			<Item Name="氨氮交互.ctl" Type="VI" URL="../../共用控件/内部交互/氨氮交互.ctl"/>
 			<Item Name="总氮交互.ctl" Type="VI" URL="../../共用控件/内部交互/总氮交互.ctl"/>
 			<Item Name="总磷交互.ctl" Type="VI" URL="../../共用控件/内部交互/总磷交互.ctl"/>
-			<Item Name="报警交互入队列.vi" Type="VI" URL="../../database/Interface/报警交互入队列.vi"/>
-			<Item Name="Read XML.vi" Type="VI" URL="../../database/Interface/Read XML.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="斯坦道集成软件" Type="EXE">
