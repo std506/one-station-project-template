@@ -31,6 +31,11 @@
 	<Property Name="Serialized ACL" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="subvi" Type="Folder">
+		<Item Name="backup" Type="Folder">
+			<Item Name="sqlbackup.vi" Type="VI" URL="../subvi/sqlbackup.vi"/>
+			<Item Name="配置保存读取.vi" Type="VI" URL="../subvi/配置保存读取.vi"/>
+			<Item Name="设置.vi" Type="VI" URL="../subvi/设置.vi"/>
+		</Item>
 		<Item Name="SQL" Type="Folder">
 			<Item Name="List columns.vi" Type="VI" URL="../subvi/List columns.vi"/>
 			<Item Name="List tables.vi" Type="VI" URL="../subvi/SQL/List tables.vi"/>
@@ -59,5 +64,6 @@
 		<Item Name="数据查询_仪器日志.vi" Type="VI" URL="../UI/数据查询_仪器日志.vi"/>
 		<Item Name="数据查询_仪器数据.vi" Type="VI" URL="../UI/数据查询_仪器数据.vi"/>
 	</Item>
+	<Item Name="holding var.vi" Type="VI" URL="../var/holding var.vi"/>
 	<Item Name="全局变量.vi" Type="VI" URL="../var/全局变量.vi"/>
 </Library>
