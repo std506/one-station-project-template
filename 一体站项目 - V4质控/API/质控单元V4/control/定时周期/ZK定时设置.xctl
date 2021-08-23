@@ -21,6 +21,7 @@
 	<Item Name="subvi" Type="Folder">
 		<Item Name="测试状态判断.vi" Type="VI" URL="../Functions/测试状态判断.vi"/>
 		<Item Name="定点周期设置.vi" Type="VI" URL="../Functions/定点周期设置.vi"/>
+		<Item Name="命令转换.vi" Type="VI" URL="../Functions/命令转换.vi"/>
 		<Item Name="配置文件读取写入.vi" Type="VI" URL="../Functions/配置文件读取写入.vi"/>
 		<Item Name="批量设置.vi" Type="VI" URL="../Functions/批量设置.vi"/>
 		<Item Name="数字键盘.vi" Type="VI" URL="../Functions/数字键盘.vi"/>
@@ -50,7 +51,6 @@
 	<Item Name="初始化 1.vi" Type="Ability VI" URL="../subvi/初始化 1.vi">
 		<Property Name="NI.XItem.Name" Type="Str">Init</Property>
 	</Item>
-	<Item Name="命令转换.vi" Type="VI" URL="../Functions/命令转换.vi"/>
 	<Item Name="数据 1.ctl" Type="Ability VI" URL="../subvi/数据 1.ctl">
 		<Property Name="NI.XItem.Name" Type="Str">Data</Property>
 	</Item>
