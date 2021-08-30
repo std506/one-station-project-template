@@ -10,6 +10,7 @@
 	<Property Name="NI.XItem.Name" Type="Str">XControl 1</Property>
 	<Property Name="NI.XItem.SupportsFatalErrorOut" Type="Bool">false</Property>
 	<Item Name="control" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="测量参数.ctl" Type="VI" URL="../control/测量参数.ctl"/>
 		<Item Name="定点周期设置.ctl" Type="VI" URL="../control/定点周期设置.ctl"/>
 		<Item Name="国标控制命令.ctl" Type="VI" URL="../control/国标控制命令.ctl"/>
@@ -17,6 +18,8 @@
 		<Item Name="启动命令选择.ctl" Type="VI" URL="../control/启动命令选择.ctl"/>
 		<Item Name="切换按钮.ctl" Type="VI" URL="../control/切换按钮.ctl"/>
 		<Item Name="周期模式设置.ctl" Type="VI" URL="../control/周期模式设置.ctl"/>
+		<Item Name="每月启动.ctl" Type="VI" URL="../control/每月启动.ctl"/>
+		<Item Name="每周启动.ctl" Type="VI" URL="../control/每周启动.ctl"/>
 	</Item>
 	<Item Name="subvi" Type="Folder">
 		<Item Name="测试状态判断.vi" Type="VI" URL="../Functions/测试状态判断.vi"/>
