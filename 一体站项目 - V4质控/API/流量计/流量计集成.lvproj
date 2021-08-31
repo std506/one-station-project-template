@@ -190,6 +190,7 @@
 			<Item Name="流量计数据插入.vi" Type="VI" URL="../../database/Interface/流量计数据插入.vi"/>
 			<Item Name="流量计字段定义.ctl" Type="VI" URL="../../database/control/流量计字段定义.ctl"/>
 			<Item Name="数据库类型.ctl" Type="VI" URL="../../database/control/数据库类型.ctl"/>
+			<Item Name="外部调用接口全局变量.vi" Type="VI" URL="../../database/Interface/外部调用接口/外部调用接口全局变量.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="流量计" Type="EXE">
@@ -207,7 +208,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{1B51D083-55AF-4F58-B6A7-EA1E82726AC0}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">流量计.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/流量计.exe</Property>

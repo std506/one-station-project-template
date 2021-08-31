@@ -103,6 +103,10 @@
 			<Item Name="排气扇参数配置.vi" Type="VI" URL="../IO连接/排气扇监测/排气扇参数配置.vi"/>
 			<Item Name="排气扇监测界面.vi" Type="VI" URL="../IO连接/排气扇监测/排气扇监测界面.vi"/>
 		</Item>
+		<Item Name="废液监测" Type="Folder">
+			<Item Name="废液监测界面.vi" Type="VI" URL="../IO连接/废液监测/废液监测界面.vi"/>
+			<Item Name="废液监测2界面.vi" Type="VI" URL="../IO连接/废液监测/废液监测2界面.vi"/>
+		</Item>
 	</Item>
 	<Item Name="串口、TCP连接" Type="Folder">
 		<Item Name="空调系统" Type="Folder">

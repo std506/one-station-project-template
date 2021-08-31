@@ -399,6 +399,7 @@
 			</Item>
 			<Item Name="数据查询菜单.xctl" Type="XControl" URL="../control/数据查询菜单/数据查询菜单.xctl"/>
 			<Item Name="数据库类型.ctl" Type="VI" URL="../../database/control/数据库类型.ctl"/>
+			<Item Name="外部调用接口全局变量.vi" Type="VI" URL="../../database/Interface/外部调用接口/外部调用接口全局变量.vi"/>
 			<Item Name="子菜单.ctl" Type="VI" URL="../control/子菜单.ctl"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">

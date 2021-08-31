@@ -294,6 +294,7 @@
 			<Item Name="PLC版CODMn数据插入.vi" Type="VI" URL="../../database/Interface/PLC版CODMn数据插入.vi"/>
 			<Item Name="CODMn交互.ctl" Type="VI" URL="../../共用控件/内部交互/CODMn交互.ctl"/>
 			<Item Name="操作日志数据插入.vi" Type="VI" URL="../../database/Interface/操作日志数据插入.vi"/>
+			<Item Name="外部调用接口全局变量.vi" Type="VI" URL="../../database/Interface/外部调用接口/外部调用接口全局变量.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="我的应用程序" Type="EXE">

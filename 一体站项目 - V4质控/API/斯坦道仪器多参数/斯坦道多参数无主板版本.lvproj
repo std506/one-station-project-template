@@ -207,6 +207,7 @@
 			<Item Name="集成多参数单参数字段定义.ctl" Type="VI" URL="../../database/control/集成多参数单参数字段定义.ctl"/>
 			<Item Name="集成多参数全参数数据插入.vi" Type="VI" URL="../../database/Interface/集成多参数全参数数据插入.vi"/>
 			<Item Name="数据库类型.ctl" Type="VI" URL="../../database/control/数据库类型.ctl"/>
+			<Item Name="外部调用接口全局变量.vi" Type="VI" URL="../../database/Interface/外部调用接口/外部调用接口全局变量.vi"/>
 			<Item Name="校准日志数据插入.vi" Type="VI" URL="../../database/Interface/校准日志数据插入.vi"/>
 			<Item Name="校准日志字段定义.ctl" Type="VI" URL="../../database/control/校准日志字段定义.ctl"/>
 		</Item>

@@ -168,6 +168,7 @@
 			<Item Name="多参数交互.ctl" Type="VI" URL="../../API/共用控件/内部交互/多参数交互.ctl"/>
 			<Item Name="关键参数.ctl" Type="VI" URL="../../API/共用控件/内部交互/关键参数.ctl"/>
 			<Item Name="数据库类型.ctl" Type="VI" URL="../../API/database/control/数据库类型.ctl"/>
+			<Item Name="外部调用接口全局变量.vi" Type="VI" URL="../../API/database/Interface/外部调用接口/外部调用接口全局变量.vi"/>
 			<Item Name="系统交互.ctl" Type="VI" URL="../../API/共用控件/内部交互/系统交互.ctl"/>
 			<Item Name="质控slave id.ctl" Type="VI" URL="../../API/共用控件/内部交互/质控slave id.ctl"/>
 			<Item Name="总氮交互.ctl" Type="VI" URL="../../API/共用控件/内部交互/总氮交互.ctl"/>

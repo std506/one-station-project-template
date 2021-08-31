@@ -289,6 +289,7 @@
 			<Item Name="操作日志数据插入.vi" Type="VI" URL="../../database/Interface/操作日志数据插入.vi"/>
 			<Item Name="load config.vi" Type="VI" URL="../../database/config/load config.vi"/>
 			<Item Name="save config.vi" Type="VI" URL="../../database/config/save config.vi"/>
+			<Item Name="外部调用接口全局变量.vi" Type="VI" URL="../../database/Interface/外部调用接口/外部调用接口全局变量.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="我的应用程序" Type="EXE">
@@ -307,7 +308,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4C6C3664-ADE1-4BC1-BB38-46DEE0B24486}</Property>
-				<Property Name="Bld_version.build" Type="Int">147</Property>
+				<Property Name="Bld_version.build" Type="Int">153</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">应用程序.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/我的应用程序/应用程序.exe</Property>
@@ -316,7 +317,7 @@
 				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/我的应用程序/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{27B1DC6B-3760-48B9-9A7B-E735E8509FEE}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A0278491-B20D-4B9D-B7E6-413185F80521}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/环境动力监测库.lvlib</Property>
