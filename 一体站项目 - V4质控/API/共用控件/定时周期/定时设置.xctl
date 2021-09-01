@@ -20,6 +20,7 @@
 		<Item Name="周期模式设置.ctl" Type="VI" URL="../control/周期模式设置.ctl"/>
 		<Item Name="每月启动.ctl" Type="VI" URL="../control/每月启动.ctl"/>
 		<Item Name="每周启动.ctl" Type="VI" URL="../control/每周启动.ctl"/>
+		<Item Name="测量频次.ctl" Type="VI" URL="../control/测量频次.ctl"/>
 	</Item>
 	<Item Name="subvi" Type="Folder">
 		<Item Name="测试状态判断.vi" Type="VI" URL="../Functions/测试状态判断.vi"/>
