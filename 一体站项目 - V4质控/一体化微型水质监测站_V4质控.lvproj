@@ -112,6 +112,7 @@
 			<Item Name="停止流程.vi" Type="VI" URL="../系统/停止流程.vi"/>
 			<Item Name="参数初始化.vi" Type="VI" URL="../系统/参数初始化.vi"/>
 			<Item Name="系统交互.vi" Type="VI" URL="../系统/系统交互.vi"/>
+			<Item Name="加载配置.vi" Type="VI" URL="../系统/加载配置.vi"/>
 		</Item>
 		<Item Name="短信服务" Type="Folder">
 			<Item Name="core" Type="Folder">
@@ -156,7 +157,7 @@
 		<Item Name="斯坦道多参数.lvlib" Type="Library" URL="../API/斯坦道仪器多参数/斯坦道多参数.lvlib"/>
 		<Item Name="斯坦道总磷总氮.lvlib" Type="Library" URL="../API/斯坦道仪器总磷总氮/斯坦道总磷总氮.lvlib"/>
 		<Item Name="斯坦道总氮.lvlib" Type="Library" URL="../API/斯坦道仪器总氮/斯坦道总氮.lvlib"/>
-		<Item Name="斯坦道CODCr.lvlib" Type="Library" URL="../API/斯坦道仪器CODCr/斯坦道CODCr.lvlib"/>
+		<Item Name="斯坦道CODcr.lvlib" Type="Library" URL="../API/斯坦道仪器CODCr/斯坦道CODCr.lvlib"/>
 		<Item Name="update.lvlib" Type="Library" URL="../API/update/update.lvlib"/>
 		<Item Name="数据查询.lvlib" Type="Library" URL="../API/数据查询/数据查询.lvlib"/>
 		<Item Name="质控单元V4.lvlib" Type="Library" URL="../API/质控单元V4/质控单元V4.lvlib"/>
@@ -854,7 +855,6 @@
 			</Item>
 			<Item Name="SL1500-3G.lvlib" Type="Library" URL="../API/流量计/SL1500-3G/SL1500-3G.lvlib"/>
 			<Item Name="ZK HAL.vi" Type="VI" URL="../API/质控单元V4/HAL/ZK HAL.vi"/>
-			<Item Name="ZK定时设置.xctl" Type="XControl" URL="../API/质控单元V4/control/定时周期/ZK定时设置.xctl"/>
 			<Item Name="多状态显示框.ctl" Type="VI" URL="../API/斯坦道仪器多参数/control/多状态显示框.ctl"/>
 			<Item Name="多参数状态显示.xctl" Type="XControl" URL="../API/斯坦道仪器多参数/control/状态显示/多参数状态显示.xctl"/>
 			<Item Name="AutoHide Windows Taskbar.vi" Type="VI" URL="../Subvi/AutoHide Windows Taskbar.vi"/>
@@ -916,6 +916,7 @@
 			<Item Name="质控slave id.ctl" Type="VI" URL="../API/共用控件/内部交互/质控slave id.ctl"/>
 			<Item Name="alter database password.vi" Type="VI" URL="../API/database/alter database password.vi"/>
 			<Item Name="外部调用接口全局变量.vi" Type="VI" URL="../API/database/Interface/外部调用接口/外部调用接口全局变量.vi"/>
+			<Item Name="ZK定时设置.xctl" Type="XControl" URL="../API/共用控件/ZK定时周期/ZK定时设置.xctl"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="一体化微型水质监测站" Type="EXE">
@@ -1006,7 +1007,7 @@
 				<Property Name="Source[20].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[20].type" Type="Str">VI</Property>
 				<Property Name="Source[21].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[21].itemID" Type="Ref">/我的电脑/斯坦道CODCr.lvlib/总磷总氮/UI/运维调试_总磷总氮.vi</Property>
+				<Property Name="Source[21].itemID" Type="Ref">/我的电脑/斯坦道CODcr.lvlib/总磷总氮/UI/运维调试_总磷总氮.vi</Property>
 				<Property Name="Source[21].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[21].type" Type="Str">VI</Property>
 				<Property Name="Source[22].destinationIndex" Type="Int">0</Property>
@@ -1129,7 +1130,7 @@
 				<Property Name="Source[46].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[46].type" Type="Str">Library</Property>
 				<Property Name="Source[47].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[47].itemID" Type="Ref">/我的电脑/斯坦道CODCr.lvlib</Property>
+				<Property Name="Source[47].itemID" Type="Ref">/我的电脑/斯坦道CODcr.lvlib</Property>
 				<Property Name="Source[47].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[47].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[47].type" Type="Str">Library</Property>

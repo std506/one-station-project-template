@@ -213,7 +213,7 @@
 			<Item Name="Access Lib.lvlib" Type="Library" URL="../../database/Access/Access Lib.lvlib"/>
 			<Item Name="insert values.vi" Type="VI" URL="../../database/Interface/insert values.vi"/>
 			<Item Name="SQLite Lib.lvlib" Type="Library" URL="../../database/SQLite/SQLite Lib.lvlib"/>
-			<Item Name="ZK定时设置.xctl" Type="XControl" URL="../control/定时周期/ZK定时设置.xctl"/>
+			<Item Name="ZK定时设置.xctl" Type="XControl" URL="../../共用控件/ZK定时周期/ZK定时设置.xctl"/>
 			<Item Name="报警信息数据插入.vi" Type="VI" URL="../../database/Interface/报警信息数据插入.vi"/>
 			<Item Name="报警信息字段定义.ctl" Type="VI" URL="../../database/control/报警信息字段定义.ctl"/>
 			<Item Name="操作日志数据插入.vi" Type="VI" URL="../../database/Interface/操作日志数据插入.vi"/>
