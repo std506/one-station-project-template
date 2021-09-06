@@ -100,6 +100,17 @@
 			<Item Name="系统日志.vi" Type="VI" URL="../系统/系统日志.vi"/>
 		</Item>
 		<Item Name="系统设置" Type="Folder">
+			<Item Name="control" Type="Folder">
+				<Item Name="模块配置表.ctl" Type="VI" URL="../系统/模块配置表.ctl"/>
+				<Item Name="设备类型.ctl" Type="VI" URL="../系统/设备类型.ctl"/>
+				<Item Name="连接配置.ctl" Type="VI" URL="../系统/连接配置.ctl"/>
+				<Item Name="采配水类型.ctl" Type="VI" URL="../系统/采配水类型.ctl"/>
+				<Item Name="模块配置类型.ctl" Type="VI" URL="../系统/模块配置类型.ctl"/>
+				<Item Name="氨氮总磷总氮模块版本.ctl" Type="VI" URL="../系统/氨氮总磷总氮模块版本.ctl"/>
+				<Item Name="CODMn模块版本.ctl" Type="VI" URL="../系统/CODMn模块版本.ctl"/>
+				<Item Name="CODcr模块版本.ctl" Type="VI" URL="../系统/CODcr模块版本.ctl"/>
+				<Item Name="配置表选择.ctl" Type="VI" URL="../系统/配置表选择.ctl"/>
+			</Item>
 			<Item Name="系统设置全局变量.vi" Type="VI" URL="../系统/系统设置全局变量.vi"/>
 			<Item Name="系统设置页.vi" Type="VI" URL="../系统/系统设置页.vi"/>
 			<Item Name="添加启动项.vi" Type="VI" URL="../系统/添加启动项.vi"/>
@@ -113,6 +124,7 @@
 			<Item Name="参数初始化.vi" Type="VI" URL="../系统/参数初始化.vi"/>
 			<Item Name="系统交互.vi" Type="VI" URL="../系统/系统交互.vi"/>
 			<Item Name="加载配置.vi" Type="VI" URL="../系统/加载配置.vi"/>
+			<Item Name="默认配置对话框.vi" Type="VI" URL="../系统/默认配置对话框.vi"/>
 		</Item>
 		<Item Name="短信服务" Type="Folder">
 			<Item Name="core" Type="Folder">
