@@ -3,13 +3,66 @@
 <Version>16.0f5</Version>
 <Cluster>
 <Name>配置信息</Name>
-<NumElts>4</NumElts>
+<NumElts>7</NumElts>
+<EW>
+<Name>测量频次</Name>
+<Choice>每日</Choice>
+<Choice>每周</Choice>
+<Choice>每月</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>每周启动</Name>
+<Choice>周日</Choice>
+<Choice>周一</Choice>
+<Choice>周二</Choice>
+<Choice>周三</Choice>
+<Choice>周四</Choice>
+<Choice>周五</Choice>
+<Choice>周六</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>每月启动</Name>
+<Choice>1号</Choice>
+<Choice>2号</Choice>
+<Choice>3号</Choice>
+<Choice>4号</Choice>
+<Choice>5号</Choice>
+<Choice>6号</Choice>
+<Choice>7号</Choice>
+<Choice>8号</Choice>
+<Choice>9号</Choice>
+<Choice>10号</Choice>
+<Choice>11号</Choice>
+<Choice>12号</Choice>
+<Choice>13号</Choice>
+<Choice>14号</Choice>
+<Choice>15号</Choice>
+<Choice>16号</Choice>
+<Choice>17号</Choice>
+<Choice>18号</Choice>
+<Choice>19号</Choice>
+<Choice>20号</Choice>
+<Choice>21号</Choice>
+<Choice>22号</Choice>
+<Choice>23号</Choice>
+<Choice>24号</Choice>
+<Choice>25号</Choice>
+<Choice>26号</Choice>
+<Choice>27号</Choice>
+<Choice>28号</Choice>
+<Choice>29号</Choice>
+<Choice>30号</Choice>
+<Choice>31号</Choice>
+<Val>0</Val>
+</EW>
 <EW>
 <Name>周期模式</Name>
 <Choice>不启用</Choice>
 <Choice>定点模式</Choice>
 <Choice>间隔模式</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 <U16>
 <Name>测量参数</Name>
@@ -30,6 +83,7 @@
 <Choice>加标回收</Choice>
 <Choice>空白校准</Choice>
 <Choice>标样校准</Choice>
+<Choice>初始化(清洗)</Choice>
 <Val>0</Val>
 </EW>
 <EW>
@@ -44,6 +98,7 @@
 <Choice>加标回收</Choice>
 <Choice>空白校准</Choice>
 <Choice>标样校准</Choice>
+<Choice>初始化(清洗)</Choice>
 <Val>0</Val>
 </EW>
 <EW>
@@ -58,6 +113,7 @@
 <Choice>加标回收</Choice>
 <Choice>空白校准</Choice>
 <Choice>标样校准</Choice>
+<Choice>初始化(清洗)</Choice>
 <Val>0</Val>
 </EW>
 <EW>
@@ -72,6 +128,7 @@
 <Choice>加标回收</Choice>
 <Choice>空白校准</Choice>
 <Choice>标样校准</Choice>
+<Choice>初始化(清洗)</Choice>
 <Val>0</Val>
 </EW>
 <EW>
@@ -86,7 +143,8 @@
 <Choice>加标回收</Choice>
 <Choice>空白校准</Choice>
 <Choice>标样校准</Choice>
-<Val>1</Val>
+<Choice>初始化(清洗)</Choice>
+<Val>0</Val>
 </EW>
 <EW>
 <Name>启动命令 6</Name>
@@ -100,6 +158,7 @@
 <Choice>加标回收</Choice>
 <Choice>空白校准</Choice>
 <Choice>标样校准</Choice>
+<Choice>初始化(清洗)</Choice>
 <Val>0</Val>
 </EW>
 <EW>
@@ -114,6 +173,7 @@
 <Choice>加标回收</Choice>
 <Choice>空白校准</Choice>
 <Choice>标样校准</Choice>
+<Choice>初始化(清洗)</Choice>
 <Val>0</Val>
 </EW>
 <EW>
@@ -128,6 +188,7 @@
 <Choice>加标回收</Choice>
 <Choice>空白校准</Choice>
 <Choice>标样校准</Choice>
+<Choice>初始化(清洗)</Choice>
 <Val>0</Val>
 </EW>
 <EW>
@@ -142,6 +203,7 @@
 <Choice>加标回收</Choice>
 <Choice>空白校准</Choice>
 <Choice>标样校准</Choice>
+<Choice>初始化(清洗)</Choice>
 <Val>0</Val>
 </EW>
 <EW>
@@ -156,6 +218,7 @@
 <Choice>加标回收</Choice>
 <Choice>空白校准</Choice>
 <Choice>标样校准</Choice>
+<Choice>初始化(清洗)</Choice>
 <Val>0</Val>
 </EW>
 <EW>
@@ -170,6 +233,7 @@
 <Choice>加标回收</Choice>
 <Choice>空白校准</Choice>
 <Choice>标样校准</Choice>
+<Choice>初始化(清洗)</Choice>
 <Val>0</Val>
 </EW>
 <EW>
@@ -184,6 +248,7 @@
 <Choice>加标回收</Choice>
 <Choice>空白校准</Choice>
 <Choice>标样校准</Choice>
+<Choice>初始化(清洗)</Choice>
 <Val>0</Val>
 </EW>
 <EW>
@@ -198,6 +263,7 @@
 <Choice>加标回收</Choice>
 <Choice>空白校准</Choice>
 <Choice>标样校准</Choice>
+<Choice>初始化(清洗)</Choice>
 <Val>0</Val>
 </EW>
 <EW>
@@ -212,6 +278,7 @@
 <Choice>加标回收</Choice>
 <Choice>空白校准</Choice>
 <Choice>标样校准</Choice>
+<Choice>初始化(清洗)</Choice>
 <Val>0</Val>
 </EW>
 <EW>
@@ -226,6 +293,7 @@
 <Choice>加标回收</Choice>
 <Choice>空白校准</Choice>
 <Choice>标样校准</Choice>
+<Choice>初始化(清洗)</Choice>
 <Val>0</Val>
 </EW>
 <EW>
@@ -240,6 +308,7 @@
 <Choice>加标回收</Choice>
 <Choice>空白校准</Choice>
 <Choice>标样校准</Choice>
+<Choice>初始化(清洗)</Choice>
 <Val>0</Val>
 </EW>
 <EW>
@@ -254,6 +323,7 @@
 <Choice>加标回收</Choice>
 <Choice>空白校准</Choice>
 <Choice>标样校准</Choice>
+<Choice>初始化(清洗)</Choice>
 <Val>0</Val>
 </EW>
 <EW>
@@ -268,6 +338,7 @@
 <Choice>加标回收</Choice>
 <Choice>空白校准</Choice>
 <Choice>标样校准</Choice>
+<Choice>初始化(清洗)</Choice>
 <Val>0</Val>
 </EW>
 <EW>
@@ -282,6 +353,7 @@
 <Choice>加标回收</Choice>
 <Choice>空白校准</Choice>
 <Choice>标样校准</Choice>
+<Choice>初始化(清洗)</Choice>
 <Val>0</Val>
 </EW>
 <EW>
@@ -296,6 +368,7 @@
 <Choice>加标回收</Choice>
 <Choice>空白校准</Choice>
 <Choice>标样校准</Choice>
+<Choice>初始化(清洗)</Choice>
 <Val>0</Val>
 </EW>
 <EW>
@@ -310,6 +383,7 @@
 <Choice>加标回收</Choice>
 <Choice>空白校准</Choice>
 <Choice>标样校准</Choice>
+<Choice>初始化(清洗)</Choice>
 <Val>0</Val>
 </EW>
 <EW>
@@ -324,6 +398,7 @@
 <Choice>加标回收</Choice>
 <Choice>空白校准</Choice>
 <Choice>标样校准</Choice>
+<Choice>初始化(清洗)</Choice>
 <Val>0</Val>
 </EW>
 <EW>
@@ -338,6 +413,7 @@
 <Choice>加标回收</Choice>
 <Choice>空白校准</Choice>
 <Choice>标样校准</Choice>
+<Choice>初始化(清洗)</Choice>
 <Val>0</Val>
 </EW>
 <EW>
@@ -352,6 +428,7 @@
 <Choice>加标回收</Choice>
 <Choice>空白校准</Choice>
 <Choice>标样校准</Choice>
+<Choice>初始化(清洗)</Choice>
 <Val>0</Val>
 </EW>
 </Cluster>
@@ -370,6 +447,7 @@
 <Choice>加标回收</Choice>
 <Choice>空白校准</Choice>
 <Choice>标样校准</Choice>
+<Choice>初始化(清洗)</Choice>
 <Val>0</Val>
 </EW>
 <DBL>
