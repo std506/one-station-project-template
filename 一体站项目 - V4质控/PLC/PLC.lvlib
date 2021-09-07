@@ -8,6 +8,7 @@
 	<Item Name="interface" Type="Folder">
 		<Item Name="Alarm interface.vi" Type="VI" URL="../interface/Alarm interface.vi"/>
 		<Item Name="Read alarm XML.vi" Type="VI" URL="../interface/Read alarm XML.vi"/>
+		<Item Name="状态输出.vi" Type="VI" URL="../状态输出.vi"/>
 	</Item>
 	<Item Name="电源管理" Type="Folder">
 		<Item Name="多参数电源命令.vi" Type="VI" URL="../电源管理/多参数电源命令.vi"/>
@@ -34,6 +35,7 @@
 		<Item Name="运维调试_采配水V4.vi" Type="VI" URL="../运维调试_采配水V4.vi"/>
 		<Item Name="运维调试_采配水SNV1.vi" Type="VI" URL="../运维调试_采配水SNV1.vi"/>
 		<Item Name="运维调试_采配水SNV2.vi" Type="VI" URL="../运维调试_采配水SNV2.vi"/>
+		<Item Name="运维调试_采配水GD.vi" Type="VI" URL="../运维调试_采配水GD.vi"/>
 	</Item>
 	<Item Name="数据" Type="Folder">
 		<Item Name="报警信息.vi" Type="VI" URL="../报警信息.vi"/>
