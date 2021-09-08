@@ -1,5 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="16008000">
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="我的电脑" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -148,7 +150,7 @@
 				<Item Name="斯坦道氨氮.lvlib" Type="Library" URL="../API/斯坦道仪器氨氮/斯坦道氨氮.lvlib"/>
 				<Item Name="斯坦道总氮.lvlib" Type="Library" URL="../API/斯坦道仪器总氮/斯坦道总氮.lvlib"/>
 				<Item Name="斯坦道CODMn新电路板.lvlib" Type="Library" URL="../API/斯坦道仪器CODMn/斯坦道CODMn新电路板.lvlib"/>
-				<Item Name="斯坦道CODcr.lvlib" Type="Library" URL="../API/斯坦道仪器CODCr/斯坦道CODCr.lvlib"/>
+				<Item Name="斯坦道CODCr.lvlib" Type="Library" URL="../API/斯坦道仪器CODCr/斯坦道CODCr.lvlib"/>
 				<Item Name="斯坦道总磷总氮.lvlib" Type="Library" URL="../API/斯坦道仪器总磷总氮/斯坦道总磷总氮.lvlib"/>
 			</Item>
 			<Item Name="质控单元" Type="Folder">
@@ -947,7 +949,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.minor" Type="Int">5</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化微型水质监测站.exe</Property>
@@ -963,7 +965,7 @@
 				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/data/tubiao.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E6487C0D-F22F-4E68-832C-D33C2D303B93}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FCF9B1BA-DA90-4547-B00A-E86DA506E9C4}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/UI/VIS/启动.vi</Property>
@@ -973,11 +975,9 @@
 				<Property Name="Source[10].itemID" Type="Ref">/我的电脑/UI/VIS/运维调试.vi</Property>
 				<Property Name="Source[10].type" Type="Str">VI</Property>
 				<Property Name="Source[11].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[11].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[11].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[11].itemID" Type="Ref">/我的电脑/流程文件</Property>
-				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[11].type" Type="Str">Container</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[12].itemID" Type="Ref">/我的电脑/PLC.lvlib/电源管理/电源管理UI.vi</Property>
@@ -1019,7 +1019,7 @@
 				<Property Name="Source[20].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[20].type" Type="Str">VI</Property>
 				<Property Name="Source[21].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[21].itemID" Type="Ref">/我的电脑/设备仪器/斯坦道V3/斯坦道CODcr.lvlib/总磷总氮/UI/运维调试_总磷总氮.vi</Property>
+				<Property Name="Source[21].itemID" Type="Ref">/我的电脑/设备仪器/斯坦道V3/斯坦道CODCr.lvlib/总磷总氮/UI/运维调试_总磷总氮.vi</Property>
 				<Property Name="Source[21].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[21].type" Type="Str">VI</Property>
 				<Property Name="Source[22].destinationIndex" Type="Int">0</Property>
@@ -1029,7 +1029,6 @@
 				<Property Name="Source[23].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[23].itemID" Type="Ref">/我的电脑/环境动力监测库.lvlib</Property>
 				<Property Name="Source[23].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[23].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[23].type" Type="Str">Library</Property>
 				<Property Name="Source[24].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[24].Container.depDestIndex" Type="Int">0</Property>
@@ -1062,7 +1061,6 @@
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/我的电脑/副屏.lvlib</Property>
 				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Library</Property>
 				<Property Name="Source[30].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[30].itemID" Type="Ref">/我的电脑/data/FreeMem.dll</Property>
@@ -1079,42 +1077,34 @@
 				<Property Name="Source[34].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[34].itemID" Type="Ref">/我的电脑/设备仪器/斯坦道V3/斯坦道氨氮.lvlib</Property>
 				<Property Name="Source[34].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[34].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[34].type" Type="Str">Library</Property>
 				<Property Name="Source[35].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[35].itemID" Type="Ref">/我的电脑/设备仪器/斯坦道多参数.lvlib</Property>
 				<Property Name="Source[35].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[35].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[35].type" Type="Str">Library</Property>
 				<Property Name="Source[36].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[36].itemID" Type="Ref">/我的电脑/设备仪器/斯坦道V3/斯坦道总磷总氮.lvlib</Property>
 				<Property Name="Source[36].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[36].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[36].type" Type="Str">Library</Property>
 				<Property Name="Source[37].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[37].itemID" Type="Ref">/我的电脑/超标留样集成.lvlib/德润DR803F超标留样.lvlib</Property>
 				<Property Name="Source[37].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[37].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[37].type" Type="Str">Library</Property>
 				<Property Name="Source[38].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[38].itemID" Type="Ref">/我的电脑/超标留样集成.lvlib/德润DR803L超标留样.lvlib</Property>
 				<Property Name="Source[38].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[38].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[38].type" Type="Str">Library</Property>
 				<Property Name="Source[39].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[39].itemID" Type="Ref">/我的电脑/超标留样集成.lvlib/科盛超标留样.lvlib</Property>
 				<Property Name="Source[39].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[39].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[39].type" Type="Str">Library</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[4].itemID" Type="Ref">/我的电脑/PLC.lvlib</Property>
 				<Property Name="Source[4].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">Library</Property>
 				<Property Name="Source[40].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[40].itemID" Type="Ref">/我的电脑/超标留样集成.lvlib/德润DR803M超标留样.lvlib</Property>
 				<Property Name="Source[40].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[40].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[40].type" Type="Str">Library</Property>
 				<Property Name="Source[41].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[41].itemID" Type="Ref">/我的电脑/超标留样集成.lvlib/超标留样流程.vi</Property>
@@ -1139,42 +1129,34 @@
 				<Property Name="Source[46].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[46].itemID" Type="Ref">/我的电脑/设备仪器/斯坦道V3/斯坦道总氮.lvlib</Property>
 				<Property Name="Source[46].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[46].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[46].type" Type="Str">Library</Property>
 				<Property Name="Source[47].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[47].itemID" Type="Ref">/我的电脑/设备仪器/斯坦道V3/斯坦道CODcr.lvlib</Property>
+				<Property Name="Source[47].itemID" Type="Ref">/我的电脑/设备仪器/斯坦道V3/斯坦道CODCr.lvlib</Property>
 				<Property Name="Source[47].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[47].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[47].type" Type="Str">Library</Property>
 				<Property Name="Source[48].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[48].itemID" Type="Ref">/我的电脑/update.lvlib</Property>
 				<Property Name="Source[48].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[48].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[48].type" Type="Str">Library</Property>
 				<Property Name="Source[49].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[49].itemID" Type="Ref">/我的电脑/数据查询.lvlib</Property>
 				<Property Name="Source[49].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[49].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[49].type" Type="Str">Library</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[5].itemID" Type="Ref">/我的电脑/设备仪器/斯坦道V2/斯坦道CODMn.lvlib</Property>
 				<Property Name="Source[5].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">Library</Property>
 				<Property Name="Source[50].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[50].itemID" Type="Ref">/我的电脑/设备仪器/质控单元/质控单元V4.lvlib</Property>
 				<Property Name="Source[50].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[50].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[50].type" Type="Str">Library</Property>
 				<Property Name="Source[51].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[51].itemID" Type="Ref">/我的电脑/流量计集成.lvlib</Property>
 				<Property Name="Source[51].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[51].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[51].type" Type="Str">Library</Property>
 				<Property Name="Source[52].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[52].itemID" Type="Ref">/我的电脑/设备仪器/斯坦道V3/斯坦道CODMn新电路板.lvlib</Property>
 				<Property Name="Source[52].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[52].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[52].type" Type="Str">Library</Property>
 				<Property Name="Source[53].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[53].itemID" Type="Ref">/我的电脑/MB SLAVE.lvlib</Property>
@@ -1184,7 +1166,6 @@
 				<Property Name="Source[54].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[54].itemID" Type="Ref">/我的电脑/超标留样集成.lvlib</Property>
 				<Property Name="Source[54].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[54].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[54].type" Type="Str">Library</Property>
 				<Property Name="Source[55].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[55].itemID" Type="Ref">/我的电脑/设备仪器/斯坦道V3/斯坦道CODMn新电路板.lvlib/UI/运维调试_CODMn.vi</Property>
@@ -1209,7 +1190,6 @@
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[6].itemID" Type="Ref">/我的电脑/其他.lvlib</Property>
 				<Property Name="Source[6].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">Library</Property>
 				<Property Name="Source[60].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[60].itemID" Type="Ref">/我的电脑/PLC.lvlib/UI/运维调试_采配水V3.vi</Property>
@@ -1226,32 +1206,26 @@
 				<Property Name="Source[63].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[63].itemID" Type="Ref">/我的电脑/设备仪器/斯坦道V2/斯坦道氨氮V2.lvlib</Property>
 				<Property Name="Source[63].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[63].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[63].type" Type="Str">Library</Property>
 				<Property Name="Source[64].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[64].itemID" Type="Ref">/我的电脑/设备仪器/斯坦道V2/斯坦道总氮V2.lvlib</Property>
 				<Property Name="Source[64].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[64].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[64].type" Type="Str">Library</Property>
 				<Property Name="Source[65].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[65].itemID" Type="Ref">/我的电脑/设备仪器/斯坦道V2/斯坦道总磷总氮V2.lvlib</Property>
 				<Property Name="Source[65].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[65].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[65].type" Type="Str">Library</Property>
 				<Property Name="Source[66].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[66].itemID" Type="Ref">/我的电脑/设备仪器/质控单元/质控单元V1.lvlib</Property>
 				<Property Name="Source[66].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[66].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[66].type" Type="Str">Library</Property>
 				<Property Name="Source[67].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[67].itemID" Type="Ref">/我的电脑/设备仪器/质控单元/质控单元V2.lvlib</Property>
 				<Property Name="Source[67].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[67].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[67].type" Type="Str">Library</Property>
 				<Property Name="Source[68].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[68].itemID" Type="Ref">/我的电脑/设备仪器/斯坦道原位多参数.lvlib</Property>
 				<Property Name="Source[68].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[68].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[68].type" Type="Str">Library</Property>
 				<Property Name="Source[69].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[69].itemID" Type="Ref">/我的电脑/设备仪器/质控单元/质控单元V1.lvlib/UI/运维调试界面.vi</Property>
@@ -1281,13 +1255,18 @@
 				<Property Name="Source[74].itemID" Type="Ref">/我的电脑/设备仪器/斯坦道原位多参数.lvlib/常规五参数/UI/运维调试_五参数.vi</Property>
 				<Property Name="Source[74].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[74].type" Type="Str">VI</Property>
+				<Property Name="Source[75].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[75].itemID" Type="Ref">/我的电脑/PLC.lvlib/UI/运维调试_采配水GD.vi</Property>
+				<Property Name="Source[75].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[75].type" Type="Str">VI</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[8].itemID" Type="Ref">/我的电脑/UI/VIS/首页.vi</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[9].itemID" Type="Ref">/我的电脑/UI/VIS/系统设置.vi</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">75</Property>
+				<Property Name="SourceCount" Type="Int">76</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">一体化微型水质监测站</Property>
 				<Property Name="TgtF_internalName" Type="Str">One station online monitoring system 3.0</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">版权 2019 </Property>
