@@ -11,7 +11,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="HAL" Type="Folder">
-			<Item Name="ZK HAL.vi" Type="VI" URL="../HAL/ZK HAL.vi"/>
+			<Item Name="ZKV2 HAL.vi" Type="VI" URL="../HAL/ZKV2 HAL.vi"/>
 		</Item>
 		<Item Name="质控单元V2.lvlib" Type="Library" URL="../质控单元V2.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
