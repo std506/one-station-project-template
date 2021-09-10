@@ -87,8 +87,9 @@
 				<Item Name="锁.ctl" Type="VI" URL="../UI/控件/锁.ctl"/>
 				<Item Name="导出.ctl" Type="VI" URL="../UI/控件/导出.ctl"/>
 				<Item Name="下拉列表.xctl" Type="XControl" URL="../API/数据查询/control/下拉列表/下拉列表.xctl"/>
-				<Item Name="大项目框.xctl" Type="XControl" URL="../UI/控件/大项目框/大项目框.xctl"/>
 				<Item Name="关于.ctl" Type="VI" URL="../UI/控件/关于.ctl"/>
+				<Item Name="数值显示.ctl" Type="VI" URL="../UI/控件/数值显示.ctl"/>
+				<Item Name="多数值显示.ctl" Type="VI" URL="../UI/控件/多数值显示.ctl"/>
 			</Item>
 			<Item Name="VIS" Type="Folder">
 				<Item Name="首页.vi" Type="VI" URL="../UI/VIS/首页.vi"/>
@@ -172,6 +173,7 @@
 		<Item Name="超标留样集成.lvlib" Type="Library" URL="../API/超标留样集成/超标留样集成.lvlib"/>
 		<Item Name="ACCESS加密 (子VI).vi" Type="VI" URL="../系统/ACCESS加密 (子VI).vi"/>
 		<Item Name="Alarm interface.lvlib" Type="Library" URL="../API/Alarm interface/Alarm interface.lvlib"/>
+		<Item Name="数值显示转换.vi" Type="VI" URL="../Subvi/数值显示转换.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -946,7 +948,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.minor" Type="Int">5</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化微型水质监测站.exe</Property>
