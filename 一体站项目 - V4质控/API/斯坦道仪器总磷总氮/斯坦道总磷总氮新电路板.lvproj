@@ -361,7 +361,6 @@
 			<Item Name="数据库类型.ctl" Type="VI" URL="../../database/control/数据库类型.ctl"/>
 			<Item Name="lvblas.dll" Type="Document" URL="/&lt;resource&gt;/lvblas.dll"/>
 			<Item Name="Select Str.vi" Type="VI" URL="../../database/Interface/Select Str.vi"/>
-			<Item Name="关键参数.ctl" Type="VI" URL="../../共用控件/内部交互/关键参数.ctl"/>
 			<Item Name="CODCr交互.ctl" Type="VI" URL="../../共用控件/内部交互/CODCr交互.ctl"/>
 			<Item Name="氨氮交互.ctl" Type="VI" URL="../../共用控件/内部交互/氨氮交互.ctl"/>
 			<Item Name="总氮交互.ctl" Type="VI" URL="../../共用控件/内部交互/总氮交互.ctl"/>
