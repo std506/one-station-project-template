@@ -361,12 +361,12 @@
 			<Item Name="数据库类型.ctl" Type="VI" URL="../../database/control/数据库类型.ctl"/>
 			<Item Name="lvblas.dll" Type="Document" URL="/&lt;resource&gt;/lvblas.dll"/>
 			<Item Name="Select Str.vi" Type="VI" URL="../../database/Interface/Select Str.vi"/>
-			<Item Name="关键参数.ctl" Type="VI" URL="../../共用控件/内部交互/关键参数.ctl"/>
 			<Item Name="CODCr交互.ctl" Type="VI" URL="../../共用控件/内部交互/CODCr交互.ctl"/>
 			<Item Name="氨氮交互.ctl" Type="VI" URL="../../共用控件/内部交互/氨氮交互.ctl"/>
 			<Item Name="总氮交互.ctl" Type="VI" URL="../../共用控件/内部交互/总氮交互.ctl"/>
 			<Item Name="总磷交互.ctl" Type="VI" URL="../../共用控件/内部交互/总磷交互.ctl"/>
 			<Item Name="外部调用接口全局变量.vi" Type="VI" URL="../../database/Interface/外部调用接口/外部调用接口全局变量.vi"/>
+			<Item Name="关键参数.ctl" Type="VI" URL="../../共用控件/内部交互/关键参数.ctl"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="斯坦道集成软件" Type="EXE">
@@ -385,7 +385,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2B5A7B9C-3504-4CAA-8390-2E8A2161D0B0}</Property>
-				<Property Name="Bld_version.build" Type="Int">170</Property>
+				<Property Name="Bld_version.build" Type="Int">171</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">斯坦道集成软件.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/斯坦道集成软件/斯坦道集成软件.exe</Property>
