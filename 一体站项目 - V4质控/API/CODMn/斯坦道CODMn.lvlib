@@ -117,8 +117,6 @@
 	</Item>
 	<Item Name="Interface" Type="Folder">
 		<Item Name="taskqueue ref.vi" Type="VI" URL="../Interface/taskqueue ref.vi"/>
-		<Item Name="Read alarm XML.vi" Type="VI" URL="../Interface/Read alarm XML.vi"/>
-		<Item Name="Alarm interface.vi" Type="VI" URL="../Interface/Alarm interface.vi"/>
 	</Item>
 	<Item Name="task" Type="Folder">
 		<Item Name="task.vi" Type="VI" URL="../task/task.vi"/>

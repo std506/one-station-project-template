@@ -150,7 +150,7 @@
 				<Item Name="斯坦道氨氮.lvlib" Type="Library" URL="../API/斯坦道仪器氨氮/斯坦道氨氮.lvlib"/>
 				<Item Name="斯坦道总氮.lvlib" Type="Library" URL="../API/斯坦道仪器总氮/斯坦道总氮.lvlib"/>
 				<Item Name="斯坦道CODMn新电路板.lvlib" Type="Library" URL="../API/斯坦道仪器CODMn/斯坦道CODMn新电路板.lvlib"/>
-				<Item Name="斯坦道CODcr.lvlib" Type="Library" URL="../API/斯坦道仪器CODCr/斯坦道CODCr.lvlib"/>
+				<Item Name="斯坦道CODCr.lvlib" Type="Library" URL="../API/斯坦道仪器CODCr/斯坦道CODCr.lvlib"/>
 				<Item Name="斯坦道总磷总氮.lvlib" Type="Library" URL="../API/斯坦道仪器总磷总氮/斯坦道总磷总氮.lvlib"/>
 			</Item>
 			<Item Name="质控单元" Type="Folder">
@@ -904,7 +904,6 @@
 			<Item Name="lvblas.dll" Type="Document" URL="/&lt;resource&gt;/lvblas.dll"/>
 			<Item Name="多参数24H周期设置.xctl" Type="XControl" URL="../API/共用控件/多参数24H周期设置/多参数24H周期设置.xctl"/>
 			<Item Name="CODCr交互.ctl" Type="VI" URL="../API/共用控件/内部交互/CODCr交互.ctl"/>
-			<Item Name="关键参数.ctl" Type="VI" URL="../API/共用控件/内部交互/关键参数.ctl"/>
 			<Item Name="氨氮交互.ctl" Type="VI" URL="../API/共用控件/内部交互/氨氮交互.ctl"/>
 			<Item Name="总氮交互.ctl" Type="VI" URL="../API/共用控件/内部交互/总氮交互.ctl"/>
 			<Item Name="总磷交互.ctl" Type="VI" URL="../API/共用控件/内部交互/总磷交互.ctl"/>
@@ -949,7 +948,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">10</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.minor" Type="Int">5</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化微型水质监测站.exe</Property>
@@ -1019,7 +1018,7 @@
 				<Property Name="Source[20].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[20].type" Type="Str">VI</Property>
 				<Property Name="Source[21].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[21].itemID" Type="Ref">/我的电脑/设备仪器/斯坦道V3/斯坦道CODcr.lvlib/总磷总氮/UI/运维调试_总磷总氮.vi</Property>
+				<Property Name="Source[21].itemID" Type="Ref">/我的电脑/设备仪器/斯坦道V3/斯坦道CODCr.lvlib/总磷总氮/UI/运维调试_总磷总氮.vi</Property>
 				<Property Name="Source[21].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[21].type" Type="Str">VI</Property>
 				<Property Name="Source[22].destinationIndex" Type="Int">0</Property>
@@ -1131,7 +1130,7 @@
 				<Property Name="Source[46].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[46].type" Type="Str">Library</Property>
 				<Property Name="Source[47].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[47].itemID" Type="Ref">/我的电脑/设备仪器/斯坦道V3/斯坦道CODcr.lvlib</Property>
+				<Property Name="Source[47].itemID" Type="Ref">/我的电脑/设备仪器/斯坦道V3/斯坦道CODCr.lvlib</Property>
 				<Property Name="Source[47].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[47].type" Type="Str">Library</Property>
 				<Property Name="Source[48].destinationIndex" Type="Int">0</Property>
