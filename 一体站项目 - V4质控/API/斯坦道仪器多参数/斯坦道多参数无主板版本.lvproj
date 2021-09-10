@@ -17,7 +17,6 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="trend.ico" Type="Document" URL="../data/trend.ico"/>
 		<Item Name="多参数状态显示.xctl" Type="XControl" URL="../control/状态显示/多参数状态显示.xctl"/>
-		<Item Name="多状态显示框.ctl" Type="VI" URL="../control/多状态显示框.ctl"/>
 		<Item Name="斯坦道多参数.lvlib" Type="Library" URL="../斯坦道多参数.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -228,7 +227,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{1E8D526D-3E36-4864-8450-FCDE13E01BFA}</Property>
-				<Property Name="Bld_version.build" Type="Int">126</Property>
+				<Property Name="Bld_version.build" Type="Int">127</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">斯坦道多参数.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/斯坦道多参数/斯坦道多参数.exe</Property>

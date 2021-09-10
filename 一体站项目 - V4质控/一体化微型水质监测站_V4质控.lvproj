@@ -862,8 +862,6 @@
 			</Item>
 			<Item Name="SL1500-3G.lvlib" Type="Library" URL="../API/流量计/SL1500-3G/SL1500-3G.lvlib"/>
 			<Item Name="ZK HAL.vi" Type="VI" URL="../API/质控单元V4/HAL/ZK HAL.vi"/>
-			<Item Name="多状态显示框.ctl" Type="VI" URL="../API/斯坦道仪器多参数/control/多状态显示框.ctl"/>
-			<Item Name="多参数状态显示.xctl" Type="XControl" URL="../API/斯坦道仪器多参数/control/状态显示/多参数状态显示.xctl"/>
 			<Item Name="AutoHide Windows Taskbar.vi" Type="VI" URL="../Subvi/AutoHide Windows Taskbar.vi"/>
 			<Item Name="shell32.dll" Type="Document" URL="shell32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
