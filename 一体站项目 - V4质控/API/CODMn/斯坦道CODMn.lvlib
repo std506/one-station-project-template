@@ -11,7 +11,7 @@
 	<Property Name="Enable Data Logging" Type="Bool">true</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(]!!!*Q(C=\&gt;8"=&gt;MQ%!8143;(8.6"2CVM#WJ",7Q,SN&amp;(N&lt;!NK!7VM#WI"&lt;8A0$%94UZ2$P%E"Y.?G@I%A7=11U&gt;M\7P%FXB^VL\`NHV=@X&lt;^39O0^N(_&lt;8NZOEH@@=^_CM?,3)VK63LD-&gt;8LS%=_]J'0@/1N&lt;XH,7^\SFJ?]Z#5P?=F,HP+5JTTF+5`Z&gt;MB$(P+1)YX*RU2DU$(![)Q3YW.YBG&gt;YBM@8'*\B':\B'2Z&gt;9HC':XC':XD=&amp;M-T0--T0-.DK%USWS(H'2\$2`-U4`-U4`/9-JKH!&gt;JE&lt;?!W#%;UC_WE?:KH?:R']T20]T20]\A=T&gt;-]T&gt;-]T?/7&lt;66[UTQ//9^BIHC+JXC+JXA-(=640-640-6DOCC?YCG)-G%:(#(+4;6$_6)]R?.8&amp;%`R&amp;%`R&amp;)^,WR/K&lt;75?GM=BZUG?Z%G?Z%E?1U4S*%`S*%`S'$;3*XG3*XG3RV320-G40!G3*D6^J-(3D;F4#J,(T\:&lt;=HN+P5FS/S,7ZIWV+7.NNFC&lt;+.&lt;GC0819TX-7!]JVO,(7N29CR6L%7,^=&lt;(1M4#R*IFV][.DX(X?V&amp;6&gt;V&amp;G&gt;V&amp;%&gt;V&amp;\N(L@_Z9\X_TVONVN=L^?Y8#ZR0J`D&gt;$L&amp;]8C-Q_%1_`U_&gt;LP&gt;WWPAG_0NB@$TP@4C`%`KH@[8`A@PRPA=PYZLD8Y!#/7SO!!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
-	<Property Name="NI.Lib.Version" Type="Str">2.5.0.0</Property>
+	<Property Name="NI.Lib.Version" Type="Str">2.6.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Property Name="OdbcAlarmLoggingTableName" Type="Str">NI_ALARM_EVENTS</Property>
@@ -72,7 +72,6 @@
 		<Item Name="单步测试一键复位.vi" Type="VI" URL="../CODMn/单步测试一键复位.vi"/>
 		<Item Name="balloon入队列.vi" Type="VI" URL="../Subvi/balloon入队列.vi"/>
 		<Item Name="CODMnMB_api.vi" Type="VI" URL="../Subvi/CODMnMB_api.vi"/>
-		<Item Name="CODMn字符串显示移位(子VI).vi" Type="VI" URL="../Subvi/CODMn字符串显示移位(子VI).vi"/>
 		<Item Name="Create balloon 队列.vi" Type="VI" URL="../Subvi/Create balloon 队列.vi"/>
 		<Item Name="Regression Equation String.vi" Type="VI" URL="../Subvi/Regression Equation String.vi"/>
 		<Item Name="串口配置.vi" Type="VI" URL="../Subvi/串口配置.vi"/>
@@ -88,6 +87,8 @@
 		<Item Name="TimeLmtDialog.vi" Type="VI" URL="../Subvi/TimeLmtDialog.vi"/>
 		<Item Name="密码权限设置.vi" Type="VI" URL="../Subvi/密码权限设置.vi"/>
 		<Item Name="消解压力计算.vi" Type="VI" URL="../Subvi/消解压力计算.vi"/>
+		<Item Name="校准数据选择表.vi" Type="VI" URL="../Subvi/校准数据选择表.vi"/>
+		<Item Name="Read database.vi" Type="VI" URL="../Subvi/Read database.vi"/>
 	</Item>
 	<Item Name="测量流程" Type="Folder">
 		<Item Name="固定站CODMn测量流程.vi" Type="VI" URL="../测量流程/固定站CODMn测量流程.vi"/>
@@ -95,6 +96,7 @@
 	</Item>
 	<Item Name="全局变量" Type="Folder">
 		<Item Name="CODMn断电保存全局变量.vi" Type="VI" URL="../全局变量/CODMn断电保存全局变量.vi"/>
+		<Item Name="校准数据全局变量.vi" Type="VI" URL="../全局变量/校准数据全局变量.vi"/>
 		<Item Name="CODMN外部API.vi" Type="VI" URL="../全局变量/CODMN外部API.vi"/>
 		<Item Name="COD测量模式全局.vi" Type="VI" URL="../全局变量/COD测量模式全局.vi"/>
 		<Item Name="COD内部交互全局.vi" Type="VI" URL="../全局变量/COD内部交互全局.vi"/>
@@ -120,5 +122,16 @@
 	</Item>
 	<Item Name="task" Type="Folder">
 		<Item Name="task.vi" Type="VI" URL="../task/task.vi"/>
+	</Item>
+	<Item Name="校准设置" Type="Folder">
+		<Item Name="校准设置页.vi" Type="VI" URL="../校准设置/校准设置页.vi"/>
+		<Item Name="读取校准数据配置文件.vi" Type="VI" URL="../校准设置/读取校准数据配置文件.vi"/>
+		<Item Name="曲线模型计算.vi" Type="VI" URL="../校准设置/曲线模型计算.vi"/>
+		<Item Name="校准记录.vi" Type="VI" URL="../校准设置/校准记录.vi"/>
+		<Item Name="校准任务.ctl" Type="VI" URL="../校准设置/校准任务.ctl"/>
+		<Item Name="校准任务流程.vi" Type="VI" URL="../校准设置/校准任务流程.vi"/>
+		<Item Name="校准任务设置.vi" Type="VI" URL="../校准设置/校准任务设置.vi"/>
+		<Item Name="校准数据写入配置文件.vi" Type="VI" URL="../校准设置/校准数据写入配置文件.vi"/>
+		<Item Name="校准条件设置.vi" Type="VI" URL="../校准设置/校准条件设置.vi"/>
 	</Item>
 </Library>
