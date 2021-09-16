@@ -5,12 +5,21 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Item Name="control" Type="Folder">
+		<Item Name="营养盐报警.ctl" Type="VI" URL="../control/营养盐报警.ctl"/>
+		<Item Name="V2CODMn报警.ctl" Type="VI" URL="../control/V2CODMn报警.ctl"/>
+		<Item Name="新CODMn报警.ctl" Type="VI" URL="../control/新CODMn报警.ctl"/>
+		<Item Name="动力环境报警.ctl" Type="VI" URL="../control/动力环境报警.ctl"/>
+		<Item Name="质控单元报警.ctl" Type="VI" URL="../control/质控单元报警.ctl"/>
+	</Item>
 	<Item Name="subvi" Type="Folder">
+		<Item Name="所有告警信息组合.vi" Type="VI" URL="../subvi/所有告警信息组合.vi"/>
 		<Item Name="Write XML.vi" Type="VI" URL="../subvi/Write XML.vi"/>
 		<Item Name="Read XML.vi" Type="VI" URL="../subvi/Read XML.vi"/>
 		<Item Name="Read configure.vi" Type="VI" URL="../subvi/Read configure.vi"/>
 		<Item Name="Write configure.vi" Type="VI" URL="../subvi/Write configure.vi"/>
 		<Item Name="数字键盘.vi" Type="VI" URL="../subvi/数字键盘.vi"/>
+		<Item Name="数组插入组合.vi" Type="VI" URL="../subvi/数组插入组合.vi"/>
 		<Item Name="操作.vi" Type="VI" URL="../subvi/操作.vi"/>
 		<Item Name="code.vi" Type="VI" URL="../subvi/code.vi"/>
 		<Item Name="报警定义配置.vi" Type="VI" URL="../subvi/报警定义配置.vi"/>
