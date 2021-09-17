@@ -1,18 +1,12 @@
 <?xml version='1.0'  encoding='GB2312' standalone='yes' ?>
 <LVData xmlns="http://www.ni.com/LVData">
-<Version>16.0</Version>
+<Version>16.0f5</Version>
 <Cluster>
 <Name>配置信息</Name>
-<NumElts>7</NumElts>
-<EW>
-<Name>测量频次</Name>
-<Choice>每日</Choice>
-<Choice>每周</Choice>
-<Choice>每月</Choice>
-<Val>0</Val>
-</EW>
+<NumElts>6</NumElts>
 <EW>
 <Name>每周启动</Name>
+<Choice>关闭</Choice>
 <Choice>周日</Choice>
 <Choice>周一</Choice>
 <Choice>周二</Choice>
@@ -24,6 +18,7 @@
 </EW>
 <EW>
 <Name>每月启动</Name>
+<Choice>关闭</Choice>
 <Choice>1号</Choice>
 <Choice>2号</Choice>
 <Choice>3号</Choice>
