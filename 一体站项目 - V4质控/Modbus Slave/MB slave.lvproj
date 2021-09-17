@@ -166,6 +166,7 @@
 			<Item Name="测试子流程.ctl" Type="VI" URL="../../API/共用控件/内部交互/测试子流程.ctl"/>
 			<Item Name="超标留样交互.ctl" Type="VI" URL="../../API/共用控件/内部交互/超标留样交互.ctl"/>
 			<Item Name="多参数交互.ctl" Type="VI" URL="../../API/共用控件/内部交互/多参数交互.ctl"/>
+			<Item Name="启动参数.ctl" Type="VI" URL="../../API/共用控件/内部交互/启动参数.ctl"/>
 			<Item Name="数据库类型.ctl" Type="VI" URL="../../API/database/control/数据库类型.ctl"/>
 			<Item Name="外部调用接口全局变量.vi" Type="VI" URL="../../API/database/Interface/外部调用接口/外部调用接口全局变量.vi"/>
 			<Item Name="系统交互.ctl" Type="VI" URL="../../API/共用控件/内部交互/系统交互.ctl"/>
