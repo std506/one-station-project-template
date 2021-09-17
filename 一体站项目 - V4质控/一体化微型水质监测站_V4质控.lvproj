@@ -91,8 +91,8 @@
 				<Item Name="关于.ctl" Type="VI" URL="../UI/控件/关于.ctl"/>
 				<Item Name="数值显示.ctl" Type="VI" URL="../UI/控件/数值显示.ctl"/>
 				<Item Name="多数值显示.ctl" Type="VI" URL="../UI/控件/多数值显示.ctl"/>
-				<Item Name="参数.ctl" Type="VI" URL="../UI/控件/参数.ctl"/>
-				<Item Name="启动参数.ctl" Type="VI" URL="../UI/控件/启动参数.ctl"/>
+				<Item Name="参数.ctl" Type="VI" URL="../API/共用控件/内部交互/参数.ctl"/>
+				<Item Name="启动参数.ctl" Type="VI" URL="../API/共用控件/内部交互/启动参数.ctl"/>
 			</Item>
 			<Item Name="VIS" Type="Folder">
 				<Item Name="首页.vi" Type="VI" URL="../UI/VIS/首页.vi"/>
@@ -154,7 +154,7 @@
 				<Item Name="斯坦道氨氮.lvlib" Type="Library" URL="../API/斯坦道仪器氨氮/斯坦道氨氮.lvlib"/>
 				<Item Name="斯坦道总氮.lvlib" Type="Library" URL="../API/斯坦道仪器总氮/斯坦道总氮.lvlib"/>
 				<Item Name="斯坦道CODMn新电路板.lvlib" Type="Library" URL="../API/斯坦道仪器CODMn/斯坦道CODMn新电路板.lvlib"/>
-				<Item Name="斯坦道CODcr.lvlib" Type="Library" URL="../API/斯坦道仪器CODCr/斯坦道CODCr.lvlib"/>
+				<Item Name="斯坦道CODCr.lvlib" Type="Library" URL="../API/斯坦道仪器CODCr/斯坦道CODCr.lvlib"/>
 				<Item Name="斯坦道总磷总氮.lvlib" Type="Library" URL="../API/斯坦道仪器总磷总氮/斯坦道总磷总氮.lvlib"/>
 			</Item>
 			<Item Name="质控单元" Type="Folder">
@@ -933,7 +933,6 @@
 			<Item Name="多参数横条运行状态.xctl" Type="XControl" URL="../API/斯坦道仪器原位多参数/控件/多参数横条运行状态/多参数横条运行状态.xctl"/>
 			<Item Name="调试控件.xctl" Type="XControl" URL="../API/共用控件/调试控件/调试控件.xctl"/>
 			<Item Name="ZKV1 HAL.vi" Type="VI" URL="../API/质控单元V1/HAL/ZKV1 HAL.vi"/>
-			<Item Name="关键参数.ctl" Type="VI" URL="../API/共用控件/内部交互/关键参数.ctl"/>
 			<Item Name="ZKV2 HAL.vi" Type="VI" URL="../API/质控单元V2/HAL/ZKV2 HAL.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
@@ -952,7 +951,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">18</Property>
+				<Property Name="Bld_version.build" Type="Int">19</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.minor" Type="Int">6</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化微型水质监测站.exe</Property>
@@ -968,7 +967,7 @@
 				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/data/tubiao.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{FD342951-6624-4E85-A727-C29FC79ECA29}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{576AF391-C9BC-4617-BF14-A9CAF74C3D59}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/UI/VIS/启动.vi</Property>
@@ -1022,7 +1021,7 @@
 				<Property Name="Source[20].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[20].type" Type="Str">VI</Property>
 				<Property Name="Source[21].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[21].itemID" Type="Ref">/我的电脑/设备仪器/斯坦道V3/斯坦道CODcr.lvlib/总磷总氮/UI/运维调试_总磷总氮.vi</Property>
+				<Property Name="Source[21].itemID" Type="Ref">/我的电脑/设备仪器/斯坦道V3/斯坦道CODCr.lvlib/总磷总氮/UI/运维调试_总磷总氮.vi</Property>
 				<Property Name="Source[21].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[21].type" Type="Str">VI</Property>
 				<Property Name="Source[22].destinationIndex" Type="Int">0</Property>
@@ -1134,7 +1133,7 @@
 				<Property Name="Source[46].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[46].type" Type="Str">Library</Property>
 				<Property Name="Source[47].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[47].itemID" Type="Ref">/我的电脑/设备仪器/斯坦道V3/斯坦道CODcr.lvlib</Property>
+				<Property Name="Source[47].itemID" Type="Ref">/我的电脑/设备仪器/斯坦道V3/斯坦道CODCr.lvlib</Property>
 				<Property Name="Source[47].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[47].type" Type="Str">Library</Property>
 				<Property Name="Source[48].destinationIndex" Type="Int">0</Property>
