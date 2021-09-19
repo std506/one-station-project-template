@@ -1,6 +1,6 @@
 <?xml version='1.0'  encoding='GB2312' standalone='yes' ?>
 <LVData xmlns="http://www.ni.com/LVData">
-<Version>16.0</Version>
+<Version>16.0f5</Version>
 <Cluster>
 <Name>配置信息</Name>
 <NumElts>4</NumElts>
