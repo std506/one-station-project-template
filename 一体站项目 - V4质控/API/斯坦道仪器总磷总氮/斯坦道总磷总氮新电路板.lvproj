@@ -6,12 +6,16 @@
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
-		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
-		<Property Name="server.tcp.port" Type="Int">0</Property>
-		<Property Name="server.tcp.serviceName" Type="Str">我的电脑/VI服务器</Property>
+		<Property Name="server.tcp.acl" Type="Str">560000000A000000020000002500000003000000090000006C6F63616C686F7374100000000300000000000100000000002500000003000000090000003132372E302E302E3110000000030000000000010000000000</Property>
+		<Property Name="server.tcp.enabled" Type="Bool">true</Property>
+		<Property Name="server.tcp.port" Type="Int">3364</Property>
+		<Property Name="server.tcp.serviceName" Type="Str"></Property>
 		<Property Name="server.tcp.serviceName.default" Type="Str">我的电脑/VI服务器</Property>
+		<Property Name="server.vi.access" Type="Str"></Property>
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
+		<Property Name="server.viscripting.showScriptingOperationsInContextHelp" Type="Bool">false</Property>
+		<Property Name="server.viscripting.showScriptingOperationsInEditor" Type="Bool">false</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="调试控件V3.xctl" Type="XControl" URL="../../共用控件/调试控件V3/调试控件V3.xctl"/>
 		<Item Name="周期设置.xctl" Type="XControl" URL="../../共用控件/周期设置/周期设置.xctl"/>
@@ -516,7 +520,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2B5A7B9C-3504-4CAA-8390-2E8A2161D0B0}</Property>
-				<Property Name="Bld_version.build" Type="Int">200</Property>
+				<Property Name="Bld_version.build" Type="Int">212</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">斯坦道集成软件.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/斯坦道集成软件/斯坦道集成软件.exe</Property>
@@ -525,13 +529,14 @@
 				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/斯坦道集成软件/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{922D7B7C-6B15-447B-8AB3-939CC26E325E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4C625756-93CF-43DF-AEBB-B864E546FB23}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/斯坦道总磷总氮.lvlib/总磷总氮/UI/运维调试_总磷总氮.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">斯坦道集成软件</Property>
 				<Property Name="TgtF_internalName" Type="Str">斯坦道集成软件</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">版权 2020 </Property>
