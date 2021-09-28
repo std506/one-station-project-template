@@ -348,6 +348,7 @@
 				<Item Name="i3-oauth.lvlib" Type="Library" URL="/&lt;vilib&gt;/LVH/i3 OAuth/i3-oauth.lvlib"/>
 				<Item Name="i3-external-encryption.lvlib" Type="Library" URL="/&lt;vilib&gt;/LVH/i3 External Encryption/i3-external-encryption.lvlib"/>
 				<Item Name="LVRowAndColumnUnsignedTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnUnsignedTypeDef.ctl"/>
+				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="操作日志字段定义.ctl" Type="VI" URL="../../database/control/操作日志字段定义.ctl"/>

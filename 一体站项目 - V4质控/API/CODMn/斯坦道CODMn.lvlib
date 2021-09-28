@@ -89,6 +89,7 @@
 		<Item Name="消解压力计算.vi" Type="VI" URL="../Subvi/消解压力计算.vi"/>
 		<Item Name="校准数据选择表.vi" Type="VI" URL="../Subvi/校准数据选择表.vi"/>
 		<Item Name="Read database.vi" Type="VI" URL="../Subvi/Read database.vi"/>
+		<Item Name="设置模块队列名.vi" Type="VI" URL="../Subvi/设置模块队列名.vi"/>
 	</Item>
 	<Item Name="测量流程" Type="Folder">
 		<Item Name="固定站CODMn测量流程.vi" Type="VI" URL="../测量流程/固定站CODMn测量流程.vi"/>

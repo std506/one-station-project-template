@@ -72,6 +72,7 @@
 		<Item Name="根据监测浓度升序排列.vi" Type="VI" URL="../Subvi/根据监测浓度升序排列.vi"/>
 		<Item Name="消解压力计算.vi" Type="VI" URL="../Subvi/消解压力计算.vi"/>
 		<Item Name="最小试剂余量百分比.vi" Type="VI" URL="../Subvi/最小试剂余量百分比.vi"/>
+		<Item Name="设置模块队列名.vi" Type="VI" URL="../Subvi/设置模块队列名.vi"/>
 	</Item>
 	<Item Name="UI" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
