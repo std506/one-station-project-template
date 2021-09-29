@@ -35,6 +35,7 @@
 		<Item Name="测试流程.ctl" Type="VI" URL="../control/测试流程.ctl"/>
 		<Item Name="测试子流程.ctl" Type="VI" URL="../control/测试子流程.ctl"/>
 		<Item Name="固件状态.ctl" Type="VI" URL="../control/固件状态.ctl"/>
+		<Item Name="启动参数.ctl" Type="VI" URL="../control/启动参数.ctl"/>
 		<Item Name="切换按钮.ctl" Type="VI" URL="../control/切换按钮.ctl"/>
 		<Item Name="锁.ctl" Type="VI" URL="../control/锁.ctl"/>
 		<Item Name="营养盐slave id.ctl" Type="VI" URL="../control/营养盐slave id.ctl"/>
