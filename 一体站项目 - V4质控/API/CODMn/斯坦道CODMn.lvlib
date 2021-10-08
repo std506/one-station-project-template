@@ -88,7 +88,7 @@
 		<Item Name="密码权限设置.vi" Type="VI" URL="../Subvi/密码权限设置.vi"/>
 		<Item Name="消解压力计算.vi" Type="VI" URL="../Subvi/消解压力计算.vi"/>
 		<Item Name="校准数据选择表.vi" Type="VI" URL="../Subvi/校准数据选择表.vi"/>
-		<Item Name="Read database.vi" Type="VI" URL="../Subvi/Read database.vi"/>
+		<Item Name="Read校准数据database.vi" Type="VI" URL="../Subvi/Read校准数据database.vi"/>
 		<Item Name="设置模块队列名.vi" Type="VI" URL="../Subvi/设置模块队列名.vi"/>
 	</Item>
 	<Item Name="测量流程" Type="Folder">
@@ -134,5 +134,17 @@
 		<Item Name="校准任务设置.vi" Type="VI" URL="../校准设置/校准任务设置.vi"/>
 		<Item Name="校准数据写入配置文件.vi" Type="VI" URL="../校准设置/校准数据写入配置文件.vi"/>
 		<Item Name="校准条件设置.vi" Type="VI" URL="../校准设置/校准条件设置.vi"/>
+	</Item>
+	<Item Name="参数设置" Type="Folder">
+		<Item Name="参数设置页.vi" Type="VI" URL="../参数设置/参数设置页.vi"/>
+	</Item>
+	<Item Name="DataGrid" Type="Folder">
+		<Item Name="Read database.vi" Type="VI" URL="../DataGrid/Read database.vi"/>
+		<Item Name="time生成路径 (子VI).vi" Type="VI" URL="../DataGrid/time生成路径 (子VI).vi"/>
+		<Item Name="波形前面板显示.vi" Type="VI" URL="../DataGrid/波形前面板显示.vi"/>
+		<Item Name="读取CODMn数据波形新.vi" Type="VI" URL="../DataGrid/读取CODMn数据波形新.vi"/>
+	</Item>
+	<Item Name="Control" Type="Folder">
+		<Item Name="数据查询大列表框.ctl" Type="VI" URL="../Control/数据查询大列表框.ctl"/>
 	</Item>
 </Library>
