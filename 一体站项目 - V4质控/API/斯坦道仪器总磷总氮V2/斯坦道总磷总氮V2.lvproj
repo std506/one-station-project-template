@@ -14,8 +14,8 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="斯坦道总磷总氮V2.lvlib" Type="Library" URL="../斯坦道总磷总氮V2.lvlib"/>
-		<Item Name="SingleStepTestV2.lvclass" Type="LVClass" URL="../../共用控件/SingleStepTestV2/SingleStepTestV2.lvclass"/>
-		<Item Name="TimingControl.lvclass" Type="LVClass" URL="../../共用控件/TimingControl/TimingControl.lvclass"/>
+		<Item Name="TimingControl.lvlib" Type="Library" URL="../../共用控件/TimingControl/TimingControl.lvlib"/>
+		<Item Name="SingleStepTestV2.lvlib" Type="Library" URL="../../共用控件/SingleStepTestV2/SingleStepTestV2.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
@@ -320,11 +320,6 @@
 			<Item Name="校准日志数据插入.vi" Type="VI" URL="../../database/Interface/校准日志数据插入.vi"/>
 			<Item Name="Select Str.vi" Type="VI" URL="../../database/Interface/Select Str.vi"/>
 			<Item Name="外部调用接口全局变量.vi" Type="VI" URL="../../database/Interface/外部调用接口/外部调用接口全局变量.vi"/>
-			<Item Name="周期模式设置.ctl" Type="VI" URL="../../共用控件/定时周期/control/周期模式设置.ctl"/>
-			<Item Name="定点周期设置.ctl" Type="VI" URL="../../共用控件/定时周期/control/定点周期设置.ctl"/>
-			<Item Name="启动命令选择.ctl" Type="VI" URL="../../共用控件/定时周期/control/启动命令选择.ctl"/>
-			<Item Name="间隔启动设置.ctl" Type="VI" URL="../../共用控件/定时周期/control/间隔启动设置.ctl"/>
-			<Item Name="测量参数.ctl" Type="VI" URL="../../共用控件/定时周期/control/测量参数.ctl"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="斯坦道仪器" Type="EXE">
