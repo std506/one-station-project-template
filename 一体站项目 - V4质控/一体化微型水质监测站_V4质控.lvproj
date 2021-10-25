@@ -152,7 +152,7 @@
 				<Item Name="斯坦道氨氮.lvlib" Type="Library" URL="../API/斯坦道仪器氨氮/斯坦道氨氮.lvlib"/>
 				<Item Name="斯坦道总氮.lvlib" Type="Library" URL="../API/斯坦道仪器总氮/斯坦道总氮.lvlib"/>
 				<Item Name="斯坦道CODMn新电路板.lvlib" Type="Library" URL="../API/斯坦道仪器CODMn/斯坦道CODMn新电路板.lvlib"/>
-				<Item Name="斯坦道CODcr.lvlib" Type="Library" URL="../API/斯坦道仪器CODCr/斯坦道CODCr.lvlib"/>
+				<Item Name="斯坦道CODCr.lvlib" Type="Library" URL="../API/斯坦道仪器CODCr/斯坦道CODCr.lvlib"/>
 				<Item Name="斯坦道总磷总氮.lvlib" Type="Library" URL="../API/斯坦道仪器总磷总氮/斯坦道总磷总氮.lvlib"/>
 			</Item>
 			<Item Name="质控单元" Type="Folder">
@@ -175,6 +175,7 @@
 		<Item Name="ACCESS加密 (子VI).vi" Type="VI" URL="../系统/ACCESS加密 (子VI).vi"/>
 		<Item Name="Alarm interface.lvlib" Type="Library" URL="../API/Alarm interface/Alarm interface.lvlib"/>
 		<Item Name="斯坦道氟化物.lvlib" Type="Library" URL="../API/斯坦道仪器氟化物/斯坦道氟化物.lvlib"/>
+		<Item Name="国标启动命令.vi" Type="VI" URL="../Modbus Slave/启动命令/国标启动命令.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -943,6 +944,8 @@
 			<Item Name="SingleStepTestV2.lvclass" Type="LVClass" URL="../API/共用控件/SingleStepTestV2/SingleStepTestV2.lvclass"/>
 			<Item Name="SingleStepTestV3.lvlib" Type="Library" URL="../API/共用控件/SingleStepTestV3/SingleStepTestV3.lvlib"/>
 			<Item Name="TimingControl.lvlib" Type="Library" URL="../API/共用控件/TimingControl/TimingControl.lvlib"/>
+			<Item Name="创建demo守护脚本文件.vi" Type="VI" URL="../UI/VIS/创建demo守护脚本文件.vi"/>
+			<Item Name="运行demo守护脚本.vi" Type="VI" URL="../UI/VIS/运行demo守护脚本.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="一体化微型水质监测站" Type="EXE">
@@ -1030,7 +1033,7 @@
 				<Property Name="Source[20].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[20].type" Type="Str">VI</Property>
 				<Property Name="Source[21].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[21].itemID" Type="Ref">/我的电脑/设备仪器/斯坦道V3/斯坦道CODcr.lvlib/总磷总氮/UI/运维调试_总磷总氮.vi</Property>
+				<Property Name="Source[21].itemID" Type="Ref">/我的电脑/设备仪器/斯坦道V3/斯坦道CODCr.lvlib/总磷总氮/UI/运维调试_总磷总氮.vi</Property>
 				<Property Name="Source[21].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[21].type" Type="Str">VI</Property>
 				<Property Name="Source[22].destinationIndex" Type="Int">0</Property>
@@ -1142,7 +1145,7 @@
 				<Property Name="Source[46].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[46].type" Type="Str">Library</Property>
 				<Property Name="Source[47].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[47].itemID" Type="Ref">/我的电脑/设备仪器/斯坦道V3/斯坦道CODcr.lvlib</Property>
+				<Property Name="Source[47].itemID" Type="Ref">/我的电脑/设备仪器/斯坦道V3/斯坦道CODCr.lvlib</Property>
 				<Property Name="Source[47].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[47].type" Type="Str">Library</Property>
 				<Property Name="Source[48].destinationIndex" Type="Int">0</Property>
