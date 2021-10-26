@@ -16,7 +16,6 @@
 		<Property Name="server.viscripting.showScriptingOperationsInEditor" Type="Bool">false</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="trend.ico" Type="Document" URL="../data/trend.ico"/>
-		<Item Name="多参数状态显示.xctl" Type="XControl" URL="../control/状态显示/多参数状态显示.xctl"/>
 		<Item Name="斯坦道多参数.lvlib" Type="Library" URL="../斯坦道多参数.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">

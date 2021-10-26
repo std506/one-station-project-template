@@ -61,6 +61,7 @@
 		<Item Name="load.vi" Type="VI" URL="../Subvi/load.vi"/>
 		<Item Name="save.vi" Type="VI" URL="../Subvi/save.vi"/>
 		<Item Name="配置说明.vi" Type="VI" URL="../Subvi/配置说明.vi"/>
+		<Item Name="加载默认参数.vi" Type="VI" URL="../Subvi/加载默认参数.vi"/>
 	</Item>
 	<Item Name="IO连接" Type="Folder">
 		<Item Name="红外入侵监测" Type="Folder">
@@ -103,6 +104,9 @@
 			<Item Name="废液监测界面.vi" Type="VI" URL="../IO连接/废液监测/废液监测界面.vi"/>
 			<Item Name="废液监测2界面.vi" Type="VI" URL="../IO连接/废液监测/废液监测2界面.vi"/>
 		</Item>
+		<Item Name="IO状态读取 (子VI).vi" Type="VI" URL="../IO连接/IO状态读取 (子VI).vi"/>
+		<Item Name="信号持续时间参数配置.vi" Type="VI" URL="../IO连接/信号持续时间参数配置.vi"/>
+		<Item Name="联动声光报警(子VI).vi" Type="VI" URL="../IO连接/联动声光报警(子VI).vi"/>
 	</Item>
 	<Item Name="串口、TCP连接" Type="Folder">
 		<Item Name="空调系统" Type="Folder">
@@ -124,7 +128,6 @@
 				<Item Name="获取直流负载信息.vi" Type="VI" URL="../串口、TCP连接/太阳能控制器/MTTP/获取直流负载信息.vi"/>
 			</Item>
 			<Item Name="太阳能控制器参数配置.vi" Type="VI" URL="../串口、TCP连接/太阳能控制器/MTTP/太阳能控制器参数配置.vi"/>
-			<Item Name="报警设置.vi" Type="VI" URL="../串口、TCP连接/太阳能控制器/MTTP/报警设置.vi"/>
 			<Item Name="太阳能控制器全局.vi" Type="VI" URL="../串口、TCP连接/太阳能控制器/MTTP/太阳能控制器全局.vi"/>
 			<Item Name="open Serial MB.vi" Type="VI" URL="../串口、TCP连接/太阳能控制器/MTTP/open Serial MB.vi"/>
 			<Item Name="open TCP MB.vi" Type="VI" URL="../串口、TCP连接/太阳能控制器/MTTP/open TCP MB.vi"/>
@@ -174,5 +177,4 @@
 	<Item Name="IO参数设置.vi" Type="VI" URL="../IO参数设置.vi"/>
 	<Item Name="串口设备参数设置.vi" Type="VI" URL="../串口设备参数设置.vi"/>
 	<Item Name="开机添加默认配置文件.vi" Type="VI" URL="../Subvi/开机添加默认配置文件.vi"/>
-	<Item Name="联动声光报警(子VI).vi" Type="VI" URL="../IO连接/联动声光报警(子VI).vi"/>
 </Library>
