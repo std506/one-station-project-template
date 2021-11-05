@@ -63,7 +63,6 @@
 		<Item Name="斯坦道XML解析.vi" Type="VI" URL="../Subvi/斯坦道XML解析.vi"/>
 		<Item Name="配置文件保存.vi" Type="VI" URL="../Subvi/配置文件保存.vi"/>
 		<Item Name="波形存储(子VI).vi" Type="VI" URL="../Subvi/波形存储(子VI).vi"/>
-		<Item Name="周期设置.vi" Type="VI" URL="../main/周期设置.vi"/>
 		<Item Name="校准泵控制.vi" Type="VI" URL="../Subvi/校准泵控制.vi"/>
 		<Item Name="TimeLmtDialog.vi" Type="VI" URL="../Subvi/TimeLmtDialog.vi"/>
 		<Item Name="密码权限设置.vi" Type="VI" URL="../Subvi/密码权限设置.vi"/>
