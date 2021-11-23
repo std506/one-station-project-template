@@ -1,1417 +1,1775 @@
-<?xml version='1.0' standalone='yes' ?>
+<?xml version='1.0'  encoding='UTF-8' standalone='yes' ?>
 <LVData xmlns="http://www.ni.com/LVData">
-<Version>16.0</Version>
-<Cluster>
-<Name>Alarm</Name>
-<NumElts>3</NumElts>
-<Array>
-<Name>Ò»¼¶¸æ¾¯</Name>
-<Dimsize>6</Dimsize>
-<Dimsize>3</Dimsize>
-<String>
-<Name></Name>
-<Val>1</Val>
-</String>
-<String>
-<Name></Name>
-<Val>³¬ÉÏÏÞ¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>2</Val>
-</String>
-<String>
-<Name></Name>
-<Val>³¬ÏÂÏÞ¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>3</Val>
-</String>
-<String>
-<Name></Name>
-<Val>Á¿³ÌÇÐ»»¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>4</Val>
-</String>
-<String>
-<Name></Name>
-<Val>³¬Á¿³Ì¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>5</Val>
-</String>
-<String>
-<Name></Name>
-<Val>¹âÖµ¹ý¸ß¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>¼ì²é¹âÇ¿ÊÇ·ñÆ¯ÒÆ</Val>
-</String>
-<String>
-<Name></Name>
-<Val>6</Val>
-</String>
-<String>
-<Name></Name>
-<Val>¹âÖµ¹ýµÍ¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢¼ì²é±ÈÉ«ÃóÊÇ·ñÎÛÈ¾ÑÏÖØ£»
-2¡¢¼ì²éË®Ìå×Ç¶ÈÊÇ·ñ¹ý¸ß¡£</Val>
-</String>
-</Array>
-<Array>
-<Name>¶þ¼¶¸æ¾¯</Name>
-<Dimsize>92</Dimsize>
-<Dimsize>3</Dimsize>
-<String>
-<Name></Name>
-<Val>100001</Val>
-</String>
-<String>
-<Name></Name>
-<Val>ÊÐµçÒì³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²éÍ¨ÐÅÊÇ·ñÕý³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100002</Val>
-</String>
-<String>
-<Name></Name>
-<Val>UPSÒì³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²éÍ¨ÐÅÊÇ·ñÕý³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100003</Val>
-</String>
-<String>
-<Name></Name>
-<Val>Ðîµç³ØÒì³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²éÍ¨ÐÅÊÇ·ñÕý³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100004</Val>
-</String>
-<String>
-<Name></Name>
-<Val>¿Õµ÷Òì³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²éÍ¨ÐÅÊÇ·ñÕý³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100007</Val>
-</String>
-<String>
-<Name></Name>
-<Val>È±ÊÔ¼Á¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢ÊÇ·ñÈ±ÊÔ¼Á£¬¼°Ê±²¹³äÊÔ¼Á
-2¡¢¶ÔÓ¦µÄÊÔ¼Á·§¿Ú¶ÂÈû£¬¼°Ê±ÇåÀí²¢¸ü»»Á¬½ÓÍ·¡£
-3¡¢¹ÜÂ·ÆøÃÜÐÔ²»¼Ñ
-4¡¢¼ì²é´«¸ÐÆ÷ÓëµçÂ·°åÁ¬½Ó¡¢²é¿´´«¸ÐÆ÷¹âÖµÊÇ·ñÒì³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100008</Val>
-</String>
-<String>
-<Name></Name>
-<Val>È±Ë®Ñù¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢ÅäË®ÏäÄÚÎÞË®Ñù
-2¡¢¶ÔÓ¦µÄË®Ñù·§¿Ú¶ÂÈû»òÕßÈýÍ¨·§»µµô£¬²»ÄÜÕý³£ÇÐ»»
-3¡¢Íù¸´Ê½×¢Éä±ÃÒì³££¬»òÕß¹ÜÂ·ÆøÃÜÐÔ²»¼Ñ
-4¡¢¼ì²éË®Ñù´«¸ÐÆ÷ÓëµçÂ·°åÁ¬½Ó¡¢²é¿´Ë®Ñù´«¸ÐÆ÷¹âÖµÊÇ·ñÒì³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100009</Val>
-</String>
-<String>
-<Name></Name>
-<Val>È±´¿Ë®¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100010</Val>
-</String>
-<String>
-<Name></Name>
-<Val>È±±êÒº¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢×¢Éä±ÃË®Ñù·§¿Ú¶ÂÈû£»
-2¡¢×¢Éä±Ã·§¹ýÔØ»òË¿¸ËÎÞ¶¯×÷¡£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100011</Val>
-</String>
-<String>
-<Name></Name>
-<Val>±ê¶¨Òì³£¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100012</Val>
-</String>
-<String>
-<Name></Name>
-<Val>ÆäËû¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100013</Val>
-</String>
-<String>
-<Name></Name>
-<Val>È±Á÷³Ì¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>Á÷³ÌÎ´Ð´Èë¡¢Ð¾Æ¬Òì³££¬Î´´æ´¢</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100014</Val>
-</String>
-<String>
-<Name></Name>
-<Val>Ð¾Æ¬´æ´¢Òì³£¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>¹Ì¼þÒì³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100015</Val>
-</String>
-<String>
-<Name></Name>
-<Val>È±¹«Ê½¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>¹«Ê½Î´Ð´Èë¡¢Ð¾Æ¬Òì³££¬Î´´æ´¢</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100017</Val>
-</String>
-<String>
-<Name></Name>
-<Val>ÎÂ¶ÈÌ½Í·½ÓÏßÒì³£¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100018</Val>
-</String>
-<String>
-<Name></Name>
-<Val>ÎÂ¶ÈÌ½Í·Î´Ç¶Èë°¼²Û»òÏû½âÄ£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100019</Val>
-</String>
-<String>
-<Name></Name>
-<Val>ÎÂ¶ÈÌ½Í·¹¦ÂÊ¹ý´ó¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100020</Val>
-</String>
-<String>
-<Name></Name>
-<Val>×¢Éä±Ã¹©µçÒì³£¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>´úÂë103£º×¢Éä±ÃÎ´³õÊ¼»¯£¬¼ì²éµçÑ¹ÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100021</Val>
-</String>
-<String>
-<Name></Name>
-<Val>×¢Éä±Ã¹ÜÂ·×èÈû¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>´úÂë105£º¼ì²éË¿¸ËÊÇ·ñÉúÐâ¡¢¼ì²é×¢ÉäÆ÷×èÁ¦ÊÇ·ñÕý³£¡¢¼ì²é×¢Éä±Ã×Ô¼ìÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100022</Val>
-</String>
-<String>
-<Name></Name>
-<Val>×¢Éä±Ã·§Í·ÇÐ»»¹ýÔØ¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>´úÂë106£º¼ì²é·§¿ÚÊÇ·ñ¶ÂÈû¡¢¼ì²é¶àÍ¨·§×ª×Ó½Ó´¥ÃæÊÇ·ñð¤½á</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100023</Val>
-</String>
-<String>
-<Name></Name>
-<Val>×¢Éä±ÃÅäÖÃÒì³£¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100024</Val>
-</String>
-<String>
-<Name></Name>
-<Val>×¢Éä±ÃÍ¨Ñ¶Òì³£¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>´úÂë255£º¼ì²é×¢Éä±ÃÓëµçÂ·°åÍ¨Ñ¶ÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100025</Val>
-</String>
-<String>
-<Name></Name>
-<Val>¹âÆ×ÒÇÍ¨Ñ¶Òì³£¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100028</Val>
-</String>
-<String>
-<Name></Name>
-<Val>µÎ¶¨Òì³£¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢ÅäË®ÏäÄÚÎÞË®Ñù£»
-2¡¢ÅäË®Ïäµ½Ä£¿éµÄ¹ÜÂ·ÆøÃÜÐÔ²»¼Ñ£»
-3¡¢×¢Éä±ÃË®Ñù·§¿Ú¶ÂÈû£»
-4¡¢×¢Éä±Ã·§¹ýÔØ»òË¿¸ËÎÞ¶¯×÷¡£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100029</Val>
-</String>
-<String>
-<Name></Name>
-<Val>È±¸ßÃÌËá¼Ø¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100030</Val>
-</String>
-<String>
-<Name></Name>
-<Val>È±²ÝËáÄÆ¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100031</Val>
-</String>
-<String>
-<Name></Name>
-<Val>È±ÁòËá¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100032</Val>
-</String>
-<String>
-<Name></Name>
-<Val>ORPÖµÒì³£¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>Çë¼ì²éÊÇ·ñÈ±Ë®Ñù¡¢ORPµç¼«ÓëµçÂ·°åÁ¬½Ó¡¢¸ü»»ORPµç¼«¡¢¸ü»»ORPµç¼«²É¼¯°å£¬µçÂ·°åÅÅ²é</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100033</Val>
-</String>
-<String>
-<Name></Name>
-<Val>AÖµÒì³£¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>£¨1£©Ë®ÑùÅ¨¶È¹ý¸ß£¬ÐèÇÐ»»µ½¸ßÁ¿³Ì²âÊÔ¡£
-£¨2£©È±¸ßÃÌËá¼Ø»òÁòËá£¬¿ÉÍ¨¹ýÊÔ¼Á±¨¾¯ÅÐ¶Ï¡£
-£¨3£©¸ßÃÌËá¼Ø¹ýÆÚ£¬Å¨¶È½µµÍ¡£
-£¨4£©ÊÔ¼Á¹ÜÂ·»òÕß·§¿ÚÆøÃÜÐÔ²»ºÃ£¬ÓÐ¿ÕÆø½øÈë¡£
-£¨5£©¾ÅÍ¨×¢Éä±Ã¹ÊÕÏ£¬Ã»ÓÐÕý³£½øÑù¡£
-£¨6£©ORPµç¼«¹ÊÕÏ£¬ÎÞ·¨Õý³£¹¤×÷¡££¨¿ÉÍ¨¹ýµ¥²½Æô¶¯²âÊÔ£¬¹Û²ìµç¼«¶ÁÊýÓÐÎÞÃ÷ÏÔ±ä»¯£©</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100034</Val>
-</String>
-<String>
-<Name></Name>
-<Val>BÖµÒì³£¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>£¨1£©È±²ÝËáÄÆ»òÁòËá£¬¿ÉÍ¨¹ýÊÔ¼Á±¨¾¯ÅÐ¶Ï¡£
-£¨2£©²ÝËáÄÆ¹ýÆÚ£¬Å¨¶È½µµÍ½Ï¶à¡£
-£¨3£©ÊÔ¼Á¹ÜÂ·»òÕß·§¿ÚÆøÃÜÐÔ²»ºÃ£¬ÓÐ¿ÕÆø½øÈë¡£
-£¨4£©¾ÅÍ¨×¢Éä±Ã¹ÊÕÏ£¬Ã»ÓÐÕý³£½øÑù¡£
-£¨5£©ORPµç¼«¹ÊÕÏ£¬ÎÞ·¨Õý³£¹¤×÷¡££¨¿ÉÍ¨¹ýµ¥²½Æô¶¯²âÊÔ£¬¹Û²ìµç¼«¶ÁÊýÓÐÎÞÃ÷ÏÔ±ä»¯£©</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100035</Val>
-</String>
-<String>
-<Name></Name>
-<Val>»·¾³ÎÂ¶È´«¸ÐÆ÷¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>¼ì²éÎÂ¶È´«¸ÐÆ÷ÓëµçÂ·°åÁ¬½Ó£¬¸ü»»ÎÂ¶È´«¸ÐÆ÷ÅÅ²é</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100036</Val>
-</String>
-<String>
-<Name></Name>
-<Val>×¢ÉäÆ÷±£ÎÂÎÂ¶ÈÒì³£¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>¼ì²éÎÂ¶È´«¸ÐÆ÷ÓëµçÂ·°åÁ¬½Ó£¬¸ü»»ÎÂ¶È´«¸ÐÆ÷ÅÅ²é</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100037</Val>
-</String>
-<String>
-<Name></Name>
-<Val>×¢ÉäÆ÷±£ÎÂ¼ÓÈÈ³¬Ê±¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>¼ì²é¼ÓÈÈ±£ÎÂÈ¦ÊÇ·ñËð»µ»òÍÑÂä¡¢¼ÓÈÈ±£ÎÂÈ¦ÓëµçÂ·°åÁ¬½Ó¡¢ÎÂ¶È´«¸ÐÆ÷ÊÇ·ñÍÑÂä</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100044</Val>
-</String>
-<String>
-<Name></Name>
-<Val>Æ«ÐÄÂÖÔËÐÐ³¬Ê±¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>ÔËÐÐ³¬Ê±¸æ¾¯£¬¼ì²é¸ÃÆ÷¼þÊÇ·ñÕý³£ÔË×ª£¬»òÕßÔË×ª·Ç³£»ºÂý£¬¸ü»»Æ÷¼þÅÅ²é</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100046</Val>
-</String>
-<String>
-<Name></Name>
-<Val>È±ÁãµãºË²éÑù¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100047</Val>
-</String>
-<String>
-<Name></Name>
-<Val>È±¿ç¶ÈºË²éÑù¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100048</Val>
-</String>
-<String>
-<Name></Name>
-<Val>È±¿Õ°×Ñù¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100049</Val>
-</String>
-<String>
-<Name></Name>
-<Val>È±Æ½ÐÐÑù¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100050</Val>
-</String>
-<String>
-<Name></Name>
-<Val>È±¼Ó±êÑù¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100051</Val>
-</String>
-<String>
-<Name></Name>
-<Val>µÍÊÔ¼ÁÔ¤¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100052</Val>
-</String>
-<String>
-<Name></Name>
-<Val>È±ÊÔ¼ÁB</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100053</Val>
-</String>
-<String>
-<Name></Name>
-<Val>Ë®ÑùÓàÁ¿¹ýµÍ£¬Çë¼°Ê±Î¬»¤</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100054</Val>
-</String>
-<String>
-<Name></Name>
-<Val>±êÒºÓàÁ¿¹ýµÍ£¬Çë¼°Ê±Î¬»¤</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100055</Val>
-</String>
-<String>
-<Name></Name>
-<Val>ÁãµãÑùÓàÁ¿¹ýµÍ£¬Çë¼°Ê±Î¬»¤</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100056</Val>
-</String>
-<String>
-<Name></Name>
-<Val>¿ç¶ÈÑùÓàÁ¿¹ýµÍ£¬Çë¼°Ê±Î¬»¤</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100057</Val>
-</String>
-<String>
-<Name></Name>
-<Val>¿Õ°×ÑùÓàÁ¿¹ýµÍ£¬Çë¼°Ê±Î¬»¤</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100058</Val>
-</String>
-<String>
-<Name></Name>
-<Val>Æ½ÐÐÑùÓàÁ¿¹ýµÍ£¬Çë¼°Ê±Î¬»¤</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100059</Val>
-</String>
-<String>
-<Name></Name>
-<Val>¼Ó±êÑùÓàÁ¿¹ýµÍ£¬Çë¼°Ê±Î¬»¤</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100060</Val>
-</String>
-<String>
-<Name></Name>
-<Val>ÊÔ¼ÁAÓàÁ¿¹ýµÍ£¬Çë¼°Ê±Î¬»¤</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100061</Val>
-</String>
-<String>
-<Name></Name>
-<Val>ÊÔ¼ÁBÓàÁ¿¹ýµÍ£¬Çë¼°Ê±Î¬»¤</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100062</Val>
-</String>
-<String>
-<Name></Name>
-<Val>Çë×¢Òâ²é¿´ÈÜÒº»òÊÔ¼ÁÓàÁ¿²¢</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100063</Val>
-</String>
-<String>
-<Name></Name>
-<Val>Ðý×ª·§Í¨Ñ¶Òì³£¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100066</Val>
-</String>
-<String>
-<Name></Name>
-<Val>ÒºÎ»Òì³£¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²éÍ¨ÐÅÊÇ·ñÕý³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100067</Val>
-</String>
-<String>
-<Name></Name>
-<Val>ÖùÈû±Ã¹ÊÕÏ¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²éÍ¨ÐÅÊÇ·ñÕý³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100068</Val>
-</String>
-<String>
-<Name></Name>
-<Val>Á÷³ÌÖÐ¶Ï¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val></Val>
-</String>
-<String>
-<Name></Name>
-<Val>100069</Val>
-</String>
-<String>
-<Name></Name>
-<Val>µç¼«Òì³£¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100070</Val>
-</String>
-<String>
-<Name></Name>
-<Val>²ÎÊýÉèÖÃ¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100071</Val>
-</String>
-<String>
-<Name></Name>
-<Val>pHµç¼«µçÎ»Òì³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100072</Val>
-</String>
-<String>
-<Name></Name>
-<Val>µçµ¼ÂÊµç¼«Òì³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100073</Val>
-</String>
-<String>
-<Name></Name>
-<Val>×Ç¶È¹â¶ÈÒì³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100074</Val>
-</String>
-<String>
-<Name></Name>
-<Val>ÈÜ½âÑõµç¼«Òì³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100075</Val>
-</String>
-<String>
-<Name></Name>
-<Val>ÈÜ½âÑõ¹âÇ¿Òì³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100076</Val>
-</String>
-<String>
-<Name></Name>
-<Val>ÎÂ¶ÈÒì³£¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100077</Val>
-</String>
-<String>
-<Name></Name>
-<Val>pHÒì³£¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100078</Val>
-</String>
-<String>
-<Name></Name>
-<Val>ÈÜ½âÑõÒì³£¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100079</Val>
-</String>
-<String>
-<Name></Name>
-<Val>µçµ¼ÂÊÒì³£¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100080</Val>
-</String>
-<String>
-<Name></Name>
-<Val>×Ç¶ÈÒì³£¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100081</Val>
-</String>
-<String>
-<Name></Name>
-<Val>Ò¶ÂÌËØaÒì³£¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100082</Val>
-</String>
-<String>
-<Name></Name>
-<Val>ÔåÃÜ¶ÈÒì³£¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100083</Val>
-</String>
-<String>
-<Name></Name>
-<Val>À¶ÂÌÔåÒì³£¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100084</Val>
-</String>
-<String>
-<Name></Name>
-<Val>ORPÒì³£¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100085</Val>
-</String>
-<String>
-<Name></Name>
-<Val>°±µªÒì³£¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100086</Val>
-</String>
-<String>
-<Name></Name>
-<Val>Çå½àË¢Òì³£¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100087</Val>
-</String>
-<String>
-<Name></Name>
-<Val>SD¿¨Òì³£¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100088</Val>
-</String>
-<String>
-<Name></Name>
-<Val>À¶ÑÀÒì³£¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100089</Val>
-</String>
-<String>
-<Name></Name>
-<Val>WIFIÒì³£¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100090</Val>
-</String>
-<String>
-<Name></Name>
-<Val>ÊÔ¼Á²»×ã</Val>
-</String>
-<String>
-<Name></Name>
-<Val>ÊÔ¼Á²»×ã£¬Çë¼°Ê±²¹³äÊÔ¼Á</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100091</Val>
-</String>
-<String>
-<Name></Name>
-<Val>ÊÔ¼ÁÓàÁ¿¼ì²âÒì³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>Çë²éÑ¯¹Ì¼þÁ÷³ÌÊÇ·ñÆ¥Åä£¬ÊÔ¼ÁÊÇ·ñÓÐµ¹¹àÏÖÏó</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100092</Val>
-</String>
-<String>
-<Name></Name>
-<Val>µç¼«Òì³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1.ORPµç¼«ÏßÂ·Á¬½ÓÒì³£
-2.ORP´«¸ÐÆ÷¹ÊÕÏ
-3.²É¼¯ORPµÄPLCÄ£ÄâÁ¿²É¼¯Ä£¿é¹ÊÕÏ</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100093</Val>
-</String>
-<String>
-<Name></Name>
-<Val>ÎÂ¿ØÆ÷¹ÊÕÏ</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1.PT100ÏßÂ·Á¬½ÓÒì³£
-2.PT100´«¸ÐÆ÷¹ÊÕÏ
-3.²É¼¯ÎÂ¶ÈµÄPLCÄ£ÄâÁ¿²É¼¯Ä£¿é¹ÊÕÏ</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100094</Val>
-</String>
-<String>
-<Name></Name>
-<Val>¸ßÃÌËá¼ØÒì³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1.È±¸ßÃÌËá¼ØÊÔ¼Á
-2.¼ì²âË®ÑùÅ¨¶È¹ý¸ß</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100095</Val>
-</String>
-<String>
-<Name></Name>
-<Val>²ÝËáÄÆÒì³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1.È±²ÝËáÄÆÊÔ¼Á
-2.¸ßÃÌËá¼ØÅäÖÆÅ¨¶È´íÎó</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100096</Val>
-</String>
-<String>
-<Name></Name>
-<Val>²âÁ¿´íÎó</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1.¼ì²éÆäËûÒì³£¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100097</Val>
-</String>
-<String>
-<Name></Name>
-<Val>Ð£±ê´íÎó</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1.¼ì²éÆäËûÒì³£¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100098</Val>
-</String>
-<String>
-<Name></Name>
-<Val>½øË®Ñù³¬Á¿³Ì</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1.½øË®Ñù³¬¹ý×î´óÌå»ý</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100099</Val>
-</String>
-<String>
-<Name></Name>
-<Val>ÅÅÒº·§¹ÊÕÏ</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1.¼ì²éÅÅÒº·§
-2.¼ì²éÅÅÒº¹ÜÉÏµÄÒºÎ»´«¸ÐÆ÷</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100100</Val>
-</String>
-<String>
-<Name></Name>
-<Val>60·ÖÖÓ³¬Ê±±¨¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1.Ë®ÑùÅ¨¶È¹ý¸ßµ¼ÖÂ³¬Ê±
-2.·´µÎ¶¨ËÙ¶È¹ýÂýµ¼ÖÂ³¬Ê±</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100101</Val>
-</String>
-<String>
-<Name></Name>
-<Val>½øÑùÎÞÒºÌå±¨¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1.¼ì²é½øÑù±Ã
-2.¼ì²é½øÑù¹ÜÉÏµÄÒºÎ»´«¸ÐÆ÷</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100102</Val>
-</String>
-<String>
-<Name></Name>
-<Val>¸ßÃÌËá¼ØÊÔ¼ÁÓàÁ¿¹ýµÍ£¬Çë¼°Ê±Î¬»¤</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100103</Val>
-</String>
-<String>
-<Name></Name>
-<Val>²ÝËáÄÆÊÔ¼ÁÓàÁ¿¹ýµÍ£¬Çë¼°Ê±Î¬»¤</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100104</Val>
-</String>
-<String>
-<Name></Name>
-<Val>ÁòËáÊÔ¼ÁÓàÁ¿¹ýµÍ£¬Çë¼°Ê±Î¬»¤</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100105</Val>
-</String>
-<String>
-<Name></Name>
-<Val>¼ÓÈÈÎÂ¶È³¬ÏÞ¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>¼ì²éÎÂ¶È´«¸ÐÆ÷ÓëµçÂ·°åÁ¬½Ó¡¢¼ì²éÊÇ·ñÈ±Ë®Ñù</Val>
-</String>
-<String>
-<Name></Name>
-<Val>100106</Val>
-</String>
-<String>
-<Name></Name>
-<Val>¼ÓÈÈ»òÕß½µÎÂ³¬Ê±¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-</Array>
-<Array>
-<Name>Èý¼¶¸æ¾¯</Name>
-<Dimsize>9</Dimsize>
-<Dimsize>3</Dimsize>
-<String>
-<Name></Name>
-<Val>200001</Val>
-</String>
-<String>
-<Name></Name>
-<Val>ÎÂÊª¶ÈÒì³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²éÍ¨ÐÅÊÇ·ñÕý³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£
-3¡¢»·¾³ÎÂÊª¶È³¬ÉÏÏÞ</Val>
-</String>
-<String>
-<Name></Name>
-<Val>200002</Val>
-</String>
-<String>
-<Name></Name>
-<Val>ÒÆÎ»¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²éÍ¨ÐÅÊÇ·ñÕý³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£
-3¡¢Î»ÖÃÆ«ÒÆ</Val>
-</String>
-<String>
-<Name></Name>
-<Val>200003</Val>
-</String>
-<String>
-<Name></Name>
-<Val>ÑÌÎí¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²éÍ¨ÐÅÊÇ·ñÕý³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£
-3¡¢¼ì²âµ½Å¨ÑÌ</Val>
-</String>
-<String>
-<Name></Name>
-<Val>200004</Val>
-</String>
-<String>
-<Name></Name>
-<Val>Õñ¶¯¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²éÍ¨ÐÅÊÇ·ñÕý³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£
-3¡¢¼ì²âµ½Õñ¶¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>200005</Val>
-</String>
-<String>
-<Name></Name>
-<Val>ºìÍâÈëÇÖ¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²éÍ¨ÐÅÊÇ·ñÕý³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£
-3¡¢¼ì²âµ½ÈëÇÖ</Val>
-</String>
-<String>
-<Name></Name>
-<Val>200006</Val>
-</String>
-<String>
-<Name></Name>
-<Val>Â©Ë®¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²éÍ¨ÐÅÊÇ·ñÕý³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£
-3¡¢¼ì²âµ½Â©Ë®</Val>
-</String>
-<String>
-<Name></Name>
-<Val>200007</Val>
-</String>
-<String>
-<Name></Name>
-<Val>ÒÇ±íÂ©Òº¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1¡¢½¨ÒéÅÅ²é¹ÜÂ·ÊÇ·ñÒì³£
-2¡¢¹©µçÇé¿öÊÇ·ñÕý³£</Val>
-</String>
-<String>
-<Name></Name>
-<Val>200008</Val>
-</String>
-<String>
-<Name></Name>
-<Val>¼ÓÈÈ¸æ¾¯</Val>
-</String>
-<String>
-<Name></Name>
-<Val>¼ì²éÎÂ¶È´«¸ÐÆ÷¡¢¼ì²é¼ÓÈÈÆ¬ÊÇ·ñËð»µ»òÍÑÂä¡¢¼ì²é¼ÓÈÈÄ£¿éÓëµçÂ·°å½ÓÏßÊÇ·ñÕý³£¡¢¼ì²é¹Ì¼þÊÇ·ñÆ¥Åä</Val>
-</String>
-<String>
-<Name></Name>
-<Val>200009</Val>
-</String>
-<String>
-<Name></Name>
-<Val>¼ÓÈÈ¹ÊÕÏ</Val>
-</String>
-<String>
-<Name></Name>
-<Val>1.PT100ÏßÂ·Á¬½ÓÒì³£
-2.PT100´«¸ÐÆ÷¹ÊÕÏ
-3.²É¼¯ÎÂ¶ÈµÄPLCÄ£ÄâÁ¿²É¼¯Ä£¿é¹ÊÕÏ
-1.È±Ë®Ñùµ¼ÖÂ
-2.PT100Òì³£</Val>
-</String>
-</Array>
-</Cluster>
-</LVData>
+<Version>16.0f5</Version>
+<project>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>0</code>
+    <level/>
+    <message>æ— å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>1</code>
+    <level>1</level>
+    <message>ç¼ºè¯•å‰‚å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>2</code>
+    <level>2</level>
+    <message>ç¼ºæ°´æ ·å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>3</code>
+    <level/>
+    <message>ç¼ºè’¸é¦æ°´å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>4</code>
+    <level/>
+    <message>ç¼ºæ ‡æ¶²å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>5</code>
+    <level/>
+    <message>ä»ªè¡¨æ¼æ¶²å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>6</code>
+    <level/>
+    <message>æ ‡å®šå¼‚å¸¸å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>7</code>
+    <level/>
+    <message>è¶…é‡ç¨‹å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>8</code>
+    <level/>
+    <message>åŠ çƒ­å¼‚å¸¸</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>9</code>
+    <level/>
+    <message>ä½Žè¯•å‰‚é¢„è­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>10</code>
+    <level/>
+    <message>è¶…ä¸Šé™å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>11</code>
+    <level/>
+    <message>è¶…ä¸‹é™å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>12</code>
+    <level/>
+    <message>ä»ªè¡¨å†…éƒ¨å…¶å®ƒå¼‚å¸¸</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>13</code>
+    <level/>
+    <message>æ»´å®šå¼‚å¸¸å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>14</code>
+    <level/>
+    <message>ç”µæžå¼‚å¸¸å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>15</code>
+    <level/>
+    <message>é‡ç¨‹åˆ‡æ¢å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>36</code>
+    <level/>
+    <message>ç¼ºæµç¨‹å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>37</code>
+    <level/>
+    <message>èŠ¯ç‰‡å­˜å‚¨å¼‚å¸¸å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>38</code>
+    <level/>
+    <message>ç¼ºå…¬å¼å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>40</code>
+    <level/>
+    <message>å…‰å€¼è¿‡ä½Žå‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>41</code>
+    <level/>
+    <message>å…‰å€¼è¿‡é«˜å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>42</code>
+    <level/>
+    <message>æ¸©åº¦æŽ¢å¤´æŽ¥çº¿å¼‚å¸¸å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>43</code>
+    <level/>
+    <message>åŠ çƒ­æ¶ˆè§£å¼‚å¸¸å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>44</code>
+    <level/>
+    <message>æ¸©åº¦æŽ¢å¤´åŠŸçŽ‡è¿‡å¤§å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>160</code>
+    <level/>
+    <message>è¯·æ³¨æ„æŸ¥çœ‹è¯•å‰‚ä½™é‡å¹¶åŠæ—¶ç»´æŠ¤</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>180</code>
+    <level/>
+    <message>è¯·æ³¨æ„æŸ¥çœ‹V1æ¶²ä½å¹¶åŠæ—¶ç»´æŠ¤</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>181</code>
+    <level/>
+    <message>è¯·æ³¨æ„æŸ¥çœ‹V2æ¶²ä½å¹¶åŠæ—¶ç»´æŠ¤</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>182</code>
+    <level/>
+    <message>è¯·æ³¨æ„æŸ¥çœ‹V3æ¶²ä½å¹¶åŠæ—¶ç»´æŠ¤</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>183</code>
+    <level/>
+    <message>è¯·æ³¨æ„æŸ¥çœ‹V4æ¶²ä½å¹¶åŠæ—¶ç»´æŠ¤</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>184</code>
+    <level/>
+    <message>è¯·æ³¨æ„æŸ¥çœ‹V5æ¶²ä½å¹¶åŠæ—¶ç»´æŠ¤</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>185</code>
+    <level/>
+    <message>è¯·æ³¨æ„æŸ¥çœ‹V6æ¶²ä½å¹¶åŠæ—¶ç»´æŠ¤</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>186</code>
+    <level/>
+    <message>è¯·æ³¨æ„æŸ¥çœ‹V7æ¶²ä½å¹¶åŠæ—¶ç»´æŠ¤</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>187</code>
+    <level/>
+    <message>è¯·æ³¨æ„æŸ¥çœ‹V8æ¶²ä½å¹¶åŠæ—¶ç»´æŠ¤</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>188</code>
+    <level/>
+    <message>è¯·æ³¨æ„æŸ¥çœ‹V9æ¶²ä½å¹¶åŠæ—¶ç»´æŠ¤</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>189</code>
+    <level/>
+    <message>è¯·æ³¨æ„æŸ¥çœ‹V10æ¶²ä½å¹¶åŠæ—¶ç»´æŠ¤</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>190</code>
+    <level/>
+    <message>è¯·æ³¨æ„æŸ¥çœ‹V11æ¶²ä½å¹¶åŠæ—¶ç»´æŠ¤</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>191</code>
+    <level/>
+    <message>è¯·æ³¨æ„æŸ¥çœ‹V12æ¶²ä½å¹¶åŠæ—¶ç»´æŠ¤</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>200</code>
+    <level/>
+    <message>æ³¨å°„æ³µå‚æ•°å¼‚å¸¸å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>201</code>
+    <level/>
+    <message>æ³¨å°„æ³µç”µåŽ‹å¼‚å¸¸å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>202</code>
+    <level/>
+    <message>æ³¨å°„æ³µæ¸©åº¦å¼‚å¸¸å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>203</code>
+    <level/>
+    <message>æ³¨å°„æ³µç”µæµå¼‚å¸¸å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>204</code>
+    <level/>
+    <message>æ³¨å°„æ³µå µè½¬å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>205</code>
+    <level/>
+    <message>æ³¨å°„æ³µå…‰è€¦é”™è¯¯å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>209</code>
+    <level/>
+    <message>æ³¨å°„æ³µå…¶ä»–å¼‚å¸¸å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>210</code>
+    <level/>
+    <message>æ—‹è½¬é˜€å‚æ•°å¼‚å¸¸å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>211</code>
+    <level/>
+    <message>æ—‹è½¬é˜€ç”µåŽ‹å¼‚å¸¸å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>212</code>
+    <level/>
+    <message>æ—‹è½¬é˜€æ¸©åº¦å¼‚å¸¸å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>213</code>
+    <level/>
+    <message>æ—‹è½¬é˜€ç”µæµå¼‚å¸¸å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>214</code>
+    <level/>
+    <message>æ—‹è½¬é˜€å µè½¬å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>215</code>
+    <level/>
+    <message>æ—‹è½¬é˜€å…‰è€¦é”™è¯¯å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>219</code>
+    <level/>
+    <message>æ—‹è½¬é˜€å…¶ä»–å¼‚å¸¸å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>253</code>
+    <level/>
+    <message>æ—‹è½¬é˜€é€šä¿¡å¼‚å¸¸å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>254</code>
+    <level/>
+    <message>å…‰è°±ä»ªé€šä¿¡å¼‚å¸¸å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Alarm</type>
+    <code>255</code>
+    <level/>
+    <message>æ³¨å°„æ³µé€šä¿¡å¼‚å¸¸å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Fault</type>
+    <code>0</code>
+    <level/>
+    <message>æ— æ•…éšœ</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Fault</type>
+    <code>1</code>
+    <level/>
+    <message>æ³¨å°„æ³µæ•…éšœ</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Fault</type>
+    <code>2</code>
+    <level/>
+    <message>åŠ çƒ­æ•…éšœ</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Fault</type>
+    <code>3</code>
+    <level/>
+    <message>æ—‹è½¬é˜€æ•…éšœ</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Fault</type>
+    <code>38</code>
+    <level/>
+    <message>å…‰å€¼è¿‡ä½Žæ•…éšœ</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>B</ver>
+    <type>Fault</type>
+    <code>39</code>
+    <level/>
+    <message>å…‰è·¯ç³»ç»Ÿæ•…éšœ</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>A</ver>
+    <type>Alarm</type>
+    <code>0</code>
+    <level/>
+    <message>æ— å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>A</ver>
+    <type>Alarm</type>
+    <code>1</code>
+    <level/>
+    <message>ç¼ºè¯•å‰‚å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>A</ver>
+    <type>Alarm</type>
+    <code>2</code>
+    <level/>
+    <message>ç¼ºæ°´æ ·å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>A</ver>
+    <type>Alarm</type>
+    <code>3</code>
+    <level/>
+    <message>ç¼ºè’¸é¦æ°´å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>A</ver>
+    <type>Alarm</type>
+    <code>4</code>
+    <level/>
+    <message>ç¼ºæ ‡æ¶²å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>A</ver>
+    <type>Alarm</type>
+    <code>5</code>
+    <level/>
+    <message>ä»ªè¡¨æ¼æ¶²å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>A</ver>
+    <type>Alarm</type>
+    <code>6</code>
+    <level/>
+    <message>æ ‡å®šå¼‚å¸¸å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>A</ver>
+    <type>Alarm</type>
+    <code>8</code>
+    <level/>
+    <message>åŠ çƒ­å¼‚å¸¸</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>A</ver>
+    <type>Alarm</type>
+    <code>10</code>
+    <level/>
+    <message>è¶…ä¸Šé™å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>A</ver>
+    <type>Alarm</type>
+    <code>11</code>
+    <level/>
+    <message>è¶…ä¸‹é™å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>A</ver>
+    <type>Alarm</type>
+    <code>15</code>
+    <level/>
+    <message>é‡ç¨‹åˆ‡æ¢å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>A</ver>
+    <type>Alarm</type>
+    <code>36</code>
+    <level/>
+    <message>ç¼ºæµç¨‹å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>A</ver>
+    <type>Alarm</type>
+    <code>37</code>
+    <level/>
+    <message>èŠ¯ç‰‡å­˜å‚¨å¼‚å¸¸å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>A</ver>
+    <type>Alarm</type>
+    <code>38</code>
+    <level/>
+    <message>ç¼ºå…¬å¼å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>A</ver>
+    <type>Alarm</type>
+    <code>40</code>
+    <level/>
+    <message>å…‰å€¼è¿‡ä½Žå‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>A</ver>
+    <type>Alarm</type>
+    <code>41</code>
+    <level/>
+    <message>å…‰å€¼è¿‡é«˜å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>A</ver>
+    <type>Alarm</type>
+    <code>42</code>
+    <level/>
+    <message>æ¸©åº¦æŽ¢å¤´æŽ¥çº¿å¼‚å¸¸å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>A</ver>
+    <type>Alarm</type>
+    <code>43</code>
+    <level/>
+    <message>åŠ çƒ­æ¶ˆè§£å¼‚å¸¸å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>A</ver>
+    <type>Alarm</type>
+    <code>44</code>
+    <level/>
+    <message>æ¸©åº¦æŽ¢å¤´åŠŸçŽ‡è¿‡å¤§å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>A</ver>
+    <type>Alarm</type>
+    <code>253</code>
+    <level/>
+    <message>æ—‹è½¬é˜€é€šä¿¡å¼‚å¸¸å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>A</ver>
+    <type>Alarm</type>
+    <code>254</code>
+    <level/>
+    <message>å…‰è°±ä»ªé€šä¿¡å¼‚å¸¸å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>A</ver>
+    <type>Alarm</type>
+    <code>255</code>
+    <level/>
+    <message>æ³¨å°„æ³µé€šä¿¡å¼‚å¸¸å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>A</ver>
+    <type>Fault</type>
+    <code>0</code>
+    <level/>
+    <message>æ— æ•…éšœ</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>A</ver>
+    <type>Fault</type>
+    <code>1</code>
+    <level/>
+    <message>æ³¨å°„æ³µæ•…éšœ</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>A</ver>
+    <type>Fault</type>
+    <code>2</code>
+    <level/>
+    <message>åŠ çƒ­æ•…éšœ</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>A</ver>
+    <type>Fault</type>
+    <code>3</code>
+    <level/>
+    <message>æ—‹è½¬é˜€æ•…éšœ</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>A</ver>
+    <type>Fault</type>
+    <code>38</code>
+    <level/>
+    <message>å…‰å€¼è¿‡ä½Žæ•…éšœ</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>A</ver>
+    <type>Fault</type>
+    <code>39</code>
+    <level/>
+    <message>å…‰è·¯ç³»ç»Ÿæ•…éšœ</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>A</ver>
+    <type>Fault</type>
+    <code>99</code>
+    <level/>
+    <message>æ³¨å°„æ³µé…ç½®å¼‚å¸¸å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>A</ver>
+    <type>Fault</type>
+    <code>103</code>
+    <level/>
+    <message>æ³¨å°„æ³µä¾›ç”µå‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>A</ver>
+    <type>Fault</type>
+    <code>103</code>
+    <level/>
+    <message>æ³¨å°„æ³µä¸æ†è¿‡è½½å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>A</ver>
+    <type>Fault</type>
+    <code>106</code>
+    <level/>
+    <message>æ³¨å°„æ³µé˜€å¤´è¿‡è½½å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>A</ver>
+    <type>Alarm</type>
+    <code>500</code>
+    <level/>
+    <message>è¯•å‰‚ä¸è¶³</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“è¥å…»ç›</id>
+    <ver>A</ver>
+    <type>Alarm</type>
+    <code>501</code>
+    <level/>
+    <message>è¯•å‰‚ä½™é‡æ£€æµ‹å¼‚å¸¸</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V2</ver>
+    <type>Alarm</type>
+    <code>0</code>
+    <level/>
+    <message>æ— å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V2</ver>
+    <type>Alarm</type>
+    <code>1</code>
+    <level/>
+    <message>ç¼ºè¯•å‰‚å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V2</ver>
+    <type>Alarm</type>
+    <code>2</code>
+    <level/>
+    <message>ç¼ºæ°´æ ·å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V2</ver>
+    <type>Alarm</type>
+    <code>3</code>
+    <level/>
+    <message>ç¼ºè’¸é¦æ°´å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V2</ver>
+    <type>Alarm</type>
+    <code>4</code>
+    <level/>
+    <message>ç¼ºæ ‡æ¶²å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V2</ver>
+    <type>Alarm</type>
+    <code>5</code>
+    <level/>
+    <message>ä»ªè¡¨æ¼æ¶²å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V2</ver>
+    <type>Alarm</type>
+    <code>6</code>
+    <level/>
+    <message>æ ‡å®šå¼‚å¸¸å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V2</ver>
+    <type>Alarm</type>
+    <code>7</code>
+    <level/>
+    <message>è¶…é‡ç¨‹å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V2</ver>
+    <type>Alarm</type>
+    <code>8</code>
+    <level/>
+    <message>åŠ çƒ­å¼‚å¸¸</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V2</ver>
+    <type>Alarm</type>
+    <code>9</code>
+    <level/>
+    <message>ä½Žè¯•å‰‚é¢„è­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V2</ver>
+    <type>Alarm</type>
+    <code>10</code>
+    <level/>
+    <message>è¶…ä¸Šé™å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V2</ver>
+    <type>Alarm</type>
+    <code>11</code>
+    <level/>
+    <message>è¶…ä¸‹é™å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V2</ver>
+    <type>Alarm</type>
+    <code>12</code>
+    <level/>
+    <message>ä»ªè¡¨å†…éƒ¨å…¶å®ƒå¼‚å¸¸</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V2</ver>
+    <type>Alarm</type>
+    <code>13</code>
+    <level/>
+    <message>æ»´å®šå¼‚å¸¸å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V2</ver>
+    <type>Alarm</type>
+    <code>14</code>
+    <level/>
+    <message>ç”µæžå¼‚å¸¸å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V2</ver>
+    <type>Alarm</type>
+    <code>15</code>
+    <level/>
+    <message>é‡ç¨‹åˆ‡æ¢å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V2</ver>
+    <type>Alarm</type>
+    <code>36</code>
+    <level/>
+    <message>ç¼ºæµç¨‹å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V2</ver>
+    <type>Alarm</type>
+    <code>37</code>
+    <level/>
+    <message>èŠ¯ç‰‡å­˜å‚¨å¼‚å¸¸å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V2</ver>
+    <type>Alarm</type>
+    <code>38</code>
+    <level/>
+    <message>ç¼ºå…¬å¼å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V2</ver>
+    <type>Alarm</type>
+    <code>39</code>
+    <level/>
+    <message>ORP/å…‰å€¼å¼‚å¸¸å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V2</ver>
+    <type>Alarm</type>
+    <code>40</code>
+    <level/>
+    <message>Aå€¼å¼‚å¸¸å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V2</ver>
+    <type>Alarm</type>
+    <code>41</code>
+    <level/>
+    <message>Bå€¼å¼‚å¸¸å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V2</ver>
+    <type>Alarm</type>
+    <code>42</code>
+    <level/>
+    <message>çŽ¯å¢ƒæ¸©åº¦ä¼ æ„Ÿå™¨å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V2</ver>
+    <type>Alarm</type>
+    <code>43</code>
+    <level/>
+    <message>æ³¨å°„å™¨ä¿æ¸©æ¸©åº¦å¼‚å¸¸å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V2</ver>
+    <type>Alarm</type>
+    <code>44</code>
+    <level/>
+    <message>æ³¨å°„å™¨ä¿æ¸©åŠ çƒ­è¶…æ—¶å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V2</ver>
+    <type>Alarm</type>
+    <code>96</code>
+    <level/>
+    <message>é«˜é”°é…¸é’¾è¯•å‰‚ä½™é‡è¿‡ä½Ž</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V2</ver>
+    <type>Alarm</type>
+    <code>97</code>
+    <level/>
+    <message>è‰é…¸é’ è¯•å‰‚ä½™é‡è¿‡ä½Ž</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V2</ver>
+    <type>Alarm</type>
+    <code>98</code>
+    <level/>
+    <message>ç¡«é…¸è¯•å‰‚ä½™é‡è¿‡ä½Ž</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V2</ver>
+    <type>Alarm</type>
+    <code>99</code>
+    <level/>
+    <message>æ³¨å°„æ³µé…ç½®å¼‚å¸¸å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V2</ver>
+    <type>Alarm</type>
+    <code>103</code>
+    <level/>
+    <message>æ³¨å°„æ³µä¾›ç”µå‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V2</ver>
+    <type>Alarm</type>
+    <code>105</code>
+    <level/>
+    <message>æ³¨å°„æ³µç®¡è·¯é˜»å¡žå‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V2</ver>
+    <type>Alarm</type>
+    <code>106</code>
+    <level/>
+    <message>æ³¨å°„æ³µé˜€å¤´è¿‡è½½å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V2</ver>
+    <type>Alarm</type>
+    <code>250</code>
+    <level/>
+    <message>åå¿ƒè½®è¿è¡Œè¶…æ—¶å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V2</ver>
+    <type>Alarm</type>
+    <code>253</code>
+    <level/>
+    <message>åŠ çƒ­æ¸©åº¦è¶…é™å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V2</ver>
+    <type>Alarm</type>
+    <code>254</code>
+    <level/>
+    <message>åŠ çƒ­æ¸©åº¦è¶…é™å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V2</ver>
+    <type>Alarm</type>
+    <code>255</code>
+    <level/>
+    <message>æ³¨å°„æ³µé€šä¿¡å¼‚å¸¸å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V2</ver>
+    <type>Fault</type>
+    <code>0</code>
+    <level/>
+    <message>æ— æ•…éšœ</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V2</ver>
+    <type>Fault</type>
+    <code>1</code>
+    <level/>
+    <message>æ³¨å°„æ³µæ•…éšœ</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V2</ver>
+    <type>Fault</type>
+    <code>2</code>
+    <level/>
+    <message>åŠ çƒ­æ•…éšœ</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V2</ver>
+    <type>Fault</type>
+    <code>3</code>
+    <level/>
+    <message>é€šè®¯æ•…éšœ</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V2</ver>
+    <type>Fault</type>
+    <code>4</code>
+    <level/>
+    <message>ORP/å…‰å€¼æ•…éšœ</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V2</ver>
+    <type>Fault</type>
+    <code>5</code>
+    <level/>
+    <message>åå¿ƒè½®æ•…éšœ</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V2</ver>
+    <type>Fault</type>
+    <code>6</code>
+    <level/>
+    <message>ç¼ºè¯•å‰‚æ£€æµ‹æ•…éšœ</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V2</ver>
+    <type>Fault</type>
+    <code>10</code>
+    <level/>
+    <message>æŽ’æ¶²æ•…éšœ</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V1</ver>
+    <type>Alarm</type>
+    <code>1</code>
+    <level/>
+    <message>ç”µæžå¼‚å¸¸å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V1</ver>
+    <type>Alarm</type>
+    <code>2</code>
+    <level/>
+    <message>æ¸©æŽ§å™¨æ•…éšœ</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V1</ver>
+    <type>Alarm</type>
+    <code>3</code>
+    <level/>
+    <message>åŠ çƒ­æ•…éšœ</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V1</ver>
+    <type>Alarm</type>
+    <code>4</code>
+    <level/>
+    <message>é«˜é”°é…¸é’¾å¼‚å¸¸</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V1</ver>
+    <type>Alarm</type>
+    <code>5</code>
+    <level/>
+    <message>è‰é…¸é’ å¼‚å¸¸</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V1</ver>
+    <type>Alarm</type>
+    <code>6</code>
+    <level/>
+    <message>æµ‹é‡é”™è¯¯</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V1</ver>
+    <type>Alarm</type>
+    <code>7</code>
+    <level/>
+    <message>æ ¡æ ‡é”™è¯¯</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V1</ver>
+    <type>Alarm</type>
+    <code>8</code>
+    <level/>
+    <message>è¿›æ°´æ ·è¶…é‡ç¨‹</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V1</ver>
+    <type>Alarm</type>
+    <code>9</code>
+    <level/>
+    <message>æŽ’æ¶²é˜€æ•…éšœ</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V1</ver>
+    <type>Alarm</type>
+    <code>10</code>
+    <level/>
+    <message>60åˆ†é’Ÿè¶…æ—¶æŠ¥è­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>æ–¯å¦é“CODMn</id>
+    <ver>V1</ver>
+    <type>Alarm</type>
+    <code>11</code>
+    <level/>
+    <message>è¿›æ ·æ— æ¶²ä½“æŠ¥è­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>ç‚¹åˆ›CODcr</id>
+    <ver>V1</ver>
+    <type>Alarm</type>
+    <code>0</code>
+    <level/>
+    <message>æ— å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>ç‚¹åˆ›CODcr</id>
+    <ver>V1</ver>
+    <type>Alarm</type>
+    <code>1</code>
+    <level/>
+    <message>ç¼ºè¯•å‰‚å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>ç‚¹åˆ›CODcr</id>
+    <ver>V1</ver>
+    <type>Alarm</type>
+    <code>2</code>
+    <level/>
+    <message>ç¼ºæ°´æ ·å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>ç‚¹åˆ›CODcr</id>
+    <ver>V1</ver>
+    <type>Alarm</type>
+    <code>3</code>
+    <level/>
+    <message>ç¼ºè’¸é¦æ°´å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>ç‚¹åˆ›CODcr</id>
+    <ver>V1</ver>
+    <type>Alarm</type>
+    <code>4</code>
+    <level/>
+    <message>ç¼ºæ ‡æ¶²å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>ç‚¹åˆ›CODcr</id>
+    <ver>V1</ver>
+    <type>Alarm</type>
+    <code>5</code>
+    <level/>
+    <message>ä»ªè¡¨æ¼æ¶²å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>ç‚¹åˆ›CODcr</id>
+    <ver>V1</ver>
+    <type>Alarm</type>
+    <code>6</code>
+    <level/>
+    <message>æ ‡å®šå¼‚å¸¸å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>ç‚¹åˆ›CODcr</id>
+    <ver>V1</ver>
+    <type>Alarm</type>
+    <code>7</code>
+    <level/>
+    <message>è¶…é‡ç¨‹å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>ç‚¹åˆ›CODcr</id>
+    <ver>V1</ver>
+    <type>Alarm</type>
+    <code>8</code>
+    <level/>
+    <message>åŠ çƒ­å¼‚å¸¸</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>ç‚¹åˆ›CODcr</id>
+    <ver>V1</ver>
+    <type>Alarm</type>
+    <code>9</code>
+    <level/>
+    <message>ä½Žè¯•å‰‚é¢„è­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>ç‚¹åˆ›CODcr</id>
+    <ver>V1</ver>
+    <type>Alarm</type>
+    <code>10</code>
+    <level/>
+    <message>è¶…ä¸Šé™å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>ç‚¹åˆ›CODcr</id>
+    <ver>V1</ver>
+    <type>Alarm</type>
+    <code>11</code>
+    <level/>
+    <message>è¶…ä¸‹é™å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>ç‚¹åˆ›CODcr</id>
+    <ver>V1</ver>
+    <type>Alarm</type>
+    <code>12</code>
+    <level/>
+    <message>ä»ªè¡¨å†…éƒ¨å…¶å®ƒå¼‚å¸¸</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>åŠ¨åŠ›çŽ¯å¢ƒ</id>
+    <ver>V1</ver>
+    <type>Alarm</type>
+    <code>0</code>
+    <level/>
+    <message>æ— å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>åŠ¨åŠ›çŽ¯å¢ƒ</id>
+    <ver>V1</ver>
+    <type>Alarm</type>
+    <code>1</code>
+    <level/>
+    <message>å¸‚ç”µå¼‚å¸¸</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>åŠ¨åŠ›çŽ¯å¢ƒ</id>
+    <ver>V1</ver>
+    <type>Alarm</type>
+    <code>2</code>
+    <level/>
+    <message>UPSå¼‚å¸¸</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>åŠ¨åŠ›çŽ¯å¢ƒ</id>
+    <ver>V1</ver>
+    <type>Alarm</type>
+    <code>3</code>
+    <level/>
+    <message>è“„ç”µæ± å¼‚å¸¸</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>åŠ¨åŠ›çŽ¯å¢ƒ</id>
+    <ver>V1</ver>
+    <type>Alarm</type>
+    <code>4</code>
+    <level/>
+    <message>ç©ºè°ƒå¼‚å¸¸</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>åŠ¨åŠ›çŽ¯å¢ƒ</id>
+    <ver>V1</ver>
+    <type>Alarm</type>
+    <code>5</code>
+    <level/>
+    <message>æ¸©æ¹¿åº¦å¼‚å¸¸</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>åŠ¨åŠ›çŽ¯å¢ƒ</id>
+    <ver>V1</ver>
+    <type>Alarm</type>
+    <code>6</code>
+    <level/>
+    <message>ç§»ä½å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>åŠ¨åŠ›çŽ¯å¢ƒ</id>
+    <ver>V1</ver>
+    <type>Alarm</type>
+    <code>7</code>
+    <level/>
+    <message>çƒŸé›¾å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>åŠ¨åŠ›çŽ¯å¢ƒ</id>
+    <ver>V1</ver>
+    <type>Alarm</type>
+    <code>8</code>
+    <level/>
+    <message>æŒ¯åŠ¨å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>åŠ¨åŠ›çŽ¯å¢ƒ</id>
+    <ver>V1</ver>
+    <type>Alarm</type>
+    <code>9</code>
+    <level/>
+    <message>çº¢å¤–å…¥ä¾µå‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>åŠ¨åŠ›çŽ¯å¢ƒ</id>
+    <ver>V1</ver>
+    <type>Alarm</type>
+    <code>10</code>
+    <level/>
+    <message>æ¼æ°´å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>åŠ æ ‡å›žæ”¶</id>
+    <ver>V1</ver>
+    <type>Alarm</type>
+    <code>0</code>
+    <level/>
+    <message>æ— å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>åŠ æ ‡å›žæ”¶</id>
+    <ver>V1</ver>
+    <type>Alarm</type>
+    <code>1</code>
+    <level/>
+    <message>æ¶²ä½å¼‚å¸¸å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>åŠ æ ‡å›žæ”¶</id>
+    <ver>V1</ver>
+    <type>Alarm</type>
+    <code>2</code>
+    <level/>
+    <message>æŸ±å¡žæ³µæ•…éšœå‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+  <alarm>
+    <id>åŠ æ ‡å›žæ”¶</id>
+    <ver>V1</ver>
+    <type>Alarm</type>
+    <code>3</code>
+    <level/>
+    <message>æµç¨‹ä¸­æ–­å‘Šè­¦</message>
+    <analysis/>
+    <platform_alarm_code/>
+  </alarm>
+</project></LVData>

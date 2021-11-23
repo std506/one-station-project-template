@@ -46,6 +46,9 @@
 			<Item Name="索引数据并插入.vi" Type="VI" URL="../subvi/SQL/索引数据并插入.vi"/>
 			<Item Name="自动添加所有参数数据.vi" Type="VI" URL="../subvi/SQL/自动添加所有参数数据.vi"/>
 		</Item>
+		<Item Name="sync" Type="Folder">
+			<Item Name="databasesync.vi" Type="VI" URL="../subvi/databasesync.vi"/>
+		</Item>
 		<Item Name="web" Type="Folder">
 			<Item Name="create html.vi" Type="VI" URL="../web/create html.vi"/>
 			<Item Name="get echarts JS.vi" Type="VI" URL="../web/get echarts JS.vi"/>
