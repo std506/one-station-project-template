@@ -95,7 +95,6 @@
 		<Item Name="CODMn操作日志.vi" Type="VI" URL="../main/CODMn操作日志.vi"/>
 		<Item Name="CODMn测量数据储存.vi" Type="VI" URL="../main/CODMn测量数据储存.vi"/>
 		<Item Name="CODMn校准记录.vi" Type="VI" URL="../main/CODMn校准记录.vi"/>
-		<Item Name="故障告警分析.vi" Type="VI" URL="../Subvi/故障告警分析.vi"/>
 	</Item>
 	<Item Name="通讯" Type="Folder">
 		<Item Name="Modbus Write File Record" Type="Folder">
@@ -191,4 +190,5 @@
 	<Item Name="data insert core.vi" Type="VI" URL="../database/data insert core.vi"/>
 	<Item Name="监测浓度升序排列(子VI).vi" Type="VI" URL="../Subvi/监测浓度升序排列(子VI).vi"/>
 	<Item Name="Read database.vi" Type="VI" URL="../Subvi/Read database.vi"/>
+	<Item Name="故障告警日志存储 (子VI).vi" Type="VI" URL="../Subvi/故障告警日志存储 (子VI).vi"/>
 </Library>
