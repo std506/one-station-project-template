@@ -546,6 +546,32 @@
 				<Item Name="Index 1D Array Elements (I32)--SUBROUTINE__JKI EasyXML.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/Index 1D Array Elements (I32)--SUBROUTINE__JKI EasyXML.vi"/>
 				<Item Name="Search 1D Array (String)--SUBROUTINE__JKI EasyXML.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/Search 1D Array (String)--SUBROUTINE__JKI EasyXML.vi"/>
 				<Item Name="Get Array Element Default Data--EasyXML__JKI EasyXML.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/Get Array Element Default Data--EasyXML__JKI EasyXML.vi"/>
+				<Item Name="Empty Picture" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Empty Picture"/>
+				<Item Name="Msg_Error__lava_lib_ui_tools.lvlib" Type="Library" URL="/&lt;vilib&gt;/LAVA/UI Tools/Dialog/Msg_Error/Msg_Error__lava_lib_ui_tools.lvlib"/>
+				<Item Name="MessageBox__lava_lib_ui_tools.lvlib" Type="Library" URL="/&lt;vilib&gt;/LAVA/UI Tools/Dialog/MessageBox/MessageBox__lava_lib_ui_tools.lvlib"/>
+				<Item Name="Dialog__lava_lib_ui_tools.lvlib" Type="Library" URL="/&lt;vilib&gt;/LAVA/UI Tools/Dialog/Dialog/Dialog__lava_lib_ui_tools.lvlib"/>
+				<Item Name="Calculate Area__lava_lib_ui_tools.vi" Type="VI" URL="/&lt;vilib&gt;/LAVA/UI Tools/Alignment/Calculate Area__lava_lib_ui_tools.vi"/>
+				<Item Name="Calculate Intersection__lava_lib_ui_tools.vi" Type="VI" URL="/&lt;vilib&gt;/LAVA/UI Tools/Alignment/Calculate Intersection__lava_lib_ui_tools.vi"/>
+				<Item Name="Calculate_GObject_Rectangle__lava_lib_ui_tools.vi" Type="VI" URL="/&lt;vilib&gt;/LAVA/UI Tools/Alignment/Calculate_GObject_Rectangle__lava_lib_ui_tools.vi"/>
+				<Item Name="SetTransparency(U8)__lava_lib_ui_tools.vi" Type="VI" URL="/&lt;vilib&gt;/LAVA/UI Tools/Fading/SetTransparency(U8)__lava_lib_ui_tools.vi"/>
+				<Item Name="TopLeft_Size_to_Rectangle__lava_lib_ui_tools.vi" Type="VI" URL="/&lt;vilib&gt;/LAVA/UI Tools/Alignment/TopLeft_Size_to_Rectangle__lava_lib_ui_tools.vi"/>
+				<Item Name="Calculate Center__lava_lib_ui_tools.vi" Type="VI" URL="/&lt;vilib&gt;/LAVA/UI Tools/Alignment/Calculate Center__lava_lib_ui_tools.vi"/>
+				<Item Name="RectSize.vi" Type="VI" URL="/&lt;vilib&gt;/picture/PictureSupport.llb/RectSize.vi"/>
+				<Item Name="Rectangle Size__lava_lib_ui_tools.vi" Type="VI" URL="/&lt;vilib&gt;/LAVA/UI Tools/Alignment/Rectangle Size__lava_lib_ui_tools.vi"/>
+				<Item Name="SetTransparency__lava_lib_ui_tools.vi" Type="VI" URL="/&lt;vilib&gt;/LAVA/UI Tools/Fading/SetTransparency__lava_lib_ui_tools.vi"/>
+				<Item Name="SetTransparency(Polymorphic)__lava_lib_ui_tools.vi" Type="VI" URL="/&lt;vilib&gt;/LAVA/UI Tools/Fading/SetTransparency(Polymorphic)__lava_lib_ui_tools.vi"/>
+				<Item Name="_ExponentialCalculation__lava_lib_ui_tools.vi" Type="VI" URL="/&lt;vilib&gt;/LAVA/UI Tools/Fading/_ExponentialCalculation__lava_lib_ui_tools.vi"/>
+				<Item Name="_fadetype__lava_lib_ui_tools.ctl" Type="VI" URL="/&lt;vilib&gt;/LAVA/UI Tools/Fading/_fadetype__lava_lib_ui_tools.ctl"/>
+				<Item Name="_Fade(I32)__lava_lib_ui_tools.vi" Type="VI" URL="/&lt;vilib&gt;/LAVA/UI Tools/Fading/_Fade(I32)__lava_lib_ui_tools.vi"/>
+				<Item Name="Fade__lava_lib_ui_tools.vi" Type="VI" URL="/&lt;vilib&gt;/LAVA/UI Tools/Fading/Fade__lava_lib_ui_tools.vi"/>
+				<Item Name="_Fade(String)__lava_lib_ui_tools.vi" Type="VI" URL="/&lt;vilib&gt;/LAVA/UI Tools/Fading/_Fade(String)__lava_lib_ui_tools.vi"/>
+				<Item Name="Fade (Polymorphic)__lava_lib_ui_tools.vi" Type="VI" URL="/&lt;vilib&gt;/LAVA/UI Tools/Fading/Fade (Polymorphic)__lava_lib_ui_tools.vi"/>
+				<Item Name="_Rect2TopLeftPoint__lava_lib_ui_tools.vi" Type="VI" URL="/&lt;vilib&gt;/LAVA/UI Tools/Alignment/_Rect2TopLeftPoint__lava_lib_ui_tools.vi"/>
+				<Item Name="_Fade In(I32)__lava_lib_ui_tools.vi" Type="VI" URL="/&lt;vilib&gt;/LAVA/UI Tools/Fading/_Fade In(I32)__lava_lib_ui_tools.vi"/>
+				<Item Name="Fade In__lava_lib_ui_tools.vi" Type="VI" URL="/&lt;vilib&gt;/LAVA/UI Tools/Fading/Fade In__lava_lib_ui_tools.vi"/>
+				<Item Name="_Fade In(String)__lava_lib_ui_tools.vi" Type="VI" URL="/&lt;vilib&gt;/LAVA/UI Tools/Fading/_Fade In(String)__lava_lib_ui_tools.vi"/>
+				<Item Name="Fade In(Polymorphic)__lava_lib_ui_tools.vi" Type="VI" URL="/&lt;vilib&gt;/LAVA/UI Tools/Fading/Fade In(Polymorphic)__lava_lib_ui_tools.vi"/>
+				<Item Name="SimpleErrorDialog__lava_lib_ui_tools.vi" Type="VI" URL="/&lt;vilib&gt;/LAVA/UI Tools/Dialog/SimpleErrorDialog__lava_lib_ui_tools.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
@@ -926,6 +952,8 @@
 				<Item Name="Conditional Auto-Indexing Tunnel (I64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel (I64)__ogtk.vi"/>
 				<Item Name="Conditional Auto-Indexing Tunnel (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel (U64)__ogtk.vi"/>
 				<Item Name="Conditional Auto-Indexing Tunnel (LVObject)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel (LVObject)__ogtk.vi"/>
+				<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
+				<Item Name="Fit VI window to Largest Dec__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Fit VI window to Largest Dec__ogtk.vi"/>
 			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -1034,6 +1062,8 @@
 			<Item Name="SingleStepTestV2.lvlib" Type="Library" URL="../API/共用控件/SingleStepTestV2/SingleStepTestV2.lvlib"/>
 			<Item Name="ZKTimingControl.lvlib" Type="Library" URL="../API/共用控件/ZKTimingControl/ZKTimingControl.lvlib"/>
 			<Item Name="SingleStepCODMnV2.lvlib" Type="Library" URL="../API/共用控件/SingleStepCODMnV2/SingleStepCODMnV2.lvlib"/>
+			<Item Name="opSignIn.lvlib" Type="Library" URL="../API/OpSignIn/opSignIn.lvlib"/>
+			<Item Name="QR_ENCODE.lvlib" Type="Library" URL="../API/OpSignIn/API/QR_ENCODE/QR_ENCODE.lvlib"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="一体化微型水质监测站" Type="EXE">
@@ -1051,7 +1081,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">54</Property>
+				<Property Name="Bld_version.build" Type="Int">58</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.minor" Type="Int">7</Property>
 				<Property Name="Bld_version.patch" Type="Int">4</Property>
