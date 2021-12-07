@@ -1064,6 +1064,7 @@
 			<Item Name="SingleStepCODMnV2.lvlib" Type="Library" URL="../API/共用控件/SingleStepCODMnV2/SingleStepCODMnV2.lvlib"/>
 			<Item Name="opSignIn.lvlib" Type="Library" URL="../API/OpSignIn/opSignIn.lvlib"/>
 			<Item Name="QR_ENCODE.lvlib" Type="Library" URL="../API/OpSignIn/API/QR_ENCODE/QR_ENCODE.lvlib"/>
+			<Item Name="FreeMem.dll" Type="Document" URL="../data/FreeMem.dll"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="一体化微型水质监测站" Type="EXE">
