@@ -52,27 +52,6 @@
 		</Item>
 		<Item Name="UI" Type="Folder">
 			<Item Name="控件" Type="Folder">
-				<Item Name="多参数测量数据" Type="Folder">
-					<Item Name="多参数测量数据.xctl" Type="XControl" URL="../UI/控件/多参数测量数据/多参数测量数据.xctl"/>
-				</Item>
-				<Item Name="多参数运行状态" Type="Folder">
-					<Item Name="多参数运行状态.xctl" Type="XControl" URL="../UI/控件/多参数运行状态/多参数运行状态.xctl"/>
-				</Item>
-				<Item Name="数据查询菜单" Type="Folder">
-					<Item Name="数据查询菜单.xctl" Type="XControl" URL="../API/数据查询/control/数据查询菜单/数据查询菜单.xctl"/>
-				</Item>
-				<Item Name="水质测量数据" Type="Folder">
-					<Item Name="水质测量数据.xctl" Type="XControl" URL="../UI/控件/水质测量数据/水质测量数据.xctl"/>
-				</Item>
-				<Item Name="小项目框" Type="Folder">
-					<Item Name="小项目框.xctl" Type="XControl" URL="../UI/控件/小项目框/小项目框.xctl"/>
-				</Item>
-				<Item Name="运维调试菜单" Type="Folder">
-					<Item Name="运维调试菜单.xctl" Type="XControl" URL="../UI/控件/运维调试菜单/运维调试菜单.xctl"/>
-				</Item>
-				<Item Name="主画面菜单" Type="Folder">
-					<Item Name="主画面菜单.xctl" Type="XControl" URL="../UI/控件/主画面菜单/主画面菜单.xctl"/>
-				</Item>
 				<Item Name="检测周期.ctl" Type="VI" URL="../UI/控件/检测周期.ctl"/>
 				<Item Name="快捷运维.ctl" Type="VI" URL="../UI/控件/快捷运维.ctl"/>
 				<Item Name="全屏按钮.ctl" Type="VI" URL="../UI/控件/全屏按钮.ctl"/>
@@ -84,11 +63,13 @@
 				<Item Name="左箭头.ctl" Type="VI" URL="../UI/控件/左箭头.ctl"/>
 				<Item Name="锁.ctl" Type="VI" URL="../UI/控件/锁.ctl"/>
 				<Item Name="导出.ctl" Type="VI" URL="../UI/控件/导出.ctl"/>
-				<Item Name="下拉列表.xctl" Type="XControl" URL="../API/数据查询/control/下拉列表/下拉列表.xctl"/>
 				<Item Name="关于.ctl" Type="VI" URL="../UI/控件/关于.ctl"/>
 				<Item Name="数值显示.ctl" Type="VI" URL="../UI/控件/数值显示.ctl"/>
 				<Item Name="多数值显示.ctl" Type="VI" URL="../UI/控件/多数值显示.ctl"/>
 				<Item Name="24周期设置.ctl" Type="VI" URL="../UI/控件/24周期设置.ctl"/>
+				<Item Name="主画面单选控件.ctl" Type="VI" URL="../UI/控件/主画面单选控件.ctl"/>
+				<Item Name="运维调试单选控件.ctl" Type="VI" URL="../UI/控件/运维调试单选控件.ctl"/>
+				<Item Name="Screen Switching.lvlib" Type="Library" URL="../API/共用控件/Screen Switching/Screen Switching.lvlib"/>
 			</Item>
 			<Item Name="VIS" Type="Folder">
 				<Item Name="首页.vi" Type="VI" URL="../UI/VIS/首页.vi"/>
@@ -127,6 +108,7 @@
 			<Item Name="停止流程.vi" Type="VI" URL="../系统/停止流程.vi"/>
 			<Item Name="参数初始化.vi" Type="VI" URL="../系统/参数初始化.vi"/>
 			<Item Name="系统交互.vi" Type="VI" URL="../系统/系统交互.vi"/>
+			<Item Name="get CloudComputerName.vi" Type="VI" URL="../系统/get CloudComputerName.vi"/>
 			<Item Name="加载配置.vi" Type="VI" URL="../系统/加载配置.vi"/>
 			<Item Name="默认配置对话框.vi" Type="VI" URL="../系统/默认配置对话框.vi"/>
 			<Item Name="启动参数选择.vi" Type="VI" URL="../系统/启动参数选择.vi"/>
@@ -570,6 +552,7 @@
 				<Item Name="_Fade In(String)__lava_lib_ui_tools.vi" Type="VI" URL="/&lt;vilib&gt;/LAVA/UI Tools/Fading/_Fade In(String)__lava_lib_ui_tools.vi"/>
 				<Item Name="Fade In(Polymorphic)__lava_lib_ui_tools.vi" Type="VI" URL="/&lt;vilib&gt;/LAVA/UI Tools/Fading/Fade In(Polymorphic)__lava_lib_ui_tools.vi"/>
 				<Item Name="SimpleErrorDialog__lava_lib_ui_tools.vi" Type="VI" URL="/&lt;vilib&gt;/LAVA/UI Tools/Dialog/SimpleErrorDialog__lava_lib_ui_tools.vi"/>
+				<Item Name="RadioButtonsControl.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/QSI/QControls/QControl Classes/RadioButtonsControl/RadioButtonsControl.lvclass"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
@@ -989,7 +972,6 @@
 			<Item Name="shell32.dll" Type="Document" URL="shell32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="get CloudComputerName.vi" Type="VI" URL="../系统/get CloudComputerName.vi"/>
 			<Item Name="周期设置.vi" Type="VI" URL="../系统/周期设置.vi"/>
 			<Item Name="数据库类型.ctl" Type="VI" URL="../API/database/control/数据库类型.ctl"/>
 			<Item Name="操作日志字段定义.ctl" Type="VI" URL="../API/database/control/操作日志字段定义.ctl"/>
@@ -1080,7 +1062,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">12</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.minor" Type="Int">7</Property>
 				<Property Name="Bld_version.patch" Type="Int">5</Property>
