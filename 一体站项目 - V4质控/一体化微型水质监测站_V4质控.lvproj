@@ -52,13 +52,13 @@
 		</Item>
 		<Item Name="UI" Type="Folder">
 			<Item Name="控件" Type="Folder">
-				<Item Name="检测周期.ctl" Type="VI" URL="../UI/控件/检测周期.ctl"/>
+				<Item Name="系统设置.ctl" Type="VI" URL="../UI/控件/系统设置.ctl"/>
 				<Item Name="快捷运维.ctl" Type="VI" URL="../UI/控件/快捷运维.ctl"/>
 				<Item Name="全屏按钮.ctl" Type="VI" URL="../UI/控件/全屏按钮.ctl"/>
 				<Item Name="首页.ctl" Type="VI" URL="../UI/控件/首页.ctl"/>
 				<Item Name="数据查询.ctl" Type="VI" URL="../UI/控件/数据查询.ctl"/>
+				<Item Name="动力环境.ctl" Type="VI" URL="../UI/控件/动力环境.ctl"/>
 				<Item Name="右箭头.ctl" Type="VI" URL="../UI/控件/右箭头.ctl"/>
-				<Item Name="子菜单.ctl" Type="VI" URL="../API/数据查询/control/子菜单.ctl"/>
 				<Item Name="组合框.ctl" Type="VI" URL="../UI/控件/组合框.ctl"/>
 				<Item Name="左箭头.ctl" Type="VI" URL="../UI/控件/左箭头.ctl"/>
 				<Item Name="锁.ctl" Type="VI" URL="../UI/控件/锁.ctl"/>
@@ -69,6 +69,7 @@
 				<Item Name="24周期设置.ctl" Type="VI" URL="../UI/控件/24周期设置.ctl"/>
 				<Item Name="主画面单选控件.ctl" Type="VI" URL="../UI/控件/主画面单选控件.ctl"/>
 				<Item Name="运维调试单选控件.ctl" Type="VI" URL="../UI/控件/运维调试单选控件.ctl"/>
+				<Item Name="菜单按钮.ctl" Type="VI" URL="../UI/控件/菜单按钮.ctl"/>
 				<Item Name="Screen Switching.lvlib" Type="Library" URL="../API/共用控件/Screen Switching/Screen Switching.lvlib"/>
 			</Item>
 			<Item Name="VIS" Type="Folder">
@@ -553,6 +554,13 @@
 				<Item Name="Fade In(Polymorphic)__lava_lib_ui_tools.vi" Type="VI" URL="/&lt;vilib&gt;/LAVA/UI Tools/Fading/Fade In(Polymorphic)__lava_lib_ui_tools.vi"/>
 				<Item Name="SimpleErrorDialog__lava_lib_ui_tools.vi" Type="VI" URL="/&lt;vilib&gt;/LAVA/UI Tools/Dialog/SimpleErrorDialog__lava_lib_ui_tools.vi"/>
 				<Item Name="RadioButtonsControl.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/QSI/QControls/QControl Classes/RadioButtonsControl/RadioButtonsControl.lvclass"/>
+				<Item Name="ProgressBar_WireFlow.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/WireFlow/_WF_ProgressBar.llb/ProgressBar_WireFlow.lvclass"/>
+				<Item Name="ProgressBar_Win_WireFlow.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/WireFlow/_WF_ProgressBar.llb/ProgressBar_Win_WireFlow.lvclass"/>
+				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
+				<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>
+				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
+				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
+				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
@@ -1062,7 +1070,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">13</Property>
+				<Property Name="Bld_version.build" Type="Int">24</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.minor" Type="Int">7</Property>
 				<Property Name="Bld_version.patch" Type="Int">5</Property>
@@ -1079,7 +1087,7 @@
 				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/data/tubiao.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{8A9020F1-EC6D-4F00-B8C8-E72D553969A9}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{EAB29534-3A7B-46BB-85F4-40F5D1B82A1A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/UI/VIS/启动.vi</Property>

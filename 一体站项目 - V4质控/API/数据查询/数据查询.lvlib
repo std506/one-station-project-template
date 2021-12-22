@@ -70,4 +70,5 @@
 	<Item Name="holding var.vi" Type="VI" URL="../var/holding var.vi"/>
 	<Item Name="全局变量.vi" Type="VI" URL="../var/全局变量.vi"/>
 	<Item Name="数据查询单选控件.ctl" Type="VI" URL="../control/数据查询单选控件.ctl"/>
+	<Item Name="子菜单.ctl" Type="VI" URL="../control/子菜单.ctl"/>
 </Library>
