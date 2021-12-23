@@ -10,9 +10,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="SL1500-3G" Type="Folder">
-			<Item Name="SL1500-3G.lvlib" Type="Library" URL="../SL1500-3G/SL1500-3G.lvlib"/>
-		</Item>
 		<Item Name="流量计集成.lvlib" Type="Library" URL="../流量计集成.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
