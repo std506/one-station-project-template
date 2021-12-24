@@ -7,6 +7,7 @@
 	<Item Name="API" Type="Folder">
 		<Item Name="Get AccessToken.vi" Type="VI" URL="../API/Get AccessToken.vi"/>
 		<Item Name="GetQRcode.vi" Type="VI" URL="../API/GetQRcode.vi"/>
+		<Item Name="log.vi" Type="VI" URL="../API/log.vi"/>
 		<Item Name="Open&amp;Close Door Record.vi" Type="VI" URL="../API/Open&amp;Close Door Record.vi"/>
 		<Item Name="OutputPicture.vi" Type="VI" URL="../API/OutputPicture.vi"/>
 		<Item Name="QR二维码生成器.vi" Type="VI" URL="../API/QR二维码生成器.vi"/>
