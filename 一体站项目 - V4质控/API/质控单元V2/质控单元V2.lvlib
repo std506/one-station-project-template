@@ -188,4 +188,5 @@
 			</Item>
 		</Item>
 	</Item>
+	<Item Name="状态标记位读写.vi" Type="VI" URL="../subvi/状态标记位读写.vi"/>
 </Library>
