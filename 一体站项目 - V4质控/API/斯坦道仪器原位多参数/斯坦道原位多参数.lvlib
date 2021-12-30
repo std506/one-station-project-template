@@ -32,6 +32,7 @@
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Interface" Type="Folder">
 		<Item Name="taskqueue ref.vi" Type="VI" URL="../Interface/taskqueue ref.vi"/>
+		<Item Name="配置读取.vi" Type="VI" URL="../Interface/配置读取.vi"/>
 	</Item>
 	<Item Name="Subvi" Type="Folder">
 		<Item Name="DataToHex" Type="Folder">
@@ -112,5 +113,4 @@
 		<Item Name="水样测试启动自定义输入参数.ctl" Type="VI" URL="../控件/水样测试启动自定义输入参数.ctl"/>
 	</Item>
 	<Item Name="配置保存.vi" Type="VI" URL="../Subvi/配置保存.vi"/>
-	<Item Name="配置读取.vi" Type="VI" URL="../Subvi/配置读取.vi"/>
 </Library>

@@ -49,7 +49,9 @@
 		<Item Name="质控状态.ctl" Type="VI" URL="../control/质控状态.ctl"/>
 		<Item Name="质控组合命令区.ctl" Type="VI" URL="../control/质控组合命令区.ctl"/>
 	</Item>
-	<Item Name="interface" Type="Folder"/>
+	<Item Name="interface" Type="Folder">
+		<Item Name="配置信息读取.vi" Type="VI" URL="../subvi/配置信息读取.vi"/>
+	</Item>
 	<Item Name="SQL" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="报警信息记录.vi" Type="VI" URL="../SQL/报警信息记录.vi"/>
@@ -83,7 +85,6 @@
 		<Item Name="加载流程文件.vi" Type="VI" URL="../subvi/加载流程文件.vi"/>
 		<Item Name="密码键盘.vi" Type="VI" URL="../subvi/密码键盘.vi"/>
 		<Item Name="密码权限设置.vi" Type="VI" URL="../subvi/密码权限设置.vi"/>
-		<Item Name="配置信息读取.vi" Type="VI" URL="../subvi/配置信息读取.vi"/>
 		<Item Name="配置信息写入.vi" Type="VI" URL="../subvi/配置信息写入.vi"/>
 		<Item Name="取中心点.vi" Type="VI" URL="../subvi/取中心点.vi"/>
 		<Item Name="数字键盘.vi" Type="VI" URL="../subvi/数字键盘.vi"/>
