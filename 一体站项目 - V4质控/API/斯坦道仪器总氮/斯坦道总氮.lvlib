@@ -240,6 +240,7 @@
 			<Item Name="校准任务设置.vi" Type="VI" URL="../参数设置/校准任务设置.vi"/>
 			<Item Name="旧版校准数据转换.vi" Type="VI" URL="../参数设置/旧版校准数据转换.vi"/>
 			<Item Name="校准条件设置.vi" Type="VI" URL="../参数设置/校准条件设置.vi"/>
+			<Item Name="校准数据文件路径.vi" Type="VI" URL="../参数设置/校准数据文件路径.vi"/>
 			<Item Name="校准任务流程.vi" Type="VI" URL="../参数设置/校准任务流程.vi"/>
 			<Item Name="校准任务.ctl" Type="VI" URL="../参数设置/校准任务.ctl"/>
 		</Item>
