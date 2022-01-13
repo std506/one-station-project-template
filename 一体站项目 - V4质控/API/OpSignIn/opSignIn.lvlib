@@ -5,6 +5,12 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="API" Type="Folder">
+		<Item Name="AlarmCode" Type="Folder">
+			<Item Name="Get AlarmCode.vi" Type="VI" URL="../API/AlarmCode/Get AlarmCode.vi"/>
+			<Item Name="save AlarmCode Xml.vi" Type="VI" URL="../API/AlarmCode/save AlarmCode Xml.vi"/>
+			<Item Name="报警格式.ctl" Type="VI" URL="../API/AlarmCode/报警格式.ctl"/>
+			<Item Name="元素.ctl" Type="VI" URL="../API/AlarmCode/元素.ctl"/>
+		</Item>
 		<Item Name="Get AccessToken.vi" Type="VI" URL="../API/Get AccessToken.vi"/>
 		<Item Name="GetQRcode.vi" Type="VI" URL="../API/GetQRcode.vi"/>
 		<Item Name="log.vi" Type="VI" URL="../API/log.vi"/>
@@ -14,7 +20,10 @@
 		<Item Name="SignIn&amp;Out QR Code.vi" Type="VI" URL="../API/SignIn&amp;Out QR Code.vi"/>
 		<Item Name="配置读取写入.vi" Type="VI" URL="../API/配置读取写入.vi"/>
 	</Item>
-	<Item Name="show QR Code.vi" Type="VI" URL="../show QR Code.vi"/>
-	<Item Name="transfer open&amp;close door record.vi" Type="VI" URL="../transfer open&amp;close door record.vi"/>
-	<Item Name="配置对话框.vi" Type="VI" URL="../配置对话框.vi"/>
+	<Item Name="Interface" Type="Folder">
+		<Item Name="show QR Code.vi" Type="VI" URL="../show QR Code.vi"/>
+		<Item Name="transfer open&amp;close door record.vi" Type="VI" URL="../transfer open&amp;close door record.vi"/>
+		<Item Name="update AlarmCode XML.vi" Type="VI" URL="../API/AlarmCode/update AlarmCode XML.vi"/>
+		<Item Name="配置对话框.vi" Type="VI" URL="../配置对话框.vi"/>
+	</Item>
 </Library>
