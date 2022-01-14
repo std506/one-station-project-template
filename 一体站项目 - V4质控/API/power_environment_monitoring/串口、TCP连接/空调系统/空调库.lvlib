@@ -55,4 +55,5 @@
 	<Item Name="英维克空调.vi" Type="VI" URL="../英维克空调.vi"/>
 	<Item Name="仁科测控RS-KTC-N01空调控制器.vi" Type="VI" URL="../仁科测控RS-KTC-N01空调控制器.vi"/>
 	<Item Name="空调监测配置同步 (子VI).vi" Type="VI" URL="../空调监测配置同步 (子VI).vi"/>
+	<Item Name="空调初始化变量(子VI).vi" Type="VI" URL="../空调初始化变量(子VI).vi"/>
 </Library>

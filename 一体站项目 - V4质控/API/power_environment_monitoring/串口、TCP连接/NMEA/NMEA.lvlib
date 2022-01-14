@@ -68,9 +68,11 @@
 	</Item>
 	<Item Name="GPSMODBUSTCP解析.vi" Type="VI" URL="../GPSMODBUSTCP解析.vi"/>
 	<Item Name="GPS参数配置.vi" Type="VI" URL="../GPS参数配置.vi"/>
+	<Item Name="GPS初始化变量(子VI).vi" Type="VI" URL="../GPS初始化变量(子VI).vi"/>
+	<Item Name="GPS经纬度解析 (子VI).vi" Type="VI" URL="../subvi/GPS经纬度解析 (子VI).vi"/>
 	<Item Name="GPS配置同步(子VI).vi" Type="VI" URL="../GPS配置同步(子VI).vi"/>
 	<Item Name="GPS通讯(子VI).vi" Type="VI" URL="../GPS通讯(子VI).vi"/>
 	<Item Name="北斗参数配置.vi" Type="VI" URL="../北斗参数配置.vi"/>
+	<Item Name="北斗初始化变量 (子VI).vi" Type="VI" URL="../北斗初始化变量 (子VI).vi"/>
 	<Item Name="北斗配置同步 (子VI).vi" Type="VI" URL="../北斗配置同步 (子VI).vi"/>
-	<Item Name="GPS经纬度解析 (子VI).vi" Type="VI" URL="../subvi/GPS经纬度解析 (子VI).vi"/>
 </Library>

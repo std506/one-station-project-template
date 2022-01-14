@@ -40,4 +40,5 @@
 	<Item Name="subvi" Type="Folder">
 		<Item Name="数字键盘.vi" Type="VI" URL="../subvi/数字键盘.vi"/>
 	</Item>
+	<Item Name="读取配置信息 (子VI).vi" Type="VI" URL="../读取配置信息 (子VI).vi"/>
 </Library>

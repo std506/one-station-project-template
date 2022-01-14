@@ -31,4 +31,5 @@
 	<Item Name="梦幻城堡C6~20界面.vi" Type="VI" URL="../梦幻城堡C6~20界面.vi"/>
 	<Item Name="华为UPS2000-G-(1-3KVA)界面.vi" Type="VI" URL="../华为UPS2000-G-(1-3KVA)界面.vi"/>
 	<Item Name="UPS配置同步 (子VI).vi" Type="VI" URL="../subvi/UPS配置同步 (子VI).vi"/>
+	<Item Name="UPS初始化变量(子VI).vi" Type="VI" URL="../UPS初始化变量(子VI).vi"/>
 </Library>

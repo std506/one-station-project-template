@@ -135,6 +135,8 @@
 			<Item Name="蓄电池配置同步 (子VI).vi" Type="VI" URL="../串口、TCP连接/太阳能控制器/MTTP/蓄电池配置同步 (子VI).vi"/>
 			<Item Name="太阳能控制器MPPT12.vi" Type="VI" URL="../串口、TCP连接/太阳能控制器/MTTP/太阳能控制器MPPT12.vi"/>
 			<Item Name="太阳能控制器MPPT24.vi" Type="VI" URL="../串口、TCP连接/太阳能控制器/MTTP/太阳能控制器MPPT24.vi"/>
+			<Item Name="MPPT12初始化变量(子VI).vi" Type="VI" URL="../串口、TCP连接/太阳能控制器/MTTP/MPPT12初始化变量(子VI).vi"/>
+			<Item Name="MPPT24初始化变量(子VI).vi" Type="VI" URL="../串口、TCP连接/太阳能控制器/MTTP/MPPT24初始化变量(子VI).vi"/>
 		</Item>
 		<Item Name="AIRMAR WeatherCaster" Type="Folder">
 			<Item Name="AIRMAR WeatherCaster.lvlib" Type="Library" URL="../串口、TCP连接/AIRMAR WeatherCaster/AIRMAR WeatherCaster.lvlib"/>
@@ -169,6 +171,9 @@
 	</Item>
 	<Item Name="微站电源管理" Type="Folder">
 		<Item Name="V电源管理库.lvlib" Type="Library" URL="../微站电源管理/V电源管理库.lvlib"/>
+	</Item>
+	<Item Name="Interface" Type="Folder">
+		<Item Name="配置初始化.vi" Type="VI" URL="../Interface/配置初始化.vi"/>
 	</Item>
 	<Item Name="动力环境监测系统.vi" Type="VI" URL="../动力环境监测系统.vi"/>
 	<Item Name="动力和环境监控系统首页.vi" Type="VI" URL="../动力和环境监控系统首页.vi"/>

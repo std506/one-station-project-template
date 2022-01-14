@@ -15,7 +15,6 @@
 		<Item Name="数字键盘.vi" Type="VI" URL="../Subvi/数字键盘.vi"/>
 	</Item>
 	<Item Name="参数设置" Type="Folder">
-		<Item Name="超标留样参数设定.vi" Type="VI" URL="../参数设置/超标留样参数设定.vi"/>
 		<Item Name="外控留样模式参数.vi" Type="VI" URL="../参数设置/外控留样模式参数.vi"/>
 		<Item Name="参数设置对画框.vi" Type="VI" URL="../参数设置/参数设置对画框.vi"/>
 	</Item>
@@ -52,4 +51,5 @@
 	<Item Name="流程" Type="Folder">
 		<Item Name="超标留样启动流程.vi" Type="VI" URL="../流程/超标留样启动流程.vi"/>
 	</Item>
+	<Item Name="读取配置信息 (子VI).vi" Type="VI" URL="../读取配置信息 (子VI).vi"/>
 </Library>

@@ -9,5 +9,6 @@
 	<Item Name="开门解析.vi" Type="VI" URL="../开门解析.vi"/>
 	<Item Name="命令字符串选择.vi" Type="VI" URL="../命令字符串选择.vi"/>
 	<Item Name="内部交互全局.vi" Type="VI" URL="../内部交互全局.vi"/>
+	<Item Name="智能门禁初始化变量 (子VI).vi" Type="VI" URL="../智能门禁初始化变量 (子VI).vi"/>
 	<Item Name="智能门禁监测.vi" Type="VI" URL="../智能门禁监测.vi"/>
 </Library>

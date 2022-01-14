@@ -4,6 +4,9 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="Interface" Type="Folder">
+		<Item Name="配置初始化.vi" Type="VI" URL="../Interface/配置初始化.vi"/>
+	</Item>
 	<Item Name="流量计" Type="Folder">
 		<Item Name="LDM51明渠流量计" Type="Folder">
 			<Item Name="LDM51明渠流量计.lvlib" Type="Library" URL="../LDM51明渠流量计/LDM51明渠流量计.lvlib"/>
@@ -44,4 +47,6 @@
 		<Item Name="流量计.vi" Type="VI" URL="../流量计.vi"/>
 		<Item Name="流量计UI.vi" Type="VI" URL="../流量计UI.vi"/>
 	</Item>
+	<Item Name="保存配置信息 (子VI).vi" Type="VI" URL="../保存配置信息 (子VI).vi"/>
+	<Item Name="读取配置信息 (子VI).vi" Type="VI" URL="../读取配置信息 (子VI).vi"/>
 </Library>

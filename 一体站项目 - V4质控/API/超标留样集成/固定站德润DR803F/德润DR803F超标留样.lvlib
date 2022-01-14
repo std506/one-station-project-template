@@ -40,4 +40,5 @@
 		<Item Name="超标留样启动运行.vi" Type="VI" URL="../子VI/超标留样启动运行.vi"/>
 		<Item Name="超标留样启动留样.vi" Type="VI" URL="../子VI/超标留样启动留样.vi"/>
 	</Item>
+	<Item Name="读取配置信息(子VI).vi" Type="VI" URL="../读取配置信息(子VI).vi"/>
 </Library>

@@ -5,6 +5,9 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Item Name="Interface" Type="Folder">
+		<Item Name="配置初始化.vi" Type="VI" URL="../Interface/配置初始化.vi"/>
+	</Item>
 	<Item Name="界面UI.vi" Type="VI" URL="../界面UI.vi"/>
 	<Item Name="超标留样流程.vi" Type="VI" URL="../超标留样流程.vi"/>
 	<Item Name="超标留样启动命令.vi" Type="VI" URL="../超标留样启动命令.vi"/>
@@ -18,4 +21,6 @@
 	<Item Name="德润DR803L超标留样.lvlib" Type="Library" URL="../固定站德润DR803L/德润DR803L超标留样.lvlib"/>
 	<Item Name="德润DR803M超标留样.lvlib" Type="Library" URL="../微站德润DR803M/德润DR803M超标留样.lvlib"/>
 	<Item Name="科盛超标留样.lvlib" Type="Library" URL="../科盛超标留样/科盛超标留样.lvlib"/>
+	<Item Name="读取配置信息 (子VI).vi" Type="VI" URL="../读取配置信息 (子VI).vi"/>
+	<Item Name="保存配置信息 (子VI).vi" Type="VI" URL="../保存配置信息 (子VI).vi"/>
 </Library>
