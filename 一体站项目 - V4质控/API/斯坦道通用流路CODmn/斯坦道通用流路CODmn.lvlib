@@ -110,6 +110,7 @@
 		<Item Name="简易流程调试界面.vi" Type="VI" URL="../调试UI/简易流程调试界面.vi"/>
 		<Item Name="警示对话框.vi" Type="VI" URL="../调试UI/警示对话框.vi"/>
 		<Item Name="一键清洗流程.vi" Type="VI" URL="../调试UI/一键清洗流程.vi"/>
+		<Item Name="更新调试流程.vi" Type="VI" URL="../调试UI/更新调试流程.vi"/>
 	</Item>
 	<Item Name="控件" Type="Folder">
 		<Item Name="固件升级步骤.ctl" Type="VI" URL="../控件/固件升级步骤.ctl"/>
