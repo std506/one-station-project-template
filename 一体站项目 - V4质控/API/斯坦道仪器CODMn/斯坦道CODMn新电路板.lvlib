@@ -179,7 +179,6 @@
 	<Item Name="Create balloon 队列.vi" Type="VI" URL="../Subvi/Create balloon 队列.vi"/>
 	<Item Name="关键参数存表.vi" Type="VI" URL="../Subvi/关键参数存表.vi"/>
 	<Item Name="关键参数交互.vi" Type="VI" URL="../Subvi/关键参数交互.vi"/>
-	<Item Name="高锰酸钾-ORP滴定曲线(子VI).vi" Type="VI" URL="../Subvi/高锰酸钾-ORP滴定曲线(子VI).vi"/>
 	<Item Name="时间-温度曲线(子VI).vi" Type="VI" URL="../Subvi/时间-温度曲线(子VI).vi"/>
 	<Item Name="读取量程参数.vi" Type="VI" URL="../main/COM/读取量程参数.vi"/>
 	<Item Name="写入量程参数.vi" Type="VI" URL="../main/COM/写入量程参数.vi"/>
