@@ -6,18 +6,26 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="subvi" Type="Folder">
-		<Item Name="报警XML解析.vi" Type="VI" URL="../subvi/报警XML解析.vi"/>
+		<Item Name="Create balloon 队列.vi" Type="VI" URL="../subvi/Create balloon 队列.vi"/>
+		<Item Name="balloon入队列.vi" Type="VI" URL="../subvi/balloon入队列.vi"/>
+		<Item Name="Write configure.vi" Type="VI" URL="../subvi/Write configure.vi"/>
 		<Item Name="Read XML.vi" Type="VI" URL="../subvi/Read XML.vi"/>
 		<Item Name="Read configure.vi" Type="VI" URL="../subvi/Read configure.vi"/>
-		<Item Name="Write configure.vi" Type="VI" URL="../subvi/Write configure.vi"/>
+		<Item Name="state告警数据存储.vi" Type="VI" URL="../subvi/state告警数据存储.vi"/>
 		<Item Name="数字键盘.vi" Type="VI" URL="../subvi/数字键盘.vi"/>
 		<Item Name="操作.vi" Type="VI" URL="../subvi/操作.vi"/>
 		<Item Name="报警定义配置.vi" Type="VI" URL="../subvi/报警定义配置.vi"/>
+		<Item Name="筛选XML解决方案.vi" Type="VI" URL="../subvi/筛选XML解决方案.vi"/>
+		<Item Name="报警XML解析.vi" Type="VI" URL="../subvi/报警XML解析.vi"/>
 		<Item Name="Alarm interface.vi" Type="VI" URL="../subvi/Alarm interface.vi"/>
 		<Item Name="Read alarm XML.vi" Type="VI" URL="../subvi/Read alarm XML.vi"/>
+		<Item Name="告警接口-告警存储-交互.vi" Type="VI" URL="../subvi/告警接口-告警存储-交互.vi"/>
 	</Item>
 	<Item Name="全局" Type="Folder">
 		<Item Name="断电保存全局.vi" Type="VI" URL="../全局/断电保存全局.vi"/>
+	</Item>
+	<Item Name="控件" Type="Folder">
+		<Item Name="报警短信语音交互.ctl" Type="VI" URL="../控件/报警短信语音交互.ctl"/>
 	</Item>
 	<Item Name="wxpusher.lvlib" Type="Library" URL="../WxMessage/wxpusher.lvlib"/>
 	<Item Name="短信语音库.lvlib" Type="Library" URL="../短信服务/短信语音库.lvlib"/>

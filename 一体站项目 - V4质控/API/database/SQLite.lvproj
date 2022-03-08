@@ -73,6 +73,7 @@
 			<Item Name="环境参数数据插入.vi" Type="VI" URL="../Interface/环境参数数据插入.vi"/>
 			<Item Name="剖面数据_exo2.vi" Type="VI" URL="../Interface/剖面数据_exo2.vi"/>
 			<Item Name="剖面数据_bbe_NAQDO.vi" Type="VI" URL="../Interface/剖面数据_bbe_NAQDO.vi"/>
+			<Item Name="drop db3 alarm.vi" Type="VI" URL="../Interface/drop db3 alarm.vi"/>
 		</Item>
 		<Item Name="config" Type="Folder">
 			<Item Name="load config.vi" Type="VI" URL="../config/load config.vi"/>

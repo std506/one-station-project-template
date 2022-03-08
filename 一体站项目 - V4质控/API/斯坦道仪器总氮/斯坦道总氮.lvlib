@@ -68,7 +68,6 @@
 		<Item Name="参数转id.vi" Type="VI" URL="../Subvi/参数转id.vi"/>
 		<Item Name="测试流程控件.ctl" Type="VI" URL="../总磷总氮/测试流程控件.ctl"/>
 		<Item Name="告警码字段定义.vi" Type="VI" URL="../Subvi/告警码字段定义.vi"/>
-		<Item Name="故障告警分析.vi" Type="VI" URL="../Subvi/故障告警分析.vi"/>
 		<Item Name="故障码字段定义.vi" Type="VI" URL="../Subvi/故障码字段定义.vi"/>
 		<Item Name="过滤筛选流程.vi" Type="VI" URL="../Subvi/过滤筛选流程.vi"/>
 		<Item Name="获取默认流程路径.vi" Type="VI" URL="../Subvi/获取默认流程路径.vi"/>
