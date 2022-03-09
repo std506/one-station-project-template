@@ -150,6 +150,11 @@
 			<Item Name="斯坦道原位多参数.lvlib" Type="Library" URL="../API/斯坦道仪器原位多参数/斯坦道原位多参数.lvlib"/>
 			<Item Name="重金属.lvlib" Type="Library" URL="../API/重金属/重金属.lvlib"/>
 		</Item>
+		<Item Name="AlarmCode" Type="Folder">
+			<Item Name="config" Type="Folder"/>
+			<Item Name="LOG" Type="Folder"/>
+			<Item Name="opSignIn.lvlib" Type="Library" URL="../API/OpSignIn/opSignIn.lvlib"/>
+		</Item>
 		<Item Name="MB SLAVE.lvlib" Type="Library" URL="../Modbus Slave/MB SLAVE.lvlib"/>
 		<Item Name="流量计集成.lvlib" Type="Library" URL="../API/流量计/流量计集成.lvlib"/>
 		<Item Name="副屏.lvlib" Type="Library" URL="../副屏/副屏.lvlib"/>
@@ -1108,7 +1113,6 @@
 			<Item Name="SingleStepTestV2.lvlib" Type="Library" URL="../API/共用控件/SingleStepTestV2/SingleStepTestV2.lvlib"/>
 			<Item Name="ZKTimingControl.lvlib" Type="Library" URL="../API/共用控件/ZKTimingControl/ZKTimingControl.lvlib"/>
 			<Item Name="SingleStepCODMnV2.lvlib" Type="Library" URL="../API/共用控件/SingleStepCODMnV2/SingleStepCODMnV2.lvlib"/>
-			<Item Name="opSignIn.lvlib" Type="Library" URL="../API/OpSignIn/opSignIn.lvlib"/>
 			<Item Name="QR_ENCODE.lvlib" Type="Library" URL="../API/OpSignIn/API/QR_ENCODE/QR_ENCODE.lvlib"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
@@ -1128,7 +1132,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">101</Property>
+				<Property Name="Bld_version.build" Type="Int">104</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.minor" Type="Int">7</Property>
 				<Property Name="Bld_version.patch" Type="Int">8</Property>
