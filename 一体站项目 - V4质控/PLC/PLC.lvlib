@@ -37,8 +37,19 @@
 		<Item Name="运维调试_采配水SNV2.vi" Type="VI" URL="../运维调试_采配水SNV2.vi"/>
 		<Item Name="运维调试_采配水GD.vi" Type="VI" URL="../运维调试_采配水GD.vi"/>
 	</Item>
-	<Item Name="数据" Type="Folder">
-		<Item Name="报警信息.vi" Type="VI" URL="../报警信息.vi"/>
+	<Item Name="报警" Type="Folder">
+		<Item Name="Interfaces" Type="Folder">
+			<Item Name="alarm.lvclass" Type="LVClass" URL="../alarm/alarm.lvclass"/>
+		</Item>
+		<Item Name="Implementations" Type="Folder">
+			<Item Name="采配水V1告警.lvclass" Type="LVClass" URL="../alarm/Implementations/V1/采配水V1告警.lvclass"/>
+			<Item Name="采配水V2告警.lvclass" Type="LVClass" URL="../alarm/Implementations/V2/采配水V2告警.lvclass"/>
+			<Item Name="采配水V3告警.lvclass" Type="LVClass" URL="../alarm/Implementations/V3/采配水V3告警.lvclass"/>
+			<Item Name="采配水V4告警.lvclass" Type="LVClass" URL="../alarm/Implementations/V4/采配水V4告警.lvclass"/>
+			<Item Name="采配水SNV1告警.lvclass" Type="LVClass" URL="../alarm/Implementations/SNV1/采配水SNV1告警.lvclass"/>
+			<Item Name="采配水SNV2告警.lvclass" Type="LVClass" URL="../alarm/Implementations/SNV2/采配水SNV2告警.lvclass"/>
+			<Item Name="采配水GD.lvclass" Type="LVClass" URL="../alarm/Implementations/GD/采配水GD.lvclass"/>
+		</Item>
 	</Item>
 	<Item Name="变量" Type="Folder">
 		<Item Name="采配水全局变量.vi" Type="VI" URL="../采配水全局变量.vi"/>
