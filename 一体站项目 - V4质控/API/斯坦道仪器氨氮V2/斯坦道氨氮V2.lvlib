@@ -50,8 +50,6 @@
 		</Item>
 		<Item Name="AccessLog写入.vi" Type="VI" URL="../总磷总氮/AccessLog写入.vi"/>
 		<Item Name="Add State to Queue.vi" Type="VI" URL="../Subvi/Add State to Queue.vi"/>
-		<Item Name="balloon入队列.vi" Type="VI" URL="../Subvi/balloon入队列.vi"/>
-		<Item Name="Create balloon 队列.vi" Type="VI" URL="../Subvi/Create balloon 队列.vi"/>
 		<Item Name="id参数转换.vi" Type="VI" URL="../Subvi/id参数转换.vi"/>
 		<Item Name="Read database.vi" Type="VI" URL="../Subvi/Read database.vi"/>
 		<Item Name="Regression Equation String.vi" Type="VI" URL="../Subvi/Regression Equation String.vi"/>
@@ -60,7 +58,6 @@
 		<Item Name="参数转id.vi" Type="VI" URL="../Subvi/参数转id.vi"/>
 		<Item Name="测试流程控件.ctl" Type="VI" URL="../总磷总氮/测试流程控件.ctl"/>
 		<Item Name="告警码字段定义.vi" Type="VI" URL="../Subvi/告警码字段定义.vi"/>
-		<Item Name="故障告警分析.vi" Type="VI" URL="../Subvi/故障告警分析.vi"/>
 		<Item Name="故障码字段定义.vi" Type="VI" URL="../Subvi/故障码字段定义.vi"/>
 		<Item Name="过滤筛选流程.vi" Type="VI" URL="../Subvi/过滤筛选流程.vi"/>
 		<Item Name="获取默认流程路径.vi" Type="VI" URL="../Subvi/获取默认流程路径.vi"/>
