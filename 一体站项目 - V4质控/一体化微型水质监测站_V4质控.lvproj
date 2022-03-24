@@ -1004,6 +1004,7 @@
 				<Item Name="Empty 1D Array (LVObject)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (LVObject)__ogtk.vi"/>
 				<Item Name="Empty 2D Array (LVObject)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 2D Array (LVObject)__ogtk.vi"/>
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
+				<Item Name="End of Line Constant (bug fix).vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/End of Line Constant (bug fix).vi"/>
 			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -1128,7 +1129,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">108</Property>
+				<Property Name="Bld_version.build" Type="Int">111</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.minor" Type="Int">7</Property>
 				<Property Name="Bld_version.patch" Type="Int">8</Property>
@@ -1145,7 +1146,7 @@
 				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/data/tubiao.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9E1071A4-6701-4480-AABD-D876B74CB4C6}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D1D2B832-8965-494B-BC45-8CE0E54383A6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/UI/VIS/启动.vi</Property>
@@ -1452,13 +1453,21 @@
 				<Property Name="Source[78].itemID" Type="Ref">/我的电脑/设备仪器/斯坦道V3/斯坦道通用流路CODmn.lvlib/总磷总氮/UI/运维调试_总磷总氮.vi</Property>
 				<Property Name="Source[78].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[78].type" Type="Str">VI</Property>
+				<Property Name="Source[79].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[79].itemID" Type="Ref">/我的电脑/系统设置/参数初始化.vi</Property>
+				<Property Name="Source[79].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[79].type" Type="Str">VI</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[8].itemID" Type="Ref">/我的电脑/UI/VIS/首页.vi</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
+				<Property Name="Source[80].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[80].itemID" Type="Ref">/我的电脑/系统设置/配置初始化.vi</Property>
+				<Property Name="Source[80].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[80].type" Type="Str">VI</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[9].itemID" Type="Ref">/我的电脑/UI/VIS/系统设置.vi</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">79</Property>
+				<Property Name="SourceCount" Type="Int">81</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">一体化微型水质监测站</Property>
 				<Property Name="TgtF_internalName" Type="Str">One station online monitoring system 4.0</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">版权 2019 </Property>
