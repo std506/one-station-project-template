@@ -165,6 +165,7 @@
 		<Item Name="环动报警队列存储.vi" Type="VI" URL="../数据存储/环动报警队列存储.vi"/>
 		<Item Name="触发环动报警入队列.vi" Type="VI" URL="../数据存储/触发环动报警入队列.vi"/>
 		<Item Name="data insert.vi" Type="VI" URL="../数据存储/data insert.vi"/>
+		<Item Name="告警交互.vi" Type="VI" URL="../Subvi/告警交互.vi"/>
 	</Item>
 	<Item Name="浮标电源管理" Type="Folder">
 		<Item Name="浮标电源管理.lvlib" Type="Library" URL="../浮标电源管理/浮标电源管理.lvlib"/>
