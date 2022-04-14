@@ -46,6 +46,7 @@
 			<Item Name="操作日志数据插入.vi" Type="VI" URL="../Interface/操作日志数据插入.vi"/>
 			<Item Name="报警信息数据插入.vi" Type="VI" URL="../Interface/报警信息数据插入.vi"/>
 			<Item Name="校准日志数据插入.vi" Type="VI" URL="../Interface/校准日志数据插入.vi"/>
+			<Item Name="挥发酚数据插入.vi" Type="VI" URL="../Interface/挥发酚数据插入.vi"/>
 			<Item Name="单片机版CODMn数据插入.vi" Type="VI" URL="../Interface/单片机版CODMn数据插入.vi"/>
 			<Item Name="PLC版CODMn数据插入.vi" Type="VI" URL="../Interface/PLC版CODMn数据插入.vi"/>
 			<Item Name="集成多参数单参数数据插入.vi" Type="VI" URL="../Interface/集成多参数单参数数据插入.vi"/>

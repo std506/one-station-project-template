@@ -149,6 +149,7 @@
 			<Item Name="斯坦道多参数.lvlib" Type="Library" URL="../API/斯坦道仪器多参数/斯坦道多参数.lvlib"/>
 			<Item Name="斯坦道原位多参数.lvlib" Type="Library" URL="../API/斯坦道仪器原位多参数/斯坦道原位多参数.lvlib"/>
 			<Item Name="重金属.lvlib" Type="Library" URL="../API/重金属/重金属.lvlib"/>
+			<Item Name="挥发酚.lvlib" Type="Library" URL="../API/挥发酚/挥发酚.lvlib"/>
 		</Item>
 		<Item Name="MB SLAVE.lvlib" Type="Library" URL="../Modbus Slave/MB SLAVE.lvlib"/>
 		<Item Name="流量计集成.lvlib" Type="Library" URL="../API/流量计/流量计集成.lvlib"/>
@@ -1004,7 +1005,6 @@
 				<Item Name="Empty 1D Array (LVObject)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (LVObject)__ogtk.vi"/>
 				<Item Name="Empty 2D Array (LVObject)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 2D Array (LVObject)__ogtk.vi"/>
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
-				<Item Name="End of Line Constant (bug fix).vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/End of Line Constant (bug fix).vi"/>
 			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -1111,6 +1111,7 @@
 			<Item Name="SingleStepCODMnV2.lvlib" Type="Library" URL="../API/共用控件/SingleStepCODMnV2/SingleStepCODMnV2.lvlib"/>
 			<Item Name="opSignIn.lvlib" Type="Library" URL="../API/OpSignIn/opSignIn.lvlib"/>
 			<Item Name="QR_ENCODE.lvlib" Type="Library" URL="../API/OpSignIn/API/QR_ENCODE/QR_ENCODE.lvlib"/>
+			<Item Name="挥发酚数据插入.vi" Type="VI" URL="../API/database/Interface/挥发酚数据插入.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="一体化微型水质监测站" Type="EXE">
@@ -1129,7 +1130,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">118</Property>
+				<Property Name="Bld_version.build" Type="Int">119</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.minor" Type="Int">7</Property>
 				<Property Name="Bld_version.patch" Type="Int">9</Property>
@@ -1146,7 +1147,7 @@
 				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/data/tubiao.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D55DF5AA-A263-4C1C-9605-5BE62497464D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A1849F6A-1936-499C-91C7-B546E4EC5DAE}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/UI/VIS/启动.vi</Property>
@@ -1464,10 +1465,14 @@
 				<Property Name="Source[80].itemID" Type="Ref">/我的电脑/系统设置/配置初始化.vi</Property>
 				<Property Name="Source[80].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[80].type" Type="Str">VI</Property>
+				<Property Name="Source[81].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[81].itemID" Type="Ref">/我的电脑/设备仪器/挥发酚.lvlib/UI/运维调试_挥发酚.vi</Property>
+				<Property Name="Source[81].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[81].type" Type="Str">VI</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[9].itemID" Type="Ref">/我的电脑/UI/VIS/系统设置.vi</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">81</Property>
+				<Property Name="SourceCount" Type="Int">82</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">一体化微型水质监测站</Property>
 				<Property Name="TgtF_internalName" Type="Str">One station online monitoring system 4.0</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">版权 2019 </Property>

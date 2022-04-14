@@ -1,0 +1,136 @@
+【22/04/13 15:12:24.093】:错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【22/04/13 15:12:35.436】:错误-2147217843发生于 NI_Database_API.lvlib:DB Tools Open Connec (String).vi->Access Lib.lvlib:Access insert values.vi->insert values.vi->挥发酚数据插入.vi->挥发酚.lvlib:CODMn插入数据.vi->挥发酚.lvlib:挥发酚测量数据储存.vi->挥发酚.lvlib:运维调试_挥发酚.vi
+
+可能原因：
+ADO Error: 0x80040E4D
+NI_Database_API.lvlib:DB Tools Open Connec (String).vi->Access Lib.lvlib:Access insert values.vi->insert values.vi->挥发酚数据插入.vi->挥发酚.lvlib:CODMn插入数据.vi->挥发酚.lvlib:挥发酚测量数据储存.vi->挥发酚.lvlib:运维调试_挥发酚.vi中的Exception occured in Microsoft JET Database Engine: 密码无效。
+【22/04/13 15:12:38.977】:错误-2147217843发生于 NI_Database_API.lvlib:DB Tools Open Connec (String).vi->Access Lib.lvlib:Access insert values.vi->insert values.vi->挥发酚数据插入.vi->挥发酚.lvlib:CODMn插入数据.vi->挥发酚.lvlib:挥发酚测量数据储存.vi->挥发酚.lvlib:运维调试_挥发酚.vi
+
+可能原因：
+ADO Error: 0x80040E4D
+NI_Database_API.lvlib:DB Tools Open Connec (String).vi->Access Lib.lvlib:Access insert values.vi->insert values.vi->挥发酚数据插入.vi->挥发酚.lvlib:CODMn插入数据.vi->挥发酚.lvlib:挥发酚测量数据储存.vi->挥发酚.lvlib:运维调试_挥发酚.vi中的Exception occured in Microsoft JET Database Engine: 密码无效。
+【22/04/13 15:12:40.620】:错误-2147217843发生于 NI_Database_API.lvlib:DB Tools Open Connec (String).vi->Access Lib.lvlib:Access insert values.vi->insert values.vi->挥发酚数据插入.vi->挥发酚.lvlib:CODMn插入数据.vi->挥发酚.lvlib:挥发酚测量数据储存.vi->挥发酚.lvlib:运维调试_挥发酚.vi
+
+可能原因：
+ADO Error: 0x80040E4D
+NI_Database_API.lvlib:DB Tools Open Connec (String).vi->Access Lib.lvlib:Access insert values.vi->insert values.vi->挥发酚数据插入.vi->挥发酚.lvlib:CODMn插入数据.vi->挥发酚.lvlib:挥发酚测量数据储存.vi->挥发酚.lvlib:运维调试_挥发酚.vi中的Exception occured in Microsoft JET Database Engine: 密码无效。
+【22/04/13 15:12:41.934】:错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【22/04/13 15:12:43.360】:错误-2147217843发生于 NI_Database_API.lvlib:DB Tools Open Connec (String).vi->Access Lib.lvlib:Access insert values.vi->insert values.vi->挥发酚数据插入.vi->挥发酚.lvlib:CODMn插入数据.vi->挥发酚.lvlib:挥发酚测量数据储存.vi->挥发酚.lvlib:运维调试_挥发酚.vi
+
+可能原因：
+ADO Error: 0x80040E4D
+NI_Database_API.lvlib:DB Tools Open Connec (String).vi->Access Lib.lvlib:Access insert values.vi->insert values.vi->挥发酚数据插入.vi->挥发酚.lvlib:CODMn插入数据.vi->挥发酚.lvlib:挥发酚测量数据储存.vi->挥发酚.lvlib:运维调试_挥发酚.vi中的Exception occured in Microsoft JET Database Engine: 密码无效。
+【22/04/13 15:12:45.923】:错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【22/04/13 15:12:49.771】:错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【22/04/13 15:12:51.031】:错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【22/04/13 17:07:11.549】:错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【22/04/13 17:07:13.922】:错误-2147217843发生于 NI_Database_API.lvlib:DB Tools Open Connec (String).vi->Access Lib.lvlib:Access insert values.vi->insert values.vi->挥发酚数据插入.vi->挥发酚.lvlib:CODMn插入数据.vi->挥发酚.lvlib:挥发酚测量数据储存.vi->挥发酚.lvlib:运维调试_挥发酚.vi
+
+可能原因：
+ADO Error: 0x80040E4D
+NI_Database_API.lvlib:DB Tools Open Connec (String).vi->Access Lib.lvlib:Access insert values.vi->insert values.vi->挥发酚数据插入.vi->挥发酚.lvlib:CODMn插入数据.vi->挥发酚.lvlib:挥发酚测量数据储存.vi->挥发酚.lvlib:运维调试_挥发酚.vi中的Exception occured in Microsoft JET Database Engine: 密码无效。
+【22/04/13 17:07:16.533】:错误-2147217843发生于 NI_Database_API.lvlib:DB Tools Open Connec (String).vi->Access Lib.lvlib:Access insert values.vi->insert values.vi->挥发酚数据插入.vi->挥发酚.lvlib:CODMn插入数据.vi->挥发酚.lvlib:挥发酚测量数据储存.vi->挥发酚.lvlib:运维调试_挥发酚.vi
+
+可能原因：
+ADO Error: 0x80040E4D
+NI_Database_API.lvlib:DB Tools Open Connec (String).vi->Access Lib.lvlib:Access insert values.vi->insert values.vi->挥发酚数据插入.vi->挥发酚.lvlib:CODMn插入数据.vi->挥发酚.lvlib:挥发酚测量数据储存.vi->挥发酚.lvlib:运维调试_挥发酚.vi中的Exception occured in Microsoft JET Database Engine: 密码无效。
+【22/04/13 17:07:19.852】:错误-2147217843发生于 NI_Database_API.lvlib:DB Tools Open Connec (String).vi->Access Lib.lvlib:Access insert values.vi->insert values.vi->挥发酚数据插入.vi->挥发酚.lvlib:CODMn插入数据.vi->挥发酚.lvlib:挥发酚测量数据储存.vi->挥发酚.lvlib:运维调试_挥发酚.vi
+
+可能原因：
+ADO Error: 0x80040E4D
+NI_Database_API.lvlib:DB Tools Open Connec (String).vi->Access Lib.lvlib:Access insert values.vi->insert values.vi->挥发酚数据插入.vi->挥发酚.lvlib:CODMn插入数据.vi->挥发酚.lvlib:挥发酚测量数据储存.vi->挥发酚.lvlib:运维调试_挥发酚.vi中的Exception occured in Microsoft JET Database Engine: 密码无效。
+【22/04/13 17:07:22.057】:错误-2147217843发生于 NI_Database_API.lvlib:DB Tools Open Connec (String).vi->Access Lib.lvlib:Access insert values.vi->insert values.vi->挥发酚数据插入.vi->挥发酚.lvlib:CODMn插入数据.vi->挥发酚.lvlib:挥发酚测量数据储存.vi->挥发酚.lvlib:运维调试_挥发酚.vi
+
+可能原因：
+ADO Error: 0x80040E4D
+NI_Database_API.lvlib:DB Tools Open Connec (String).vi->Access Lib.lvlib:Access insert values.vi->insert values.vi->挥发酚数据插入.vi->挥发酚.lvlib:CODMn插入数据.vi->挥发酚.lvlib:挥发酚测量数据储存.vi->挥发酚.lvlib:运维调试_挥发酚.vi中的Exception occured in Microsoft JET Database Engine: 密码无效。
+【22/04/13 17:07:23.606】:错误-2147217843发生于 NI_Database_API.lvlib:DB Tools Open Connec (String).vi->Access Lib.lvlib:Access insert values.vi->insert values.vi->挥发酚数据插入.vi->挥发酚.lvlib:CODMn插入数据.vi->挥发酚.lvlib:挥发酚测量数据储存.vi->挥发酚.lvlib:运维调试_挥发酚.vi
+
+可能原因：
+ADO Error: 0x80040E4D
+NI_Database_API.lvlib:DB Tools Open Connec (String).vi->Access Lib.lvlib:Access insert values.vi->insert values.vi->挥发酚数据插入.vi->挥发酚.lvlib:CODMn插入数据.vi->挥发酚.lvlib:挥发酚测量数据储存.vi->挥发酚.lvlib:运维调试_挥发酚.vi中的Exception occured in Microsoft JET Database Engine: 密码无效。
+【22/04/13 17:07:25.887】:错误-2147217843发生于 NI_Database_API.lvlib:DB Tools Open Connec (String).vi->Access Lib.lvlib:Access insert values.vi->insert values.vi->挥发酚数据插入.vi->挥发酚.lvlib:CODMn插入数据.vi->挥发酚.lvlib:挥发酚测量数据储存.vi->挥发酚.lvlib:运维调试_挥发酚.vi
+
+可能原因：
+ADO Error: 0x80040E4D
+NI_Database_API.lvlib:DB Tools Open Connec (String).vi->Access Lib.lvlib:Access insert values.vi->insert values.vi->挥发酚数据插入.vi->挥发酚.lvlib:CODMn插入数据.vi->挥发酚.lvlib:挥发酚测量数据储存.vi->挥发酚.lvlib:运维调试_挥发酚.vi中的Exception occured in Microsoft JET Database Engine: 密码无效。
+【22/04/13 17:07:26.757】:错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【22/04/13 17:07:30.251】:错误-2147217843发生于 NI_Database_API.lvlib:DB Tools Open Connec (String).vi->Access Lib.lvlib:Access insert values.vi->insert values.vi->挥发酚数据插入.vi->挥发酚.lvlib:CODMn插入数据.vi->挥发酚.lvlib:挥发酚测量数据储存.vi->挥发酚.lvlib:运维调试_挥发酚.vi
+
+可能原因：
+ADO Error: 0x80040E4D
+NI_Database_API.lvlib:DB Tools Open Connec (String).vi->Access Lib.lvlib:Access insert values.vi->insert values.vi->挥发酚数据插入.vi->挥发酚.lvlib:CODMn插入数据.vi->挥发酚.lvlib:挥发酚测量数据储存.vi->挥发酚.lvlib:运维调试_挥发酚.vi中的Exception occured in Microsoft JET Database Engine: 密码无效。
+【22/04/13 17:07:33.080】:错误-2147217843发生于 NI_Database_API.lvlib:DB Tools Open Connec (String).vi->Access Lib.lvlib:Access insert values.vi->insert values.vi->挥发酚数据插入.vi->挥发酚.lvlib:CODMn插入数据.vi->挥发酚.lvlib:挥发酚测量数据储存.vi->挥发酚.lvlib:运维调试_挥发酚.vi
+
+可能原因：
+ADO Error: 0x80040E4D
+NI_Database_API.lvlib:DB Tools Open Connec (String).vi->Access Lib.lvlib:Access insert values.vi->insert values.vi->挥发酚数据插入.vi->挥发酚.lvlib:CODMn插入数据.vi->挥发酚.lvlib:挥发酚测量数据储存.vi->挥发酚.lvlib:运维调试_挥发酚.vi中的Exception occured in Microsoft JET Database Engine: 密码无效。
+【22/04/13 17:43:49.618】:错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【22/04/13 17:43:53.432】:错误-2147217843发生于 NI_Database_API.lvlib:DB Tools Open Connec (String).vi->Access Lib.lvlib:Access insert values.vi->insert values.vi->挥发酚数据插入.vi->挥发酚.lvlib:CODMn插入数据.vi->挥发酚.lvlib:挥发酚测量数据储存.vi->挥发酚.lvlib:运维调试_挥发酚.vi
+
+可能原因：
+ADO Error: 0x80040E4D
+NI_Database_API.lvlib:DB Tools Open Connec (String).vi->Access Lib.lvlib:Access insert values.vi->insert values.vi->挥发酚数据插入.vi->挥发酚.lvlib:CODMn插入数据.vi->挥发酚.lvlib:挥发酚测量数据储存.vi->挥发酚.lvlib:运维调试_挥发酚.vi中的Exception occured in Microsoft JET Database Engine: 密码无效。
+【22/04/13 17:43:54.762】:错误-2147217843发生于 NI_Database_API.lvlib:DB Tools Open Connec (String).vi->Access Lib.lvlib:Access insert values.vi->insert values.vi->挥发酚数据插入.vi->挥发酚.lvlib:CODMn插入数据.vi->挥发酚.lvlib:挥发酚测量数据储存.vi->挥发酚.lvlib:运维调试_挥发酚.vi
+
+可能原因：
+ADO Error: 0x80040E4D
+NI_Database_API.lvlib:DB Tools Open Connec (String).vi->Access Lib.lvlib:Access insert values.vi->insert values.vi->挥发酚数据插入.vi->挥发酚.lvlib:CODMn插入数据.vi->挥发酚.lvlib:挥发酚测量数据储存.vi->挥发酚.lvlib:运维调试_挥发酚.vi中的Exception occured in Microsoft JET Database Engine: 密码无效。
+【22/04/13 17:43:55.848】:错误-2147217843发生于 NI_Database_API.lvlib:DB Tools Open Connec (String).vi->Access Lib.lvlib:Access insert values.vi->insert values.vi->挥发酚数据插入.vi->挥发酚.lvlib:CODMn插入数据.vi->挥发酚.lvlib:挥发酚测量数据储存.vi->挥发酚.lvlib:运维调试_挥发酚.vi
+
+可能原因：
+ADO Error: 0x80040E4D
+NI_Database_API.lvlib:DB Tools Open Connec (String).vi->Access Lib.lvlib:Access insert values.vi->insert values.vi->挥发酚数据插入.vi->挥发酚.lvlib:CODMn插入数据.vi->挥发酚.lvlib:挥发酚测量数据储存.vi->挥发酚.lvlib:运维调试_挥发酚.vi中的Exception occured in Microsoft JET Database Engine: 密码无效。
+【22/04/13 17:43:56.636】:错误-2147217843发生于 NI_Database_API.lvlib:DB Tools Open Connec (String).vi->Access Lib.lvlib:Access insert values.vi->insert values.vi->挥发酚数据插入.vi->挥发酚.lvlib:CODMn插入数据.vi->挥发酚.lvlib:挥发酚测量数据储存.vi->挥发酚.lvlib:运维调试_挥发酚.vi
+
+可能原因：
+ADO Error: 0x80040E4D
+NI_Database_API.lvlib:DB Tools Open Connec (String).vi->Access Lib.lvlib:Access insert values.vi->insert values.vi->挥发酚数据插入.vi->挥发酚.lvlib:CODMn插入数据.vi->挥发酚.lvlib:挥发酚测量数据储存.vi->挥发酚.lvlib:运维调试_挥发酚.vi中的Exception occured in Microsoft JET Database Engine: 密码无效。
+【22/04/13 17:43:57.355】:错误-2147217843发生于 NI_Database_API.lvlib:DB Tools Open Connec (String).vi->Access Lib.lvlib:Access insert values.vi->insert values.vi->挥发酚数据插入.vi->挥发酚.lvlib:CODMn插入数据.vi->挥发酚.lvlib:挥发酚测量数据储存.vi->挥发酚.lvlib:运维调试_挥发酚.vi
+
+可能原因：
+ADO Error: 0x80040E4D
+NI_Database_API.lvlib:DB Tools Open Connec (String).vi->Access Lib.lvlib:Access insert values.vi->insert values.vi->挥发酚数据插入.vi->挥发酚.lvlib:CODMn插入数据.vi->挥发酚.lvlib:挥发酚测量数据储存.vi->挥发酚.lvlib:运维调试_挥发酚.vi中的Exception occured in Microsoft JET Database Engine: 密码无效。
+【22/04/13 17:43:58.090】:错误-2147217843发生于 NI_Database_API.lvlib:DB Tools Open Connec (String).vi->Access Lib.lvlib:Access insert values.vi->insert values.vi->挥发酚数据插入.vi->挥发酚.lvlib:CODMn插入数据.vi->挥发酚.lvlib:挥发酚测量数据储存.vi->挥发酚.lvlib:运维调试_挥发酚.vi
+
+可能原因：
+ADO Error: 0x80040E4D
+NI_Database_API.lvlib:DB Tools Open Connec (String).vi->Access Lib.lvlib:Access insert values.vi->insert values.vi->挥发酚数据插入.vi->挥发酚.lvlib:CODMn插入数据.vi->挥发酚.lvlib:挥发酚测量数据储存.vi->挥发酚.lvlib:运维调试_挥发酚.vi中的Exception occured in Microsoft JET Database Engine: 密码无效。
+【22/04/13 17:43:58.840】:错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【22/04/13 17:43:59.579】:错误-2147217843发生于 NI_Database_API.lvlib:DB Tools Open Connec (String).vi->Access Lib.lvlib:Access insert values.vi->insert values.vi->挥发酚数据插入.vi->挥发酚.lvlib:CODMn插入数据.vi->挥发酚.lvlib:挥发酚测量数据储存.vi->挥发酚.lvlib:运维调试_挥发酚.vi
+
+可能原因：
+ADO Error: 0x80040E4D
+NI_Database_API.lvlib:DB Tools Open Connec (String).vi->Access Lib.lvlib:Access insert values.vi->insert values.vi->挥发酚数据插入.vi->挥发酚.lvlib:CODMn插入数据.vi->挥发酚.lvlib:挥发酚测量数据储存.vi->挥发酚.lvlib:运维调试_挥发酚.vi中的Exception occured in Microsoft JET Database Engine: 密码无效。
+【22/04/13 17:44:00.344】:错误-2147217843发生于 NI_Database_API.lvlib:DB Tools Open Connec (String).vi->Access Lib.lvlib:Access insert values.vi->insert values.vi->挥发酚数据插入.vi->挥发酚.lvlib:CODMn插入数据.vi->挥发酚.lvlib:挥发酚测量数据储存.vi->挥发酚.lvlib:运维调试_挥发酚.vi
+
+可能原因：
+ADO Error: 0x80040E4D
+NI_Database_API.lvlib:DB Tools Open Connec (String).vi->Access Lib.lvlib:Access insert values.vi->insert values.vi->挥发酚数据插入.vi->挥发酚.lvlib:CODMn插入数据.vi->挥发酚.lvlib:挥发酚测量数据储存.vi->挥发酚.lvlib:运维调试_挥发酚.vi中的Exception occured in Microsoft JET Database Engine: 密码无效。

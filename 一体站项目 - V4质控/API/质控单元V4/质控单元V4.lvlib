@@ -193,4 +193,7 @@
 			</Item>
 		</Item>
 	</Item>
+	<Item Name="挥发酚内部启动命令.vi" Type="VI" URL="../通讯/仪器仪表/挥发酚内部启动命令.vi"/>
+	<Item Name="挥发酚启动命令.vi" Type="VI" URL="../通讯/仪器仪表/国标仪器/挥发酚启动命令.vi"/>
+	<Item Name="挥发酚启动器.vi" Type="VI" URL="../通讯/Interface/挥发酚启动器.vi"/>
 </Library>
