@@ -151,4 +151,5 @@
 	<Item Name="温度补偿" Type="Folder">
 		<Item Name="温度补偿.vi" Type="VI" URL="../温度补偿/温度补偿.vi"/>
 	</Item>
+	<Item Name="告警参数.vi" Type="VI" URL="../参数设置/告警参数.vi"/>
 </Library>
