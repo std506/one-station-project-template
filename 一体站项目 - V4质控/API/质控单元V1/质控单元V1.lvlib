@@ -168,6 +168,7 @@
 		</Item>
 		<Item Name="质控单元" Type="Folder">
 			<Item Name="V1" Type="Folder">
+				<Item Name="IO状态读取.vi" Type="VI" URL="../通讯/质控单元/V1/IO状态读取.vi"/>
 				<Item Name="ZK Create MB.vi" Type="VI" URL="../通讯/质控单元/V1/ZK Create MB.vi"/>
 				<Item Name="版本号读取.vi" Type="VI" URL="../通讯/质控单元/V1/版本号读取.vi"/>
 				<Item Name="报警清除命令.vi" Type="VI" URL="../通讯/质控单元/V1/报警清除命令.vi"/>
@@ -187,7 +188,7 @@
 				<Item Name="柱塞泵KB写入.vi" Type="VI" URL="../通讯/质控单元/V1/柱塞泵KB写入.vi"/>
 				<Item Name="状态读取.vi" Type="VI" URL="../通讯/质控单元/V1/状态读取.vi"/>
 			</Item>
+			<Item Name="混合模块站号转换.vi" Type="VI" URL="../通讯/质控单元/V1/混合模块站号转换.vi"/>
 		</Item>
 	</Item>
-	<Item Name="混合模块站号转换.vi" Type="VI" URL="../通讯/质控单元/V1/混合模块站号转换.vi"/>
 </Library>
