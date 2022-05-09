@@ -1,0 +1,25 @@
+<?xml version='1.0'  encoding='GB2312' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>16.0</Version>
+<Cluster>
+<Name>配置信息</Name>
+<NumElts>1</NumElts>
+<Cluster>
+<Name>任务列表</Name>
+<NumElts>2</NumElts>
+<Boolean>
+<Name>启用</Name>
+<Val>0</Val>
+</Boolean>
+<Array>
+<Name>项</Name>
+<Dimsize>0</Dimsize>
+<Dimsize>0</Dimsize>
+<String>
+<Name>字符串</Name>
+<Val></Val>
+</String>
+</Array>
+</Cluster>
+</Cluster>
+</LVData>
