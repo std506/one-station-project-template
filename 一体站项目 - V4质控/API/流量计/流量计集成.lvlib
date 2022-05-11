@@ -8,6 +8,11 @@
 		<Item Name="配置初始化.vi" Type="VI" URL="../Interface/配置初始化.vi"/>
 	</Item>
 	<Item Name="流量计" Type="Folder">
+		<Item Name="ADCP流量计" Type="Folder">
+			<Item Name="ADCP通信协议(MODBUS用户版).pdf" Type="Document" URL="../ADCP流量计/ADCP通信协议(MODBUS用户版).pdf"/>
+			<Item Name="LS-H600流量计.lvlib" Type="Library" URL="../ADCP流量计/LS-H600流量计.lvlib"/>
+			<Item Name="多普勒流速剖面仪使用说明书.pdf" Type="Document" URL="../ADCP流量计/多普勒流速剖面仪使用说明书.pdf"/>
+		</Item>
 		<Item Name="LDM51明渠流量计" Type="Folder">
 			<Item Name="LDM51明渠流量计.lvlib" Type="Library" URL="../LDM51明渠流量计/LDM51明渠流量计.lvlib"/>
 		</Item>
