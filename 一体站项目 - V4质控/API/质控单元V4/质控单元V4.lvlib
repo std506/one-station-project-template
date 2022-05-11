@@ -99,6 +99,7 @@
 		<Item Name="质控关于.vi" Type="VI" URL="../UI/质控关于.vi"/>
 		<Item Name="加标回收启动对话框.vi" Type="VI" URL="../UI/加标回收启动对话框.vi"/>
 		<Item Name="加标回收停止对话框.vi" Type="VI" URL="../UI/加标回收停止对话框.vi"/>
+		<Item Name="质控配样.vi" Type="VI" URL="../UI/质控配样.vi"/>
 	</Item>
 	<Item Name="测试流程" Type="Folder">
 		<Item Name="单参数加标流程.vi" Type="VI" URL="../测试流程/单参数加标流程.vi"/>

@@ -36,6 +36,7 @@
 		<Item Name="运维调试_采配水SNV1.vi" Type="VI" URL="../运维调试_采配水SNV1.vi"/>
 		<Item Name="运维调试_采配水SNV2.vi" Type="VI" URL="../运维调试_采配水SNV2.vi"/>
 		<Item Name="运维调试_采配水GD.vi" Type="VI" URL="../运维调试_采配水GD.vi"/>
+		<Item Name="动态图.vi" Type="VI" URL="../动态图.vi"/>
 	</Item>
 	<Item Name="报警" Type="Folder">
 		<Item Name="Interfaces" Type="Folder">
