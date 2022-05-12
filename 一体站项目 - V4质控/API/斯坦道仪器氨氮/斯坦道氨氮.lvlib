@@ -257,6 +257,7 @@
 			<Item Name="校准数据文件路径.vi" Type="VI" URL="../参数设置/校准数据文件路径.vi"/>
 			<Item Name="校准任务流程.vi" Type="VI" URL="../参数设置/校准任务流程.vi"/>
 			<Item Name="校准任务.ctl" Type="VI" URL="../参数设置/校准任务.ctl"/>
+			<Item Name="计算.vi" Type="VI" URL="../Subvi/计算.vi"/>
 		</Item>
 	</Item>
 	<Item Name="版本判断.vi" Type="VI" URL="../Subvi/版本判断.vi"/>
