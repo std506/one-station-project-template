@@ -6,8 +6,6 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="interface" Type="Folder">
-		<Item Name="Alarm interface.vi" Type="VI" URL="../interface/Alarm interface.vi"/>
-		<Item Name="Read alarm XML.vi" Type="VI" URL="../interface/Read alarm XML.vi"/>
 		<Item Name="状态输出.vi" Type="VI" URL="../状态输出.vi"/>
 	</Item>
 	<Item Name="电源管理" Type="Folder">

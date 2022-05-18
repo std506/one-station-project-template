@@ -12,6 +12,7 @@
 			<Item Name="元素.ctl" Type="VI" URL="../API/AlarmCode/元素.ctl"/>
 		</Item>
 		<Item Name="Get AccessToken.vi" Type="VI" URL="../API/Get AccessToken.vi"/>
+		<Item Name="GET MN.vi" Type="VI" URL="../API/GET MN.vi"/>
 		<Item Name="GetQRcode.vi" Type="VI" URL="../API/GetQRcode.vi"/>
 		<Item Name="log.vi" Type="VI" URL="../API/log.vi"/>
 		<Item Name="Open&amp;Close Door Record.vi" Type="VI" URL="../API/Open&amp;Close Door Record.vi"/>
@@ -26,4 +27,5 @@
 		<Item Name="update AlarmCode XML.vi" Type="VI" URL="../API/AlarmCode/update AlarmCode XML.vi"/>
 		<Item Name="配置对话框.vi" Type="VI" URL="../配置对话框.vi"/>
 	</Item>
+	<Item Name="控件 1.ctl" Type="VI" URL="../控件 1.ctl"/>
 </Library>

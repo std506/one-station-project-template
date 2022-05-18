@@ -19,10 +19,7 @@
 		<Item Name="Alarm interface.vi" Type="VI" URL="../subvi/Alarm interface.vi"/>
 		<Item Name="Read alarm XML.vi" Type="VI" URL="../subvi/Read alarm XML.vi"/>
 		<Item Name="报警XML解析.vi" Type="VI" URL="../subvi/报警XML解析.vi"/>
-		<Item Name="导入Excel.vi" Type="VI" URL="../subvi/导入Excel.vi"/>
-		<Item Name="映射文件写入XML.vi" Type="VI" URL="../subvi/映射文件写入XML.vi"/>
 		<Item Name="告警接口-告警存储-交互.vi" Type="VI" URL="../subvi/告警接口-告警存储-交互.vi"/>
-		<Item Name="alarm map.vi" Type="VI" URL="../subvi/alarm map.vi"/>
 	</Item>
 	<Item Name="全局" Type="Folder">
 		<Item Name="断电保存全局.vi" Type="VI" URL="../全局/断电保存全局.vi"/>
@@ -33,6 +30,11 @@
 		<Item Name="map data.ctl" Type="VI" URL="../控件/map data.ctl"/>
 		<Item Name="map project.ctl" Type="VI" URL="../控件/map project.ctl"/>
 		<Item Name="map out.ctl" Type="VI" URL="../控件/map out.ctl"/>
+	</Item>
+	<Item Name="AlarmMap" Type="Folder">
+		<Item Name="导入Excel.vi" Type="VI" URL="../subvi/导入Excel.vi"/>
+		<Item Name="映射文件写入XML.vi" Type="VI" URL="../subvi/映射文件写入XML.vi"/>
+		<Item Name="alarm map.vi" Type="VI" URL="../subvi/alarm map.vi"/>
 	</Item>
 	<Item Name="wxpusher.lvlib" Type="Library" URL="../WxMessage/wxpusher.lvlib"/>
 	<Item Name="短信语音库.lvlib" Type="Library" URL="../短信服务/短信语音库.lvlib"/>
