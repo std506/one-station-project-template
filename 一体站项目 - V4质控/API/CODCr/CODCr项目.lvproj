@@ -279,6 +279,46 @@
 			<Item Name="CODCr24H周期设置.xctl" Type="XControl" URL="../Control/24H周期设置/CODCr24H周期设置.xctl"/>
 			<Item Name="外部调用接口全局变量.vi" Type="VI" URL="../../database/Interface/外部调用接口/外部调用接口全局变量.vi"/>
 		</Item>
-		<Item Name="程序生成规范" Type="Build"/>
+		<Item Name="程序生成规范" Type="Build">
+			<Item Name="我的应用程序" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{5265019A-F70F-4A86-81F5-30B9C2E72857}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{4B82C235-3582-4808-8633-2F2E5ADA82FF}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{C56A8E9C-FDC0-40A7-85C6-8B9F63BC10A1}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">我的应用程序</Property>
+				<Property Name="Bld_defaultLanguage" Type="Str">ChineseS</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/我的应用程序</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{837655DD-1167-45B3-ACA4-A122CDBCEE73}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">应用程序.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/我的应用程序/应用程序.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/我的应用程序/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4213604A-D320-43A1-AC17-9B6DB089763D}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/CODCr库.lvlib/CODCr/运维调试_CODCr.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">我的应用程序</Property>
+				<Property Name="TgtF_internalName" Type="Str">我的应用程序</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">版权 2022 </Property>
+				<Property Name="TgtF_productName" Type="Str">我的应用程序</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{A281302D-8572-4435-974C-20054049B31A}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">应用程序.exe</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
