@@ -13,6 +13,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="CODCr库.lvlib" Type="Library" URL="../CODCr库.lvlib"/>
 		<Item Name="TimingControl.lvlib" Type="Library" URL="../../共用控件/TimingControl/TimingControl.lvlib"/>
+		<Item Name="测试模式.ctl" Type="VI" URL="../Control/测试模式.ctl"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
