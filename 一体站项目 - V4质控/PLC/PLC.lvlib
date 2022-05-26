@@ -7,6 +7,7 @@
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="interface" Type="Folder">
 		<Item Name="状态输出.vi" Type="VI" URL="../状态输出.vi"/>
+		<Item Name="交替采样泵.vi" Type="VI" URL="../交替采样泵.vi"/>
 	</Item>
 	<Item Name="电源管理" Type="Folder">
 		<Item Name="多参数电源命令.vi" Type="VI" URL="../电源管理/多参数电源命令.vi"/>
