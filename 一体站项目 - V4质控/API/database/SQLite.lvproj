@@ -82,6 +82,7 @@
 		</Item>
 		<Item Name="SQLite Lib.lvlib" Type="Library" URL="../SQLite/SQLite Lib.lvlib"/>
 		<Item Name="Access Lib.lvlib" Type="Library" URL="../Access/Access Lib.lvlib"/>
+		<Item Name="性能模式.vi" Type="VI" URL="../Interface/性能模式.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="SQLite_Pragma Cmd.ctl" Type="VI" URL="/&lt;userlib&gt;/_LVST/sqlite_api/Core/Utils/SQLite_Pragma Cmd.ctl"/>
