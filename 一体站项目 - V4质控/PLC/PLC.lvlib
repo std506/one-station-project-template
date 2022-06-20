@@ -67,6 +67,8 @@
 		<Item Name="获取最近两组水样测试数据.vi" Type="VI" URL="../subvi/获取最近两组水样测试数据.vi"/>
 		<Item Name="取水点无水样数据存储.vi" Type="VI" URL="../subvi/取水点无水样数据存储.vi"/>
 		<Item Name="调用WinProladder.vi" Type="VI" URL="../调用WinProladder.vi"/>
+		<Item Name="配置读取与写入.vi" Type="VI" URL="../subvi/配置读取与写入.vi"/>
+		<Item Name="连接配置对话框.vi" Type="VI" URL="../连接配置对话框.vi"/>
 	</Item>
 	<Item Name="control" Type="Folder">
 		<Item Name="switch.ctl" Type="VI" URL="../control/switch.ctl"/>
