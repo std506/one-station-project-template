@@ -109,13 +109,13 @@
   </data>
   <data>
     <map_in>
-      <name>COD(光谱)</name>
+      <name>COD（光谱）</name>
       <CN/>
       <FirmwareVersion>V2,V3</FirmwareVersion>
       <code>2</code>
     </map_in>
     <map_out>
-      <componentParent>COD(光谱)水质自动分析仪</componentParent>
+      <componentParent>COD（光谱）水质自动分析仪</componentParent>
       <componentName/>
       <equipVersion>V2,V3</equipVersion>
       <ipcAlarmCode>2</ipcAlarmCode>
@@ -244,13 +244,13 @@
   </data>
   <data>
     <map_in>
-      <name>COD(光谱)</name>
+      <name>COD（光谱）</name>
       <CN/>
       <FirmwareVersion>V2,V3</FirmwareVersion>
       <code>3</code>
     </map_in>
     <map_out>
-      <componentParent>COD(光谱)水质自动分析仪</componentParent>
+      <componentParent>COD（光谱）水质自动分析仪</componentParent>
       <componentName/>
       <equipVersion>V2,V3</equipVersion>
       <ipcAlarmCode>3</ipcAlarmCode>
@@ -499,13 +499,13 @@
   </data>
   <data>
     <map_in>
-      <name>COD(光谱)</name>
+      <name>COD（光谱）</name>
       <CN/>
       <FirmwareVersion>V2,V3</FirmwareVersion>
       <code>5</code>
     </map_in>
     <map_out>
-      <componentParent>COD(光谱)水质自动分析仪</componentParent>
+      <componentParent>COD（光谱）水质自动分析仪</componentParent>
       <componentName/>
       <equipVersion>V2,V3</equipVersion>
       <ipcAlarmCode>5</ipcAlarmCode>
@@ -634,13 +634,13 @@
   </data>
   <data>
     <map_in>
-      <name>COD(光谱)</name>
+      <name>COD（光谱）</name>
       <CN/>
       <FirmwareVersion>V2,V3</FirmwareVersion>
       <code>6</code>
     </map_in>
     <map_out>
-      <componentParent>COD(光谱)水质自动分析仪</componentParent>
+      <componentParent>COD（光谱）水质自动分析仪</componentParent>
       <componentName/>
       <equipVersion>V2,V3</equipVersion>
       <ipcAlarmCode>6</ipcAlarmCode>
@@ -769,13 +769,13 @@
   </data>
   <data>
     <map_in>
-      <name>COD(光谱)</name>
+      <name>COD（光谱）</name>
       <CN/>
       <FirmwareVersion>V2,V3</FirmwareVersion>
       <code>7</code>
     </map_in>
     <map_out>
-      <componentParent>COD(光谱)水质自动分析仪</componentParent>
+      <componentParent>COD（光谱）水质自动分析仪</componentParent>
       <componentName/>
       <equipVersion>V2,V3</equipVersion>
       <ipcAlarmCode>7</ipcAlarmCode>
@@ -904,13 +904,13 @@
   </data>
   <data>
     <map_in>
-      <name>COD(光谱)</name>
+      <name>COD（光谱）</name>
       <CN/>
       <FirmwareVersion>V2,V3</FirmwareVersion>
       <code>8</code>
     </map_in>
     <map_out>
-      <componentParent>COD(光谱)水质自动分析仪</componentParent>
+      <componentParent>COD（光谱）水质自动分析仪</componentParent>
       <componentName/>
       <equipVersion>V2,V3</equipVersion>
       <ipcAlarmCode>8</ipcAlarmCode>
@@ -1039,13 +1039,13 @@
   </data>
   <data>
     <map_in>
-      <name>COD(光谱)</name>
+      <name>COD（光谱）</name>
       <CN/>
       <FirmwareVersion>V2,V3</FirmwareVersion>
       <code>9</code>
     </map_in>
     <map_out>
-      <componentParent>COD(光谱)水质自动分析仪</componentParent>
+      <componentParent>COD（光谱）水质自动分析仪</componentParent>
       <componentName/>
       <equipVersion>V2,V3</equipVersion>
       <ipcAlarmCode>9</ipcAlarmCode>
@@ -1174,13 +1174,13 @@
   </data>
   <data>
     <map_in>
-      <name>COD(光谱)</name>
+      <name>COD（光谱）</name>
       <CN/>
       <FirmwareVersion>V2,V3</FirmwareVersion>
       <code>10</code>
     </map_in>
     <map_out>
-      <componentParent>COD(光谱)水质自动分析仪</componentParent>
+      <componentParent>COD（光谱）水质自动分析仪</componentParent>
       <componentName/>
       <equipVersion>V2,V3</equipVersion>
       <ipcAlarmCode>10</ipcAlarmCode>
@@ -1309,13 +1309,13 @@
   </data>
   <data>
     <map_in>
-      <name>COD(光谱)</name>
+      <name>COD（光谱）</name>
       <CN/>
       <FirmwareVersion>V2,V3</FirmwareVersion>
       <code>11</code>
     </map_in>
     <map_out>
-      <componentParent>COD(光谱)水质自动分析仪</componentParent>
+      <componentParent>COD（光谱）水质自动分析仪</componentParent>
       <componentName/>
       <equipVersion>V2,V3</equipVersion>
       <ipcAlarmCode>11</ipcAlarmCode>
@@ -1414,13 +1414,13 @@
   </data>
   <data>
     <map_in>
-      <name>COD(光谱)</name>
+      <name>COD（光谱）</name>
       <CN/>
       <FirmwareVersion>V2,V3</FirmwareVersion>
       <code>12</code>
     </map_in>
     <map_out>
-      <componentParent>COD(光谱)水质自动分析仪</componentParent>
+      <componentParent>COD（光谱）水质自动分析仪</componentParent>
       <componentName/>
       <equipVersion>V2,V3</equipVersion>
       <ipcAlarmCode>12</ipcAlarmCode>
@@ -1549,13 +1549,13 @@
   </data>
   <data>
     <map_in>
-      <name>COD(光谱)</name>
+      <name>COD（光谱）</name>
       <CN/>
       <FirmwareVersion>V2,V3</FirmwareVersion>
       <code>13</code>
     </map_in>
     <map_out>
-      <componentParent>COD(光谱)水质自动分析仪</componentParent>
+      <componentParent>COD（光谱）水质自动分析仪</componentParent>
       <componentName/>
       <equipVersion>V2,V3</equipVersion>
       <ipcAlarmCode>13</ipcAlarmCode>
@@ -1684,13 +1684,13 @@
   </data>
   <data>
     <map_in>
-      <name>COD(光谱)</name>
+      <name>COD（光谱）</name>
       <CN/>
       <FirmwareVersion>V2,V3</FirmwareVersion>
       <code>14</code>
     </map_in>
     <map_out>
-      <componentParent>COD(光谱)水质自动分析仪</componentParent>
+      <componentParent>COD（光谱）水质自动分析仪</componentParent>
       <componentName/>
       <equipVersion>V2,V3</equipVersion>
       <ipcAlarmCode>14</ipcAlarmCode>
@@ -1819,13 +1819,13 @@
   </data>
   <data>
     <map_in>
-      <name>COD(光谱)</name>
+      <name>COD（光谱）</name>
       <CN/>
       <FirmwareVersion>V2,V3</FirmwareVersion>
       <code>15</code>
     </map_in>
     <map_out>
-      <componentParent>COD(光谱)水质自动分析仪</componentParent>
+      <componentParent>COD（光谱）水质自动分析仪</componentParent>
       <componentName/>
       <equipVersion>V2,V3</equipVersion>
       <ipcAlarmCode>15</ipcAlarmCode>
@@ -1954,13 +1954,13 @@
   </data>
   <data>
     <map_in>
-      <name>COD(光谱)</name>
+      <name>COD（光谱）</name>
       <CN/>
       <FirmwareVersion>V2,V3</FirmwareVersion>
       <code>36</code>
     </map_in>
     <map_out>
-      <componentParent>COD(光谱)水质自动分析仪</componentParent>
+      <componentParent>COD（光谱）水质自动分析仪</componentParent>
       <componentName/>
       <equipVersion>V2,V3</equipVersion>
       <ipcAlarmCode>36</ipcAlarmCode>
@@ -2089,13 +2089,13 @@
   </data>
   <data>
     <map_in>
-      <name>COD(光谱)</name>
+      <name>COD（光谱）</name>
       <CN/>
       <FirmwareVersion>V2,V3</FirmwareVersion>
       <code>37</code>
     </map_in>
     <map_out>
-      <componentParent>COD(光谱)水质自动分析仪</componentParent>
+      <componentParent>COD（光谱）水质自动分析仪</componentParent>
       <componentName/>
       <equipVersion>V2,V3</equipVersion>
       <ipcAlarmCode>37</ipcAlarmCode>
@@ -2224,13 +2224,13 @@
   </data>
   <data>
     <map_in>
-      <name>COD(光谱)</name>
+      <name>COD（光谱）</name>
       <CN/>
       <FirmwareVersion>V2,V3</FirmwareVersion>
       <code>38</code>
     </map_in>
     <map_out>
-      <componentParent>COD(光谱)水质自动分析仪</componentParent>
+      <componentParent>COD（光谱）水质自动分析仪</componentParent>
       <componentName/>
       <equipVersion>V2,V3</equipVersion>
       <ipcAlarmCode>38</ipcAlarmCode>
@@ -2629,13 +2629,13 @@
   </data>
   <data>
     <map_in>
-      <name>COD(光谱)</name>
+      <name>COD（光谱）</name>
       <CN/>
       <FirmwareVersion>V2,V3</FirmwareVersion>
       <code>99</code>
     </map_in>
     <map_out>
-      <componentParent>COD(光谱)水质自动分析仪</componentParent>
+      <componentParent>COD（光谱）水质自动分析仪</componentParent>
       <componentName/>
       <equipVersion>V2,V3</equipVersion>
       <ipcAlarmCode>99</ipcAlarmCode>
@@ -2764,13 +2764,13 @@
   </data>
   <data>
     <map_in>
-      <name>COD(光谱)</name>
+      <name>COD（光谱）</name>
       <CN/>
       <FirmwareVersion>V2,V3</FirmwareVersion>
       <code>103</code>
     </map_in>
     <map_out>
-      <componentParent>COD(光谱)水质自动分析仪</componentParent>
+      <componentParent>COD（光谱）水质自动分析仪</componentParent>
       <componentName/>
       <equipVersion>V2,V3</equipVersion>
       <ipcAlarmCode>103</ipcAlarmCode>
@@ -2899,13 +2899,13 @@
   </data>
   <data>
     <map_in>
-      <name>COD(光谱)</name>
+      <name>COD（光谱）</name>
       <CN/>
       <FirmwareVersion>V2,V3</FirmwareVersion>
       <code>105</code>
     </map_in>
     <map_out>
-      <componentParent>COD(光谱)水质自动分析仪</componentParent>
+      <componentParent>COD（光谱）水质自动分析仪</componentParent>
       <componentName/>
       <equipVersion>V2,V3</equipVersion>
       <ipcAlarmCode>105</ipcAlarmCode>
@@ -3034,13 +3034,13 @@
   </data>
   <data>
     <map_in>
-      <name>COD(光谱)</name>
+      <name>COD（光谱）</name>
       <CN/>
       <FirmwareVersion>V2,V3</FirmwareVersion>
       <code>106</code>
     </map_in>
     <map_out>
-      <componentParent>COD(光谱)水质自动分析仪</componentParent>
+      <componentParent>COD（光谱）水质自动分析仪</componentParent>
       <componentName/>
       <equipVersion>V2,V3</equipVersion>
       <ipcAlarmCode>106</ipcAlarmCode>
@@ -3169,13 +3169,13 @@
   </data>
   <data>
     <map_in>
-      <name>COD(光谱)</name>
+      <name>COD（光谱）</name>
       <CN/>
       <FirmwareVersion>V2,V3</FirmwareVersion>
       <code>999</code>
     </map_in>
     <map_out>
-      <componentParent>COD(光谱)水质自动分析仪</componentParent>
+      <componentParent>COD（光谱）水质自动分析仪</componentParent>
       <componentName/>
       <equipVersion>V2,V3</equipVersion>
       <ipcAlarmCode>999</ipcAlarmCode>
@@ -3274,13 +3274,13 @@
   </data>
   <data>
     <map_in>
-      <name>COD(光谱)水质自动分析仪</name>
+      <name>COD（光谱）水质自动分析仪</name>
       <CN/>
       <FirmwareVersion>V2,V3</FirmwareVersion>
       <code>254</code>
     </map_in>
     <map_out>
-      <componentParent>COD(光谱)水质自动分析仪</componentParent>
+      <componentParent>COD（光谱）水质自动分析仪</componentParent>
       <componentName/>
       <equipVersion>V2,V3</equipVersion>
       <ipcAlarmCode>254</ipcAlarmCode>
@@ -3334,13 +3334,13 @@
   </data>
   <data>
     <map_in>
-      <name>COD(光谱)</name>
+      <name>COD（光谱）</name>
       <CN/>
       <FirmwareVersion>V2,V3</FirmwareVersion>
       <code>255</code>
     </map_in>
     <map_out>
-      <componentParent>COD(光谱)水质自动分析仪</componentParent>
+      <componentParent>COD（光谱）水质自动分析仪</componentParent>
       <componentName/>
       <equipVersion>V2,V3</equipVersion>
       <ipcAlarmCode>255</ipcAlarmCode>
@@ -3469,13 +3469,13 @@
   </data>
   <data>
     <map_in>
-      <name>COD(光谱)</name>
+      <name>COD（光谱）</name>
       <CN/>
       <FirmwareVersion>V2,V3</FirmwareVersion>
       <code>F1</code>
     </map_in>
     <map_out>
-      <componentParent>COD(光谱)水质自动分析仪</componentParent>
+      <componentParent>COD（光谱）水质自动分析仪</componentParent>
       <componentName/>
       <equipVersion>V2,V3</equipVersion>
       <ipcAlarmCode>F1</ipcAlarmCode>
@@ -3604,13 +3604,13 @@
   </data>
   <data>
     <map_in>
-      <name>COD(光谱)</name>
+      <name>COD（光谱）</name>
       <CN/>
       <FirmwareVersion>V2,V3</FirmwareVersion>
       <code>F2</code>
     </map_in>
     <map_out>
-      <componentParent>COD(光谱)水质自动分析仪</componentParent>
+      <componentParent>COD（光谱）水质自动分析仪</componentParent>
       <componentName/>
       <equipVersion>V2,V3</equipVersion>
       <ipcAlarmCode>F2</ipcAlarmCode>
@@ -3724,13 +3724,13 @@
   </data>
   <data>
     <map_in>
-      <name>COD(光谱)</name>
+      <name>COD（光谱）</name>
       <CN/>
       <FirmwareVersion>V2,V3</FirmwareVersion>
       <code>F39</code>
     </map_in>
     <map_out>
-      <componentParent>COD(光谱)水质自动分析仪</componentParent>
+      <componentParent>COD（光谱）水质自动分析仪</componentParent>
       <componentName/>
       <equipVersion>V2,V3</equipVersion>
       <ipcAlarmCode>F39</ipcAlarmCode>
@@ -21220,7 +21220,7 @@
       <code>999</code>
     </map_in>
     <map_out>
-      <componentParent>流量计</componentParent>
+      <componentParent>流量计水质自动分析仪</componentParent>
       <componentName/>
       <equipVersion>V1</equipVersion>
       <ipcAlarmCode>999</ipcAlarmCode>
@@ -21235,7 +21235,7 @@
       <code>1</code>
     </map_in>
     <map_out>
-      <componentParent>质控单元</componentParent>
+      <componentParent>质控单元水质自动分析仪</componentParent>
       <componentName>氨氮质控</componentName>
       <equipVersion>V1,V2,V4</equipVersion>
       <ipcAlarmCode>1</ipcAlarmCode>
@@ -21250,7 +21250,7 @@
       <code>1</code>
     </map_in>
     <map_out>
-      <componentParent>质控单元</componentParent>
+      <componentParent>质控单元水质自动分析仪</componentParent>
       <componentName>总磷质控</componentName>
       <equipVersion>V1,V2,V4</equipVersion>
       <ipcAlarmCode>1</ipcAlarmCode>
@@ -21265,7 +21265,7 @@
       <code>1</code>
     </map_in>
     <map_out>
-      <componentParent>质控单元</componentParent>
+      <componentParent>质控单元水质自动分析仪</componentParent>
       <componentName>总氮质控</componentName>
       <equipVersion>V1,V2,V4</equipVersion>
       <ipcAlarmCode>1</ipcAlarmCode>
@@ -21280,7 +21280,7 @@
       <code>1</code>
     </map_in>
     <map_out>
-      <componentParent>质控单元</componentParent>
+      <componentParent>质控单元水质自动分析仪</componentParent>
       <componentName>高锰酸盐质控</componentName>
       <equipVersion>V1,V2,V4</equipVersion>
       <ipcAlarmCode>1</ipcAlarmCode>
@@ -21295,7 +21295,7 @@
       <code>1</code>
     </map_in>
     <map_out>
-      <componentParent>质控单元</componentParent>
+      <componentParent>质控单元水质自动分析仪</componentParent>
       <componentName>化学需氧量质控</componentName>
       <equipVersion>V1,V2,V4</equipVersion>
       <ipcAlarmCode>1</ipcAlarmCode>
@@ -21310,7 +21310,7 @@
       <code>1</code>
     </map_in>
     <map_out>
-      <componentParent>质控单元</componentParent>
+      <componentParent>质控单元水质自动分析仪</componentParent>
       <componentName>氟化物质控</componentName>
       <equipVersion>V1,V2,V4</equipVersion>
       <ipcAlarmCode>1</ipcAlarmCode>
@@ -21325,7 +21325,7 @@
       <code>1</code>
     </map_in>
     <map_out>
-      <componentParent>质控单元</componentParent>
+      <componentParent>质控单元水质自动分析仪</componentParent>
       <componentName>挥发酚质控</componentName>
       <equipVersion>V1,V2,V4</equipVersion>
       <ipcAlarmCode>1</ipcAlarmCode>
@@ -21340,7 +21340,7 @@
       <code>2</code>
     </map_in>
     <map_out>
-      <componentParent>质控单元</componentParent>
+      <componentParent>质控单元水质自动分析仪</componentParent>
       <componentName>氨氮质控</componentName>
       <equipVersion>V1,V2,V4</equipVersion>
       <ipcAlarmCode>2</ipcAlarmCode>
@@ -21355,7 +21355,7 @@
       <code>2</code>
     </map_in>
     <map_out>
-      <componentParent>质控单元</componentParent>
+      <componentParent>质控单元水质自动分析仪</componentParent>
       <componentName>总磷质控</componentName>
       <equipVersion>V1,V2,V4</equipVersion>
       <ipcAlarmCode>2</ipcAlarmCode>
@@ -21370,7 +21370,7 @@
       <code>2</code>
     </map_in>
     <map_out>
-      <componentParent>质控单元</componentParent>
+      <componentParent>质控单元水质自动分析仪</componentParent>
       <componentName>总氮质控</componentName>
       <equipVersion>V1,V2,V4</equipVersion>
       <ipcAlarmCode>2</ipcAlarmCode>
@@ -21385,7 +21385,7 @@
       <code>2</code>
     </map_in>
     <map_out>
-      <componentParent>质控单元</componentParent>
+      <componentParent>质控单元水质自动分析仪</componentParent>
       <componentName>高锰酸盐质控</componentName>
       <equipVersion>V1,V2,V4</equipVersion>
       <ipcAlarmCode>2</ipcAlarmCode>
@@ -21400,7 +21400,7 @@
       <code>2</code>
     </map_in>
     <map_out>
-      <componentParent>质控单元</componentParent>
+      <componentParent>质控单元水质自动分析仪</componentParent>
       <componentName>化学需氧量质控</componentName>
       <equipVersion>V1,V2,V4</equipVersion>
       <ipcAlarmCode>2</ipcAlarmCode>
@@ -21415,7 +21415,7 @@
       <code>2</code>
     </map_in>
     <map_out>
-      <componentParent>质控单元</componentParent>
+      <componentParent>质控单元水质自动分析仪</componentParent>
       <componentName>氟化物质控</componentName>
       <equipVersion>V1,V2,V4</equipVersion>
       <ipcAlarmCode>2</ipcAlarmCode>
@@ -21430,7 +21430,7 @@
       <code>2</code>
     </map_in>
     <map_out>
-      <componentParent>质控单元</componentParent>
+      <componentParent>质控单元水质自动分析仪</componentParent>
       <componentName>挥发酚质控</componentName>
       <equipVersion>V1,V2,V4</equipVersion>
       <ipcAlarmCode>2</ipcAlarmCode>
@@ -21445,7 +21445,7 @@
       <code>3</code>
     </map_in>
     <map_out>
-      <componentParent>质控单元</componentParent>
+      <componentParent>质控单元水质自动分析仪</componentParent>
       <componentName>氨氮质控</componentName>
       <equipVersion>V1,V2,V4</equipVersion>
       <ipcAlarmCode>3</ipcAlarmCode>
@@ -21460,7 +21460,7 @@
       <code>3</code>
     </map_in>
     <map_out>
-      <componentParent>质控单元</componentParent>
+      <componentParent>质控单元水质自动分析仪</componentParent>
       <componentName>总磷质控</componentName>
       <equipVersion>V1,V2,V4</equipVersion>
       <ipcAlarmCode>3</ipcAlarmCode>
@@ -21475,7 +21475,7 @@
       <code>3</code>
     </map_in>
     <map_out>
-      <componentParent>质控单元</componentParent>
+      <componentParent>质控单元水质自动分析仪</componentParent>
       <componentName>总氮质控</componentName>
       <equipVersion>V1,V2,V4</equipVersion>
       <ipcAlarmCode>3</ipcAlarmCode>
@@ -21490,7 +21490,7 @@
       <code>3</code>
     </map_in>
     <map_out>
-      <componentParent>质控单元</componentParent>
+      <componentParent>质控单元水质自动分析仪</componentParent>
       <componentName>高锰酸盐质控</componentName>
       <equipVersion>V1,V2,V4</equipVersion>
       <ipcAlarmCode>3</ipcAlarmCode>
@@ -21505,7 +21505,7 @@
       <code>3</code>
     </map_in>
     <map_out>
-      <componentParent>质控单元</componentParent>
+      <componentParent>质控单元水质自动分析仪</componentParent>
       <componentName>化学需氧量质控</componentName>
       <equipVersion>V1,V2,V4</equipVersion>
       <ipcAlarmCode>3</ipcAlarmCode>
@@ -21520,7 +21520,7 @@
       <code>3</code>
     </map_in>
     <map_out>
-      <componentParent>质控单元</componentParent>
+      <componentParent>质控单元水质自动分析仪</componentParent>
       <componentName>氟化物质控</componentName>
       <equipVersion>V1,V2,V4</equipVersion>
       <ipcAlarmCode>3</ipcAlarmCode>
@@ -21535,7 +21535,7 @@
       <code>3</code>
     </map_in>
     <map_out>
-      <componentParent>质控单元</componentParent>
+      <componentParent>质控单元水质自动分析仪</componentParent>
       <componentName>挥发酚质控</componentName>
       <equipVersion>V1,V2,V4</equipVersion>
       <ipcAlarmCode>3</ipcAlarmCode>
@@ -21550,7 +21550,7 @@
       <code>999</code>
     </map_in>
     <map_out>
-      <componentParent>质控单元</componentParent>
+      <componentParent>质控单元水质自动分析仪</componentParent>
       <componentName>氨氮质控</componentName>
       <equipVersion>V1,V2,V4</equipVersion>
       <ipcAlarmCode>999</ipcAlarmCode>
@@ -21565,7 +21565,7 @@
       <code>999</code>
     </map_in>
     <map_out>
-      <componentParent>质控单元</componentParent>
+      <componentParent>质控单元水质自动分析仪</componentParent>
       <componentName>总磷质控</componentName>
       <equipVersion>V1,V2,V4</equipVersion>
       <ipcAlarmCode>999</ipcAlarmCode>
@@ -21580,7 +21580,7 @@
       <code>999</code>
     </map_in>
     <map_out>
-      <componentParent>质控单元</componentParent>
+      <componentParent>质控单元水质自动分析仪</componentParent>
       <componentName>总氮质控</componentName>
       <equipVersion>V1,V2,V4</equipVersion>
       <ipcAlarmCode>999</ipcAlarmCode>
@@ -21595,7 +21595,7 @@
       <code>999</code>
     </map_in>
     <map_out>
-      <componentParent>质控单元</componentParent>
+      <componentParent>质控单元水质自动分析仪</componentParent>
       <componentName>高锰酸盐质控</componentName>
       <equipVersion>V1,V2,V4</equipVersion>
       <ipcAlarmCode>999</ipcAlarmCode>
@@ -21610,7 +21610,7 @@
       <code>999</code>
     </map_in>
     <map_out>
-      <componentParent>质控单元</componentParent>
+      <componentParent>质控单元水质自动分析仪</componentParent>
       <componentName>化学需氧量质控</componentName>
       <equipVersion>V1,V2,V4</equipVersion>
       <ipcAlarmCode>999</ipcAlarmCode>
@@ -21625,7 +21625,7 @@
       <code>999</code>
     </map_in>
     <map_out>
-      <componentParent>质控单元</componentParent>
+      <componentParent>质控单元水质自动分析仪</componentParent>
       <componentName>氟化物质控</componentName>
       <equipVersion>V1,V2,V4</equipVersion>
       <ipcAlarmCode>999</ipcAlarmCode>
@@ -21640,7 +21640,7 @@
       <code>999</code>
     </map_in>
     <map_out>
-      <componentParent>质控单元</componentParent>
+      <componentParent>质控单元水质自动分析仪</componentParent>
       <componentName>挥发酚质控</componentName>
       <equipVersion>V1,V2,V4</equipVersion>
       <ipcAlarmCode>999</ipcAlarmCode>
@@ -21655,7 +21655,7 @@
       <code>1</code>
     </map_in>
     <map_out>
-      <componentParent>采配水单元</componentParent>
+      <componentParent>采配水单元水质自动分析仪</componentParent>
       <componentName/>
       <equipVersion>V2,V4</equipVersion>
       <ipcAlarmCode>1</ipcAlarmCode>
@@ -21670,7 +21670,7 @@
       <code>2</code>
     </map_in>
     <map_out>
-      <componentParent>采配水单元</componentParent>
+      <componentParent>采配水单元水质自动分析仪</componentParent>
       <componentName/>
       <equipVersion>V2,V4</equipVersion>
       <ipcAlarmCode>2</ipcAlarmCode>
@@ -21685,7 +21685,7 @@
       <code>3</code>
     </map_in>
     <map_out>
-      <componentParent>采配水单元</componentParent>
+      <componentParent>采配水单元水质自动分析仪</componentParent>
       <componentName/>
       <equipVersion>V2,V4</equipVersion>
       <ipcAlarmCode>3</ipcAlarmCode>
@@ -21700,7 +21700,7 @@
       <code>4</code>
     </map_in>
     <map_out>
-      <componentParent>采配水单元</componentParent>
+      <componentParent>采配水单元水质自动分析仪</componentParent>
       <componentName/>
       <equipVersion>V2,V4</equipVersion>
       <ipcAlarmCode>4</ipcAlarmCode>
@@ -21715,7 +21715,7 @@
       <code>5</code>
     </map_in>
     <map_out>
-      <componentParent>采配水单元</componentParent>
+      <componentParent>采配水单元水质自动分析仪</componentParent>
       <componentName/>
       <equipVersion>V2,V4</equipVersion>
       <ipcAlarmCode>5</ipcAlarmCode>
@@ -21730,7 +21730,7 @@
       <code>6</code>
     </map_in>
     <map_out>
-      <componentParent>采配水单元</componentParent>
+      <componentParent>采配水单元水质自动分析仪</componentParent>
       <componentName/>
       <equipVersion>V2,V4</equipVersion>
       <ipcAlarmCode>6</ipcAlarmCode>
@@ -21745,7 +21745,7 @@
       <code>7</code>
     </map_in>
     <map_out>
-      <componentParent>采配水单元</componentParent>
+      <componentParent>采配水单元水质自动分析仪</componentParent>
       <componentName/>
       <equipVersion>V2,V4</equipVersion>
       <ipcAlarmCode>7</ipcAlarmCode>
@@ -21760,7 +21760,7 @@
       <code>8</code>
     </map_in>
     <map_out>
-      <componentParent>采配水单元</componentParent>
+      <componentParent>采配水单元水质自动分析仪</componentParent>
       <componentName/>
       <equipVersion>V2,V4</equipVersion>
       <ipcAlarmCode>8</ipcAlarmCode>
@@ -21775,7 +21775,7 @@
       <code>1</code>
     </map_in>
     <map_out>
-      <componentParent>采配水单元</componentParent>
+      <componentParent>采配水单元水质自动分析仪</componentParent>
       <componentName/>
       <equipVersion>GA,G2A</equipVersion>
       <ipcAlarmCode>1</ipcAlarmCode>
@@ -21790,7 +21790,7 @@
       <code>2</code>
     </map_in>
     <map_out>
-      <componentParent>采配水单元</componentParent>
+      <componentParent>采配水单元水质自动分析仪</componentParent>
       <componentName/>
       <equipVersion>GA,G2A</equipVersion>
       <ipcAlarmCode>2</ipcAlarmCode>
@@ -21805,7 +21805,7 @@
       <code>3</code>
     </map_in>
     <map_out>
-      <componentParent>采配水单元</componentParent>
+      <componentParent>采配水单元水质自动分析仪</componentParent>
       <componentName/>
       <equipVersion>GA,G2A</equipVersion>
       <ipcAlarmCode>3</ipcAlarmCode>
@@ -21820,7 +21820,7 @@
       <code>4</code>
     </map_in>
     <map_out>
-      <componentParent>采配水单元</componentParent>
+      <componentParent>采配水单元水质自动分析仪</componentParent>
       <componentName/>
       <equipVersion>GA,G2A</equipVersion>
       <ipcAlarmCode>4</ipcAlarmCode>
@@ -21835,7 +21835,7 @@
       <code>5</code>
     </map_in>
     <map_out>
-      <componentParent>采配水单元</componentParent>
+      <componentParent>采配水单元水质自动分析仪</componentParent>
       <componentName/>
       <equipVersion>GA,G2A</equipVersion>
       <ipcAlarmCode>5</ipcAlarmCode>
@@ -21850,7 +21850,7 @@
       <code>6</code>
     </map_in>
     <map_out>
-      <componentParent>采配水单元</componentParent>
+      <componentParent>采配水单元水质自动分析仪</componentParent>
       <componentName/>
       <equipVersion>GA,G2A</equipVersion>
       <ipcAlarmCode>6</ipcAlarmCode>
@@ -21865,7 +21865,7 @@
       <code>999</code>
     </map_in>
     <map_out>
-      <componentParent>采配水单元</componentParent>
+      <componentParent>采配水单元水质自动分析仪</componentParent>
       <componentName/>
       <equipVersion>V,G</equipVersion>
       <ipcAlarmCode>999</ipcAlarmCode>
@@ -21880,7 +21880,7 @@
       <code>1</code>
     </map_in>
     <map_out>
-      <componentParent>动力环境监测单元</componentParent>
+      <componentParent>动力环境监测单元水质自动分析仪</componentParent>
       <componentName>/</componentName>
       <equipVersion>V1</equipVersion>
       <ipcAlarmCode>1</ipcAlarmCode>
@@ -21895,7 +21895,7 @@
       <code>7</code>
     </map_in>
     <map_out>
-      <componentParent>动力环境监测单元</componentParent>
+      <componentParent>动力环境监测单元水质自动分析仪</componentParent>
       <componentName>烟雾传感器</componentName>
       <equipVersion>V1</equipVersion>
       <ipcAlarmCode>7</ipcAlarmCode>
@@ -21910,7 +21910,7 @@
       <code>8</code>
     </map_in>
     <map_out>
-      <componentParent>动力环境监测单元</componentParent>
+      <componentParent>动力环境监测单元水质自动分析仪</componentParent>
       <componentName>振动传感器</componentName>
       <equipVersion>V1</equipVersion>
       <ipcAlarmCode>8</ipcAlarmCode>
@@ -21925,7 +21925,7 @@
       <code>9</code>
     </map_in>
     <map_out>
-      <componentParent>动力环境监测单元</componentParent>
+      <componentParent>动力环境监测单元水质自动分析仪</componentParent>
       <componentName>红外传感器</componentName>
       <equipVersion>V1</equipVersion>
       <ipcAlarmCode>9</ipcAlarmCode>
@@ -21940,7 +21940,7 @@
       <code>10</code>
     </map_in>
     <map_out>
-      <componentParent>动力环境监测单元</componentParent>
+      <componentParent>动力环境监测单元水质自动分析仪</componentParent>
       <componentName>漏水传感器</componentName>
       <equipVersion>V1</equipVersion>
       <ipcAlarmCode>10</ipcAlarmCode>
@@ -21955,7 +21955,7 @@
       <code>11</code>
     </map_in>
     <map_out>
-      <componentParent>动力环境监测单元</componentParent>
+      <componentParent>动力环境监测单元水质自动分析仪</componentParent>
       <componentName>UPS</componentName>
       <equipVersion>V1</equipVersion>
       <ipcAlarmCode>11</ipcAlarmCode>
@@ -21970,7 +21970,7 @@
       <code>12</code>
     </map_in>
     <map_out>
-      <componentParent>动力环境监测单元</componentParent>
+      <componentParent>动力环境监测单元水质自动分析仪</componentParent>
       <componentName>UPS</componentName>
       <equipVersion>V1</equipVersion>
       <ipcAlarmCode>12</ipcAlarmCode>
@@ -21985,7 +21985,7 @@
       <code>13</code>
     </map_in>
     <map_out>
-      <componentParent>动力环境监测单元</componentParent>
+      <componentParent>动力环境监测单元水质自动分析仪</componentParent>
       <componentName>UPS</componentName>
       <equipVersion>V1</equipVersion>
       <ipcAlarmCode>13</ipcAlarmCode>
@@ -22000,7 +22000,7 @@
       <code>14</code>
     </map_in>
     <map_out>
-      <componentParent>动力环境监测单元</componentParent>
+      <componentParent>动力环境监测单元水质自动分析仪</componentParent>
       <componentName>太阳能控制器</componentName>
       <equipVersion>V1</equipVersion>
       <ipcAlarmCode>14</ipcAlarmCode>
@@ -22015,7 +22015,7 @@
       <code>15</code>
     </map_in>
     <map_out>
-      <componentParent>动力环境监测单元</componentParent>
+      <componentParent>动力环境监测单元水质自动分析仪</componentParent>
       <componentName>太阳能控制器</componentName>
       <equipVersion>V1</equipVersion>
       <ipcAlarmCode>15</ipcAlarmCode>
@@ -22030,7 +22030,7 @@
       <code>16</code>
     </map_in>
     <map_out>
-      <componentParent>动力环境监测单元</componentParent>
+      <componentParent>动力环境监测单元水质自动分析仪</componentParent>
       <componentName>太阳能控制器</componentName>
       <equipVersion>V1</equipVersion>
       <ipcAlarmCode>16</ipcAlarmCode>
@@ -22045,7 +22045,7 @@
       <code>17</code>
     </map_in>
     <map_out>
-      <componentParent>动力环境监测单元</componentParent>
+      <componentParent>动力环境监测单元水质自动分析仪</componentParent>
       <componentName>太阳能控制器</componentName>
       <equipVersion>V1</equipVersion>
       <ipcAlarmCode>17</ipcAlarmCode>
@@ -22060,7 +22060,7 @@
       <code>18</code>
     </map_in>
     <map_out>
-      <componentParent>动力环境监测单元</componentParent>
+      <componentParent>动力环境监测单元水质自动分析仪</componentParent>
       <componentName>太阳能控制器</componentName>
       <equipVersion>V1</equipVersion>
       <ipcAlarmCode>18</ipcAlarmCode>
@@ -22075,7 +22075,7 @@
       <code>19</code>
     </map_in>
     <map_out>
-      <componentParent>动力环境监测单元</componentParent>
+      <componentParent>动力环境监测单元水质自动分析仪</componentParent>
       <componentName>太阳能控制器</componentName>
       <equipVersion>V1</equipVersion>
       <ipcAlarmCode>19</ipcAlarmCode>
@@ -22090,7 +22090,7 @@
       <code>20</code>
     </map_in>
     <map_out>
-      <componentParent>动力环境监测单元</componentParent>
+      <componentParent>动力环境监测单元水质自动分析仪</componentParent>
       <componentName>太阳能控制器</componentName>
       <equipVersion>V1</equipVersion>
       <ipcAlarmCode>20</ipcAlarmCode>
@@ -22105,7 +22105,7 @@
       <code>21</code>
     </map_in>
     <map_out>
-      <componentParent>动力环境监测单元</componentParent>
+      <componentParent>动力环境监测单元水质自动分析仪</componentParent>
       <componentName>GPS传感器</componentName>
       <equipVersion>V1</equipVersion>
       <ipcAlarmCode>21</ipcAlarmCode>
@@ -22120,7 +22120,7 @@
       <code>22</code>
     </map_in>
     <map_out>
-      <componentParent>动力环境监测单元</componentParent>
+      <componentParent>动力环境监测单元水质自动分析仪</componentParent>
       <componentName>空调</componentName>
       <equipVersion>V1</equipVersion>
       <ipcAlarmCode>22</ipcAlarmCode>
@@ -22135,7 +22135,7 @@
       <code>23</code>
     </map_in>
     <map_out>
-      <componentParent>动力环境监测单元</componentParent>
+      <componentParent>动力环境监测单元水质自动分析仪</componentParent>
       <componentName>空调</componentName>
       <equipVersion>V1</equipVersion>
       <ipcAlarmCode>23</ipcAlarmCode>
@@ -22150,7 +22150,7 @@
       <code>24</code>
     </map_in>
     <map_out>
-      <componentParent>动力环境监测单元</componentParent>
+      <componentParent>动力环境监测单元水质自动分析仪</componentParent>
       <componentName>空调</componentName>
       <equipVersion>V1</equipVersion>
       <ipcAlarmCode>24</ipcAlarmCode>
@@ -22165,7 +22165,7 @@
       <code>25</code>
     </map_in>
     <map_out>
-      <componentParent>动力环境监测单元</componentParent>
+      <componentParent>动力环境监测单元水质自动分析仪</componentParent>
       <componentName>空调</componentName>
       <equipVersion>V1</equipVersion>
       <ipcAlarmCode>25</ipcAlarmCode>
@@ -22180,7 +22180,7 @@
       <code>26</code>
     </map_in>
     <map_out>
-      <componentParent>动力环境监测单元</componentParent>
+      <componentParent>动力环境监测单元水质自动分析仪</componentParent>
       <componentName>空调</componentName>
       <equipVersion>V1</equipVersion>
       <ipcAlarmCode>26</ipcAlarmCode>
@@ -22195,7 +22195,7 @@
       <code>27</code>
     </map_in>
     <map_out>
-      <componentParent>动力环境监测单元</componentParent>
+      <componentParent>动力环境监测单元水质自动分析仪</componentParent>
       <componentName>空调</componentName>
       <equipVersion>V1</equipVersion>
       <ipcAlarmCode>27</ipcAlarmCode>
@@ -22210,7 +22210,7 @@
       <code>28</code>
     </map_in>
     <map_out>
-      <componentParent>动力环境监测单元</componentParent>
+      <componentParent>动力环境监测单元水质自动分析仪</componentParent>
       <componentName>空调</componentName>
       <equipVersion>V1</equipVersion>
       <ipcAlarmCode>28</ipcAlarmCode>
@@ -22225,7 +22225,7 @@
       <code>29</code>
     </map_in>
     <map_out>
-      <componentParent>动力环境监测单元</componentParent>
+      <componentParent>动力环境监测单元水质自动分析仪</componentParent>
       <componentName>空调</componentName>
       <equipVersion>V1</equipVersion>
       <ipcAlarmCode>29</ipcAlarmCode>
@@ -22240,7 +22240,7 @@
       <code>30</code>
     </map_in>
     <map_out>
-      <componentParent>动力环境监测单元</componentParent>
+      <componentParent>动力环境监测单元水质自动分析仪</componentParent>
       <componentName>温湿度传感器</componentName>
       <equipVersion>V1</equipVersion>
       <ipcAlarmCode>30</ipcAlarmCode>
@@ -22255,7 +22255,7 @@
       <code>31</code>
     </map_in>
     <map_out>
-      <componentParent>动力环境监测单元</componentParent>
+      <componentParent>动力环境监测单元水质自动分析仪</componentParent>
       <componentName>温湿度传感器</componentName>
       <equipVersion>V1</equipVersion>
       <ipcAlarmCode>31</ipcAlarmCode>
@@ -22270,7 +22270,7 @@
       <code>32</code>
     </map_in>
     <map_out>
-      <componentParent>动力环境监测单元</componentParent>
+      <componentParent>动力环境监测单元水质自动分析仪</componentParent>
       <componentName>门禁传感器</componentName>
       <equipVersion>V1</equipVersion>
       <ipcAlarmCode>32</ipcAlarmCode>
