@@ -1,0 +1,162 @@
+2022/06/21 16:59:47
+send:{"time":"2022-06-21 16:59:46","data":{}}
+2022/06/21 16:59:50
+receive:{"code":"200","message":"³É¹¦","timestamp":1655801990545,"data":true,"success":true}
+2022/06/21 17:00:46
+send:{"time":"2022-06-21 17:00:46","data":{}}
+2022/06/21 17:00:46
+receive:{"code":"200","message":"³É¹¦","timestamp":1655802046896,"data":true,"success":true}
+2022/06/21 17:01:46
+send:{"time":"2022-06-21 17:01:46","data":{"ups":{"input_voltage":0,"input_frequency":0,"output_voltage":0,"output_current":0,"output_frequency":0,"output_active_power":0,"output_apparent_power":0,"load_rate":0,"cabinet_temperature":0,"battery_voltage":0,"remaining_battery_capacity":0,"power_on_status":"å¼€æœºå®Œæˆ","power_supply_mode":"","fault":false,"battery_low_voltage":false,"mains_supply_abnormality":false}}}
+2022/06/21 17:01:48
+receive:
+2022/06/21 17:03:40
+send:{"time":"2022-06-21 17:03:40","data":{"ups":{"input_voltage":0,"input_frequency":0,"output_voltage":0,"output_current":0,"output_frequency":0,"output_active_power":0,"output_apparent_power":0,"load_rate":0,"cabinet_temperature":0,"battery_voltage":0,"remaining_battery_capacity":0,"power_on_status":"¿ª»úÍê³É","power_supply_mode":"","fault":false,"battery_low_voltage":false,"mains_supply_abnormality":false}}}
+2022/06/21 17:03:41
+receive:{"code":"-1","message":"ÏµÍ³Òì³£","errorMessage":"JSON parse error: Invalid UTF-8 start byte 0xbf; nested exception is com.fasterxml.jackson.databind.JsonMappingException: Invalid UTF-8 start byte 0xbf\n at [Source: (PushbackInputStream); line: 1, column: 302] (through reference chain: com.std.wqmsdata.sync.entity.request.SyncDataStationWorkConditionForm[\"data\"])","timestamp":1655802221684,"success":false}
+2022/06/21 17:04:57
+send:{"time":"2022-06-21 17:04:56","data":{"ups":{"input_voltage":0,"input_frequency":0,"output_voltage":0,"output_current":0,"output_frequency":0,"output_active_power":0,"output_apparent_power":0,"load_rate":0,"cabinet_temperature":0,"battery_voltage":0,"remaining_battery_capacity":0,"power_on_status":"¿ª»úÍê³É","power_supply_mode":"","fault":false,"battery_low_voltage":false,"mains_supply_abnormality":false}}}
+2022/06/21 17:04:57
+receive:{"code":"-1","message":"ÏµÍ³Òì³£","errorMessage":"JSON parse error: Invalid UTF-8 start byte 0xbf; nested exception is com.fasterxml.jackson.databind.JsonMappingException: Invalid UTF-8 start byte 0xbf\n at [Source: (PushbackInputStream); line: 1, column: 302] (through reference chain: com.std.wqmsdata.sync.entity.request.SyncDataStationWorkConditionForm[\"data\"])","timestamp":1655802297892,"success":false}
+2022/06/21 17:10:19
+send:{"time":"2022-06-21 17:10:19","data":{"ups":{"input_voltage":0,"input_frequency":0,"output_voltage":0,"output_current":0,"output_frequency":0,"output_active_power":0,"output_apparent_power":0,"load_rate":0,"cabinet_temperature":0,"battery_voltage":0,"remaining_battery_capacity":0,"power_on_status":"å¼€æœºå®Œæˆ","power_supply_mode":"","fault":false,"battery_low_voltage":false,"mains_supply_abnormality":false}}}
+2022/06/21 17:10:20
+receive:{"code":"200","message":"³É¹¦","timestamp":1655802620201,"data":true,"success":true}
+2022/06/21 17:11:19
+send:{"time":"2022-06-21 17:11:19","data":{"ups":{"input_voltage":0,"input_frequency":0,"output_voltage":0,"output_current":0,"output_frequency":0,"output_active_power":0,"output_apparent_power":0,"load_rate":0,"cabinet_temperature":0,"battery_voltage":0,"remaining_battery_capacity":0,"power_on_status":"å¼€æœºå®Œæˆ","power_supply_mode":"","fault":false,"battery_low_voltage":false,"mains_supply_abnormality":false}}}
+2022/06/21 17:11:19
+receive:{"code":"200","message":"³É¹¦","timestamp":1655802679384,"data":true,"success":true}
+2022/06/21 17:12:19
+send:{"time":"2022-06-21 17:12:19","data":{"ups":{"input_voltage":0,"input_frequency":0,"output_voltage":0,"output_current":0,"output_frequency":0,"output_active_power":0,"output_apparent_power":0,"load_rate":0,"cabinet_temperature":0,"battery_voltage":0,"remaining_battery_capacity":0,"power_on_status":"å¼€æœºå®Œæˆ","power_supply_mode":"","fault":false,"battery_low_voltage":false,"mains_supply_abnormality":false}}}
+2022/06/21 17:12:19
+receive:{"code":"200","message":"³É¹¦","timestamp":1655802739400,"data":true,"success":true}
+2022/06/21 17:13:19
+send:{"time":"2022-06-21 17:13:19","data":{"ups":{"input_voltage":0,"input_frequency":0,"output_voltage":0,"output_current":0,"output_frequency":0,"output_active_power":0,"output_apparent_power":0,"load_rate":0,"cabinet_temperature":0,"battery_voltage":0,"remaining_battery_capacity":0,"power_on_status":"å¼€æœºå®Œæˆ","power_supply_mode":"","fault":false,"battery_low_voltage":false,"mains_supply_abnormality":false}}}
+2022/06/21 17:13:19
+receive:{"code":"200","message":"³É¹¦","timestamp":1655802799391,"data":true,"success":true}
+2022/06/21 17:14:19
+send:{"time":"2022-06-21 17:14:19","data":{"ups":{"input_voltage":0,"input_frequency":0,"output_voltage":0,"output_current":0,"output_frequency":0,"output_active_power":0,"output_apparent_power":0,"load_rate":0,"cabinet_temperature":0,"battery_voltage":0,"remaining_battery_capacity":0,"power_on_status":"å¼€æœºå®Œæˆ","power_supply_mode":"","fault":false,"battery_low_voltage":false,"mains_supply_abnormality":false},"air_conditioner":{"cabinet_temperature":0,"air_supply_temperature":0,"voltage":0,"current":0,"compressor_status":"","Internal_fan_status":"","external_fan_status":"","heating_state":"","refrigeration_state":false,"high_temperature_alarm":false,"low_temperature_alarm":false,"heater_fault":false,"temperature_sensor_fault":false,"high_voltage_alarm":false,"low_voltage_alarm":false,"refrigeration_start_point":0,"refrigeration_sensitive_point":0,"heating_start_point":0,"heating_sensitive_point":0,"high_temperature_alarm_point":0,"low_temperature_alarm_point":0},"smoke_sensor":{"trigger_alarm":false},"water_immersion_sensor":{"trigger_alarm":false},"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false},"gps":{"current_longitude":0,"current_latitude":0,"launch_longitude":0,"launch_latitude":0,"shift_alarm":false},"solar_controller":{"array_voltage":0,"array_current":0,"generating_power":0,"battery_voltage":0,"battery_current":0,"ceiling_voltage":0,"minimum_voltage":0,"battery_temperature":0,"remaining_battery_capacity":0,"load_voltage":0,"load_current":0,"load_power":0,"equipment_temperature":0,"accumulated_electricity_consumption_of_the_day":0,"accumulated_electricity_consumption_of_the_current_month":0,"accumulated_electricity_consumption_in_the_current_year":0,"total_accumulated_power_consumption":0,"accumulated_charging_capacity_of_the_day":0,"accumulated_charging_amount_of_the_current_month":0,"accumulated_charging_capacity_of_the_current_year":0,"total_cumulative_charge":0}}}
+2022/06/21 17:14:29
+receive:
+2022/06/21 17:15:19
+send:{"time":"2022-06-21 17:15:19","data":{"ups":{"input_voltage":0,"input_frequency":0,"output_voltage":0,"output_current":0,"output_frequency":0,"output_active_power":0,"output_apparent_power":0,"load_rate":0,"cabinet_temperature":0,"battery_voltage":0,"remaining_battery_capacity":0,"power_on_status":"å¼€æœºå®Œæˆ","power_supply_mode":"","fault":false,"battery_low_voltage":false,"mains_supply_abnormality":false},"air_conditioner":{"cabinet_temperature":0,"air_supply_temperature":0,"voltage":0,"current":0,"compressor_status":"","Internal_fan_status":"","external_fan_status":"","heating_state":"","refrigeration_state":false,"high_temperature_alarm":false,"low_temperature_alarm":false,"heater_fault":false,"temperature_sensor_fault":false,"high_voltage_alarm":false,"low_voltage_alarm":false,"refrigeration_start_point":0,"refrigeration_sensitive_point":0,"heating_start_point":0,"heating_sensitive_point":0,"high_temperature_alarm_point":0,"low_temperature_alarm_point":0},"smoke_sensor":{"trigger_alarm":false},"water_immersion_sensor":{"trigger_alarm":false},"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false},"gps":{"current_longitude":0,"current_latitude":0,"launch_longitude":0,"launch_latitude":0,"shift_alarm":false},"solar_controller":{"array_voltage":0,"array_current":0,"generating_power":0,"battery_voltage":0,"battery_current":0,"ceiling_voltage":0,"minimum_voltage":0,"battery_temperature":0,"remaining_battery_capacity":0,"load_voltage":0,"load_current":0,"load_power":0,"equipment_temperature":0,"accumulated_electricity_consumption_of_the_day":0,"accumulated_electricity_consumption_of_the_current_month":0,"accumulated_electricity_consumption_in_the_current_year":0,"total_accumulated_power_consumption":0,"accumulated_charging_capacity_of_the_day":0,"accumulated_charging_amount_of_the_current_month":0,"accumulated_charging_capacity_of_the_current_year":0,"total_cumulative_charge":0}}}
+2022/06/21 17:15:29
+receive:
+2022/06/21 17:16:41
+send:{"time":"2022-06-21 17:16:39","data":{"ups":{"input_voltage":0,"input_frequency":0,"output_voltage":0,"output_current":0,"output_frequency":0,"output_active_power":0,"output_apparent_power":0,"load_rate":0,"cabinet_temperature":0,"battery_voltage":0,"remaining_battery_capacity":0,"power_on_status":"å¼€æœºå®Œæˆ","power_supply_mode":"","fault":false,"battery_low_voltage":false,"mains_supply_abnormality":false},"air_conditioner":{"cabinet_temperature":0,"air_supply_temperature":0,"voltage":0,"current":0,"compressor_status":"","Internal_fan_status":"","external_fan_status":"","heating_state":"","refrigeration_state":false,"high_temperature_alarm":false,"low_temperature_alarm":false,"heater_fault":false,"temperature_sensor_fault":false,"high_voltage_alarm":false,"low_voltage_alarm":false,"refrigeration_start_point":0,"refrigeration_sensitive_point":0,"heating_start_point":0,"heating_sensitive_point":0,"high_temperature_alarm_point":0,"low_temperature_alarm_point":0},"smoke_sensor":{"trigger_alarm":false},"water_immersion_sensor":{"trigger_alarm":false},"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false},"gps":{"current_longitude":0,"current_latitude":0,"launch_longitude":0,"launch_latitude":0,"shift_alarm":false},"solar_controller":{"array_voltage":0,"array_current":0,"generating_power":0,"battery_voltage":0,"battery_current":0,"ceiling_voltage":0,"minimum_voltage":0,"battery_temperature":0,"remaining_battery_capacity":0,"load_voltage":0,"load_current":0,"load_power":0,"equipment_temperature":0,"accumulated_electricity_consumption_of_the_day":0,"accumulated_electricity_consumption_of_the_current_month":0,"accumulated_electricity_consumption_in_the_current_year":0,"total_accumulated_power_consumption":0,"accumulated_charging_capacity_of_the_day":0,"accumulated_charging_amount_of_the_current_month":0,"accumulated_charging_capacity_of_the_current_year":0,"total_cumulative_charge":0}}}
+2022/06/21 17:17:41
+receive:
+2022/06/21 17:17:41
+send:{"time":"2022-06-21 17:17:39","data":{"ups":{"input_voltage":0,"input_frequency":0,"output_voltage":0,"output_current":0,"output_frequency":0,"output_active_power":0,"output_apparent_power":0,"load_rate":0,"cabinet_temperature":0,"battery_voltage":0,"remaining_battery_capacity":0,"power_on_status":"å¼€æœºå®Œæˆ","power_supply_mode":"","fault":false,"battery_low_voltage":false,"mains_supply_abnormality":false},"smoke_sensor":{"trigger_alarm":false},"water_immersion_sensor":{"trigger_alarm":false},"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false},"gps":{"current_longitude":0,"current_latitude":0,"launch_longitude":0,"launch_latitude":0,"shift_alarm":false},"solar_controller":{"array_voltage":0,"array_current":0,"generating_power":0,"battery_voltage":0,"battery_current":0,"ceiling_voltage":0,"minimum_voltage":0,"battery_temperature":0,"remaining_battery_capacity":0,"load_voltage":0,"load_current":0,"load_power":0,"equipment_temperature":0,"accumulated_electricity_consumption_of_the_day":0,"accumulated_electricity_consumption_of_the_current_month":0,"accumulated_electricity_consumption_in_the_current_year":0,"total_accumulated_power_consumption":0,"accumulated_charging_capacity_of_the_day":0,"accumulated_charging_amount_of_the_current_month":0,"accumulated_charging_capacity_of_the_current_year":0,"total_cumulative_charge":0}}}
+2022/06/21 17:18:43
+send:{"time":"2022-06-21 17:18:42","data":{"ups":{"input_voltage":0,"input_frequency":0,"output_voltage":0,"output_current":0,"output_frequency":0,"output_active_power":0,"output_apparent_power":0,"load_rate":0,"cabinet_temperature":0,"battery_voltage":0,"remaining_battery_capacity":0,"power_on_status":"å¼€æœºå®Œæˆ","power_supply_mode":"","fault":false,"battery_low_voltage":false,"mains_supply_abnormality":false},"smoke_sensor":{"trigger_alarm":false},"water_immersion_sensor":{"trigger_alarm":false},"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false},"gps":{"current_longitude":0,"current_latitude":0,"launch_longitude":0,"launch_latitude":0,"shift_alarm":false}}}
+2022/06/21 17:18:44
+receive:{"code":"200","message":"³É¹¦","timestamp":1655803124400,"data":true,"success":true}
+2022/06/21 17:19:42
+send:{"time":"2022-06-21 17:19:42","data":{"ups":{"input_voltage":0,"input_frequency":0,"output_voltage":0,"output_current":0,"output_frequency":0,"output_active_power":0,"output_apparent_power":0,"load_rate":0,"cabinet_temperature":0,"battery_voltage":0,"remaining_battery_capacity":0,"power_on_status":"å¼€æœºå®Œæˆ","power_supply_mode":"","fault":false,"battery_low_voltage":false,"mains_supply_abnormality":false},"air_conditioner":{"cabinet_temperature":0,"air_supply_temperature":0,"voltage":0,"current":0,"compressor_status":"","Internal_fan_status":"","external_fan_status":"","heating_state":"","refrigeration_state":false,"high_temperature_alarm":false,"low_temperature_alarm":false,"heater_fault":false,"temperature_sensor_fault":false,"high_voltage_alarm":false,"low_voltage_alarm":false,"refrigeration_start_point":0,"refrigeration_sensitive_point":0,"heating_start_point":0,"heating_sensitive_point":0,"high_temperature_alarm_point":0,"low_temperature_alarm_point":0},"smoke_sensor":{"trigger_alarm":false},"water_immersion_sensor":{"trigger_alarm":false},"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false},"gps":{"current_longitude":0,"current_latitude":0,"launch_longitude":0,"launch_latitude":0,"shift_alarm":false}}}
+2022/06/21 17:19:52
+receive:
+2022/06/21 17:20:42
+send:{"time":"2022-06-21 17:20:42","data":{"ups":{"input_voltage":0,"input_frequency":0,"output_voltage":0,"output_current":0,"output_frequency":0,"output_active_power":0,"output_apparent_power":0,"load_rate":0,"cabinet_temperature":0,"battery_voltage":0,"remaining_battery_capacity":0,"power_on_status":"å¼€æœºå®Œæˆ","power_supply_mode":"","fault":false,"battery_low_voltage":false,"mains_supply_abnormality":false},"air_conditioner":{"cabinet_temperature":0,"air_supply_temperature":0,"voltage":0,"current":0,"compressor_status":"","Internal_fan_status":"","external_fan_status":"","heating_state":"","refrigeration_state":false,"high_temperature_alarm":false,"low_temperature_alarm":false,"heater_fault":false,"temperature_sensor_fault":false,"high_voltage_alarm":false,"low_voltage_alarm":false,"refrigeration_start_point":0,"refrigeration_sensitive_point":0,"heating_start_point":0,"heating_sensitive_point":0,"high_temperature_alarm_point":0,"low_temperature_alarm_point":0},"smoke_sensor":{"trigger_alarm":false},"water_immersion_sensor":{"trigger_alarm":false},"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false},"gps":{"current_longitude":0,"current_latitude":0,"launch_longitude":0,"launch_latitude":0,"shift_alarm":false}}}
+2022/06/21 17:20:52
+receive:
+2022/06/21 17:21:42
+send:{"time":"2022-06-21 17:21:42","data":{"ups":{"input_voltage":0,"input_frequency":0,"output_voltage":0,"output_current":0,"output_frequency":0,"output_active_power":0,"output_apparent_power":0,"load_rate":0,"cabinet_temperature":0,"battery_voltage":0,"remaining_battery_capacity":0,"power_on_status":"å¼€æœºå®Œæˆ","power_supply_mode":"","fault":false,"battery_low_voltage":false,"mains_supply_abnormality":false},"smoke_sensor":{"trigger_alarm":false},"water_immersion_sensor":{"trigger_alarm":false},"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false},"gps":{"current_longitude":0,"current_latitude":0,"launch_longitude":0,"launch_latitude":0,"shift_alarm":false}}}
+2022/06/21 17:21:42
+receive:{"code":"200","message":"³É¹¦","timestamp":1655803303114,"data":true,"success":true}
+2022/06/21 17:22:42
+send:{"time":"2022-06-21 17:22:42","data":{"ups":{"input_voltage":0,"input_frequency":0,"output_voltage":0,"output_current":0,"output_frequency":0,"output_active_power":0,"output_apparent_power":0,"load_rate":0,"cabinet_temperature":0,"battery_voltage":0,"remaining_battery_capacity":0,"power_on_status":"å¼€æœºå®Œæˆ","power_supply_mode":"","fault":false,"battery_low_voltage":false,"mains_supply_abnormality":false},"smoke_sensor":{"trigger_alarm":false},"water_immersion_sensor":{"trigger_alarm":false},"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false},"gps":{"current_longitude":0,"current_latitude":0,"launch_longitude":0,"launch_latitude":0,"shift_alarm":false}}}
+2022/06/21 17:22:42
+receive:{"code":"200","message":"³É¹¦","timestamp":1655803363096,"data":true,"success":true}
+2022/06/21 17:23:42
+send:{"time":"2022-06-21 17:23:42","data":{"ups":{"input_voltage":0,"input_frequency":0,"output_voltage":0,"output_current":0,"output_frequency":0,"output_active_power":0,"output_apparent_power":0,"load_rate":0,"cabinet_temperature":0,"battery_voltage":0,"remaining_battery_capacity":0,"power_on_status":"å¼€æœºå®Œæˆ","power_supply_mode":"","fault":false,"battery_low_voltage":false,"mains_supply_abnormality":false},"smoke_sensor":{"trigger_alarm":false},"water_immersion_sensor":{"trigger_alarm":false},"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false},"gps":{"current_longitude":0,"current_latitude":0,"launch_longitude":0,"launch_latitude":0,"shift_alarm":false}}}
+2022/06/21 17:23:43
+receive:{"code":"200","message":"³É¹¦","timestamp":1655803423121,"data":true,"success":true}
+2022/06/21 17:24:42
+send:{"time":"2022-06-21 17:24:42","data":{"ups":{"input_voltage":0,"input_frequency":0,"output_voltage":0,"output_current":0,"output_frequency":0,"output_active_power":0,"output_apparent_power":0,"load_rate":0,"cabinet_temperature":0,"battery_voltage":0,"remaining_battery_capacity":0,"power_on_status":"å¼€æœºå®Œæˆ","power_supply_mode":"","fault":false,"battery_low_voltage":false,"mains_supply_abnormality":false},"smoke_sensor":{"trigger_alarm":false},"water_immersion_sensor":{"trigger_alarm":false},"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false},"gps":{"current_longitude":0,"current_latitude":0,"launch_longitude":0,"launch_latitude":0,"shift_alarm":false}}}
+2022/06/21 17:24:43
+receive:{"code":"200","message":"³É¹¦","timestamp":1655803483193,"data":true,"success":true}
+2022/06/21 17:26:33
+send:{"time":"2022-06-21 17:26:31","data":{"ups":{"input_voltage":0,"input_frequency":0,"output_voltage":0,"output_current":0,"output_frequency":0,"output_active_power":0,"output_apparent_power":0,"load_rate":0,"cabinet_temperature":0,"battery_voltage":0,"remaining_battery_capacity":0,"power_on_status":"å¼€æœºå®Œæˆ","power_supply_mode":"","fault":false,"battery_low_voltage":false,"mains_supply_abnormality":false},"smoke_sensor":{"trigger_alarm":false},"water_immersion_sensor":{"trigger_alarm":false},"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false},"gps":{"current_longitude":0,"current_latitude":0,"launch_longitude":0,"launch_latitude":0,"shift_alarm":false}}}
+2022/06/21 17:26:34
+receive:{"code":"200","message":"³É¹¦","timestamp":1655803593626,"data":true,"success":true}
+2022/06/21 17:27:31
+send:{"time":"2022-06-21 17:27:31","data":{"ups":{"input_voltage":0,"input_frequency":0,"output_voltage":0,"output_current":0,"output_frequency":0,"output_active_power":0,"output_apparent_power":0,"load_rate":0,"cabinet_temperature":0,"battery_voltage":0,"remaining_battery_capacity":0,"power_on_status":"å¼€æœºå®Œæˆ","power_supply_mode":"","fault":false,"battery_low_voltage":false,"mains_supply_abnormality":false},"smoke_sensor":{"trigger_alarm":false},"water_immersion_sensor":{"trigger_alarm":false},"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false},"gps":{"current_longitude":0,"current_latitude":0,"launch_longitude":0,"launch_latitude":0,"shift_alarm":false}}}
+2022/06/21 17:27:32
+receive:{"code":"200","message":"³É¹¦","timestamp":1655803652234,"data":true,"success":true}
+2022/06/21 17:28:31
+send:{"time":"2022-06-21 17:28:31","data":{"ups":{"input_voltage":0,"input_frequency":0,"output_voltage":0,"output_current":0,"output_frequency":0,"output_active_power":0,"output_apparent_power":0,"load_rate":0,"cabinet_temperature":0,"battery_voltage":0,"remaining_battery_capacity":0,"power_on_status":"å¼€æœºå®Œæˆ","power_supply_mode":"","fault":false,"battery_low_voltage":false,"mains_supply_abnormality":false},"smoke_sensor":{"trigger_alarm":false},"water_immersion_sensor":{"trigger_alarm":false},"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false},"gps":{"current_longitude":0,"current_latitude":0,"launch_longitude":0,"launch_latitude":0,"shift_alarm":false}}}
+2022/06/21 17:28:32
+receive:{"code":"200","message":"³É¹¦","timestamp":1655803712267,"data":true,"success":true}
+2022/06/21 17:29:31
+send:{"time":"2022-06-21 17:29:31","data":{"ups":{"input_voltage":0,"input_frequency":0,"output_voltage":0,"output_current":0,"output_frequency":0,"output_active_power":0,"output_apparent_power":0,"load_rate":0,"cabinet_temperature":0,"battery_voltage":0,"remaining_battery_capacity":0,"power_on_status":"å¼€æœºå®Œæˆ","power_supply_mode":"","fault":false,"battery_low_voltage":false,"mains_supply_abnormality":false},"smoke_sensor":{"trigger_alarm":false},"water_immersion_sensor":{"trigger_alarm":false},"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false},"gps":{"current_longitude":0,"current_latitude":0,"launch_longitude":0,"launch_latitude":0,"shift_alarm":false}}}
+2022/06/21 17:29:32
+receive:{"code":"200","message":"³É¹¦","timestamp":1655803772283,"data":true,"success":true}
+2022/06/21 17:30:31
+send:{"time":"2022-06-21 17:30:31","data":{"ups":{"input_voltage":0,"input_frequency":0,"output_voltage":0,"output_current":0,"output_frequency":0,"output_active_power":0,"output_apparent_power":0,"load_rate":0,"cabinet_temperature":0,"battery_voltage":0,"remaining_battery_capacity":0,"power_on_status":"å¼€æœºå®Œæˆ","power_supply_mode":"","fault":false,"battery_low_voltage":false,"mains_supply_abnormality":false},"smoke_sensor":{"trigger_alarm":false},"water_immersion_sensor":{"trigger_alarm":false},"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false},"gps":{"current_longitude":0,"current_latitude":0,"launch_longitude":0,"launch_latitude":0,"shift_alarm":false}}}
+2022/06/21 17:30:32
+receive:{"code":"200","message":"³É¹¦","timestamp":1655803832333,"data":true,"success":true}
+2022/06/21 17:43:07
+send:{"time":"2022-06-21 17:43:06","data":{"ups":{"input_voltage":0,"input_frequency":0,"output_voltage":0,"output_current":0,"output_frequency":0,"output_active_power":0,"output_apparent_power":0,"load_rate":0,"cabinet_temperature":0,"battery_voltage":0,"remaining_battery_capacity":0,"power_on_status":"å¼€æœºå®Œæˆ","power_supply_mode":"","fault":false,"battery_low_voltage":false,"mains_supply_abnormality":false}}}
+2022/06/21 17:43:07
+receive:{"code":"200","message":"³É¹¦","timestamp":1655804587366,"data":true,"success":true}
+2022/06/21 17:43:07
+send:{"time":"2022-06-21 17:43:06","data":{"air_conditioner":{"cabinet_temperature":0,"air_supply_temperature":0,"voltage":0,"current":0,"compressor_status":"","Internal_fan_status":"","external_fan_status":"","heating_state":"","refrigeration_state":false,"high_temperature_alarm":false,"low_temperature_alarm":false,"heater_fault":false,"temperature_sensor_fault":false,"high_voltage_alarm":false,"low_voltage_alarm":false,"refrigeration_start_point":0,"refrigeration_sensitive_point":0,"heating_start_point":0,"heating_sensitive_point":0,"high_temperature_alarm_point":0,"low_temperature_alarm_point":0}}}
+2022/06/21 17:43:07
+receive:{"code":"200","message":"³É¹¦","timestamp":1655804588052,"data":true,"success":true}
+2022/06/21 17:43:08
+send:{"time":"2022-06-21 17:43:06","data":{"smoke_sensor":{"trigger_alarm":false}}}
+2022/06/21 17:43:08
+receive:{"code":"200","message":"³É¹¦","timestamp":1655804588444,"data":true,"success":true}
+2022/06/21 17:43:08
+send:{"time":"2022-06-21 17:43:06","data":{"water_immersion_sensor":{"trigger_alarm":false}}}
+2022/06/21 17:43:08
+receive:{"code":"200","message":"³É¹¦","timestamp":1655804589052,"data":true,"success":true}
+2022/06/21 17:43:08
+send:{"time":"2022-06-21 17:43:06","data":{"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false}}}
+2022/06/21 17:43:09
+receive:{"code":"200","message":"³É¹¦","timestamp":1655804589335,"data":true,"success":true}
+2022/06/21 17:43:09
+send:{"time":"2022-06-21 17:43:06","data":{"gps":{"current_longitude":0,"current_latitude":0,"launch_longitude":0,"launch_latitude":0,"shift_alarm":false}}}
+2022/06/21 17:43:09
+receive:{"code":"200","message":"³É¹¦","timestamp":1655804589818,"data":true,"success":true}
+2022/06/21 17:43:09
+send:{"time":"2022-06-21 17:43:06","data":{"solar_controller":{"array_voltage":0,"array_current":0,"generating_power":0,"battery_voltage":0,"battery_current":0,"ceiling_voltage":0,"minimum_voltage":0,"battery_temperature":0,"remaining_battery_capacity":0,"load_voltage":0,"load_current":0,"load_power":0,"equipment_temperature":0,"accumulated_electricity_consumption_of_the_day":0,"accumulated_electricity_consumption_of_the_current_month":0,"accumulated_electricity_consumption_in_the_current_year":0,"total_accumulated_power_consumption":0,"accumulated_charging_capacity_of_the_day":0,"accumulated_charging_amount_of_the_current_month":0,"accumulated_charging_capacity_of_the_current_year":0,"total_cumulative_charge":0}}}
+2022/06/21 17:43:10
+receive:{"code":"200","message":"³É¹¦","timestamp":1655804590218,"data":true,"success":true}
+2022/06/21 17:43:10
+send:{"time":"2022-06-21 17:43:06","data":{"solar_controller_2":{"array_voltage":0,"array_current":0,"generating_power":0,"battery_voltage":0,"battery_current":0,"ceiling_voltage":0,"minimum_voltage":0,"battery_temperature":0,"remaining_battery_capacity":0,"load_voltage":0,"load_current":0,"load_power":0,"equipment_temperature":0,"accumulated_electricity_consumption_of_the_day":0,"accumulated_electricity_consumption_of_the_current_month":0,"accumulated_electricity_consumption_in_the_current_year":0,"total_accumulated_power_consumption":0,"accumulated_charging_capacity_of_the_day":0,"accumulated_charging_amount_of_the_current_month":0,"accumulated_charging_capacity_of_the_current_year":0,"total_cumulative_charge":0}}}
+2022/06/21 17:43:10
+receive:{"code":"200","message":"³É¹¦","timestamp":1655804590735,"data":true,"success":true}
+2022/06/21 17:43:42
+send:{"time":"2022-06-21 17:43:41","data":{"ups":{"input_voltage":0,"input_frequency":0,"output_voltage":0,"output_current":0,"output_frequency":0,"output_active_power":0,"output_apparent_power":0,"load_rate":0,"cabinet_temperature":0,"battery_voltage":0,"remaining_battery_capacity":0,"power_on_status":"å¼€æœºå®Œæˆ","power_supply_mode":"","fault":false,"battery_low_voltage":false,"mains_supply_abnormality":false}}}
+2022/06/21 17:43:42
+receive:{"code":"200","message":"³É¹¦","timestamp":1655804622262,"data":true,"success":true}
+2022/06/21 17:43:42
+send:{"time":"2022-06-21 17:43:41","data":{"air_conditioner":{"cabinet_temperature":0,"air_supply_temperature":0,"voltage":0,"current":0,"compressor_status":"","Internal_fan_status":"","external_fan_status":"","heating_state":"","refrigeration_state":false,"high_temperature_alarm":false,"low_temperature_alarm":false,"heater_fault":false,"temperature_sensor_fault":false,"high_voltage_alarm":false,"low_voltage_alarm":false,"refrigeration_start_point":0,"refrigeration_sensitive_point":0,"heating_start_point":0,"heating_sensitive_point":0,"high_temperature_alarm_point":0,"low_temperature_alarm_point":0}}}
+2022/06/21 17:43:42
+receive:{"code":"200","message":"³É¹¦","timestamp":1655804622746,"data":true,"success":true}
+2022/06/21 17:43:42
+send:{"time":"2022-06-21 17:43:41","data":{"smoke_sensor":{"trigger_alarm":false}}}
+2022/06/21 17:43:43
+receive:{"code":"200","message":"³É¹¦","timestamp":1655804623171,"data":true,"success":true}
+2022/06/21 17:43:43
+send:{"time":"2022-06-21 17:43:41","data":{"water_immersion_sensor":{"trigger_alarm":false}}}
+2022/06/21 17:43:43
+receive:{"code":"200","message":"³É¹¦","timestamp":1655804623579,"data":true,"success":true}
+2022/06/21 17:43:43
+send:{"time":"2022-06-21 17:43:41","data":{"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false}}}
+2022/06/21 17:43:43
+receive:{"code":"200","message":"³É¹¦","timestamp":1655804624129,"data":true,"success":true}
+2022/06/21 17:43:43
+send:{"time":"2022-06-21 17:43:41","data":{"gps":{"current_longitude":0,"current_latitude":0,"launch_longitude":0,"launch_latitude":0,"shift_alarm":false}}}
+2022/06/21 17:43:44
+receive:{"code":"200","message":"³É¹¦","timestamp":1655804624681,"data":true,"success":true}
+2022/06/21 17:43:44
+send:{"time":"2022-06-21 17:43:41","data":{"solar_controller":{"array_voltage":0,"array_current":0,"generating_power":0,"battery_voltage":0,"battery_current":0,"ceiling_voltage":0,"minimum_voltage":0,"battery_temperature":0,"remaining_battery_capacity":0,"load_voltage":0,"load_current":0,"load_power":0,"equipment_temperature":0,"accumulated_electricity_consumption_of_the_day":0,"accumulated_electricity_consumption_of_the_current_month":0,"accumulated_electricity_consumption_in_the_current_year":0,"total_accumulated_power_consumption":0,"accumulated_charging_capacity_of_the_day":0,"accumulated_charging_amount_of_the_current_month":0,"accumulated_charging_capacity_of_the_current_year":0,"total_cumulative_charge":0}}}
+2022/06/21 17:43:44
+receive:{"code":"200","message":"³É¹¦","timestamp":1655804625128,"data":true,"success":true}
+2022/06/21 17:43:44
+send:{"time":"2022-06-21 17:43:41","data":{"solar_controller_2":{"array_voltage":0,"array_current":0,"generating_power":0,"battery_voltage":0,"battery_current":0,"ceiling_voltage":0,"minimum_voltage":0,"battery_temperature":0,"remaining_battery_capacity":0,"load_voltage":0,"load_current":0,"load_power":0,"equipment_temperature":0,"accumulated_electricity_consumption_of_the_day":0,"accumulated_electricity_consumption_of_the_current_month":0,"accumulated_electricity_consumption_in_the_current_year":0,"total_accumulated_power_consumption":0,"accumulated_charging_capacity_of_the_day":0,"accumulated_charging_amount_of_the_current_month":0,"accumulated_charging_capacity_of_the_current_year":0,"total_cumulative_charge":0}}}
+2022/06/21 17:43:45
+receive:{"code":"200","message":"³É¹¦","timestamp":1655804625378,"data":true,"success":true}
