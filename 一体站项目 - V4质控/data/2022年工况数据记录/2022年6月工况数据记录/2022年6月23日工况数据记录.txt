@@ -1,0 +1,72 @@
+2022/06/23 11:10:08
+send:{"time":"2022-06-23 11:10:06","data":{"ups":{"input_voltage":0,"input_frequency":0,"output_voltage":0,"output_current":0,"output_frequency":0,"output_active_power":0,"output_apparent_power":0,"load_rate":0,"cabinet_temperature":0,"battery_voltage":0,"remaining_battery_capacity":0,"power_on_status":"","power_supply_mode":"","fault":false,"battery_low_voltage":false,"mains_supply_abnormality":false}}}
+2022/06/23 11:10:08
+receive:{"code":"200","message":"成功","timestamp":1655953807143,"data":true,"success":true}
+2022/06/23 11:10:09
+send:{"time":"2022-06-23 11:10:06","data":{"water_immersion_sensor":{"trigger_alarm":false}}}
+2022/06/23 11:10:09
+receive:{"code":"200","message":"成功","timestamp":1655953807276,"data":true,"success":true}
+2022/06/23 11:10:11
+send:{"time":"2022-06-23 11:10:06","data":{"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false}}}
+2022/06/23 11:10:11
+receive:{"code":"200","message":"成功","timestamp":1655953807476,"data":true,"success":true}
+2022/06/23 11:10:12
+send:{"time":"2022-06-23 11:10:06","data":{"gps":{"current_longitude":0,"current_latitude":0,"launch_longitude":0,"launch_latitude":0,"shift_alarm":false}}}
+2022/06/23 11:10:12
+receive:{"code":"200","message":"成功","timestamp":1655953808501,"data":true,"success":true}
+2022/06/23 11:12:40
+send:{"time":"2022-06-23 11:12:40","data":{"ups":{"input_voltage":0,"input_frequency":0,"output_voltage":0,"output_current":0,"output_frequency":0,"output_active_power":0,"output_apparent_power":0,"load_rate":0,"cabinet_temperature":0,"battery_voltage":0,"remaining_battery_capacity":0,"power_on_status":"","power_supply_mode":"","fault":false,"battery_low_voltage":false,"mains_supply_abnormality":false}}}
+2022/06/23 11:12:40
+receive:{"code":"200","message":"成功","timestamp":1655953960737,"data":true,"success":true}
+2022/06/23 11:12:42
+send:{"time":"2022-06-23 11:12:40","data":{"water_immersion_sensor":{"trigger_alarm":false}}}
+2022/06/23 11:12:42
+receive:{"code":"200","message":"成功","timestamp":1655953960829,"data":true,"success":true}
+2022/06/23 11:12:43
+send:{"time":"2022-06-23 11:12:40","data":{"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false}}}
+2022/06/23 11:12:43
+receive:{"code":"200","message":"成功","timestamp":1655953960995,"data":true,"success":true}
+2022/06/23 11:12:44
+send:{"time":"2022-06-23 11:12:40","data":{"gps":{"current_longitude":0,"current_latitude":0,"launch_longitude":0,"launch_latitude":0,"shift_alarm":false}}}
+2022/06/23 11:12:44
+receive:{"code":"200","message":"成功","timestamp":1655953961238,"data":true,"success":true}
+2022/06/23 11:14:31
+send:{"time":"2022-06-23 11:14:30","data":{"ups":{"input_voltage":0,"input_frequency":0,"output_voltage":0,"output_current":0,"output_frequency":0,"output_active_power":0,"output_apparent_power":0,"load_rate":0,"cabinet_temperature":0,"battery_voltage":0,"remaining_battery_capacity":0,"power_on_status":"","power_supply_mode":"","fault":false,"battery_low_voltage":false,"mains_supply_abnormality":false}}}
+2022/06/23 11:14:31
+receive:{"code":"200","message":"成功","timestamp":1655954071478,"data":true,"success":true}
+2022/06/23 11:14:32
+send:{"time":"2022-06-23 11:14:30","data":{"water_immersion_sensor":{"trigger_alarm":false}}}
+2022/06/23 11:14:33
+receive:{"code":"200","message":"成功","timestamp":1655954071619,"data":true,"success":true}
+2022/06/23 11:14:34
+send:{"time":"2022-06-23 11:14:30","data":{"temperature_and_humidity_sensor":{"current_temperature":0,"current_humidity":0,"room_temperature_alarm":false,"humidity_alarm":false}}}
+2022/06/23 11:14:34
+receive:{"code":"200","message":"成功","timestamp":1655954071779,"data":true,"success":true}
+2022/06/23 11:14:35
+send:{"time":"2022-06-23 11:14:30","data":{"gps":{"current_longitude":0,"current_latitude":0,"launch_longitude":0,"launch_latitude":0,"shift_alarm":false}}}
+2022/06/23 11:14:35
+receive:{"code":"200","message":"成功","timestamp":1655954071953,"data":true,"success":true}
+2022/06/23 14:28:03
+send:{"time":"2022-06-23 14:27:59","data":{"ups":{"input_voltage":0,"input_frequency":0,"output_voltage":0,"output_current":0,"output_frequency":0,"output_active_power":0,"output_apparent_power":0,"load_rate":0,"cabinet_temperature":0,"battery_voltage":0,"remaining_battery_capacity":0,"power_on_status":"","power_supply_mode":"","fault":false,"battery_low_voltage":false,"mains_supply_abnormality":false}}}
+2022/06/23 14:28:05
+receive:{"code":"200","message":"成功","timestamp":1655965683140,"data":true,"success":true}
+2022/06/23 14:28:06
+send:{"time":"2022-06-23 14:27:59","data":{"air_conditioner":{"cabinet_temperature":0,"air_supply_temperature":0,"voltage":0,"current":0,"compressor_status":"","Internal_fan_status":"","external_fan_status":"","heating_state":"","refrigeration_state":false,"high_temperature_alarm":false,"low_temperature_alarm":false,"heater_fault":false,"temperature_sensor_fault":false,"high_voltage_alarm":false,"low_voltage_alarm":false,"refrigeration_start_point":0,"refrigeration_sensitive_point":0,"heating_start_point":0,"heating_sensitive_point":0,"high_temperature_alarm_point":0,"low_temperature_alarm_point":0}}}
+2022/06/23 14:28:08
+receive:{"code":"200","message":"成功","timestamp":1655965683498,"data":true,"success":true}
+2022/06/23 14:28:09
+send:{"time":"2022-06-23 14:27:59","data":{"smoke_sensor":{"trigger_alarm":false}}}
+2022/06/23 14:28:11
+receive:{"code":"200","message":"成功","timestamp":1655965683656,"data":true,"success":true}
+2022/06/23 14:28:12
+send:{"time":"2022-06-23 14:27:59","data":{"water_immersion_sensor":{"trigger_alarm":false}}}
+2022/06/23 14:28:14
+receive:{"code":"200","message":"成功","timestamp":1655965683831,"data":true,"success":true}
+2022/06/23 14:28:14
+send:{"time":"2022-06-23 14:27:59","data":{"temperature_and_humidity_sensor":{"current_temperature":-75.00000,"current_humidity":-25.00000,"room_temperature_alarm":true,"humidity_alarm":true}}}
+2022/06/23 14:28:16
+receive:{"code":"200","message":"成功","timestamp":1655965683948,"data":true,"success":true}
+2022/06/23 14:28:16
+send:{"time":"2022-06-23 14:27:59","data":{"gps":{"current_longitude":0,"current_latitude":0,"launch_longitude":0,"launch_latitude":0,"shift_alarm":false}}}
+2022/06/23 14:28:17
+receive:{"code":"200","message":"成功","timestamp":1655965684094,"data":true,"success":true}

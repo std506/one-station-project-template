@@ -49200,4 +49200,46 @@ b 更换温度探头</solution>
       <solution>排查问题原因，根据实际情况解决问题；配水时间不足或配水与设备测试时间不配</solution>
     </solutionList>
   </data>
+  <data>
+    <id>1530140886153310209</id>
+    <componentParentId>0</componentParentId>
+    <componentParentName>std二级</componentParentName>
+    <componentParentPath>std</componentParentPath>
+    <componentId>1530078640681267202</componentId>
+    <componentName>std二级</componentName>
+    <faultName>新增故障二级2</faultName>
+    <equipVersion/>
+    <alarmCode>470100002</alarmCode>
+    <supportAlarm>true</supportAlarm>
+    <ipcAlarmCode/>
+    <sort>2</sort>
+  </data>
+  <data>
+    <id>1530140640635531266</id>
+    <componentParentId>0</componentParentId>
+    <componentParentName>std二级</componentParentName>
+    <componentParentPath>std二级</componentParentPath>
+    <componentId>1530078640681267202</componentId>
+    <componentName>std二级</componentName>
+    <faultName>新增故障二级</faultName>
+    <equipVersion/>
+    <alarmCode>470100001</alarmCode>
+    <supportAlarm>true</supportAlarm>
+    <ipcAlarmCode/>
+    <sort>1</sort>
+  </data>
+  <data>
+    <id>1530141027417468930</id>
+    <componentParentId>0</componentParentId>
+    <componentParentName>std六级</componentParentName>
+    <componentParentPath>std/std二级/std三级/std四级/std五级</componentParentPath>
+    <componentId>1530118463815168002</componentId>
+    <componentName>std六级</componentName>
+    <faultName>新增故障六级</faultName>
+    <equipVersion/>
+    <alarmCode>470101005</alarmCode>
+    <supportAlarm>true</supportAlarm>
+    <ipcAlarmCode/>
+    <sort>5</sort>
+  </data>
 </project></LVData>
