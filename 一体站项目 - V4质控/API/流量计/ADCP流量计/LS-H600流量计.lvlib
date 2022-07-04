@@ -6,6 +6,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="TCP Client.vi" Type="VI" URL="../TCP Client.vi"/>
 	<Item Name="UI.vi" Type="VI" URL="../UI.vi"/>
 	<Item Name="读取值.ctl" Type="VI" URL="../读取值.ctl"/>
 	<Item Name="通信.vi" Type="VI" URL="../通信.vi"/>
