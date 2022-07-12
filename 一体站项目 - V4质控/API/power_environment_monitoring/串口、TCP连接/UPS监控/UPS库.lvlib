@@ -32,4 +32,6 @@
 	<Item Name="华为UPS2000-G-(1-3KVA)界面.vi" Type="VI" URL="../华为UPS2000-G-(1-3KVA)界面.vi"/>
 	<Item Name="UPS配置同步 (子VI).vi" Type="VI" URL="../subvi/UPS配置同步 (子VI).vi"/>
 	<Item Name="UPS初始化变量(子VI).vi" Type="VI" URL="../UPS初始化变量(子VI).vi"/>
+	<Item Name="低电量告警对话框.vi" Type="VI" URL="../低电量告警对话框.vi"/>
+	<Item Name="UPS低电量告警参数配置.vi" Type="VI" URL="../UPS低电量告警参数配置.vi"/>
 </Library>
