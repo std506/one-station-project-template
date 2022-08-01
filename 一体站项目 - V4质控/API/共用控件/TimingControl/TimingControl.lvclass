@@ -319,11 +319,11 @@
 			<Item Name="命令输出.vi" Type="VI" URL="../命令输出.vi">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!+!!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!J!)14'^,;P!!$I!0(;IQFC!!!!!R.5;7VJ&lt;G&gt;$&lt;WZU=G^M,GRW&lt;'FC&amp;62J&lt;7FO:U.P&lt;H2S&lt;WQO&lt;(:D&lt;'&amp;T=R#Z_L(KP^D7RM0]Q?YO9X2M!+6!&amp;A!0#-&lt;UNK_SYM'`#,(KU@G[S\,J#-(DN?/[S\,J#,`HNMC[S\,J#,`6M.?SYML5#M;^U.$2_&lt;,CSN1)P./R[LP9SN5)P^7QV^#DV\Q)M?L2_&gt;#DV\Q/M`8+P,OPI[D(Z=_UI[E)T;07O&lt;,CSN1)UM@'^^&lt;9RP1%U+0+M1D%I]K^S?D7QQSSYM'`P/3Y^-HIVM-!!!C`W.&lt;'Q`T"\A!!%E!Q`````QCSYM'`MM\+`1!!%%"1!!-!"1!'!!=#N.A!!"*!1!!"`````Q!)"-L^PNU!!%B!=!!?!!!L%V2J&lt;7FO:U.P&lt;H2S&lt;WQO&lt;(:M;7)66'FN;7ZH1W^O&gt;(*P&lt;#ZM&gt;G.M98.T!"*5;7VJ&lt;G&gt;$&lt;WZU=G^M)-LEM`9!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!3%"Q!"Y!!#M46'FN;7ZH1W^O&gt;(*P&lt;#ZM&gt;GRJ9B65;7VJ&lt;G&gt;$&lt;WZU=G^M,GRW9WRB=X-!%F2J&lt;7FO:U.P&lt;H2S&lt;WQASO4)[Q!!91$Q!!Q!!Q!%!!E!#A!%!!1!"!!%!!M!"!!%!!Q$!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!$1!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">50331648</Property>
 				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1342710290</Property>
 			</Item>
 		</Item>
 		<Item Name="仪器时间" Type="Property Definition">
