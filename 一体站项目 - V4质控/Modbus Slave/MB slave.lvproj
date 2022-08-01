@@ -162,6 +162,7 @@
 			<Item Name="氨氮交互.ctl" Type="VI" URL="../../API/共用控件/内部交互/氨氮交互.ctl"/>
 			<Item Name="报警信息数据插入.vi" Type="VI" URL="../../API/database/Interface/报警信息数据插入.vi"/>
 			<Item Name="报警信息字段定义.ctl" Type="VI" URL="../../API/database/control/报警信息字段定义.ctl"/>
+			<Item Name="参数.ctl" Type="VI" URL="../../API/共用控件/内部交互/参数.ctl"/>
 			<Item Name="操作日志数据插入.vi" Type="VI" URL="../../API/database/Interface/操作日志数据插入.vi"/>
 			<Item Name="操作日志字段定义.ctl" Type="VI" URL="../../API/database/control/操作日志字段定义.ctl"/>
 			<Item Name="测试子流程.ctl" Type="VI" URL="../../API/共用控件/内部交互/测试子流程.ctl"/>

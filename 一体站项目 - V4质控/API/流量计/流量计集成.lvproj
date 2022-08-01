@@ -10,6 +10,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="example.vi" Type="VI" URL="../LS-H600-TCP Client/LS-H600-TCP Client/example.vi"/>
+		<Item Name="LS-H600-TCP Client.lvlib" Type="Library" URL="../LS-H600-TCP Client/LS-H600-TCP Client.lvlib"/>
 		<Item Name="流量计集成.lvlib" Type="Library" URL="../流量计集成.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -157,6 +159,7 @@
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
+				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
@@ -174,6 +177,7 @@
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
+				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
@@ -193,6 +197,7 @@
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
@@ -203,11 +208,13 @@
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
+				<Item Name="Time-Delay Override Options.ctl" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delay Override Options.ctl"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="Access Lib.lvlib" Type="Library" URL="../../database/Access/Access Lib.lvlib"/>
+			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="insert values.vi" Type="VI" URL="../../database/Interface/insert values.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="SQLite Lib.lvlib" Type="Library" URL="../../database/SQLite/SQLite Lib.lvlib"/>
@@ -217,6 +224,83 @@
 			<Item Name="外部调用接口全局变量.vi" Type="VI" URL="../../database/Interface/外部调用接口/外部调用接口全局变量.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
+			<Item Name="LS-H600-TCP Client" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{802B0245-74EE-4C54-BD56-033D8C252D24}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{1B27BFF0-C968-4D12-8A9A-88610F986533}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{1164BBD9-A76C-4DE6-9829-A5AAF409ABE4}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">LS-H600-TCP Client</Property>
+				<Property Name="Bld_defaultLanguage" Type="Str">ChineseS</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/LS-H600-TCP Client</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{E47B0696-C745-406D-9224-C8927F2CF69A}</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">LS-H600-TCP Client.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/LS-H600-TCP Client/LS-H600-TCP Client.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/LS-H600-TCP Client/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[0]" Type="Str">{3E6566D2-146C-4808-9600-C5EE30D53F83}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[1]" Type="Str">{5B360533-A89B-4F3B-BF7E-017EA7795A07}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[10]" Type="Str">{74596C50-7133-469A-9693-F928F968569B}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[11]" Type="Str">{8EC8058C-8B14-471B-B08D-B449641BBEF9}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[12]" Type="Str">{BD53116E-74D5-4C33-879A-BFEAAEFD89B5}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[13]" Type="Str">{2158C8DB-ED32-4E13-A0F3-E919205F71BC}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[14]" Type="Str">{CA0AE9C1-18B1-4D79-AEE8-19B3C567CF2F}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[15]" Type="Str">{806CED3D-FAF0-442A-A58E-2C310DC54E59}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[16]" Type="Str">{72823FBD-5079-44F6-8548-2B93BCBF7E7A}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[2]" Type="Str">{7D295C03-D063-4FE8-B8C4-26EA7318D03B}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[3]" Type="Str">{742BDA8E-3D07-44FE-86C3-5FE5C13062F0}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[4]" Type="Str">{36A72DD0-7D6E-415F-881A-048A43399418}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[5]" Type="Str">{1D7DB8E8-4AA5-4A5C-BBDE-F0E31C54ABB9}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[6]" Type="Str">{A50EEDDA-806A-43BE-89DB-CA9B97FEC158}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[7]" Type="Str">{E0EAC13B-3FCE-4AB7-9C68-B85684BB14D5}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[8]" Type="Str">{7A6E9FE6-8F44-46E8-A426-AD58C24CBE18}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[9]" Type="Str">{C14380D0-7CB2-40B8-9C79-F33218942C9A}</Property>
+				<Property Name="Exe_actXinfo_enumCLSIDsCount" Type="Int">17</Property>
+				<Property Name="Exe_actXinfo_majorVersion" Type="Int">5</Property>
+				<Property Name="Exe_actXinfo_minorVersion" Type="Int">5</Property>
+				<Property Name="Exe_actXinfo_objCLSID[0]" Type="Str">{6C551105-F612-4748-B481-CDAFDB209E77}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[1]" Type="Str">{F5F324B9-99CD-4A4B-8919-A19B893ADA55}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[10]" Type="Str">{AD828D5E-AFA5-4199-A141-5D8E3B8047B8}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[11]" Type="Str">{FD5F42B0-0C73-4296-9DF5-80FB5EAA2731}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[12]" Type="Str">{1A543D51-10B1-4536-BA22-566AFB214E50}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[13]" Type="Str">{A7C1294E-DFAE-452C-9977-0D1B3AA7847F}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[2]" Type="Str">{2BBC9F63-3E34-4D20-8A2E-E02B3E2DCF8D}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[3]" Type="Str">{C40AF58A-F02A-461C-8653-0A1FE378C016}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[4]" Type="Str">{82AB2FF3-7AC0-4E8F-9306-994A341D1210}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[5]" Type="Str">{65A23D2B-F8EB-43C2-93F3-B25C72E75C24}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[6]" Type="Str">{C6FAF80C-A34B-47B1-BBDA-E05987BE570E}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[7]" Type="Str">{E87EBB2E-7196-48F0-980F-2C560784D853}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[8]" Type="Str">{9E5C3E56-C747-461B-9C88-C5FDD02F20F4}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[9]" Type="Str">{ED5C602B-81DC-43DE-B080-4D65B0BBB751}</Property>
+				<Property Name="Exe_actXinfo_objCLSIDsCount" Type="Int">14</Property>
+				<Property Name="Exe_actXinfo_progIDPrefix" Type="Str">LSH600TCPClient</Property>
+				<Property Name="Exe_actXServerName" Type="Str">LSH600TCPClient</Property>
+				<Property Name="Exe_actXServerNameGUID" Type="Str"></Property>
+				<Property Name="Source[0].itemID" Type="Str">{EC9C7E5B-D6D7-4E5B-ADBC-EB651D7F74B5}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/example.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">LS-H600-TCP Client</Property>
+				<Property Name="TgtF_internalName" Type="Str">LS-H600-TCP Client</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">版权 2022 </Property>
+				<Property Name="TgtF_productName" Type="Str">LS-H600-TCP Client</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{ED3383BC-CEDC-471D-BCC4-C5885F774989}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">LS-H600-TCP Client.exe</Property>
+			</Item>
 			<Item Name="流量计" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{4C630663-A29B-4C1D-B60E-A5A515588A7D}</Property>
@@ -232,7 +316,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{1B51D083-55AF-4F58-B6A7-EA1E82726AC0}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">流量计.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/流量计.exe</Property>

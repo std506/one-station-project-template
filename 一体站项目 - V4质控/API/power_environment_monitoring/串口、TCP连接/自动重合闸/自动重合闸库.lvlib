@@ -8,4 +8,5 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="自动重合闸通信" Type="Folder"/>
 	<Item Name="市电监测-自动重合闸.vi" Type="VI" URL="../市电监测-自动重合闸.vi"/>
+	<Item Name="市电监测变量初始化.vi" Type="VI" URL="../市电监测变量初始化.vi"/>
 </Library>

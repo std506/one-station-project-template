@@ -54,4 +54,5 @@
 	</Item>
 	<Item Name="保存配置信息 (子VI).vi" Type="VI" URL="../保存配置信息 (子VI).vi"/>
 	<Item Name="读取配置信息 (子VI).vi" Type="VI" URL="../读取配置信息 (子VI).vi"/>
+	<Item Name="数据标识输出.vi" Type="VI" URL="../Subvi/数据标识输出.vi"/>
 </Library>
