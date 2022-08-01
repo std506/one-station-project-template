@@ -1118,6 +1118,7 @@
 			<Item Name="工况数据接口全局.vi" Type="VI" URL="../API/共用控件/工况数据/工况数据接口全局.vi"/>
 			<Item Name="工况数据.ctl" Type="VI" URL="../API/共用控件/工况数据/工况数据.ctl"/>
 			<Item Name="控制命令与参数.ctl" Type="VI" URL="../API/共用控件/内部交互/控制命令与参数.ctl"/>
+			<Item Name="工况数据上传.lvlib" Type="Library" URL="../API/工况数据对接/工况数据上传.lvlib"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="一体化微型水质监测站" Type="EXE">
