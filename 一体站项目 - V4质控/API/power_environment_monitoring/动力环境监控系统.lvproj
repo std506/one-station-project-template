@@ -743,7 +743,6 @@
 			</Item>
 			<Item Name="工况数据接口全局.vi" Type="VI" URL="../../共用控件/工况数据/工况数据接口全局.vi"/>
 			<Item Name="工况数据.ctl" Type="VI" URL="../../共用控件/工况数据/工况数据.ctl"/>
-			<Item Name="性能模式.vi" Type="VI" URL="../../database/Interface/性能模式.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="我的应用程序" Type="EXE">
@@ -762,7 +761,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4C6C3664-ADE1-4BC1-BB38-46DEE0B24486}</Property>
-				<Property Name="Bld_version.build" Type="Int">160</Property>
+				<Property Name="Bld_version.build" Type="Int">170</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">应用程序.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/我的应用程序/应用程序.exe</Property>
