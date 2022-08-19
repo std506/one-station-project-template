@@ -59,4 +59,5 @@
 		<Item Name="关键参数转u16数组.vi" Type="VI" URL="../subvi/关键参数转u16数组.vi"/>
 		<Item Name="校准信息转u16数组.vi" Type="VI" URL="../subvi/校准信息转u16数组.vi"/>
 	</Item>
+	<Item Name="启动命令类型.ctl" Type="VI" URL="../subvi/启动命令类型.ctl"/>
 </Library>
