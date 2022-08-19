@@ -71,12 +71,6 @@
 			<Item Name="漏水监测界面.vi" Type="VI" URL="../IO连接/漏水监测/漏水监测界面.vi"/>
 		</Item>
 		<Item Name="门禁开关监测" Type="Folder">
-			<Item Name="温度湿度" Type="Folder">
-				<Item Name="温湿度告警字符串组合 (子VI).vi" Type="VI" URL="../IO连接/温度湿度/温湿度告警字符串组合 (子VI).vi"/>
-				<Item Name="温度湿度监测界面.vi" Type="VI" URL="../IO连接/温度湿度/温度湿度监测界面.vi"/>
-				<Item Name="高温告警对话框.vi" Type="VI" URL="../IO连接/温度湿度/高温告警对话框.vi"/>
-				<Item Name="温湿度参数配置.vi" Type="VI" URL="../IO连接/温度湿度/温湿度参数配置.vi"/>
-			</Item>
 			<Item Name="门禁开关监测界面.vi" Type="VI" URL="../IO连接/门禁开关监测/门禁开关监测界面.vi"/>
 			<Item Name="门禁开关监测2界面.vi" Type="VI" URL="../IO连接/门禁开关监测/门禁开关监测2界面.vi"/>
 		</Item>
@@ -103,6 +97,12 @@
 		<Item Name="废液监测" Type="Folder">
 			<Item Name="废液监测界面.vi" Type="VI" URL="../IO连接/废液监测/废液监测界面.vi"/>
 			<Item Name="废液监测2界面.vi" Type="VI" URL="../IO连接/废液监测/废液监测2界面.vi"/>
+		</Item>
+		<Item Name="温度湿度" Type="Folder">
+			<Item Name="温湿度告警字符串组合 (子VI).vi" Type="VI" URL="../IO连接/温度湿度/温湿度告警字符串组合 (子VI).vi"/>
+			<Item Name="温度湿度监测界面.vi" Type="VI" URL="../IO连接/温度湿度/温度湿度监测界面.vi"/>
+			<Item Name="高温告警对话框.vi" Type="VI" URL="../IO连接/温度湿度/高温告警对话框.vi"/>
+			<Item Name="温湿度参数配置.vi" Type="VI" URL="../IO连接/温度湿度/温湿度参数配置.vi"/>
 		</Item>
 		<Item Name="IO状态读取 (子VI).vi" Type="VI" URL="../IO连接/IO状态读取 (子VI).vi"/>
 		<Item Name="信号持续时间参数配置.vi" Type="VI" URL="../IO连接/信号持续时间参数配置.vi"/>
