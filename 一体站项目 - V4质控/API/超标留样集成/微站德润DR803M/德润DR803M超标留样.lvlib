@@ -32,6 +32,7 @@
 	</Item>
 	<Item Name="通讯" Type="Folder">
 		<Item Name="超标留样通讯.vi" Type="VI" URL="../通讯/超标留样通讯.vi"/>
+		<Item Name="803M超标留样MB通讯.vi" Type="VI" URL="../通讯/803M超标留样MB通讯.vi"/>
 	</Item>
 	<Item Name="子VI" Type="Folder">
 		<Item Name="超标留样启动运行.vi" Type="VI" URL="../子VI/超标留样启动运行.vi"/>
@@ -41,4 +42,6 @@
 		<Item Name="数字键盘.vi" Type="VI" URL="../subvi/数字键盘.vi"/>
 	</Item>
 	<Item Name="读取配置信息 (子VI).vi" Type="VI" URL="../读取配置信息 (子VI).vi"/>
+	<Item Name="typedef.ctl" Type="VI" URL="../控件/typedef.ctl"/>
+	<Item Name="参数读写.vi" Type="VI" URL="../参数设置/参数读写.vi"/>
 </Library>
