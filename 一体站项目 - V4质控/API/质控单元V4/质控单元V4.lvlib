@@ -51,6 +51,7 @@
 		<Item Name="质控组合命令区.ctl" Type="VI" URL="../control/质控组合命令区.ctl"/>
 	</Item>
 	<Item Name="interface" Type="Folder">
+		<Item Name="反控交互.vi" Type="VI" URL="../interface/反控交互.vi"/>
 		<Item Name="配置信息读取.vi" Type="VI" URL="../interface/配置信息读取.vi"/>
 	</Item>
 	<Item Name="SQL" Type="Folder">
