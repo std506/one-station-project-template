@@ -11,7 +11,7 @@
 	<Property Name="Enable Data Logging" Type="Bool">true</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(^!!!*Q(C=\&gt;8"&lt;2MR%!813:"$A*T51;!7JA7VI";G"6V^6!P4AFJ1#^/#7F!,TN/'-(++=IC2(-TVS+O`80+:3[QDNP9VYEO]0GP@@NM_LD_\`K4&amp;2`NI`\;^0.WE\\ZH0]8D2;2'N3K6]:DK&gt;?1D(`H)2T\SFL?]Z3VP?=N,8P+3F\TE*5^ZSF/?]J3H@$PE)1^ZS*('Z'/C-?A99(2'C@%R0--T0-0D;QT0]!T0]!S0,D%]QT-]QT-]&lt;IPB':\B':\B-&gt;1GG?W1]QS0Y;.ZGK&gt;ZGK&gt;Z4"H.UQ"NMD:Q'Q1DWM6WUDT.UTR/IXG;JXG;JXF=DO:JHO:JHO:RS\9KP7E?BZT(-&amp;%]R6-]R6-]BI\C+:\C+:\C-6U54`%52*GQ$)Y1Z;&lt;3I8QJHO,R+YKH?)KH?)L(J?U*V&lt;9S$]XDE0-E4`)E4`)EDS%C?:)H?:)H?1Q&lt;S:-]S:-]S7/K3*\E3:Y%3:/;0N*A[=&lt;5+18*YW@&lt;,&lt;E^J&gt;YEO2U2;`0'WJ3R.FOM422L=]2[[,%?:KS(&amp;'PR9SVKL-7+N1CR`LB9[&amp;C97*0%OPH2-?Y_&lt;_KK,OKM4OKI$GKP&gt;I^&lt;`X,(_`U?N^MNLN&gt;L8#[8/*`0=4K&gt;YHA]RO&amp;QC0V_(\P&gt;\OUV].XR^E,Y_6Z[=@YH^5\`3`_$&gt;W.]DF`(N59`!/&lt;!-PQ!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
-	<Property Name="NI.Lib.Version" Type="Str">3.38.0.0</Property>
+	<Property Name="NI.Lib.Version" Type="Str">3.39.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Property Name="OdbcAlarmLoggingTableName" Type="Str">NI_ALARM_EVENTS</Property>
@@ -32,10 +32,11 @@
 	<Property Name="Serialized ACL" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="control" Type="Folder">
-		<Item Name="V3 A版外设参数.ctl" Type="VI" URL="../control/V3 A版外设参数.ctl"/>
-		<Item Name="V3 B版外设参数.ctl" Type="VI" URL="../control/V3 B版外设参数.ctl"/>
+		<Item Name="V3.1版外设参数.ctl" Type="VI" URL="../control/V3.1版外设参数.ctl"/>
+		<Item Name="V4版外设参数.ctl" Type="VI" URL="../control/V4版外设参数.ctl"/>
+		<Item Name="V3版外设参数.ctl" Type="VI" URL="../control/V3版外设参数.ctl"/>
+		<Item Name="V4.2版外设参数.ctl" Type="VI" URL="../control/V4.2版外设参数.ctl"/>
 		<Item Name="启动参数显示控件.ctl" Type="VI" URL="../control/启动参数显示控件.ctl"/>
-		<Item Name="V3 A1版外设参数.ctl" Type="VI" URL="../control/V3 A1版外设参数.ctl"/>
 		<Item Name="量程模式.ctl" Type="VI" URL="../control/量程模式.ctl"/>
 	</Item>
 	<Item Name="Interface" Type="Folder">
@@ -87,6 +88,7 @@
 		<Item Name="总磷单步调试对话框.vi" Type="VI" URL="../Subvi/总磷单步调试对话框.vi"/>
 		<Item Name="最小试剂余量百分比.vi" Type="VI" URL="../Subvi/最小试剂余量百分比.vi"/>
 		<Item Name="配置信息迁移.vi" Type="VI" URL="../Subvi/配置信息迁移.vi"/>
+		<Item Name="U8数组转变量.vi" Type="VI" URL="../Subvi/U8数组转变量.vi"/>
 	</Item>
 	<Item Name="task" Type="Folder">
 		<Item Name="task.vi" Type="VI" URL="../task/task.vi"/>
@@ -115,10 +117,13 @@
 		<Item Name="切换按钮.ctl" Type="VI" URL="../控件/切换按钮.ctl"/>
 		<Item Name="数据查询大列表框.ctl" Type="VI" URL="../控件/数据查询大列表框.ctl"/>
 		<Item Name="锁.ctl" Type="VI" URL="../控件/锁.ctl"/>
+		<Item Name="校准参数.ctl" Type="VI" URL="../控件/校准参数.ctl"/>
 	</Item>
 	<Item Name="流程文件" Type="Folder">
 		<Item Name="XPath表达式.vi" Type="VI" URL="../流程文件/XPath表达式.vi"/>
 		<Item Name="获取复合步骤名称XPath表达式.vi" Type="VI" URL="../流程文件/获取复合步骤名称XPath表达式.vi"/>
+		<Item Name="获取简易流程名称.vi" Type="VI" URL="../流程文件/获取简易流程名称.vi"/>
+		<Item Name="获取简易流程名称API.vi" Type="VI" URL="../流程文件/获取简易流程名称API.vi"/>
 	</Item>
 	<Item Name="试剂余量" Type="Folder">
 		<Item Name="阀口名称设置.vi" Type="VI" URL="../试剂余量/阀口名称设置.vi"/>
@@ -131,22 +136,26 @@
 	<Item Name="通讯" Type="Folder">
 		<Item Name="Modbus Write File Record" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="外设配置" Type="Folder">
+				<Item Name="读取V3.1外设配置.vi" Type="VI" URL="../总磷总氮/COM/Modbus Write File Record/读取V3.1外设配置.vi"/>
+				<Item Name="写入V3.1外设配置.vi" Type="VI" URL="../总磷总氮/COM/Modbus Write File Record/写入V3.1外设配置.vi"/>
+				<Item Name="读取V3外设配置.vi" Type="VI" URL="../总磷总氮/COM/Modbus Write File Record/读取V3外设配置.vi"/>
+				<Item Name="写入V3外设配置.vi" Type="VI" URL="../总磷总氮/COM/Modbus Write File Record/写入V3外设配置.vi"/>
+				<Item Name="读取V4版外设配置.vi" Type="VI" URL="../总磷总氮/COM/Modbus Write File Record/读取V4版外设配置.vi"/>
+				<Item Name="写入V4版外设配置.vi" Type="VI" URL="../总磷总氮/COM/Modbus Write File Record/写入V4版外设配置.vi"/>
+				<Item Name="读取V4.2版外设配置.vi" Type="VI" URL="../总磷总氮/COM/Modbus Write File Record/读取V4.2版外设配置.vi"/>
+				<Item Name="写入V4.2版外设配置.vi" Type="VI" URL="../总磷总氮/COM/Modbus Write File Record/写入V4.2版外设配置.vi"/>
+			</Item>
 			<Item Name="Build_Write File Record.vi" Type="VI" URL="../总磷总氮/COM/Modbus Write File Record/Build_Write File Record.vi"/>
 			<Item Name="Write File Record.vi" Type="VI" URL="../总磷总氮/COM/Modbus Write File Record/Write File Record.vi"/>
 			<Item Name="备份参数.vi" Type="VI" URL="../总磷总氮/COM/Modbus Write File Record/备份参数.vi"/>
-			<Item Name="读取B版外设配置.vi" Type="VI" URL="../总磷总氮/COM/Modbus Write File Record/读取B版外设配置.vi"/>
-			<Item Name="写入外设配置.vi" Type="VI" URL="../总磷总氮/COM/Modbus Write File Record/写入外设配置.vi"/>
 			<Item Name="读取固件状态.vi" Type="VI" URL="../总磷总氮/COM/Modbus Write File Record/读取固件状态.vi"/>
-			<Item Name="读取外设配置.vi" Type="VI" URL="../总磷总氮/COM/Modbus Write File Record/读取外设配置.vi"/>
 			<Item Name="固件升级（包含参数恢复）.vi" Type="VI" URL="../总磷总氮/COM/Modbus Write File Record/固件升级（包含参数恢复）.vi"/>
 			<Item Name="固件升级对话框.vi" Type="VI" URL="../总磷总氮/COM/Modbus Write File Record/固件升级对话框.vi"/>
 			<Item Name="恢复参数.vi" Type="VI" URL="../总磷总氮/COM/Modbus Write File Record/恢复参数.vi"/>
 			<Item Name="流程固件设置对话框.vi" Type="VI" URL="../总磷总氮/COM/Modbus Write File Record/流程固件设置对话框.vi"/>
 			<Item Name="外设配置对话框.vi" Type="VI" URL="../总磷总氮/COM/Modbus Write File Record/外设配置对话框.vi"/>
-			<Item Name="写入B版外设配置.vi" Type="VI" URL="../总磷总氮/COM/Modbus Write File Record/写入B版外设配置.vi"/>
 			<Item Name="写入固件.vi" Type="VI" URL="../总磷总氮/COM/Modbus Write File Record/写入固件.vi"/>
-			<Item Name="读取A1外设配置.vi" Type="VI" URL="../总磷总氮/COM/Modbus Write File Record/读取A1外设配置.vi"/>
-			<Item Name="写入A1外设配置.vi" Type="VI" URL="../总磷总氮/COM/Modbus Write File Record/写入A1外设配置.vi"/>
 		</Item>
 		<Item Name="地址索引" Type="Folder">
 			<Item Name="盐度补偿" Type="Folder">
@@ -164,12 +173,17 @@
 				<Item Name="单个流程校验.vi" Type="VI" URL="../通讯/单个流程校验.vi"/>
 				<Item Name="流程大小.vi" Type="VI" URL="../通讯/流程大小.vi"/>
 				<Item Name="流程批量写入.vi" Type="VI" URL="../通讯/流程批量写入.vi"/>
+				<Item Name="XML 解码.vi" Type="VI" URL="../流程文件/XML 解码.vi"/>
+				<Item Name="单个流程读取.vi" Type="VI" URL="../通讯/单个流程读取.vi"/>
 			</Item>
 			<Item Name="公式" Type="Folder">
 				<Item Name="公式.vi" Type="VI" URL="../通讯/公式.vi"/>
 				<Item Name="公式写入.vi" Type="VI" URL="../通讯/公式写入.vi"/>
 				<Item Name="公式读取.vi" Type="VI" URL="../通讯/公式读取.vi"/>
 				<Item Name="公式复合写入.vi" Type="VI" URL="../通讯/公式复合写入.vi"/>
+				<Item Name="V4.2校准列表.vi" Type="VI" URL="../通讯/V4.2校准列表.vi"/>
+				<Item Name="V4.2校准列表读取.vi" Type="VI" URL="../通讯/V4.2校准列表读取.vi"/>
+				<Item Name="V4.2校准列表写入.vi" Type="VI" URL="../通讯/V4.2校准列表写入.vi"/>
 			</Item>
 			<Item Name="校准数据" Type="Folder">
 				<Item Name="校准记录写入.vi" Type="VI" URL="../通讯/校准记录写入.vi"/>
@@ -199,7 +213,9 @@
 			<Item Name="版本号读取.vi" Type="VI" URL="../通讯/版本号读取.vi"/>
 			<Item Name="新建通讯互斥锁.vi" Type="VI" URL="../通讯/新建通讯互斥锁.vi"/>
 			<Item Name="释放通讯信号量.vi" Type="VI" URL="../通讯/释放通讯信号量.vi"/>
+			<Item Name="地址索引编码.vi" Type="VI" URL="../流程文件/地址索引编码.vi"/>
 			<Item Name="地址索引.vi" Type="VI" URL="../通讯/地址索引.vi"/>
+			<Item Name="变体转U8数组.vi" Type="VI" URL="../Subvi/变体转U8数组.vi"/>
 		</Item>
 		<Item Name="测量数据区.vi" Type="VI" URL="../总磷总氮/测量数据区.vi"/>
 		<Item Name="关键参数区.vi" Type="VI" URL="../总磷总氮/关键参数区.vi"/>
