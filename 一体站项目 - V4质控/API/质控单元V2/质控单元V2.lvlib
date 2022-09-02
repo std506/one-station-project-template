@@ -35,6 +35,7 @@
 		<Item Name="测试流程.ctl" Type="VI" URL="../control/测试流程.ctl"/>
 		<Item Name="测试子流程.ctl" Type="VI" URL="../control/测试子流程.ctl"/>
 		<Item Name="固件状态.ctl" Type="VI" URL="../control/固件状态.ctl"/>
+		<Item Name="启动参数.ctl" Type="VI" URL="../control/启动参数.ctl"/>
 		<Item Name="切换按钮.ctl" Type="VI" URL="../control/切换按钮.ctl"/>
 		<Item Name="锁.ctl" Type="VI" URL="../control/锁.ctl"/>
 		<Item Name="营养盐slave id.ctl" Type="VI" URL="../control/营养盐slave id.ctl"/>
@@ -96,8 +97,8 @@
 		<Item Name="加标回收参数设置.vi" Type="VI" URL="../UI/加标回收参数设置.vi"/>
 		<Item Name="加标回收调试界面.vi" Type="VI" URL="../UI/加标回收调试界面.vi"/>
 		<Item Name="质控关于.vi" Type="VI" URL="../UI/质控关于.vi"/>
-		<Item Name="加标回收启动对话框.vi" Type="VI" URL="../UI/加标回收启动对话框.vi"/>
 		<Item Name="加标回收停止对话框.vi" Type="VI" URL="../UI/加标回收停止对话框.vi"/>
+		<Item Name="加标回收启动对话框.vi" Type="VI" URL="../UI/加标回收启动对话框.vi"/>
 	</Item>
 	<Item Name="测试流程" Type="Folder">
 		<Item Name="单参数加标流程.vi" Type="VI" URL="../测试流程/单参数加标流程.vi"/>
