@@ -5,6 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Item Name="tcp_client_UI.vi" Type="VI" URL="../tcp_client_UI.vi"/>
 	<Item Name="拉取dll.vi" Type="VI" URL="../拉取dll.vi"/>
 	<Item Name="about.vi" Type="VI" URL="../about.vi"/>
 	<Item Name="check File Version.vi" Type="VI" URL="../check File Version.vi"/>
@@ -26,4 +27,5 @@
 	<Item Name="start daemon.vi" Type="VI" URL="../start daemon.vi"/>
 	<Item Name="create daemon.vi" Type="VI" URL="../create daemon.vi"/>
 	<Item Name="http client.lvclass" Type="LVClass" URL="../http client class/http client.lvclass"/>
+	<Item Name="TCP_client.lvclass" Type="LVClass" URL="../TCP_client/TCP_client.lvclass"/>
 </Library>
