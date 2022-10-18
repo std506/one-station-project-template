@@ -579,6 +579,7 @@
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="LVStringsAndValuesArrayTypeDef_U16.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVStringsAndValuesArrayTypeDef_U16.ctl"/>
+				<Item Name="Create Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Create Registry Key.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
@@ -1121,6 +1122,9 @@
 			<Item Name="控制命令与参数.ctl" Type="VI" URL="../API/共用控件/内部交互/控制命令与参数.ctl"/>
 			<Item Name="工况数据上传.lvlib" Type="Library" URL="../API/工况数据对接/工况数据上传.lvlib"/>
 			<Item Name="测试子流程.ctl" Type="VI" URL="../API/共用控件/内部交互/测试子流程.ctl"/>
+			<Item Name="Generate_random_password.vi" Type="VI" URL="../API/database/Interface/Generate_random_password.vi"/>
+			<Item Name="添加秘钥.vi" Type="VI" URL="../API/database/Interface/添加秘钥.vi"/>
+			<Item Name="读取秘钥.vi" Type="VI" URL="../API/database/Interface/读取秘钥.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="一体化微型水质监测站" Type="EXE">
@@ -1139,10 +1143,10 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">112</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
-				<Property Name="Bld_version.minor" Type="Int">7</Property>
-				<Property Name="Bld_version.patch" Type="Int">11</Property>
+				<Property Name="Bld_version.minor" Type="Int">8</Property>
+				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化微型水质监测站.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站/一体化微型水质监测站.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
@@ -1156,7 +1160,7 @@
 				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/data/tubiao.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{04CDBCFA-55D2-4DE2-96F0-50A092E62207}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C8519223-2428-4720-80F4-3AE837172215}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/UI/VIS/启动.vi</Property>
