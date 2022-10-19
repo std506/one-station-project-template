@@ -118,6 +118,7 @@
 			<Item Name="配置初始化.vi" Type="VI" URL="../系统/配置初始化.vi"/>
 			<Item Name="ACCESS加密 (子VI).vi" Type="VI" URL="../系统/ACCESS加密 (子VI).vi"/>
 			<Item Name="copy alarmList database.vi" Type="VI" URL="../Subvi/copy alarmList database.vi"/>
+			<Item Name="Password_Log写入.vi" Type="VI" URL="../系统/Password_Log写入.vi"/>
 		</Item>
 		<Item Name="流程文件" Type="Folder" URL="../流程文件">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -1143,7 +1144,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.minor" Type="Int">8</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
