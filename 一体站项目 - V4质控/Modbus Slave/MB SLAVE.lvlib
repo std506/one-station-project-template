@@ -23,6 +23,7 @@
 		<Item Name="HexToDate.vi" Type="VI" URL="../HexToData/HexToDate.vi"/>
 		<Item Name="HexToFloat.vi" Type="VI" URL="../HexToData/HexToFloat.vi"/>
 		<Item Name="HexToWord.vi" Type="VI" URL="../HexToData/HexToWord.vi"/>
+		<Item Name="HexToString.vi" Type="VI" URL="../HexToData/HexToString.vi"/>
 	</Item>
 	<Item Name="DataToHex" Type="Folder">
 		<Item Name="DataToHex.vi" Type="VI" URL="../DataToHex/DataToHex.vi"/>
