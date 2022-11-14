@@ -11,7 +11,7 @@
 	<Property Name="Enable Data Logging" Type="Bool">true</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(]!!!*Q(C=\&gt;8"=&gt;MQ%!8143;(8.6"2CVM#WJ",7Q,SN&amp;(N&lt;!NK!7VM#WI"&lt;8A0$%94UZ2$P%E"Y.?G@I%A7=11U&gt;M\7P%FXB^VL\`NHV=@X&lt;^39O0^N(_&lt;8NZOEH@@=^_CM?,3)VK63LD-&gt;8LS%=_]J'0@/1N&lt;XH,7^\SFJ?]Z#5P?=F,HP+5JTTF+5`Z&gt;MB$(P+1)YX*RU2DU$(![)Q3YW.YBG&gt;YBM@8'*\B':\B'2Z&gt;9HC':XC':XD=&amp;M-T0--T0-.DK%USWS(H'2\$2`-U4`-U4`/9-JKH!&gt;JE&lt;?!W#%;UC_WE?:KH?:R']T20]T20]\A=T&gt;-]T&gt;-]T?/7&lt;66[UTQ//9^BIHC+JXC+JXA-(=640-640-6DOCC?YCG)-G%:(#(+4;6$_6)]R?.8&amp;%`R&amp;%`R&amp;)^,WR/K&lt;75?GM=BZUG?Z%G?Z%E?1U4S*%`S*%`S'$;3*XG3*XG3RV320-G40!G3*D6^J-(3D;F4#J,(T\:&lt;=HN+P5FS/S,7ZIWV+7.NNFC&lt;+.&lt;GC0819TX-7!]JVO,(7N29CR6L%7,^=&lt;(1M4#R*IFV][.DX(X?V&amp;6&gt;V&amp;G&gt;V&amp;%&gt;V&amp;\N(L@_Z9\X_TVONVN=L^?Y8#ZR0J`D&gt;$L&amp;]8C-Q_%1_`U_&gt;LP&gt;WWPAG_0NB@$TP@4C`%`KH@[8`A@PRPA=PYZLD8Y!#/7SO!!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
-	<Property Name="NI.Lib.Version" Type="Str">1.24.0.0</Property>
+	<Property Name="NI.Lib.Version" Type="Str">1.25.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Property Name="OdbcAlarmLoggingTableName" Type="Str">NI_ALARM_EVENTS</Property>
@@ -213,6 +213,26 @@
 				<Item Name="国弘恢复出厂.vi" Type="VI" URL="../属性/国弘/Public/国弘恢复出厂.vi"/>
 				<Item Name="ORP_单点校准.vi" Type="VI" URL="../属性/国弘/ORP/ORP_单点校准.vi"/>
 			</Item>
+			<Item Name="水中油" Type="Folder">
+				<Item Name="水中油_所有参数读取.vi" Type="VI" URL="../属性/国弘/水中油/水中油_所有参数读取.vi"/>
+				<Item Name="002BH_水中油_串口地址写入.vi" Type="VI" URL="../属性/国弘/水中油/002BH_水中油_串口地址写入.vi"/>
+				<Item Name="002CH_水中油_串口波特率写入.vi" Type="VI" URL="../属性/国弘/水中油/002CH_水中油_串口波特率写入.vi"/>
+				<Item Name="002DH_水中油_串口校验位写入.vi" Type="VI" URL="../属性/国弘/水中油/002DH_水中油_串口校验位写入.vi"/>
+				<Item Name="002EH_水中油_串口停止位写入.vi" Type="VI" URL="../属性/国弘/水中油/002EH_水中油_串口停止位写入.vi"/>
+				<Item Name="002FH_水中油_第一点校正指令写入.vi" Type="VI" URL="../属性/国弘/水中油/002FH_水中油_第一点校正指令写入.vi"/>
+				<Item Name="0010H_水中油_手动温度补偿值写入.vi" Type="VI" URL="../属性/国弘/水中油/0010H_水中油_手动温度补偿值写入.vi"/>
+				<Item Name="0026H_水中油_命令寄存器写入.vi" Type="VI" URL="../属性/国弘/水中油/0026H_水中油_命令寄存器写入.vi"/>
+				<Item Name="0027H_水中油_数位滤波设定写入.vi" Type="VI" URL="../属性/国弘/水中油/0027H_水中油_数位滤波设定写入.vi"/>
+				<Item Name="0028H_水中油_温度模式写入.vi" Type="VI" URL="../属性/国弘/水中油/0028H_水中油_温度模式写入.vi"/>
+				<Item Name="0030H_水中油_第一点标准值写入.vi" Type="VI" URL="../属性/国弘/水中油/0030H_水中油_第一点标准值写入.vi"/>
+				<Item Name="0032H_水中油_第二点校正指令写入.vi" Type="VI" URL="../属性/国弘/水中油/0032H_水中油_第二点校正指令写入.vi"/>
+				<Item Name="0033H_水中油_第二点标准值写入.vi" Type="VI" URL="../属性/国弘/水中油/0033H_水中油_第二点标准值写入.vi"/>
+				<Item Name="0035H_水中油_第三点校正指令写入.vi" Type="VI" URL="../属性/国弘/水中油/0035H_水中油_第三点校正指令写入.vi"/>
+				<Item Name="0036H_水中油_第三点标准值写入.vi" Type="VI" URL="../属性/国弘/水中油/0036H_水中油_第三点标准值写入.vi"/>
+				<Item Name="000CH_水中油_浊度偏移修正值写入.vi" Type="VI" URL="../属性/国弘/水中油/000CH_水中油_浊度偏移修正值写入.vi"/>
+				<Item Name="000EH_水中油_温度偏移修正值写入.vi" Type="VI" URL="../属性/国弘/水中油/000EH_水中油_温度偏移修正值写入.vi"/>
+				<Item Name="0002H_水中油_监测值&amp;信号值读取.vi" Type="VI" URL="../属性/国弘/水中油/0002H_水中油_监测值&amp;信号值读取.vi"/>
+			</Item>
 		</Item>
 		<Item Name="禹山" Type="Folder">
 			<Item Name="pH" Type="Folder">
@@ -246,6 +266,19 @@
 			</Item>
 		</Item>
 		<Item Name="纳清" Type="Folder">
+			<Item Name="氨氮" Type="Folder">
+				<Item Name="纳清氨氮_波特率写入.vi" Type="VI" URL="../属性/纳清/氨氮/纳清氨氮_波特率写入.vi"/>
+				<Item Name="纳清氨氮_第二点校准数据写入.vi" Type="VI" URL="../属性/纳清/氨氮/纳清氨氮_第二点校准数据写入.vi"/>
+				<Item Name="纳清氨氮_第二点原始数据写入.vi" Type="VI" URL="../属性/纳清/氨氮/纳清氨氮_第二点原始数据写入.vi"/>
+				<Item Name="纳清氨氮_第一点校准数据写入.vi" Type="VI" URL="../属性/纳清/氨氮/纳清氨氮_第一点校准数据写入.vi"/>
+				<Item Name="纳清氨氮_第一点原始数据写入.vi" Type="VI" URL="../属性/纳清/氨氮/纳清氨氮_第一点原始数据写入.vi"/>
+				<Item Name="纳清氨氮_所有参数读取.vi" Type="VI" URL="../属性/纳清/氨氮/纳清氨氮_所有参数读取.vi"/>
+				<Item Name="纳清氨氮_通讯地址写入.vi" Type="VI" URL="../属性/纳清/氨氮/纳清氨氮_通讯地址写入.vi"/>
+				<Item Name="纳清氨氮_温度校准参数写入.vi" Type="VI" URL="../属性/纳清/氨氮/纳清氨氮_温度校准参数写入.vi"/>
+				<Item Name="纳清氨氮_温度校准命令写入.vi" Type="VI" URL="../属性/纳清/氨氮/纳清氨氮_温度校准命令写入.vi"/>
+				<Item Name="纳清氨氮_校准命令写入.vi" Type="VI" URL="../属性/纳清/氨氮/纳清氨氮_校准命令写入.vi"/>
+				<Item Name="纳清氨氮_校准参数类型写入.vi" Type="VI" URL="../属性/纳清/氨氮/纳清氨氮_校准参数类型写入.vi"/>
+			</Item>
 			<Item Name="蓝绿藻" Type="Folder">
 				<Item Name="纳清蓝绿藻_所有参数读取.vi" Type="VI" URL="../属性/纳清/蓝绿藻/纳清蓝绿藻_所有参数读取.vi"/>
 				<Item Name="纳清蓝绿藻_波特率写入.vi" Type="VI" URL="../属性/纳清/蓝绿藻/纳清蓝绿藻_波特率写入.vi"/>
@@ -389,6 +422,8 @@
 		<Item Name="操作日志.vi" Type="VI" URL="../SQL/操作日志.vi"/>
 		<Item Name="多参数数据插入.vi" Type="VI" URL="../SQL/多参数数据插入.vi"/>
 		<Item Name="data insert.vi" Type="VI" URL="../SQL/data insert.vi"/>
+		<Item Name="获取最新一笔数据.vi" Type="VI" URL="../../database/Interface/获取最新一笔数据.vi"/>
+		<Item Name="集成干预数据插入.vi" Type="VI" URL="../SQL/集成干预数据插入.vi"/>
 	</Item>
 	<Item Name="变量" Type="Folder">
 		<Item Name="断电保存变量.vi" Type="VI" URL="../变量/断电保存变量.vi"/>
@@ -400,6 +435,7 @@
 	<Item Name="测试流程" Type="Folder">
 		<Item Name="水样测试.vi" Type="VI" URL="../测试流程/水样测试.vi"/>
 		<Item Name="标样核查.vi" Type="VI" URL="../测试流程/标样核查.vi"/>
+		<Item Name="集成干预.vi" Type="VI" URL="../测试流程/集成干预.vi"/>
 	</Item>
 	<Item Name="多机通讯" Type="Folder">
 		<Item Name="数据流读取.vi" Type="VI" URL="../多机通讯/数据流读取.vi"/>
@@ -434,6 +470,7 @@
 		<Item Name="多参数 interface.vi" Type="VI" URL="../Interface/多参数 interface.vi"/>
 		<Item Name="配置读取.vi" Type="VI" URL="../Interface/配置读取.vi"/>
 		<Item Name="taskqueue ref.vi" Type="VI" URL="../Interface/taskqueue ref.vi"/>
+		<Item Name="JCGYtaskqueue ref.vi" Type="VI" URL="../Interface/JCGYtaskqueue ref.vi"/>
 	</Item>
 	<Item Name="task" Type="Folder">
 		<Item Name="task.vi" Type="VI" URL="../task/task.vi"/>
