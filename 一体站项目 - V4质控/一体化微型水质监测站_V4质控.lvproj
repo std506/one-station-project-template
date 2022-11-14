@@ -1057,7 +1057,6 @@
 			<Item Name="营养盐数据插入.vi" Type="VI" URL="../API/database/Interface/营养盐数据插入.vi"/>
 			<Item Name="PLC版CODMn数据插入.vi" Type="VI" URL="../API/database/Interface/PLC版CODMn数据插入.vi"/>
 			<Item Name="PLC版 CODMn字段定义.ctl" Type="VI" URL="../API/database/control/PLC版 CODMn字段定义.ctl"/>
-			<Item Name="获取最新一笔数据.vi" Type="VI" URL="../API/database/Interface/获取最新一笔数据.vi"/>
 			<Item Name="流量计数据插入.vi" Type="VI" URL="../API/database/Interface/流量计数据插入.vi"/>
 			<Item Name="流量计字段定义.ctl" Type="VI" URL="../API/database/control/流量计字段定义.ctl"/>
 			<Item Name="save config.vi" Type="VI" URL="../API/database/config/save config.vi"/>
@@ -1144,7 +1143,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">23</Property>
+				<Property Name="Bld_version.build" Type="Int">24</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.minor" Type="Int">8</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
