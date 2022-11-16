@@ -1125,6 +1125,7 @@
 			<Item Name="Generate_random_password.vi" Type="VI" URL="../API/database/Interface/Generate_random_password.vi"/>
 			<Item Name="添加秘钥.vi" Type="VI" URL="../API/database/Interface/添加秘钥.vi"/>
 			<Item Name="读取秘钥.vi" Type="VI" URL="../API/database/Interface/读取秘钥.vi"/>
+			<Item Name="探头类型.ctl" Type="VI" URL="../API/斯坦道仪器多参数/control/探头类型.ctl"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="一体化微型水质监测站" Type="EXE">
@@ -1143,7 +1144,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">25</Property>
+				<Property Name="Bld_version.build" Type="Int">26</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.minor" Type="Int">8</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
