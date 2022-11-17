@@ -17,7 +17,6 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="trend.ico" Type="Document" URL="../data/trend.ico"/>
 		<Item Name="斯坦道多参数.lvlib" Type="Library" URL="../斯坦道多参数.lvlib"/>
-		<Item Name="探头类型.ctl" Type="VI" URL="../control/探头类型.ctl"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="AES.ctl" Type="VI" URL="/&lt;userlib&gt;/_LVST/sqlite_api/Core/Utils/AES.ctl"/>
@@ -205,6 +204,7 @@
 			<Item Name="操作日志字段定义.ctl" Type="VI" URL="../../database/control/操作日志字段定义.ctl"/>
 			<Item Name="多参数24H周期设置.xctl" Type="XControl" URL="../../共用控件/多参数24H周期设置/多参数24H周期设置.xctl"/>
 			<Item Name="多参数交互.ctl" Type="VI" URL="../../共用控件/内部交互/多参数交互.ctl"/>
+			<Item Name="获取最新一笔数据.vi" Type="VI" URL="../../database/Interface/获取最新一笔数据.vi"/>
 			<Item Name="集成多参数单参数数据插入.vi" Type="VI" URL="../../database/Interface/集成多参数单参数数据插入.vi"/>
 			<Item Name="集成多参数单参数字段定义.ctl" Type="VI" URL="../../database/control/集成多参数单参数字段定义.ctl"/>
 			<Item Name="集成多参数全参数数据插入.vi" Type="VI" URL="../../database/Interface/集成多参数全参数数据插入.vi"/>

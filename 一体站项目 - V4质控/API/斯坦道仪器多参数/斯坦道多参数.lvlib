@@ -71,6 +71,7 @@
 		<Item Name="校准步骤.ctl" Type="VI" URL="../control/校准步骤.ctl"/>
 		<Item Name="切换按钮.ctl" Type="VI" URL="../控件/切换按钮.ctl"/>
 		<Item Name="显示控件.ctl" Type="VI" URL="../control/显示控件.ctl"/>
+		<Item Name="探头类型.ctl" Type="VI" URL="../control/探头类型.ctl"/>
 	</Item>
 	<Item Name="属性" Type="Folder">
 		<Item Name="国弘" Type="Folder">
@@ -445,7 +446,6 @@
 		<Item Name="操作日志.vi" Type="VI" URL="../SQL/操作日志.vi"/>
 		<Item Name="多参数数据插入.vi" Type="VI" URL="../SQL/多参数数据插入.vi"/>
 		<Item Name="data insert.vi" Type="VI" URL="../SQL/data insert.vi"/>
-		<Item Name="获取最新一笔数据.vi" Type="VI" URL="../../database/Interface/获取最新一笔数据.vi"/>
 		<Item Name="集成干预数据插入.vi" Type="VI" URL="../SQL/集成干预数据插入.vi"/>
 	</Item>
 	<Item Name="变量" Type="Folder">
