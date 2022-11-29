@@ -1,0 +1,6 @@
+pH		4
+DO		2
+COND	1
+Turb		20
+Chla		3
+BGA		5
