@@ -53,6 +53,9 @@
 			<Item Name="配置数据迁移.vi" Type="VI" URL="../Subvi/配置数据迁移.vi"/>
 			<Item Name="AutoHide Windows Taskbar.vi" Type="VI" URL="../Subvi/AutoHide Windows Taskbar.vi"/>
 		</Item>
+		<Item Name="resources" Type="Folder">
+			<Item Name="alarmList.mdb" Type="Document" URL="../resources/alarmList.mdb"/>
+		</Item>
 		<Item Name="UI" Type="Folder">
 			<Item Name="控件" Type="Folder">
 				<Item Name="系统设置.ctl" Type="VI" URL="../UI/控件/系统设置.ctl"/>
@@ -1159,9 +1162,12 @@
 				<Property Name="Destination[2].destName" Type="Str">流程文件</Property>
 				<Property Name="Destination[2].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站/流程文件</Property>
 				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="DestinationCount" Type="Int">3</Property>
+				<Property Name="Destination[3].destName" Type="Str">resources</Property>
+				<Property Name="Destination[3].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站/resources</Property>
+				<Property Name="Destination[3].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/data/tubiao.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F0FB00B1-F8D3-405C-A665-A2B4BC63B9BD}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{554C1A9D-513C-4C3A-8955-DC0834138844}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/UI/VIS/启动.vi</Property>
@@ -1249,7 +1255,6 @@
 				<Property Name="Source[27].type" Type="Str">VI</Property>
 				<Property Name="Source[28].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[28].itemID" Type="Ref">/我的电脑/data/MSOffice_RGT_Template.xlt</Property>
-				<Property Name="Source[28].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[29].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[29].itemID" Type="Ref">/我的电脑/data/restart.bat</Property>
 				<Property Name="Source[29].sourceInclusion" Type="Str">Include</Property>
@@ -1474,12 +1479,15 @@
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[8].itemID" Type="Ref">/我的电脑/UI/VIS/运维调试.vi</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
+				<Property Name="Source[80].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[80].itemID" Type="Ref">/我的电脑/resources/alarmList.mdb</Property>
+				<Property Name="Source[80].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[9].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[9].itemID" Type="Ref">/我的电脑/流程文件</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">80</Property>
+				<Property Name="SourceCount" Type="Int">81</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">一体化微型水质监测站</Property>
 				<Property Name="TgtF_internalName" Type="Str">One station online monitoring system 4.0</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">版权 2019 </Property>
