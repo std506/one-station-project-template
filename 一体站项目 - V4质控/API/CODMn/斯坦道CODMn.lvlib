@@ -44,6 +44,7 @@
 		<Item Name="窗口弹出对话框(子VI).vi" Type="VI" URL="../CODMn/窗口弹出对话框(子VI).vi"/>
 		<Item Name="高锰酸钾-ORP滴定曲线(子VI).vi" Type="VI" URL="../CODMn/高锰酸钾-ORP滴定曲线(子VI).vi"/>
 		<Item Name="时间-温度曲线(子VI).vi" Type="VI" URL="../CODMn/时间-温度曲线(子VI).vi"/>
+		<Item Name="时间-光值曲线(子VI).vi" Type="VI" URL="../CODMn/时间-光值曲线(子VI).vi"/>
 		<Item Name="CODMn通讯.vi" Type="VI" URL="../CODMn/CODMn通讯.vi"/>
 		<Item Name="周期设置_CODMn.vi" Type="VI" URL="../CODMn/周期设置_CODMn.vi"/>
 		<Item Name="AccessLog写入.vi" Type="VI" URL="../CODMn/AccessLog写入.vi"/>
@@ -152,4 +153,5 @@
 		<Item Name="温度补偿.vi" Type="VI" URL="../温度补偿/温度补偿.vi"/>
 	</Item>
 	<Item Name="告警参数.vi" Type="VI" URL="../参数设置/告警参数.vi"/>
+	<Item Name="反控参数变更.vi" Type="VI" URL="../Subvi/反控参数变更.vi"/>
 </Library>

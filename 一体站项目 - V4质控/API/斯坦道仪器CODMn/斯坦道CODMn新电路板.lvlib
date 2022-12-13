@@ -190,4 +190,5 @@
 	<Item Name="data insert core.vi" Type="VI" URL="../database/data insert core.vi"/>
 	<Item Name="监测浓度升序排列(子VI).vi" Type="VI" URL="../Subvi/监测浓度升序排列(子VI).vi"/>
 	<Item Name="Read database.vi" Type="VI" URL="../Subvi/Read database.vi"/>
+	<Item Name="反控参数变更.vi" Type="VI" URL="../Subvi/反控参数变更.vi"/>
 </Library>

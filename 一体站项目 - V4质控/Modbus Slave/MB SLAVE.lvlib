@@ -34,6 +34,7 @@
 		<Item Name="反控参数设置.vi" Type="VI" URL="../反控/反控参数设置.vi"/>
 		<Item Name="反控仪器参数公式.vi" Type="VI" URL="../反控/反控仪器参数公式.vi"/>
 		<Item Name="反控仪器单参数通用.vi" Type="VI" URL="../反控/反控仪器单参数通用.vi"/>
+		<Item Name="反控仪器调用.vi" Type="VI" URL="../反控/反控仪器调用.vi"/>
 	</Item>
 	<Item Name="启动命令" Type="Folder">
 		<Item Name="CODCr启动 (子VI).vi" Type="VI" URL="../启动命令/CODCr启动 (子VI).vi"/>
