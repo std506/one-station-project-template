@@ -13,6 +13,8 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="控件" Type="Folder">
 			<Item Name="锁.ctl" Type="VI" URL="../控件/锁.ctl"/>
+			<Item Name="队列data.ctl" Type="VI" URL="../自研超标留样/控件/队列data.ctl"/>
+			<Item Name="留样瓶状态.ctl" Type="VI" URL="../自研超标留样/控件/留样瓶状态.ctl"/>
 		</Item>
 		<Item Name="超标留样集成.lvlib" Type="Library" URL="../超标留样集成.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
@@ -219,7 +221,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{08D5A4B4-B3E4-4762-8A02-37D2352D5BC8}</Property>
-				<Property Name="Bld_version.build" Type="Int">25</Property>
+				<Property Name="Bld_version.build" Type="Int">37</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">应用程序.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/我的应用程序/应用程序.exe</Property>

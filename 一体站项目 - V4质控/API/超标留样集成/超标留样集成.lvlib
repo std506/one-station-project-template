@@ -16,6 +16,7 @@
 	<Item Name="断电保存全局.vi" Type="VI" URL="../断电保存全局.vi"/>
 	<Item Name="留样信息存储.vi" Type="VI" URL="../固定站德润DR803L/数据库/留样信息存储.vi"/>
 	<Item Name="外部交互全局.vi" Type="VI" URL="../外部交互全局.vi"/>
+	<Item Name="ESTD1200.lvlib" Type="Library" URL="../自研超标留样/ESTD1200.lvlib"/>
 	<Item Name="DR803M4.lvlib" Type="Library" URL="../DR803M4/DR803M4.lvlib"/>
 	<Item Name="德润DR803F超标留样.lvlib" Type="Library" URL="../固定站德润DR803F/德润DR803F超标留样.lvlib"/>
 	<Item Name="德润DR803L超标留样.lvlib" Type="Library" URL="../固定站德润DR803L/德润DR803L超标留样.lvlib"/>
