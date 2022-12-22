@@ -1131,6 +1131,7 @@
 			<Item Name="获取最新一笔数据.vi" Type="VI" URL="../API/database/Interface/获取最新一笔数据.vi"/>
 			<Item Name="队列data.ctl" Type="VI" URL="../API/超标留样集成/自研超标留样/控件/队列data.ctl"/>
 			<Item Name="留样瓶状态.ctl" Type="VI" URL="../API/超标留样集成/自研超标留样/控件/留样瓶状态.ctl"/>
+			<Item Name="HexToDate.vi" Type="VI" URL="../PLC/HexToData/HexToDate.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="一体化微型水质监测站" Type="EXE">
@@ -1149,7 +1150,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">48</Property>
+				<Property Name="Bld_version.build" Type="Int">50</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.minor" Type="Int">8</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
@@ -1169,7 +1170,7 @@
 				<Property Name="Destination[3].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/data/tubiao.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{554C1A9D-513C-4C3A-8955-DC0834138844}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{114E9740-FE44-4BFE-B326-1E652F6DBFB0}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/UI/VIS/启动.vi</Property>
@@ -1484,12 +1485,16 @@
 				<Property Name="Source[80].destinationIndex" Type="Int">3</Property>
 				<Property Name="Source[80].itemID" Type="Ref">/我的电脑/resources/alarmList.mdb</Property>
 				<Property Name="Source[80].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[81].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[81].itemID" Type="Ref">/我的电脑/PLC.lvlib/UI/运维调试_养殖渭水采配水.vi</Property>
+				<Property Name="Source[81].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[81].type" Type="Str">VI</Property>
 				<Property Name="Source[9].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[9].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[9].itemID" Type="Ref">/我的电脑/流程文件</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">81</Property>
+				<Property Name="SourceCount" Type="Int">82</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">一体化微型水质监测站</Property>
 				<Property Name="TgtF_internalName" Type="Str">One station online monitoring system 4.0</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">版权 2019 </Property>
