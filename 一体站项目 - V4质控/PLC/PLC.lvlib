@@ -35,6 +35,7 @@
 		<Item Name="运维调试_采配水SNV1.vi" Type="VI" URL="../运维调试_采配水SNV1.vi"/>
 		<Item Name="运维调试_采配水SNV2.vi" Type="VI" URL="../运维调试_采配水SNV2.vi"/>
 		<Item Name="运维调试_采配水GD.vi" Type="VI" URL="../运维调试_采配水GD.vi"/>
+		<Item Name="运维调试_养殖渭水采配水.vi" Type="VI" URL="../运维调试_养殖渭水采配水.vi"/>
 	</Item>
 	<Item Name="报警" Type="Folder">
 		<Item Name="Interfaces" Type="Folder">
@@ -75,5 +76,16 @@
 	</Item>
 	<Item Name="河水净化" Type="Folder">
 		<Item Name="运维调试_河水净化.vi" Type="VI" URL="../运维调试_河水净化.vi"/>
+	</Item>
+	<Item Name="DataToHex" Type="Folder">
+		<Item Name="FloatToHex.vi" Type="VI" URL="../DataToHex/FloatToHex.vi"/>
+		<Item Name="WordToHex.vi" Type="VI" URL="../DataToHex/WordToHex.vi"/>
+	</Item>
+	<Item Name="HexToData" Type="Folder">
+		<Item Name="HexToDword.vi" Type="VI" URL="../HexToData/HexToDword.vi"/>
+		<Item Name="HexToFloat.vi" Type="VI" URL="../HexToData/HexToFloat.vi"/>
+		<Item Name="HexToString.vi" Type="VI" URL="../HexToData/HexToString.vi"/>
+		<Item Name="HexToWord.vi" Type="VI" URL="../HexToData/HexToWord.vi"/>
+		<Item Name="监测块.vi" Type="VI" URL="../HexToData/监测块.vi"/>
 	</Item>
 </Library>
