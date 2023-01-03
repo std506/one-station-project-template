@@ -284,4 +284,5 @@
 	<Item Name="相对标准偏差判断.vi" Type="VI" URL="../Subvi/相对标准偏差判断.vi"/>
 	<Item Name="绝对标准偏差判断.vi" Type="VI" URL="../Subvi/绝对标准偏差判断.vi"/>
 	<Item Name="转换关键参数(子VI).vi" Type="VI" URL="../Subvi/转换关键参数(子VI).vi"/>
+	<Item Name="反控参数变更.vi" Type="VI" URL="../Subvi/反控参数变更.vi"/>
 </Library>
