@@ -49,9 +49,13 @@
 			<Item Name="监测块.vi" Type="VI" URL="../HexToData/监测块.vi"/>
 		</Item>
 		<Item Name="Add State to Queue.vi" Type="VI" URL="../Subvi/Add State to Queue.vi"/>
+		<Item Name="Regression Equation String.vi" Type="VI" URL="../Subvi/Regression Equation String.vi"/>
 		<Item Name="Simple Parse State Queue.vi" Type="VI" URL="../Subvi/Simple Parse State Queue.vi"/>
 		<Item Name="多参数数据插入.vi" Type="VI" URL="../Subvi/多参数数据插入.vi"/>
+		<Item Name="根据监测浓度升序排列.vi" Type="VI" URL="../Subvi/根据监测浓度升序排列.vi"/>
+		<Item Name="监测浓度升序排列 (子VI).vi" Type="VI" URL="../Subvi/监测浓度升序排列 (子VI).vi"/>
 		<Item Name="数字键盘.vi" Type="VI" URL="../Subvi/数字键盘.vi"/>
+		<Item Name="线性公式.vi" Type="VI" URL="../Subvi/线性公式.vi"/>
 		<Item Name="仪器参数设置.vi" Type="VI" URL="../Subvi/仪器参数设置.vi"/>
 	</Item>
 	<Item Name="task" Type="Folder">
@@ -105,6 +109,7 @@
 		</Item>
 		<Item Name="校准" Type="Folder">
 			<Item Name="校准画面.vi" Type="VI" URL="../常规五参数/校准画面.vi"/>
+			<Item Name="STD校准画面.vi" Type="VI" URL="../常规五参数/STD校准画面.vi"/>
 		</Item>
 	</Item>
 	<Item Name="控件" Type="Folder">
@@ -112,5 +117,6 @@
 		<Item Name="切换按钮.ctl" Type="VI" URL="../控件/切换按钮.ctl"/>
 		<Item Name="水样测试启动自定义输入参数.ctl" Type="VI" URL="../控件/水样测试启动自定义输入参数.ctl"/>
 	</Item>
+	<Item Name="AT+TT.vi" Type="VI" URL="../Subvi/AT+TT.vi"/>
 	<Item Name="配置保存.vi" Type="VI" URL="../Subvi/配置保存.vi"/>
 </Library>
