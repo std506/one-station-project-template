@@ -1131,7 +1131,21 @@
 			<Item Name="获取最新一笔数据.vi" Type="VI" URL="../API/database/Interface/获取最新一笔数据.vi"/>
 			<Item Name="队列data.ctl" Type="VI" URL="../API/超标留样集成/自研超标留样/控件/队列data.ctl"/>
 			<Item Name="留样瓶状态.ctl" Type="VI" URL="../API/超标留样集成/自研超标留样/控件/留样瓶状态.ctl"/>
-			<Item Name="HexToDate.vi" Type="VI" URL="../PLC/HexToData/HexToDate.vi"/>
+			<Item Name="光电液位开关.ctl" Type="VI" URL="../PLC/自定义控件/光电液位开关.ctl"/>
+			<Item Name="浮子液位开关.ctl" Type="VI" URL="../PLC/自定义控件/浮子液位开关.ctl"/>
+			<Item Name="压力开关.ctl" Type="VI" URL="../PLC/自定义控件/压力开关.ctl"/>
+			<Item Name="三通电动球阀.ctl" Type="VI" URL="../PLC/自定义控件/三通电动球阀.ctl"/>
+			<Item Name="手动调节阀2.ctl" Type="VI" URL="../PLC/自定义控件/手动调节阀2.ctl"/>
+			<Item Name="过滤出水阀.ctl" Type="VI" URL="../PLC/自定义控件/过滤出水阀.ctl"/>
+			<Item Name="排液阀.ctl" Type="VI" URL="../PLC/自定义控件/排液阀.ctl"/>
+			<Item Name="过滤进样阀.ctl" Type="VI" URL="../PLC/自定义控件/过滤进样阀.ctl"/>
+			<Item Name="电磁阀.ctl" Type="VI" URL="../PLC/自定义控件/电磁阀.ctl"/>
+			<Item Name="手动调节阀.ctl" Type="VI" URL="../PLC/自定义控件/手动调节阀.ctl"/>
+			<Item Name="水流开关.ctl" Type="VI" URL="../PLC/自定义控件/水流开关.ctl"/>
+			<Item Name="采水泵.ctl" Type="VI" URL="../PLC/自定义控件/采水泵.ctl"/>
+			<Item Name="空压机.ctl" Type="VI" URL="../PLC/自定义控件/空压机.ctl"/>
+			<Item Name="增压泵.ctl" Type="VI" URL="../PLC/自定义控件/增压泵.ctl"/>
+			<Item Name="除藻泵.ctl" Type="VI" URL="../PLC/自定义控件/除藻泵.ctl"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="一体化微型水质监测站" Type="EXE">
@@ -1150,7 +1164,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">50</Property>
+				<Property Name="Bld_version.build" Type="Int">51</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.minor" Type="Int">8</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
@@ -1170,7 +1184,7 @@
 				<Property Name="Destination[3].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/data/tubiao.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{114E9740-FE44-4BFE-B326-1E652F6DBFB0}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{93DA15C5-FCF2-4D7F-B2F9-71F0B8CB4CA2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/UI/VIS/启动.vi</Property>
