@@ -24,4 +24,5 @@
 	<Item Name="科盛超标留样.lvlib" Type="Library" URL="../科盛超标留样/科盛超标留样.lvlib"/>
 	<Item Name="读取配置信息 (子VI).vi" Type="VI" URL="../读取配置信息 (子VI).vi"/>
 	<Item Name="保存配置信息 (子VI).vi" Type="VI" URL="../保存配置信息 (子VI).vi"/>
+	<Item Name="数字键盘密码显示.vi" Type="VI" URL="../数字键盘密码显示.vi"/>
 </Library>
