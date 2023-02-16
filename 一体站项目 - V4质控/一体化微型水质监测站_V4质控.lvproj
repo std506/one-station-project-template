@@ -1166,7 +1166,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">64</Property>
+				<Property Name="Bld_version.build" Type="Int">66</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.minor" Type="Int">8</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
@@ -1186,7 +1186,7 @@
 				<Property Name="Destination[3].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/data/tubiao.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{93DA15C5-FCF2-4D7F-B2F9-71F0B8CB4CA2}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9D8ABC80-7EAA-4AD4-9D33-D668F54ECFC5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/UI/VIS/启动.vi</Property>
@@ -1505,12 +1505,16 @@
 				<Property Name="Source[81].itemID" Type="Ref">/我的电脑/PLC.lvlib/UI/运维调试_养殖渭水采配水.vi</Property>
 				<Property Name="Source[81].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[81].type" Type="Str">VI</Property>
+				<Property Name="Source[82].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[82].itemID" Type="Ref">/我的电脑/PLC.lvlib/UI/运维调试_采配水V4-华南所.vi</Property>
+				<Property Name="Source[82].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[82].type" Type="Str">VI</Property>
 				<Property Name="Source[9].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[9].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[9].itemID" Type="Ref">/我的电脑/流程文件</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">82</Property>
+				<Property Name="SourceCount" Type="Int">83</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">一体化微型水质监测站</Property>
 				<Property Name="TgtF_internalName" Type="Str">One station online monitoring system 4.0</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">版权 2019 </Property>

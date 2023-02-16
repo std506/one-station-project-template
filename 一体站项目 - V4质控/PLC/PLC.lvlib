@@ -32,6 +32,7 @@
 		<Item Name="运维调试_采配水V2.vi" Type="VI" URL="../运维调试_采配水V2.vi"/>
 		<Item Name="运维调试_采配水V3.vi" Type="VI" URL="../运维调试_采配水V3.vi"/>
 		<Item Name="运维调试_采配水V4.vi" Type="VI" URL="../运维调试_采配水V4.vi"/>
+		<Item Name="运维调试_采配水V4-华南所.vi" Type="VI" URL="../运维调试_采配水V4-华南所.vi"/>
 		<Item Name="运维调试_采配水SNV1.vi" Type="VI" URL="../运维调试_采配水SNV1.vi"/>
 		<Item Name="运维调试_采配水SNV2.vi" Type="VI" URL="../运维调试_采配水SNV2.vi"/>
 		<Item Name="运维调试_采配水GD.vi" Type="VI" URL="../运维调试_采配水GD.vi"/>
