@@ -402,6 +402,8 @@
 				<Item Name="STD获取用户校准参数.vi" Type="VI" URL="../属性/斯坦道/Public/STD获取用户校准参数.vi"/>
 				<Item Name="STD设置用户校准参数.vi" Type="VI" URL="../属性/斯坦道/Public/STD设置用户校准参数.vi"/>
 				<Item Name="STD获取系列号.vi" Type="VI" URL="../属性/斯坦道/Public/STD获取系列号.vi"/>
+				<Item Name="STD获取温度校准参数.vi" Type="VI" URL="../属性/斯坦道/Public/STD获取温度校准参数.vi"/>
+				<Item Name="STD设置温度校准参数.vi" Type="VI" URL="../属性/斯坦道/Public/STD设置温度校准参数.vi"/>
 			</Item>
 			<Item Name="pH" Type="Folder">
 				<Item Name="STDpH_获取温度和测量值.vi" Type="VI" URL="../属性/斯坦道/pH/STDpH_获取温度和测量值.vi"/>
