@@ -27,6 +27,20 @@
 	<Item Name="stop daemon.vi" Type="VI" URL="../stop daemon.vi"/>
 	<Item Name="start daemon.vi" Type="VI" URL="../start daemon.vi"/>
 	<Item Name="create daemon.vi" Type="VI" URL="../create daemon.vi"/>
+	<Item Name="安装可执行文件并运行.vi" Type="VI" URL="../http client class/安装可执行文件并运行.vi"/>
+	<Item Name="copy file.vi" Type="VI" URL="../http client class/copy file.vi"/>
+	<Item Name="解压缩.vi" Type="VI" URL="../http client class/解压缩.vi"/>
+	<Item Name="获取版本信息.vi" Type="VI" URL="../http client class/获取版本信息.vi"/>
+	<Item Name="拉取版本信息.vi" Type="VI" URL="../http client class/拉取版本信息.vi"/>
+	<Item Name="拉取压缩文件并解压缩.vi" Type="VI" URL="../http client class/拉取压缩文件并解压缩.vi"/>
+	<Item Name="download file.vi" Type="VI" URL="../download file.vi"/>
+	<Item Name="link url.vi" Type="VI" URL="../http client class/link url.vi"/>
+	<Item Name="specialUrlEncode.vi" Type="VI" URL="../http client class/specialUrlEncode.vi"/>
+	<Item Name="WEBDAV EXAMPLE.vi" Type="VI" URL="../WEBDAV EXAMPLE.vi"/>
 	<Item Name="http client.lvclass" Type="LVClass" URL="../http client class/http client.lvclass"/>
 	<Item Name="TCP_client.lvclass" Type="LVClass" URL="../TCP_client/TCP_client.lvclass"/>
+	<Item Name="WebDAV client.lvclass" Type="LVClass" URL="../WebDAV client/WebDAV client.lvclass"/>
+	<Item Name="open消息.lvclass" Type="LVClass" URL="../WebDAV client Messages/open消息/open消息.lvclass"/>
+	<Item Name="pull消息.lvclass" Type="LVClass" URL="../WebDAV client Messages/pull消息/pull消息.lvclass"/>
+	<Item Name="读取Request Events消息.lvclass" Type="LVClass" URL="../WebDAV client Messages/读取Request Events消息/读取Request Events消息.lvclass"/>
 </Library>
