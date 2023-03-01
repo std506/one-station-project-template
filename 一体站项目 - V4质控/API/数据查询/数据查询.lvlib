@@ -31,6 +31,7 @@
 	<Property Name="Serialized ACL" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="subvi" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="backup" Type="Folder">
 			<Item Name="sqlbackup.vi" Type="VI" URL="../subvi/sqlbackup.vi"/>
 			<Item Name="配置保存读取.vi" Type="VI" URL="../subvi/配置保存读取.vi"/>
@@ -59,10 +60,14 @@
 		<Item Name="Format table.vi" Type="VI" URL="../subvi/Format table.vi"/>
 		<Item Name="标识说明.vi" Type="VI" URL="../subvi/标识说明.vi"/>
 		<Item Name="精度表.vi" Type="VI" URL="../subvi/精度表.vi"/>
+		<Item Name="漂移计算.vi" Type="VI" URL="../subvi/漂移计算.vi"/>
 		<Item Name="日期键盘.vi" Type="VI" URL="../subvi/日期键盘.vi"/>
 		<Item Name="数据查询筛选.vi" Type="VI" URL="../subvi/数据查询筛选.vi"/>
 		<Item Name="数据导出Excel.vi" Type="VI" URL="../subvi/数据导出Excel.vi"/>
+		<Item Name="漂移技术参数设置.vi" Type="VI" URL="../subvi/漂移技术参数设置.vi"/>
 		<Item Name="数字键盘.vi" Type="VI" URL="../subvi/数字键盘.vi"/>
+		<Item Name="保存配置.vi" Type="VI" URL="../subvi/保存配置.vi"/>
+		<Item Name="读取配置.vi" Type="VI" URL="../subvi/读取配置.vi"/>
 	</Item>
 	<Item Name="UI" Type="Folder">
 		<Item Name="数据查询.vi" Type="VI" URL="../UI/数据查询.vi"/>
@@ -71,6 +76,7 @@
 		<Item Name="数据查询_仪器数据.vi" Type="VI" URL="../UI/数据查询_仪器数据.vi"/>
 	</Item>
 	<Item Name="holding var.vi" Type="VI" URL="../var/holding var.vi"/>
+	<Item Name="读取质控数据.vi" Type="VI" URL="../subvi/SQL/读取质控数据.vi"/>
 	<Item Name="全局变量.vi" Type="VI" URL="../var/全局变量.vi"/>
 	<Item Name="数据查询单选控件.ctl" Type="VI" URL="../control/数据查询单选控件.ctl"/>
 	<Item Name="子菜单.ctl" Type="VI" URL="../control/子菜单.ctl"/>
