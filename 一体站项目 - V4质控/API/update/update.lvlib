@@ -43,4 +43,5 @@
 	<Item Name="open消息.lvclass" Type="LVClass" URL="../WebDAV client Messages/open消息/open消息.lvclass"/>
 	<Item Name="pull消息.lvclass" Type="LVClass" URL="../WebDAV client Messages/pull消息/pull消息.lvclass"/>
 	<Item Name="读取Request Events消息.lvclass" Type="LVClass" URL="../WebDAV client Messages/读取Request Events消息/读取Request Events消息.lvclass"/>
+	<Item Name="SUPPORT.vi" Type="VI" URL="../SUPPORT.vi"/>
 </Library>
