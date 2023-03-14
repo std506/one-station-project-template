@@ -47,6 +47,7 @@
 		<Item Name="总氮启动(子VI).vi" Type="VI" URL="../启动命令/总氮启动(子VI).vi"/>
 		<Item Name="总磷启动(子VI).vi" Type="VI" URL="../启动命令/总磷启动(子VI).vi"/>
 		<Item Name="启动采配水清洗 (子VI).vi" Type="VI" URL="../启动命令/启动采配水清洗 (子VI).vi"/>
+		<Item Name="启动采配水泵阀 (子VI).vi" Type="VI" URL="../启动命令/启动采配水泵阀 (子VI).vi"/>
 	</Item>
 	<Item Name="全局变量" Type="Folder">
 		<Item Name="modbus slave全局.vi" Type="VI" URL="../全局变量/modbus slave全局.vi"/>
