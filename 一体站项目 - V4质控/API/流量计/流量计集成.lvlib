@@ -16,6 +16,11 @@
 		<Item Name="LDM51明渠流量计" Type="Folder">
 			<Item Name="LDM51明渠流量计.lvlib" Type="Library" URL="../LDM51明渠流量计/LDM51明渠流量计.lvlib"/>
 		</Item>
+		<Item Name="LSS-10Q流量计" Type="Folder">
+			<Item Name="LSS-10Q博亿达流量计.lvlib" Type="Library" URL="../LSS-10Q流量计/LSS-10Q博亿达流量计.lvlib"/>
+			<Item Name="LSS-10Q说明书.pdf" Type="Document" URL="../LSS-10Q流量计/LSS-10Q说明书.pdf"/>
+			<Item Name="超声波明渠流量计通讯协议2021版本.doc" Type="Document" URL="../LSS-10Q流量计/超声波明渠流量计通讯协议2021版本.doc"/>
+		</Item>
 		<Item Name="LSS-100X流量计" Type="Folder">
 			<Item Name="LSS-100X流量计.lvlib" Type="Library" URL="../LSS-100X流量计/LSS-100X流量计.lvlib"/>
 		</Item>

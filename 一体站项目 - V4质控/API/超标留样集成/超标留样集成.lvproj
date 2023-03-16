@@ -203,7 +203,6 @@
 			<Item Name="报警信息数据插入.vi" Type="VI" URL="../../database/Interface/报警信息数据插入.vi"/>
 			<Item Name="超标留样交互.ctl" Type="VI" URL="../../共用控件/内部交互/超标留样交互.ctl"/>
 			<Item Name="外部调用接口全局变量.vi" Type="VI" URL="../../database/Interface/外部调用接口/外部调用接口全局变量.vi"/>
-			<Item Name="性能模式.vi" Type="VI" URL="../../database/Interface/性能模式.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="我的应用程序" Type="EXE">
