@@ -179,6 +179,7 @@
 			<Item Name="氨氮交互.ctl" Type="VI" URL="../../API/共用控件/内部交互/氨氮交互.ctl"/>
 			<Item Name="报警信息数据插入.vi" Type="VI" URL="../../API/database/Interface/报警信息数据插入.vi"/>
 			<Item Name="报警信息字段定义.ctl" Type="VI" URL="../../API/database/control/报警信息字段定义.ctl"/>
+			<Item Name="采配水交互.ctl" Type="VI" URL="../../API/共用控件/内部交互/采配水交互.ctl"/>
 			<Item Name="参数.ctl" Type="VI" URL="../../API/共用控件/内部交互/参数.ctl"/>
 			<Item Name="操作日志数据插入.vi" Type="VI" URL="../../API/database/Interface/操作日志数据插入.vi"/>
 			<Item Name="操作日志字段定义.ctl" Type="VI" URL="../../API/database/control/操作日志字段定义.ctl"/>
@@ -190,6 +191,7 @@
 			<Item Name="数据库类型.ctl" Type="VI" URL="../../API/database/control/数据库类型.ctl"/>
 			<Item Name="外部调用接口全局变量.vi" Type="VI" URL="../../API/database/Interface/外部调用接口/外部调用接口全局变量.vi"/>
 			<Item Name="系统交互.ctl" Type="VI" URL="../../API/共用控件/内部交互/系统交互.ctl"/>
+			<Item Name="性能模式.vi" Type="VI" URL="../../API/database/Interface/性能模式.vi"/>
 			<Item Name="质控slave id.ctl" Type="VI" URL="../../API/共用控件/内部交互/质控slave id.ctl"/>
 			<Item Name="总氮交互.ctl" Type="VI" URL="../../API/共用控件/内部交互/总氮交互.ctl"/>
 			<Item Name="总磷交互.ctl" Type="VI" URL="../../API/共用控件/内部交互/总磷交互.ctl"/>
