@@ -170,6 +170,7 @@
 		<Item Name="斯坦道氟化物.lvlib" Type="Library" URL="../API/斯坦道仪器氟化物/斯坦道氟化物.lvlib"/>
 		<Item Name="国标启动命令.vi" Type="VI" URL="../Modbus Slave/启动命令/国标启动命令.vi"/>
 		<Item Name="DGUS.lvlib" Type="Library" URL="../API/DGUS/SourceCode/DGUS.lvlib"/>
+		<Item Name="余氯.lvlib" Type="Library" URL="../API/余氯/余氯.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -1168,7 +1169,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">104</Property>
+				<Property Name="Bld_version.build" Type="Int">106</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.minor" Type="Int">8</Property>
 				<Property Name="Bld_version.patch" Type="Int">2</Property>
@@ -1188,7 +1189,7 @@
 				<Property Name="Destination[3].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/data/tubiao.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{EFE51779-C330-485B-A1F0-276451BAD085}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B2E48EF1-7739-4245-A3DA-E46B4801721F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/UI/VIS/启动.vi</Property>
@@ -1511,12 +1512,16 @@
 				<Property Name="Source[82].itemID" Type="Ref">/我的电脑/PLC.lvlib/UI/运维调试_采配水V4-华南所.vi</Property>
 				<Property Name="Source[82].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[82].type" Type="Str">VI</Property>
+				<Property Name="Source[83].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[83].itemID" Type="Ref">/我的电脑/余氯.lvlib/UI.vi</Property>
+				<Property Name="Source[83].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[83].type" Type="Str">VI</Property>
 				<Property Name="Source[9].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[9].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[9].itemID" Type="Ref">/我的电脑/流程文件</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">83</Property>
+				<Property Name="SourceCount" Type="Int">84</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">一体化微型水质监测站</Property>
 				<Property Name="TgtF_internalName" Type="Str">One station online monitoring system 4.0</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">版权 2019 </Property>
