@@ -17,6 +17,14 @@
 		<Property Name="server.viscripting.showScriptingOperationsInContextHelp" Type="Bool">false</Property>
 		<Property Name="server.viscripting.showScriptingOperationsInEditor" Type="Bool">false</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Bark" Type="Folder">
+			<Item Name="Bark" Type="Folder"/>
+			<Item Name="Bark Message.aliases" Type="Document" URL="../Bark/Bark Message.aliases"/>
+			<Item Name="Bark Message.lvlps" Type="Document" URL="../Bark/Bark Message.lvlps"/>
+			<Item Name="Bark Message.lvproj" Type="Document" URL="../Bark/Bark Message.lvproj"/>
+			<Item Name="Bark.lvlib" Type="Library" URL="../Bark/Bark.lvlib"/>
+			<Item Name="example.vi" Type="VI" URL="../Bark/example.vi"/>
+		</Item>
 		<Item Name="data" Type="Folder" URL="../data">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -135,11 +143,34 @@
 		<Item Name="设备仪器" Type="Folder">
 			<Item Name="斯坦道多参数.lvlib" Type="Library" URL="../API/斯坦道仪器多参数/斯坦道多参数.lvlib"/>
 		</Item>
-		<Item Name="MB SLAVE.lvlib" Type="Library" URL="../Modbus Slave/MB SLAVE.lvlib"/>
-		<Item Name="update.lvlib" Type="Library" URL="../API/update/update.lvlib"/>
+		<Item Name="RND" Type="Folder">
+			<Item Name="example" Type="Folder">
+				<Item Name="CODcr 随机数出数.vi" Type="VI" URL="../API/RND/example/CODcr 随机数出数.vi"/>
+				<Item Name="CODMn 随机数出数.vi" Type="VI" URL="../API/RND/example/CODMn 随机数出数.vi"/>
+				<Item Name="Holding Var.vi" Type="VI" URL="../API/RND/example/Holding Var.vi"/>
+				<Item Name="NH3N 随机数出数.vi" Type="VI" URL="../API/RND/example/NH3N 随机数出数.vi"/>
+				<Item Name="Process var.vi" Type="VI" URL="../API/RND/example/Process var.vi"/>
+				<Item Name="TN 随机数出数.vi" Type="VI" URL="../API/RND/example/TN 随机数出数.vi"/>
+				<Item Name="TP 随机数出数.vi" Type="VI" URL="../API/RND/example/TP 随机数出数.vi"/>
+				<Item Name="定时控制后台任务.vi" Type="VI" URL="../API/RND/example/定时控制后台任务.vi"/>
+				<Item Name="配置文件读取.vi" Type="VI" URL="../API/RND/example/配置文件读取.vi"/>
+				<Item Name="水温 随机数出数.vi" Type="VI" URL="../API/RND/example/水温 随机数出数.vi"/>
+				<Item Name="pH 随机数出数.vi" Type="VI" URL="../API/RND/example/pH 随机数出数.vi"/>
+				<Item Name="溶解氧 随机数出数.vi" Type="VI" URL="../API/RND/example/溶解氧 随机数出数.vi"/>
+				<Item Name="电导率 随机数出数.vi" Type="VI" URL="../API/RND/example/电导率 随机数出数.vi"/>
+				<Item Name="浊度 随机数出数.vi" Type="VI" URL="../API/RND/example/浊度 随机数出数.vi"/>
+				<Item Name="配置文件写入.vi" Type="VI" URL="../API/RND/example/配置文件写入.vi"/>
+				<Item Name="设置窗口.vi" Type="VI" URL="../API/RND/example/设置窗口.vi"/>
+			</Item>
+			<Item Name="random number" Type="Folder">
+				<Item Name="random number.lvlib" Type="Library" URL="../API/RND/random number/random number.lvlib"/>
+			</Item>
+			<Item Name="random number.aliases" Type="Document" URL="../API/RND/random number.aliases"/>
+			<Item Name="random number.lvlps" Type="Document" URL="../API/RND/random number.lvlps"/>
+			<Item Name="random number.lvproj" Type="Document" URL="../API/RND/random number.lvproj"/>
+		</Item>
 		<Item Name="数据查询.lvlib" Type="Library" URL="../API/数据查询/数据查询.lvlib"/>
 		<Item Name="Alarm interface.lvlib" Type="Library" URL="../API/Alarm interface/Alarm interface.lvlib"/>
-		<Item Name="国标启动命令.vi" Type="VI" URL="../Modbus Slave/启动命令/国标启动命令.vi"/>
 		<Item Name="DAM0404D.lvlib" Type="Library" URL="../DAM0404D/DAM0404D.lvlib"/>
 		<Item Name="动力环境监测系统.vi" Type="VI" URL="../UI/动力环境监测系统.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
@@ -294,34 +325,6 @@
 				<Item Name="compatOpenFileOperation.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOpenFileOperation.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
-				<Item Name="Device Data Model.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Data Model/Device Data Model.lvclass"/>
-				<Item Name="Modbus Slave.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/API/Slave/Modbus Slave.lvclass"/>
-				<Item Name="Network Slave.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Slave/Network Slave.lvclass"/>
-				<Item Name="Transmission Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Transmission Data Unit/Transmission Data Unit.lvclass"/>
-				<Item Name="Modbus Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Modbus Data Unit/Modbus Data Unit.lvclass"/>
-				<Item Name="Network Protocol.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Protocol.lvclass"/>
-				<Item Name="TCP Slave.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Slave/TCP/TCP Slave.lvclass"/>
-				<Item Name="Generate UUID.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Modbus Library/Utility/Generate UUID.vi"/>
-				<Item Name="TCP Shared Components.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/TCP Shared Components/TCP Shared Components.lvlib"/>
-				<Item Name="Modbus API.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/API/Modbus API.lvclass"/>
-				<Item Name="Network Master.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Master/Network Master.lvclass"/>
-				<Item Name="Master Function Definition.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Master Function Definition/Master Function Definition.lvclass"/>
-				<Item Name="Modbus Master.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/API/Master/Modbus Master.lvclass"/>
-				<Item Name="Bits to Bytes.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Modbus Library/Utility/Bits to Bytes.vi"/>
-				<Item Name="U16s to Bytes.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Modbus Library/Utility/U16s to Bytes.vi"/>
-				<Item Name="Bytes to Bits.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Modbus Library/Utility/Bytes to Bits.vi"/>
-				<Item Name="Bytes to U16s.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Modbus Library/Utility/Bytes to U16s.vi"/>
-				<Item Name="Serial Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Transmission Data Unit/Serial Interface/Serial Data Unit.lvclass"/>
-				<Item Name="Serial Master.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Master/Serial/Serial Master.lvclass"/>
-				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
-				<Item Name="Serial Shared Components.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Serial Shared Components/Serial Shared Components.lvlib"/>
-				<Item Name="RTU Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Transmission Data Unit/RTU/RTU Data Unit.lvclass"/>
-				<Item Name="Serial Slave.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Slave/Serial/Serial Slave.lvclass"/>
-				<Item Name="ASCII Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Transmission Data Unit/ASCII/ASCII Data Unit.lvclass"/>
-				<Item Name="API Main.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Modbus Library/API/Wrapper/API Main.lvlib"/>
-				<Item Name="Standard Data Model.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Data Model/Standard Data Model/Standard Data Model.lvclass"/>
-				<Item Name="IP Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Transmission Data Unit/IP/IP Data Unit.lvclass"/>
-				<Item Name="TCP Master.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Network Protocol/Network Master/TCP/TCP Master.lvclass"/>
 				<Item Name="i3-json.lvlib" Type="Library" URL="/&lt;vilib&gt;/LVH/i3 JSON/i3-json.lvlib"/>
 				<Item Name="i3-oauth.lvlib" Type="Library" URL="/&lt;vilib&gt;/LVH/i3 OAuth/i3-oauth.lvlib"/>
 				<Item Name="i3-external-encryption.lvlib" Type="Library" URL="/&lt;vilib&gt;/LVH/i3 External Encryption/i3-external-encryption.lvlib"/>
@@ -350,17 +353,11 @@
 				<Item Name="FindElementStartByName.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindElementStartByName.vi"/>
 				<Item Name="Read From XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File(string).vi"/>
 				<Item Name="LVFontTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVFontTypeDef.ctl"/>
-				<Item Name="MD5Checksum File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum File.vi"/>
-				<Item Name="MD5Checksum format message-digest.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum format message-digest.vi"/>
-				<Item Name="MD5Checksum core.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum core.vi"/>
-				<Item Name="MD5Checksum pad.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum pad.vi"/>
 				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
 				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
 				<Item Name="Write Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (string).vi"/>
-				<Item Name="NI_Unzip.lvlib" Type="Library" URL="/&lt;vilib&gt;/zip/NI_Unzip.lvlib"/>
-				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi"/>
 				<Item Name="Easy Parse XML__JKI EasyXML.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/Easy Parse XML__JKI EasyXML.vi"/>
 				<Item Name="ProgressBar_WireFlow.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/WireFlow/_WF_ProgressBar.llb/ProgressBar_WireFlow.lvclass"/>
 				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
@@ -432,7 +429,10 @@
 				<Item Name="Time-Delay Override Options.ctl" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delay Override Options.ctl"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 				<Item Name="Create Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Create Registry Key.vi"/>
-				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
+				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
+				<Item Name="Write to XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(string).vi"/>
+				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
+				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
@@ -861,15 +861,7 @@
 			<Item Name="集成干预字段定义.ctl" Type="VI" URL="../API/database/control/集成干预字段定义.ctl"/>
 			<Item Name="SQLite Upsert.vi" Type="VI" URL="../API/database/Interface/SQLite Upsert.vi"/>
 			<Item Name="多参数24H周期设置.xctl" Type="XControl" URL="../API/共用控件/多参数24H周期设置/多参数24H周期设置.xctl"/>
-			<Item Name="CODCr交互.ctl" Type="VI" URL="../API/共用控件/内部交互/CODCr交互.ctl"/>
-			<Item Name="氨氮交互.ctl" Type="VI" URL="../API/共用控件/内部交互/氨氮交互.ctl"/>
-			<Item Name="总氮交互.ctl" Type="VI" URL="../API/共用控件/内部交互/总氮交互.ctl"/>
-			<Item Name="总磷交互.ctl" Type="VI" URL="../API/共用控件/内部交互/总磷交互.ctl"/>
 			<Item Name="多参数交互.ctl" Type="VI" URL="../API/共用控件/内部交互/多参数交互.ctl"/>
-			<Item Name="CODMn交互.ctl" Type="VI" URL="../API/共用控件/内部交互/CODMn交互.ctl"/>
-			<Item Name="超标留样交互.ctl" Type="VI" URL="../API/共用控件/内部交互/超标留样交互.ctl"/>
-			<Item Name="系统交互.ctl" Type="VI" URL="../API/共用控件/内部交互/系统交互.ctl"/>
-			<Item Name="质控slave id.ctl" Type="VI" URL="../API/共用控件/内部交互/质控slave id.ctl"/>
 			<Item Name="alter database password.vi" Type="VI" URL="../API/database/alter database password.vi"/>
 			<Item Name="外部调用接口全局变量.vi" Type="VI" URL="../API/database/Interface/外部调用接口/外部调用接口全局变量.vi"/>
 			<Item Name="参数.ctl" Type="VI" URL="../API/共用控件/内部交互/参数.ctl"/>
@@ -880,15 +872,15 @@
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="性能模式.vi" Type="VI" URL="../API/database/Interface/性能模式.vi"/>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="工况数据接口全局.vi" Type="VI" URL="../API/共用控件/工况数据/工况数据接口全局.vi"/>
 			<Item Name="工况数据.ctl" Type="VI" URL="../API/共用控件/工况数据/工况数据.ctl"/>
-			<Item Name="测试子流程.ctl" Type="VI" URL="../API/共用控件/内部交互/测试子流程.ctl"/>
 			<Item Name="添加秘钥.vi" Type="VI" URL="../API/database/Interface/添加秘钥.vi"/>
 			<Item Name="读取秘钥.vi" Type="VI" URL="../API/database/Interface/读取秘钥.vi"/>
 			<Item Name="获取最新一笔数据.vi" Type="VI" URL="../API/database/Interface/获取最新一笔数据.vi"/>
-			<Item Name="采配水交互.ctl" Type="VI" URL="../API/共用控件/内部交互/采配水交互.ctl"/>
+			<Item Name="簇转文本处理.vi" Type="VI" URL="../Bark/簇转文本处理.vi"/>
+			<Item Name="配置Bark UI.vi" Type="VI" URL="../Bark/配置Bark UI.vi"/>
+			<Item Name="配置Bark参数.vi" Type="VI" URL="../Bark/配置Bark参数.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="一体化微型水质监测站" Type="EXE">
@@ -907,10 +899,8 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">131</Property>
-				<Property Name="Bld_version.major" Type="Int">4</Property>
-				<Property Name="Bld_version.minor" Type="Int">8</Property>
-				<Property Name="Bld_version.patch" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">5</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化微型水质监测站.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站/一体化微型水质监测站.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
@@ -927,7 +917,7 @@
 				<Property Name="Destination[3].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/data/tubiao.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{54DD652B-4D0D-4919-BC7F-730304C7A15E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{EE4ABDE2-2C9F-4826-9717-7494D2E85213}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/UI/VIS/启动.vi</Property>
@@ -941,37 +931,28 @@
 				<Property Name="Source[11].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[11].type" Type="Str">Library</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/我的电脑/update.lvlib</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/我的电脑/数据查询.lvlib</Property>
 				<Property Name="Source[12].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[12].type" Type="Str">Library</Property>
 				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/我的电脑/数据查询.lvlib</Property>
-				<Property Name="Source[13].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[13].type" Type="Str">Library</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/我的电脑/系统设置/ACCESS加密 (子VI).vi</Property>
+				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[13].type" Type="Str">VI</Property>
 				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[14].itemID" Type="Ref">/我的电脑/MB SLAVE.lvlib</Property>
-				<Property Name="Source[14].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/我的电脑/系统设置/参数初始化.vi</Property>
 				<Property Name="Source[14].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[14].type" Type="Str">Library</Property>
+				<Property Name="Source[14].type" Type="Str">VI</Property>
 				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[15].itemID" Type="Ref">/我的电脑/系统设置/ACCESS加密 (子VI).vi</Property>
+				<Property Name="Source[15].itemID" Type="Ref">/我的电脑/系统设置/配置初始化.vi</Property>
 				<Property Name="Source[15].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[15].type" Type="Str">VI</Property>
-				<Property Name="Source[16].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[16].itemID" Type="Ref">/我的电脑/系统设置/参数初始化.vi</Property>
+				<Property Name="Source[16].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[16].itemID" Type="Ref">/我的电脑/resources/alarmList.mdb</Property>
 				<Property Name="Source[16].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[16].type" Type="Str">VI</Property>
 				<Property Name="Source[17].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[17].itemID" Type="Ref">/我的电脑/系统设置/配置初始化.vi</Property>
+				<Property Name="Source[17].itemID" Type="Ref">/我的电脑/DAM0404D.lvlib/DAM0404D.lvclass</Property>
 				<Property Name="Source[17].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[17].type" Type="Str">VI</Property>
-				<Property Name="Source[18].destinationIndex" Type="Int">3</Property>
-				<Property Name="Source[18].itemID" Type="Ref">/我的电脑/resources/alarmList.mdb</Property>
-				<Property Name="Source[18].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[19].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[19].itemID" Type="Ref">/我的电脑/DAM0404D.lvlib/DAM0404D.lvclass</Property>
-				<Property Name="Source[19].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[19].type" Type="Str">Library</Property>
+				<Property Name="Source[17].type" Type="Str">Library</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/我的电脑/UI/VIS/主画面.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
@@ -999,7 +980,7 @@
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[9].itemID" Type="Ref">/我的电脑/data/restart.bat</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">20</Property>
+				<Property Name="SourceCount" Type="Int">18</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">一体化微型水质监测站</Property>
 				<Property Name="TgtF_internalName" Type="Str">One station online monitoring system 4.0</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">版权 2019 </Property>
