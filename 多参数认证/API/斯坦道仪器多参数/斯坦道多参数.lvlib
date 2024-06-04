@@ -510,4 +510,5 @@
 	<Item Name="叶绿素a单位换算.vi" Type="VI" URL="../Subvi/叶绿素a单位换算.vi"/>
 	<Item Name="藻密度单位换算.vi" Type="VI" URL="../Subvi/藻密度单位换算.vi"/>
 	<Item Name="显示转换.vi" Type="VI" URL="../Subvi/显示转换.vi"/>
+	<Item Name="DO线性系数设置.vi" Type="VI" URL="../DO线性系数设置.vi"/>
 </Library>
