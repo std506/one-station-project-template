@@ -50,7 +50,7 @@
 		</Item>
 	</Item>
 	<Item Name="open.vi" Type="VI" URL="../open.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;"!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%*!=!!?!!!E$(6Q:'&amp;U:3ZM&gt;GRJ9B68:7*%169A9WRJ:7ZU,GRW9WRB=X-!!"*8:7*%169A9WRJ:7ZU)-LEM`9!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!1E"Q!"Y!!#1-&gt;8"E982F,GRW&lt;'FC&amp;6&gt;F9E2"6C"D&lt;'FF&lt;H1O&lt;(:D&lt;'&amp;T=Q!!%F&gt;F9E2"6C"D&lt;'FF&lt;H1ASO4)[Q!!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!*)!!!!!!1!)!!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;`!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%*!=!!?!!!E$(6Q:'&amp;U:3ZM&gt;GRJ9B68:7*%169A9WRJ:7ZU,GRW9WRB=X-!!"*8:7*%169A9WRJ:7ZU)-LEM`9!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!$%!Q`````Q.65EQ!$E!Q`````Q265U63!!!31$$`````#&amp;""5V.84V*%!!!31&amp;!!!Q!(!!A!#16J&lt;H"V&gt;!"#1(!!(A!!*!RV='2B&gt;'5O&lt;(:M;7)66W6C2%&amp;7)'.M;76O&gt;#ZM&gt;G.M98.T!!!36W6C2%&amp;7)'.M;76O&gt;#$+Z-DL!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!I!#Q-!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!)!!!!EA!!!!!"!!Q!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>

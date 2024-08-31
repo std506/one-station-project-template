@@ -183,7 +183,6 @@
 			<Item Name="校准任务.ctl" Type="VI" URL="../参数设置/校准任务.ctl"/>
 		</Item>
 	</Item>
-	<Item Name="反控参数变更.vi" Type="VI" URL="../Subvi/反控参数变更.vi"/>
 	<Item Name="获取关键参数.vi" Type="VI" URL="../参数设置/获取关键参数.vi"/>
 	<Item Name="启动参数设置.vi" Type="VI" URL="../参数设置/启动参数设置.vi"/>
 	<Item Name="数据时间对齐处理.vi" Type="VI" URL="../Subvi/数据时间对齐处理.vi"/>

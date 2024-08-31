@@ -1,0 +1,724 @@
+【2023/11/20 11:10:53.598】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:12.288】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:12.348】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:12.403】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:12.546】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:12.830】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:12.878】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:12.924】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:12.960】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:13.024】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:13.066】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:13.124】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:13.161】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:13.227】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:13.262】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:13.328】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:13.371】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:13.420】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:13.465】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:13.528】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:13.568】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:18.632】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:18.682】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:18.727】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:18.775】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:18.817】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:18.857】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:18.897】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:18.968】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:19.015】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:19.057】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:19.098】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:19.165】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:19.204】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:19.266】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:19.307】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:19.363】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:19.403】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:19.464】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:19.505】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:19.559】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:29.613】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:29.664】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:29.746】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:29.787】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:29.833】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:29.865】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:29.921】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:29.966】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:30.045】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:30.085】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:30.137】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:30.179】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:30.237】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:30.281】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:30.339】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:30.379】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:30.435】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:30.468】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:30.540】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:30.573】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:35.634】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:35.715】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:35.760】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:35.810】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:35.847】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:35.914】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:35.953】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:36.012】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:36.088】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:36.148】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:36.222】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:36.266】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:36.318】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:36.365】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:36.407】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:36.450】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:36.494】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:36.552】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:36.612】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:35:36.657】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:28.734】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:28.817】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:28.903】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:28.945】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:28.999】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:29.047】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:29.104】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:29.149】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:29.206】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:29.245】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:29.302】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:29.344】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:29.403】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:29.448】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:29.503】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:29.546】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:29.606】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:29.647】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:29.703】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:29.746】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:34.826】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:34.873】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:34.912】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:34.980】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:35.019】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:35.072】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:35.112】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:35.178】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:35.217】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:35.274】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:35.320】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:35.374】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:35.420】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:35.476】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:35.519】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:35.569】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:35.612】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:35.677】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:35.721】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:35.781】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:52.850】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:52.933】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:52.986】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:53.028】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:53.088】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:53.130】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:53.195】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:53.237】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:53.287】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:53.329】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:53.394】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:53.436】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:53.489】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:53.536】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:53.586】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:53.629】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:53.698】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:53.750】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:53.807】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:53.856】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:58.939】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:59.015】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:59.050】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:59.111】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:59.150】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:59.209】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:59.253】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:59.294】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:59.343】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:59.414】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:59.451】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:59.513】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:59.549】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:59.611】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:59.650】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:59.712】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:59.751】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:59.823】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:59.858】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:36:59.908】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:37:04.972】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:37:05.030】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:37:05.070】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:37:05.104】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:37:05.147】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:37:05.216】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:37:05.262】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:37:05.311】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:37:05.357】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:37:05.413】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:37:05.526】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:37:05.596】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:37:05.632】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:37:05.680】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:37:05.720】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:37:05.764】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:37:05.825】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:37:05.865】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:37:05.920】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.
+【2023/11/20 13:37:05.964】:氨氮错误1发生于 "NI_Database_API.lvlib:Cmd getData.vi"
+
+可能原因：
+Object 0x000000 is not valid.

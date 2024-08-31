@@ -1,0 +1,12 @@
+2023/09/26 17:16:49
+send:{"time":"2023-09-26 17:16:48","data":{"smoke_sensor":{"trigger_alarm":false}}}
+2023/09/26 17:16:49
+receive:{"code":"200","message":"成功","timestamp":1695719808454,"data":true,"success":true}
+2023/09/26 17:16:49
+send:{"time":"2023-09-26 17:16:48","data":{"water_immersion_sensor":{"trigger_alarm":false}}}
+2023/09/26 17:16:49
+receive:{"code":"200","message":"成功","timestamp":1695719808478,"data":true,"success":true}
+2023/09/26 17:16:49
+send:{"time":"2023-09-26 17:16:48","data":{"temperature_and_humidity_sensor":{"current_temperature":-74.99466,"current_humidity":-24.99618,"room_temperature_alarm":true,"humidity_alarm":true}}}
+2023/09/26 17:16:49
+receive:{"code":"200","message":"成功","timestamp":1695719808524,"data":true,"success":true}

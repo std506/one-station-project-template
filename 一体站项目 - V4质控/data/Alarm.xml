@@ -1,7 +1,51 @@
 <?xml version='1.0'  encoding='UTF-8' standalone='yes' ?>
 <LVData xmlns="http://www.ni.com/LVData">
-<Version>16.0</Version>
+<Version>16.0f5</Version>
 <project>
+  <data>
+    <id>1554302965705641985</id>
+    <componentParentId>0</componentParentId>
+    <componentParentName>ORP水质自动分析仪</componentParentName>
+    <componentParentPath/>
+    <componentId>1000000000001110000</componentId>
+    <componentName/>
+    <faultName>把哈哈哈哈</faultName>
+    <equipVersion/>
+    <alarmCode>110000001</alarmCode>
+    <supportAlarm>true</supportAlarm>
+    <ipcAlarmCode/>
+    <sort>1</sort>
+    <solutionList>
+      <id>1554302941227683843</id>
+      <faultId>1554302965705641985</faultId>
+      <reason>v滚滚滚也很好</reason>
+      <dataPhenomenon/>
+      <analysis/>
+      <solution>刚刚古古怪怪</solution>
+    </solutionList>
+  </data>
+  <data>
+    <id>1593536495882903554</id>
+    <componentParentId>0</componentParentId>
+    <componentParentName>动力环境监测单元</componentParentName>
+    <componentParentPath/>
+    <componentId>1000000000001150000</componentId>
+    <componentName>动力环境监测单元</componentName>
+    <faultName>测试更换元器件</faultName>
+    <equipVersion/>
+    <alarmCode>150000001</alarmCode>
+    <supportAlarm>true</supportAlarm>
+    <ipcAlarmCode/>
+    <sort>1</sort>
+    <solutionList>
+      <id>1593543167468675073</id>
+      <faultId>1593536495882903554</faultId>
+      <reason>连轴损坏</reason>
+      <dataPhenomenon>测试上传</dataPhenomenon>
+      <analysis/>
+      <solution>换元器件</solution>
+    </solutionList>
+  </data>
   <data>
     <id>1525787494398222780</id>
     <componentParentId>-1</componentParentId>
@@ -22,6 +66,14 @@
       <dataPhenomenon/>
       <analysis/>
       <solution>根据水样浓度选择合适量程</solution>
+    </solutionList>
+    <solutionList>
+      <id>1590545377759076353</id>
+      <faultId>1525787494398222780</faultId>
+      <reason>222</reason>
+      <dataPhenomenon/>
+      <analysis/>
+      <solution>22</solution>
     </solutionList>
   </data>
   <data>
@@ -85,25 +137,71 @@
     </solutionList>
   </data>
   <data>
-    <id>1525787494356279315</id>
-    <componentParentId>1000000000001100000</componentParentId>
-    <componentParentName>COD(光谱)水质自动分析仪</componentParentName>
+    <id>1593536495509610498</id>
+    <componentParentId>0</componentParentId>
+    <componentParentName>/</componentParentName>
+    <componentParentPath>COD(光谱)水质自动分析仪</componentParentPath>
+    <componentId>1000000000002100100</componentId>
+    <componentName>/</componentName>
+    <faultName>测试更换元器件</faultName>
+    <equipVersion/>
+    <alarmCode>101000011</alarmCode>
+    <supportAlarm>true</supportAlarm>
+    <ipcAlarmCode/>
+    <sort>11</sort>
+    <solutionList>
+      <id>1593543643186634753</id>
+      <faultId>1593536495509610498</faultId>
+      <reason>连轴损坏</reason>
+      <dataPhenomenon>测试上传</dataPhenomenon>
+      <analysis/>
+      <solution>换元器件</solution>
+    </solutionList>
+  </data>
+  <data>
+    <id>1593161437347901441</id>
+    <componentParentId>0</componentParentId>
+    <componentParentName>/</componentParentName>
     <componentParentPath>COD(光谱)水质自动分析仪</componentParentPath>
     <componentId>1000000000002100100</componentId>
     <componentName>/</componentName>
     <faultName>通讯异常</faultName>
     <equipVersion>V2,V3,V4</equipVersion>
-    <alarmCode>100100010</alarmCode>
+    <alarmCode>101000010</alarmCode>
     <supportAlarm>true</supportAlarm>
     <ipcAlarmCode>999</ipcAlarmCode>
     <sort>10</sort>
     <solutionList>
-      <id>1525787494356279316</id>
-      <faultId>1525787494356279315</faultId>
-      <reason/>
+      <id>1599583418239209473</id>
+      <faultId>1593161437347901441</faultId>
+      <reason>安卓上报</reason>
+      <dataPhenomenon>123456789</dataPhenomenon>
+      <analysis>想发火健健康康</analysis>
+      <solution>安卓解决</solution>
+    </solutionList>
+    <solutionList>
+      <id>1599583418306318337</id>
+      <faultId>1593161437347901441</faultId>
+      <reason>安卓上报1</reason>
+      <dataPhenomenon>123456789</dataPhenomenon>
+      <analysis>想发火健健康康</analysis>
+      <solution>安卓解决</solution>
+    </solutionList>
+    <solutionList>
+      <id>1599583418339872769</id>
+      <faultId>1593161437347901441</faultId>
+      <reason>1</reason>
       <dataPhenomenon/>
       <analysis/>
-      <solution/>
+      <solution>1</solution>
+    </solutionList>
+    <solutionList>
+      <id>1599583418369232897</id>
+      <faultId>1593161437347901441</faultId>
+      <reason>第三方斯蒂芬水电费</reason>
+      <dataPhenomenon>啥大萨达所</dataPhenomenon>
+      <analysis>的范德萨范德萨</analysis>
+      <solution>佛挡杀佛似懂非懂是</solution>
     </solutionList>
   </data>
   <data>
@@ -217,28 +315,6 @@
     </solutionList>
   </data>
   <data>
-    <id>1525787494356279303</id>
-    <componentParentId>1000000000001100000</componentParentId>
-    <componentParentName>COD(光谱)水质自动分析仪</componentParentName>
-    <componentParentPath>COD(光谱)水质自动分析仪</componentParentPath>
-    <componentId>1000000000002100100</componentId>
-    <componentName>/</componentName>
-    <faultName>加热异常</faultName>
-    <equipVersion/>
-    <alarmCode>100100004</alarmCode>
-    <supportAlarm>true</supportAlarm>
-    <ipcAlarmCode>8</ipcAlarmCode>
-    <sort>4</sort>
-    <solutionList>
-      <id>1525787494356279304</id>
-      <faultId>1525787494356279303</faultId>
-      <reason/>
-      <dataPhenomenon/>
-      <analysis/>
-      <solution/>
-    </solutionList>
-  </data>
-  <data>
     <id>1525787494356279301</id>
     <componentParentId>1000000000001100000</componentParentId>
     <componentParentName>COD(光谱)水质自动分析仪</componentParentName>
@@ -274,12 +350,12 @@
     <ipcAlarmCode>5</ipcAlarmCode>
     <sort>2</sort>
     <solutionList>
-      <id>1525787494356279300</id>
+      <id>1552475738165284865</id>
       <faultId>1525787494356279299</faultId>
-      <reason/>
+      <reason>123ghhhh</reason>
       <dataPhenomenon/>
       <analysis/>
-      <solution/>
+      <solution>123ghhh</solution>
     </solutionList>
   </data>
   <data>
@@ -305,6 +381,74 @@
     </solutionList>
   </data>
   <data>
+    <id>1595984781135323137</id>
+    <componentParentId>0</componentParentId>
+    <componentParentName>光纤</componentParentName>
+    <componentParentPath>COD(光谱)水质自动分析仪</componentParentPath>
+    <componentId>1000000000002100200</componentId>
+    <componentName>光纤</componentName>
+    <faultName>超量程告警</faultName>
+    <equipVersion>V1</equipVersion>
+    <alarmCode>102000003</alarmCode>
+    <supportAlarm>true</supportAlarm>
+    <ipcAlarmCode>7</ipcAlarmCode>
+    <sort>3</sort>
+    <solutionList>
+      <id>1595984781156294658</id>
+      <faultId>1595984781135323137</faultId>
+      <reason>水样浓度高于量程最高检测浓度</reason>
+      <dataPhenomenon/>
+      <analysis/>
+      <solution>根据水样浓度选择合适量程</solution>
+    </solutionList>
+    <solutionList>
+      <id>1595984781244375041</id>
+      <faultId>1595984781135323137</faultId>
+      <reason>222</reason>
+      <dataPhenomenon/>
+      <analysis/>
+      <solution>22</solution>
+    </solutionList>
+  </data>
+  <data>
+    <id>1539885454336262146</id>
+    <componentParentId>0</componentParentId>
+    <componentParentName>光纤</componentParentName>
+    <componentParentPath>COD(光谱)水质自动分析仪</componentParentPath>
+    <componentId>1000000000002100200</componentId>
+    <componentName>光纤</componentName>
+    <faultName>光路系统故障测试</faultName>
+    <equipVersion>v1</equipVersion>
+    <alarmCode>102000002</alarmCode>
+    <supportAlarm>false</supportAlarm>
+    <ipcAlarmCode>1000000</ipcAlarmCode>
+    <sort>2</sort>
+    <solutionList>
+      <id>1539885454982184962</id>
+      <faultId>1539885454336262146</faultId>
+      <reason>测试测试测试测试</reason>
+      <dataPhenomenon>闪光爆炸</dataPhenomenon>
+      <analysis>闪光爆炸蘑菇云</analysis>
+      <solution>112321313213213</solution>
+    </solutionList>
+    <solutionList>
+      <id>1539886692595466242</id>
+      <faultId>1539885454336262146</faultId>
+      <reason>1</reason>
+      <dataPhenomenon>1</dataPhenomenon>
+      <analysis>1</analysis>
+      <solution>1</solution>
+    </solutionList>
+    <solutionList>
+      <id>1539903594021584897</id>
+      <faultId>1539885454336262146</faultId>
+      <reason>2</reason>
+      <dataPhenomenon>2</dataPhenomenon>
+      <analysis>2</analysis>
+      <solution>2</solution>
+    </solutionList>
+  </data>
+  <data>
     <id>1525787494356279317</id>
     <componentParentId>1000000000001100000</componentParentId>
     <componentParentName>COD(光谱)水质自动分析仪</componentParentName>
@@ -326,6 +470,36 @@
       <solution>a 光纤接入异常，接入光纤；
 b 光纤断裂，更换光纤；
 c 光纤生锈，清除锈迹或更换光纤；</solution>
+    </solutionList>
+  </data>
+  <data>
+    <id>1595984781588307970</id>
+    <componentParentId>0</componentParentId>
+    <componentParentName>光谱仪</componentParentName>
+    <componentParentPath>COD(光谱)水质自动分析仪</componentParentPath>
+    <componentId>1000000000002100300</componentId>
+    <componentName>光谱仪</componentName>
+    <faultName>超量程告警</faultName>
+    <equipVersion>V1</equipVersion>
+    <alarmCode>103000003</alarmCode>
+    <supportAlarm>true</supportAlarm>
+    <ipcAlarmCode>7</ipcAlarmCode>
+    <sort>3</sort>
+    <solutionList>
+      <id>1595984781592502273</id>
+      <faultId>1595984781588307970</faultId>
+      <reason>水样浓度高于量程最高检测浓度</reason>
+      <dataPhenomenon/>
+      <analysis/>
+      <solution>根据水样浓度选择合适量程</solution>
+    </solutionList>
+    <solutionList>
+      <id>1595984781605085186</id>
+      <faultId>1595984781588307970</faultId>
+      <reason>222</reason>
+      <dataPhenomenon/>
+      <analysis/>
+      <solution>22</solution>
     </solutionList>
   </data>
   <data>
@@ -564,10 +738,26 @@ c 光纤生锈，清除锈迹或更换光纤；</solution>
     <solutionList>
       <id>1525787494398222343</id>
       <faultId>1525787494398222342</faultId>
-      <reason/>
+      <reason>1</reason>
       <dataPhenomenon/>
       <analysis/>
-      <solution/>
+      <solution>2</solution>
+    </solutionList>
+    <solutionList>
+      <id>1547774689001082881</id>
+      <faultId>1525787494398222342</faultId>
+      <reason>123463</reason>
+      <dataPhenomenon/>
+      <analysis/>
+      <solution>推我一下</solution>
+    </solutionList>
+    <solutionList>
+      <id>1554029815210774530</id>
+      <faultId>1525787494398222342</faultId>
+      <reason>水质早睡早起是</reason>
+      <dataPhenomenon>破摄影作品</dataPhenomenon>
+      <analysis>让万事如意</analysis>
+      <solution>坡坡自己洗</solution>
     </solutionList>
   </data>
   <data>
@@ -917,7 +1107,7 @@ c 光纤生锈，清除锈迹或更换光纤；</solution>
       <id>1525787494398222373</id>
       <faultId>1525787494398222372</faultId>
       <reason>光纤异常</reason>
-      <dataPhenomenon/>
+      <dataPhenomenon>大幅度释放的</dataPhenomenon>
       <analysis>单控氙灯光谱仪3S，闪烁数值为一长串数字或数值低于1000</analysis>
       <solution>a 光纤接入异常，接入光纤；
 b 光纤断裂，更换光纤；
@@ -2643,6 +2833,28 @@ c、若纯水传感器信号值、空气传感器信号值均＜1500，且两者
     </solutionList>
   </data>
   <data>
+    <id>1597153186068054017</id>
+    <componentParentId>0</componentParentId>
+    <componentParentName>振动传感器</componentParentName>
+    <componentParentPath>动力环境监测单元</componentParentPath>
+    <componentId>1000000000002150700</componentId>
+    <componentName>振动传感器</componentName>
+    <faultName>故障名称测试</faultName>
+    <equipVersion/>
+    <alarmCode>157000002</alarmCode>
+    <supportAlarm>false</supportAlarm>
+    <ipcAlarmCode/>
+    <sort>2</sort>
+    <solutionList>
+      <id>1597153186168717314</id>
+      <faultId>1597153186068054017</faultId>
+      <reason>可能原因测试</reason>
+      <dataPhenomenon>数据现象测试</dataPhenomenon>
+      <analysis>问题分析测试</analysis>
+      <solution>解决方法测试</solution>
+    </solutionList>
+  </data>
+  <data>
     <id>1525787494398222740</id>
     <componentParentId>1000000000001150000</componentParentId>
     <componentParentName>动力环境监测单元</componentParentName>
@@ -2670,6 +2882,28 @@ c、若纯水传感器信号值、空气传感器信号值均＜1500，且两者
       <dataPhenomenon/>
       <analysis/>
       <solution>2、更换传感器</solution>
+    </solutionList>
+  </data>
+  <data>
+    <id>1544972212035932162</id>
+    <componentParentId>0</componentParentId>
+    <componentParentName>气象仪</componentParentName>
+    <componentParentPath>动力环境监测单元</componentParentPath>
+    <componentId>1000000000002150800</componentId>
+    <componentName>动力环境监测单元</componentName>
+    <faultName>故障名称测试</faultName>
+    <equipVersion/>
+    <alarmCode>158000002</alarmCode>
+    <supportAlarm>false</supportAlarm>
+    <ipcAlarmCode/>
+    <sort>2</sort>
+    <solutionList>
+      <id>1544972192096210947</id>
+      <faultId>1544972212035932162</faultId>
+      <reason>可能原因测试</reason>
+      <dataPhenomenon>数据现象测试</dataPhenomenon>
+      <analysis>问题分析测试</analysis>
+      <solution>解决方法测试</solution>
     </solutionList>
   </data>
   <data>
@@ -3056,18 +3290,26 @@ c、若纯水传感器信号值、空气传感器信号值均＜1500，且两者
     <componentId>1000000000002160100</componentId>
     <componentName>/</componentName>
     <faultName>超量程告警</faultName>
-    <equipVersion>V4</equipVersion>
+    <equipVersion>V1</equipVersion>
     <alarmCode>160100009</alarmCode>
     <supportAlarm>true</supportAlarm>
     <ipcAlarmCode>7</ipcAlarmCode>
     <sort>9</sort>
     <solutionList>
-      <id>1525787494398222799</id>
+      <id>1597118260912345090</id>
       <faultId>1525787494398222798</faultId>
       <reason/>
       <dataPhenomenon/>
       <analysis/>
       <solution/>
+    </solutionList>
+    <solutionList>
+      <id>1597118260954288129</id>
+      <faultId>1525787494398222798</faultId>
+      <reason>水样浓度高于量程最高检测浓度</reason>
+      <dataPhenomenon/>
+      <analysis/>
+      <solution>根据水样浓度选择合适量程</solution>
     </solutionList>
   </data>
   <data>
@@ -5229,25 +5471,41 @@ b 更换蠕动泵或电路板；</solution>
     </solutionList>
   </data>
   <data>
-    <id>1525787494398223115</id>
-    <componentParentId>1000000000001190000</componentParentId>
-    <componentParentName>总氮水质自动分析仪</componentParentName>
+    <id>1593150568815718401</id>
+    <componentParentId>0</componentParentId>
+    <componentParentName>/</componentParentName>
     <componentParentPath>总氮水质自动分析仪</componentParentPath>
     <componentId>1000000000002190100</componentId>
     <componentName>/</componentName>
     <faultName>通讯异常</faultName>
-    <equipVersion>V2,V3,V4</equipVersion>
-    <alarmCode>190100010</alarmCode>
-    <supportAlarm>true</supportAlarm>
-    <ipcAlarmCode>999</ipcAlarmCode>
+    <equipVersion/>
+    <alarmCode>191000010</alarmCode>
+    <supportAlarm>false</supportAlarm>
+    <ipcAlarmCode/>
     <sort>10</sort>
     <solutionList>
-      <id>1525787494398223116</id>
-      <faultId>1525787494398223115</faultId>
-      <reason/>
+      <id>1593163904525594626</id>
+      <faultId>1593150568815718401</faultId>
+      <reason>安卓上报</reason>
+      <dataPhenomenon>123456789</dataPhenomenon>
+      <analysis>想发火健健康康</analysis>
+      <solution>安卓解决</solution>
+    </solutionList>
+    <solutionList>
+      <id>1593163905028911105</id>
+      <faultId>1593150568815718401</faultId>
+      <reason>安卓上报1</reason>
+      <dataPhenomenon>123456789</dataPhenomenon>
+      <analysis>想发火健健康康</analysis>
+      <solution>安卓解决</solution>
+    </solutionList>
+    <solutionList>
+      <id>1593163905452535810</id>
+      <faultId>1593150568815718401</faultId>
+      <reason>1</reason>
       <dataPhenomenon/>
       <analysis/>
-      <solution/>
+      <solution>1</solution>
     </solutionList>
   </data>
   <data>
@@ -11698,12 +11956,20 @@ c、若纯水传感器信号值、空气传感器信号值均＜1500，且两者
     <ipcAlarmCode>999</ipcAlarmCode>
     <sort>10</sort>
     <solutionList>
-      <id>1525787494465332331</id>
+      <id>1599583419405225986</id>
       <faultId>1525787494465332330</faultId>
-      <reason/>
+      <reason>第三方斯蒂芬水电费</reason>
+      <dataPhenomenon>啥大萨达所</dataPhenomenon>
+      <analysis>的范德萨范德萨</analysis>
+      <solution>佛挡杀佛似懂非懂是</solution>
+    </solutionList>
+    <solutionList>
+      <id>1599583419417808898</id>
+      <faultId>1525787494465332330</faultId>
+      <reason>fdf</reason>
       <dataPhenomenon/>
       <analysis/>
-      <solution/>
+      <solution>dgfdgfgfg</solution>
     </solutionList>
   </data>
   <data>
@@ -22580,6 +22846,28 @@ c、若纯水传感器信号值、空气传感器信号值均＜1500，且两者
     </solutionList>
   </data>
   <data>
+    <id>1593144334347726849</id>
+    <componentParentId>0</componentParentId>
+    <componentParentName>固件</componentParentName>
+    <componentParentPath>COD(光谱)水质自动分析仪/参数设置</componentParentPath>
+    <componentId>1000000000003100403</componentId>
+    <componentName>固件</componentName>
+    <faultName>缺少加装流程</faultName>
+    <equipVersion>v1</equipVersion>
+    <alarmCode>104300004</alarmCode>
+    <supportAlarm>false</supportAlarm>
+    <ipcAlarmCode/>
+    <sort>4</sort>
+    <solutionList>
+      <id>1593144691366883330</id>
+      <faultId>1593144334347726849</faultId>
+      <reason>仪器加装步骤缺漏</reason>
+      <dataPhenomenon>缺少数值上传显示</dataPhenomenon>
+      <analysis>加上一个步骤就行</analysis>
+      <solution>增加了一个硬件与软件</solution>
+    </solutionList>
+  </data>
+  <data>
     <id>1525787494356279335</id>
     <componentParentId>1000000000002100400</componentParentId>
     <componentParentName>参数设置</componentParentName>
@@ -22648,6 +22936,50 @@ c、若纯水传感器信号值、空气传感器信号值均＜1500，且两者
     </solutionList>
   </data>
   <data>
+    <id>1593144345290665985</id>
+    <componentParentId>0</componentParentId>
+    <componentParentName>流程</componentParentName>
+    <componentParentPath>COD(光谱)水质自动分析仪/参数设置</componentParentPath>
+    <componentId>1000000000003100404</componentId>
+    <componentName>流程</componentName>
+    <faultName>缺少加装流程</faultName>
+    <equipVersion>v1</equipVersion>
+    <alarmCode>104400006</alarmCode>
+    <supportAlarm>false</supportAlarm>
+    <ipcAlarmCode/>
+    <sort>6</sort>
+    <solutionList>
+      <id>1593144728142540801</id>
+      <faultId>1593144345290665985</faultId>
+      <reason>仪器加装步骤缺漏</reason>
+      <dataPhenomenon>缺少数值上传显示</dataPhenomenon>
+      <analysis>加上一个步骤就行</analysis>
+      <solution>增加了一个硬件与软件</solution>
+    </solutionList>
+  </data>
+  <data>
+    <id>1548938255560871938</id>
+    <componentParentId>0</componentParentId>
+    <componentParentName>流程</componentParentName>
+    <componentParentPath>COD(光谱)水质自动分析仪/参数设置</componentParentPath>
+    <componentId>1000000000003100404</componentId>
+    <componentName>COD(光谱)水质自动分析仪</componentName>
+    <faultName>加热异常</faultName>
+    <equipVersion/>
+    <alarmCode>104400005</alarmCode>
+    <supportAlarm>false</supportAlarm>
+    <ipcAlarmCode/>
+    <sort>5</sort>
+    <solutionList>
+      <id>1548938176506630145</id>
+      <faultId>1548938255560871938</faultId>
+      <reason>仪器加装步骤缺漏</reason>
+      <dataPhenomenon>缺少数值上传显示</dataPhenomenon>
+      <analysis>加上一个步骤就行</analysis>
+      <solution>增加了一个硬件与软件</solution>
+    </solutionList>
+  </data>
+  <data>
     <id>1525787494356279343</id>
     <componentParentId>1000000000002100400</componentParentId>
     <componentParentName>参数设置</componentParentName>
@@ -22667,7 +22999,7 @@ c、若纯水传感器信号值、空气传感器信号值均＜1500，且两者
       <dataPhenomenon/>
       <analysis>单控LED及ADC光值正常，跑流程异常。
 注意：LED及ADC需对应，不同参数或参数组合对应关系不同，请参考共享盘文件或平台知识库</analysis>
-      <solution>更新至正确固件流程,可参考共享盘或平台知识库内相关文件；</solution>
+      <solution>更新至正确固件流程,可参考共享盘或平台知识库内相关文件；更新一个流程</solution>
     </solutionList>
   </data>
   <data>
@@ -27136,6 +27468,14 @@ b 更换pt100</solution>
       <dataPhenomenon/>
       <analysis>实际数值高于量程上限参数设置</analysis>
       <solution>核实量程上限值</solution>
+    </solutionList>
+    <solutionList>
+      <id>1551382690144575489</id>
+      <faultId>1525787494398223126</faultId>
+      <reason>123456</reason>
+      <dataPhenomenon>v个哈哈哈哈</dataPhenomenon>
+      <analysis>1223558</analysis>
+      <solution>测试测试测试测试测试安卓</solution>
     </solutionList>
   </data>
   <data>
@@ -49215,31 +49555,31 @@ b 更换温度探头</solution>
     <sort>2</sort>
   </data>
   <data>
-    <id>1530140640635531266</id>
-    <componentParentId>0</componentParentId>
-    <componentParentName>std二级</componentParentName>
-    <componentParentPath>std二级</componentParentPath>
-    <componentId>1530078640681267202</componentId>
-    <componentName>std二级</componentName>
-    <faultName>新增故障二级</faultName>
+    <id/>
+    <componentParentId/>
+    <componentParentName/>
+    <componentParentPath/>
+    <componentId/>
+    <componentName/>
+    <faultName/>
     <equipVersion/>
-    <alarmCode>470100001</alarmCode>
-    <supportAlarm>true</supportAlarm>
+    <alarmCode/>
+    <supportAlarm>false</supportAlarm>
     <ipcAlarmCode/>
-    <sort>1</sort>
+    <sort>0</sort>
   </data>
   <data>
-    <id>1530141027417468930</id>
-    <componentParentId>0</componentParentId>
-    <componentParentName>std六级</componentParentName>
-    <componentParentPath>std/std二级/std三级/std四级/std五级</componentParentPath>
-    <componentId>1530118463815168002</componentId>
-    <componentName>std六级</componentName>
-    <faultName>新增故障六级</faultName>
+    <id/>
+    <componentParentId/>
+    <componentParentName/>
+    <componentParentPath/>
+    <componentId/>
+    <componentName/>
+    <faultName/>
     <equipVersion/>
-    <alarmCode>470101005</alarmCode>
-    <supportAlarm>true</supportAlarm>
+    <alarmCode/>
+    <supportAlarm>false</supportAlarm>
     <ipcAlarmCode/>
-    <sort>5</sort>
+    <sort>0</sort>
   </data>
 </project></LVData>

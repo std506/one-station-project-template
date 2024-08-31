@@ -225,6 +225,10 @@
 		<Item Name="数据时间对齐.vi" Type="VI" URL="../总磷总氮/数据时间对齐.vi"/>
 		<Item Name="状态告警区.vi" Type="VI" URL="../总磷总氮/状态告警区.vi"/>
 		<Item Name="总磷总氮通讯.vi" Type="VI" URL="../总磷总氮/总磷总氮通讯.vi"/>
+		<Item Name="测量数据区_正常.vi" Type="VI" URL="../总磷总氮/测量数据区_正常.vi"/>
+		<Item Name="状态告警区_正常.vi" Type="VI" URL="../总磷总氮/状态告警区_正常.vi"/>
+		<Item Name="测量数据区_选择.vi" Type="VI" URL="../总磷总氮/测量数据区_选择.vi"/>
+		<Item Name="状态告警区_选择.vi" Type="VI" URL="../总磷总氮/状态告警区_选择.vi"/>
 	</Item>
 	<Item Name="温度曲线" Type="Folder">
 		<Item Name="历史温度曲线.vi" Type="VI" URL="../温度曲线/历史温度曲线.vi"/>
