@@ -160,7 +160,6 @@
 			<Item Name="ADCP.lvlib" Type="Library" URL="../API/ADCP.lvlib"/>
 			<Item Name="雷达流速仪.lvlib" Type="Library" URL="../API/雷达流速仪/雷达流速仪.lvlib"/>
 			<Item Name="综合生物毒性.lvlib" Type="Library" URL="../API/综合生物毒性/综合生物毒性.lvlib"/>
-			<Item Name="AADI5400.lvlib" Type="Library" URL="../API/AADI5400/AADI5400.lvlib"/>
 		</Item>
 		<Item Name="MB SLAVE.lvlib" Type="Library" URL="../Modbus Slave/MB SLAVE.lvlib"/>
 		<Item Name="流量计集成.lvlib" Type="Library" URL="../API/流量计/流量计集成.lvlib"/>
@@ -1172,10 +1171,10 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">133</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.minor" Type="Int">8</Property>
-				<Property Name="Bld_version.patch" Type="Int">2</Property>
+				<Property Name="Bld_version.patch" Type="Int">3</Property>
 				<Property Name="Destination[0].destName" Type="Str">一体化微型水质监测站.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站/一体化微型水质监测站.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
@@ -1192,7 +1191,7 @@
 				<Property Name="Destination[3].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/data/tubiao.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{DA754316-B626-4888-859D-FF740063FAD2}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1AD31363-10D8-465E-9342-A1693946EFDF}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/UI/VIS/启动.vi</Property>
@@ -1528,19 +1527,15 @@
 				<Property Name="Source[85].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[85].type" Type="Str">VI</Property>
 				<Property Name="Source[86].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[86].itemID" Type="Ref">/我的电脑/设备仪器/AADI5400.lvlib/运维调试_AADI5400.vi</Property>
+				<Property Name="Source[86].itemID" Type="Ref">/我的电脑/设备仪器/质控单元/质控单元V4.lvlib/测试流程/旁路系统.vi</Property>
 				<Property Name="Source[86].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[86].type" Type="Str">VI</Property>
-				<Property Name="Source[87].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[87].itemID" Type="Ref">/我的电脑/设备仪器/质控单元/质控单元V4.lvlib/测试流程/旁路系统.vi</Property>
-				<Property Name="Source[87].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[87].type" Type="Str">VI</Property>
 				<Property Name="Source[9].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[9].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[9].itemID" Type="Ref">/我的电脑/流程文件</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">88</Property>
+				<Property Name="SourceCount" Type="Int">87</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">一体化微型水质监测站</Property>
 				<Property Name="TgtF_internalName" Type="Str">One station online monitoring system 4.0</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">版权 2019 </Property>
