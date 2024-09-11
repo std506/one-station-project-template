@@ -8,6 +8,7 @@
 	<Item Name="雷达流速仪全局变量.vi" Type="VI" URL="../雷达流速仪全局变量.vi"/>
 	<Item Name="雷达流速仪设置窗口.vi" Type="VI" URL="../雷达流速仪设置窗口.vi"/>
 	<Item Name="雷达流速仪通讯.vi" Type="VI" URL="../雷达流速仪通讯.vi"/>
+	<Item Name="雷达流速仪写调试.vi" Type="VI" URL="../雷达流速仪写调试.vi"/>
 	<Item Name="雷达流速仪写数据库.vi" Type="VI" URL="../雷达流速仪写数据库.vi"/>
 	<Item Name="运维调试_雷达流速仪.vi" Type="VI" URL="../运维调试_雷达流速仪.vi"/>
 </Library>

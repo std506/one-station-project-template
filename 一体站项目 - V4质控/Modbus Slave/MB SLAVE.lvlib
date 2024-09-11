@@ -48,6 +48,7 @@
 		<Item Name="总磷启动(子VI).vi" Type="VI" URL="../启动命令/总磷启动(子VI).vi"/>
 		<Item Name="启动采配水清洗 (子VI).vi" Type="VI" URL="../启动命令/启动采配水清洗 (子VI).vi"/>
 		<Item Name="启动采配水泵阀 (子VI).vi" Type="VI" URL="../启动命令/启动采配水泵阀 (子VI).vi"/>
+		<Item Name="CODMn启动 (子VI单片机).vi" Type="VI" URL="../启动命令/CODMn启动 (子VI单片机).vi"/>
 	</Item>
 	<Item Name="全局变量" Type="Folder">
 		<Item Name="modbus slave全局.vi" Type="VI" URL="../全局变量/modbus slave全局.vi"/>
@@ -62,6 +63,8 @@
 	<Item Name="subvi" Type="Folder">
 		<Item Name="关键参数转u16数组.vi" Type="VI" URL="../subvi/关键参数转u16数组.vi"/>
 		<Item Name="校准信息转u16数组.vi" Type="VI" URL="../subvi/校准信息转u16数组.vi"/>
+		<Item Name="远端校准.vi" Type="VI" URL="../subvi/远端校准.vi"/>
+		<Item Name="写校准时间及fid.vi" Type="VI" URL="../subvi/写校准时间及fid.vi"/>
 	</Item>
 	<Item Name="启动命令类型.ctl" Type="VI" URL="../subvi/启动命令类型.ctl"/>
 </Library>

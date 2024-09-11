@@ -31,15 +31,11 @@
 	<Property Name="Serialized ACL" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="taskqueue ref.vi" Type="VI" URL="../taskqueue ref.vi"/>
-	<Item Name="操作日志写入.vi" Type="VI" URL="../操作日志写入.vi"/>
-	<Item Name="调试专用.vi" Type="VI" URL="../调试专用.vi"/>
-	<Item Name="启动流程.vi" Type="VI" URL="../启动流程.vi"/>
 	<Item Name="全局_综合生物毒性.vi" Type="VI" URL="../全局_综合生物毒性.vi"/>
 	<Item Name="时间数据转换.vi" Type="VI" URL="../时间数据转换.vi"/>
 	<Item Name="数据解析.vi" Type="VI" URL="../数据解析.vi"/>
 	<Item Name="选择启动参数.vi" Type="VI" URL="../选择启动参数.vi"/>
 	<Item Name="运维调试_综合生物毒性.vi" Type="VI" URL="../运维调试_综合生物毒性.vi"/>
-	<Item Name="综合生物毒性_MB_api.vi" Type="VI" URL="../综合生物毒性_MB_api.vi"/>
 	<Item Name="综合生物毒性设置窗口.vi" Type="VI" URL="../综合生物毒性设置窗口.vi"/>
 	<Item Name="综合生物毒性写数据库.vi" Type="VI" URL="../综合生物毒性写数据库.vi"/>
 </Library>

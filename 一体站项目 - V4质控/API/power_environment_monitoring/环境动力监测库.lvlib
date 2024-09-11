@@ -104,6 +104,10 @@
 			<Item Name="高温告警对话框.vi" Type="VI" URL="../IO连接/温度湿度/高温告警对话框.vi"/>
 			<Item Name="温湿度参数配置.vi" Type="VI" URL="../IO连接/温度湿度/温湿度参数配置.vi"/>
 		</Item>
+		<Item Name="灭火装置监测" Type="Folder">
+			<Item Name="灭火装置监测界面.vi" Type="VI" URL="../IO连接/灭火装置监测/灭火装置监测界面.vi"/>
+			<Item Name="灭火装置参数配置.vi" Type="VI" URL="../IO连接/灭火装置监测/灭火装置参数配置.vi"/>
+		</Item>
 		<Item Name="IO状态读取 (子VI).vi" Type="VI" URL="../IO连接/IO状态读取 (子VI).vi"/>
 		<Item Name="信号持续时间参数配置.vi" Type="VI" URL="../IO连接/信号持续时间参数配置.vi"/>
 		<Item Name="联动声光报警(子VI).vi" Type="VI" URL="../IO连接/联动声光报警(子VI).vi"/>

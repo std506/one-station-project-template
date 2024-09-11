@@ -18,6 +18,7 @@
 		<Item Name="电源管理UI.vi" Type="VI" URL="../电源管理/电源管理UI.vi"/>
 		<Item Name="总氮电源命令.vi" Type="VI" URL="../电源管理/总氮电源命令.vi"/>
 		<Item Name="电源控制.vi" Type="VI" URL="../电源管理/电源控制.vi"/>
+		<Item Name="综合生物毒性电源命令.vi" Type="VI" URL="../电源管理/综合生物毒性电源命令.vi"/>
 	</Item>
 	<Item Name="通讯" Type="Folder">
 		<Item Name="采配水通讯指令.vi" Type="VI" URL="../采配水通讯指令.vi"/>

@@ -91,6 +91,7 @@
 		<Item Name="取中心点.vi" Type="VI" URL="../subvi/取中心点.vi"/>
 		<Item Name="数字键盘.vi" Type="VI" URL="../subvi/数字键盘.vi"/>
 		<Item Name="状态标记位读写.vi" Type="VI" URL="../subvi/状态标记位读写.vi"/>
+		<Item Name="命令格式.vi" Type="VI" URL="../subvi/命令格式.vi"/>
 	</Item>
 	<Item Name="UI" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -104,6 +105,8 @@
 	<Item Name="测试流程" Type="Folder">
 		<Item Name="单参数加标流程.vi" Type="VI" URL="../测试流程/单参数加标流程.vi"/>
 		<Item Name="多个参数加标回收启动器.vi" Type="VI" URL="../测试流程/多个参数加标回收启动器.vi"/>
+		<Item Name="旁路启动参数.vi" Type="VI" URL="../测试流程/旁路启动参数.vi"/>
+		<Item Name="旁路系统.vi" Type="VI" URL="../测试流程/旁路系统.vi"/>
 		<Item Name="质控停止子VI.vi" Type="VI" URL="../subvi/质控停止子VI.vi"/>
 	</Item>
 	<Item Name="多机通讯" Type="Folder">

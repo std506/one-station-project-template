@@ -1,0 +1,56 @@
+2023/12/21 21:30:33
+send:{"time":"2023-12-21 21:30:33","data":{"smoke_sensor":{"trigger_alarm":false}}}
+2023/12/21 21:30:33
+receive:{"code":"200","message":"成功","timestamp":1703165432349,"data":true,"success":true}
+2023/12/21 21:30:33
+send:{"time":"2023-12-21 21:30:33","data":{"water_immersion_sensor":{"trigger_alarm":false}}}
+2023/12/21 21:30:33
+receive:{"code":"200","message":"成功","timestamp":1703165432377,"data":true,"success":true}
+2023/12/21 21:30:33
+send:{"time":"2023-12-21 21:30:33","data":{"temperature_and_humidity_sensor":{"current_temperature":-74.99466,"current_humidity":-24.99618,"room_temperature_alarm":true,"humidity_alarm":true}}}
+2023/12/21 21:30:33
+receive:{"code":"200","message":"成功","timestamp":1703165432410,"data":true,"success":true}
+2023/12/21 21:32:48
+send:{"time":"2023-12-21 21:32:48","data":{"smoke_sensor":{"trigger_alarm":false}}}
+2023/12/21 21:32:48
+receive:{"code":"200","message":"成功","timestamp":1703165567711,"data":true,"success":true}
+2023/12/21 21:32:48
+send:{"time":"2023-12-21 21:32:48","data":{"water_immersion_sensor":{"trigger_alarm":false}}}
+2023/12/21 21:32:48
+receive:{"code":"200","message":"成功","timestamp":1703165567731,"data":true,"success":true}
+2023/12/21 21:32:48
+send:{"time":"2023-12-21 21:32:48","data":{"temperature_and_humidity_sensor":{"current_temperature":-74.99466,"current_humidity":-24.99618,"room_temperature_alarm":true,"humidity_alarm":true}}}
+2023/12/21 21:32:48
+receive:{"code":"200","message":"成功","timestamp":1703165567772,"data":true,"success":true}
+2023/12/21 22:01:28
+send:{"time":"2023-12-21 22:01:01","data":{"smoke_sensor":{"trigger_alarm":false}}}
+2023/12/21 22:01:28
+receive:{"code":"200","message":"成功","timestamp":1703167280174,"data":true,"success":true}
+2023/12/21 22:01:28
+send:{"time":"2023-12-21 22:01:01","data":{"water_immersion_sensor":{"trigger_alarm":false}}}
+2023/12/21 22:01:28
+receive:{"code":"200","message":"成功","timestamp":1703167283254,"data":true,"success":true}
+2023/12/21 22:01:28
+send:{"time":"2023-12-21 22:01:01","data":{"temperature_and_humidity_sensor":{"current_temperature":-74.99466,"current_humidity":-24.99618,"room_temperature_alarm":true,"humidity_alarm":true}}}
+2023/12/21 22:01:28
+receive:{"code":"200","message":"成功","timestamp":1703167283984,"data":true,"success":true}
+2023/12/21 22:01:28
+send:{"time":"2023-12-21 22:01:01","data":{"CODMn":{"temperature_curve":[],"titration_curve":[],"F0":4.60060E-41,"F1":7.91468E-18,"F2":2.51671E-36,"F3":-1.62630E-19,"F4":0,"F5":-2.54422E-24,"A":3121392.00000,"B":-193766.81250,"K":1.10189E-36}}}
+2023/12/21 22:01:28
+receive:{"code":"200","message":"成功","timestamp":1703167284450,"data":true,"success":true}
+2023/12/21 22:02:58
+send:{"time":"2023-12-21 22:02:52","data":{"smoke_sensor":{"trigger_alarm":false}}}
+2023/12/21 22:02:58
+receive:{"code":"200","message":"成功","timestamp":1703167373444,"data":true,"success":true}
+2023/12/21 22:02:58
+send:{"time":"2023-12-21 22:02:52","data":{"water_immersion_sensor":{"trigger_alarm":false}}}
+2023/12/21 22:02:59
+receive:{"code":"200","message":"成功","timestamp":1703167373490,"data":true,"success":true}
+2023/12/21 22:02:59
+send:{"time":"2023-12-21 22:02:52","data":{"temperature_and_humidity_sensor":{"current_temperature":-74.99466,"current_humidity":-24.99618,"room_temperature_alarm":true,"humidity_alarm":true}}}
+2023/12/21 22:02:59
+receive:{"code":"200","message":"成功","timestamp":1703167374899,"data":true,"success":true}
+2023/12/21 22:02:59
+send:{"time":"2023-12-21 22:02:52","data":{"CODMn":{"temperature_curve":[],"titration_curve":[],"F0":4.60060E-41,"F1":7.91468E-18,"F2":2.51671E-36,"F3":-1.62630E-19,"F4":0,"F5":-2.54422E-24,"A":3121392.00000,"B":-193766.81250,"K":1.10189E-36}}}
+2023/12/21 22:02:59
+receive:{"code":"200","message":"成功","timestamp":1703167376967,"data":true,"success":true}

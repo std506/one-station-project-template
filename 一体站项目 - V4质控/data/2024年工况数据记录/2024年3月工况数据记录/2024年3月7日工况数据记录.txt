@@ -1,0 +1,24 @@
+2024/03/07 20:10:05
+send:{"time":"2024-03-07 20:10:05","data":{"smoke_sensor":{"trigger_alarm":false}}}
+2024/03/07 20:10:05
+receive:{"code":"200","message":"成功","timestamp":1709813404590,"data":true,"success":true}
+2024/03/07 20:10:05
+send:{"time":"2024-03-07 20:10:05","data":{"water_immersion_sensor":{"trigger_alarm":false}}}
+2024/03/07 20:10:05
+receive:{"code":"200","message":"成功","timestamp":1709813404618,"data":true,"success":true}
+2024/03/07 20:10:06
+send:{"time":"2024-03-07 20:10:05","data":{"temperature_and_humidity_sensor":{"current_temperature":-74.99466,"current_humidity":-24.99618,"room_temperature_alarm":true,"humidity_alarm":true}}}
+2024/03/07 20:10:06
+receive:{"code":"200","message":"成功","timestamp":1709813404640,"data":true,"success":true}
+2024/03/07 20:40:04
+send:{"time":"2024-03-07 20:40:04","data":{"smoke_sensor":{"trigger_alarm":false}}}
+2024/03/07 20:40:04
+receive:{"code":"200","message":"成功","timestamp":1709815204080,"data":true,"success":true}
+2024/03/07 20:40:04
+send:{"time":"2024-03-07 20:40:04","data":{"water_immersion_sensor":{"trigger_alarm":false}}}
+2024/03/07 20:40:04
+receive:{"code":"200","message":"成功","timestamp":1709815204109,"data":true,"success":true}
+2024/03/07 20:40:04
+send:{"time":"2024-03-07 20:40:04","data":{"temperature_and_humidity_sensor":{"current_temperature":-74.99466,"current_humidity":-24.99618,"room_temperature_alarm":true,"humidity_alarm":true}}}
+2024/03/07 20:40:04
+receive:{"code":"200","message":"成功","timestamp":1709815204144,"data":true,"success":true}

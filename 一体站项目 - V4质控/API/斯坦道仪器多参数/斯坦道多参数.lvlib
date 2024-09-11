@@ -464,6 +464,7 @@
 		<Item Name="水样测试.vi" Type="VI" URL="../测试流程/水样测试.vi"/>
 		<Item Name="标样核查.vi" Type="VI" URL="../测试流程/标样核查.vi"/>
 		<Item Name="集成干预.vi" Type="VI" URL="../测试流程/集成干预.vi"/>
+		<Item Name="供电开关.vi" Type="VI" URL="../测试流程/供电开关.vi"/>
 	</Item>
 	<Item Name="多机通讯" Type="Folder">
 		<Item Name="数据流读取.vi" Type="VI" URL="../多机通讯/数据流读取.vi"/>
