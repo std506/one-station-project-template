@@ -389,6 +389,9 @@
 			</Item>
 		</Item>
 		<Item Name="斯坦道" Type="Folder">
+			<Item Name="悬浮物" Type="Folder">
+				<Item Name="STD悬浮物_获取温度和测量值.vi" Type="VI" URL="../属性/斯坦道/悬浮物/STD悬浮物_获取温度和测量值.vi"/>
+			</Item>
 			<Item Name="浊度" Type="Folder">
 				<Item Name="STD浊度_获取温度和测量值.vi" Type="VI" URL="../属性/斯坦道/浊度/STD浊度_获取温度和测量值.vi"/>
 			</Item>
@@ -464,7 +467,6 @@
 		<Item Name="水样测试.vi" Type="VI" URL="../测试流程/水样测试.vi"/>
 		<Item Name="标样核查.vi" Type="VI" URL="../测试流程/标样核查.vi"/>
 		<Item Name="集成干预.vi" Type="VI" URL="../测试流程/集成干预.vi"/>
-		<Item Name="供电开关.vi" Type="VI" URL="../测试流程/供电开关.vi"/>
 	</Item>
 	<Item Name="多机通讯" Type="Folder">
 		<Item Name="数据流读取.vi" Type="VI" URL="../多机通讯/数据流读取.vi"/>
