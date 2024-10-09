@@ -39,7 +39,10 @@
 		<Item Name="ADCP main.vi" Type="VI" URL="../ADCP/ADCP main.vi"/>
 	</Item>
 	<Item Name="ADCPinsertvalue.vi" Type="VI" URL="../ADCP/ADCPinsertvalue.vi"/>
+	<Item Name="ADCP过程数据.vi" Type="VI" URL="../ADCP/ADCP过程数据.vi"/>
 	<Item Name="ADCP全局变量.vi" Type="VI" URL="../ADCP/ADCP全局变量.vi"/>
 	<Item Name="ADCP通讯.vi" Type="VI" URL="../ADCP/ADCP通讯.vi"/>
+	<Item Name="电压模块通讯.vi" Type="VI" URL="../ADCP/电压模块通讯.vi"/>
 	<Item Name="设置窗口.vi" Type="VI" URL="../ADCP/设置窗口.vi"/>
+	<Item Name="设置电压模块窗口.vi" Type="VI" URL="../ADCP/设置电压模块窗口.vi"/>
 </Library>
