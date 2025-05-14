@@ -503,7 +503,6 @@
 				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
-				<Item Name="ProgressBar_Win_WireFlow.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/WireFlow/_WF_ProgressBar.llb/ProgressBar_Win_WireFlow.lvclass"/>
 				<Item Name="Toolkit Error Handling - Add Caller to API VI List__JKI EasyXML.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/Toolkit Error Handling - Add Caller to API VI List__JKI EasyXML.vi"/>
 				<Item Name="Toolkit Error Handling - API VI List Buffer Core__JKI EasyXML.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/Toolkit Error Handling - API VI List Buffer Core__JKI EasyXML.vi"/>
 				<Item Name="XML Loop Stack Recursion__JKI EasyXML.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/XML Loop Stack Recursion__JKI EasyXML.vi"/>
@@ -588,6 +587,17 @@
 				<Item Name="LVStringsAndValuesArrayTypeDef_U16.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVStringsAndValuesArrayTypeDef_U16.ctl"/>
 				<Item Name="Create Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Create Registry Key.vi"/>
 				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
+				<Item Name="Serializable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/AQ Character Lineator/Serializable/Serializable.lvclass"/>
+				<Item Name="Serializer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/AQ Character Lineator/Serializer/Serializer.lvclass"/>
+				<Item Name="Formatter.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/AQ Character Lineator/Formatter/Formatter.lvclass"/>
+				<Item Name="Serialization Common.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/AQ Character Lineator/Serialization Common/Serialization Common.lvlib"/>
+				<Item Name="Class Retrieval.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Class Retrieval/Name to Path Conversion/Class Retrieval.lvlib"/>
+				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
+				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
+				<Item Name="Deserializer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/AQ Character Lineator/Deserializer/Deserializer.lvclass"/>
+				<Item Name="Notify Icon Menu.rtm" Type="Document" URL="/&lt;vilib&gt;/Averna/Notify Icon/Notify Icon Menu.rtm"/>
+				<Item Name="Qualified Name Array To Single String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Qualified Name Array To Single String.vi"/>
+				<Item Name="ProgressBar_Win_WireFlow.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/WireFlow/_WF_ProgressBar.llb/ProgressBar_Win_WireFlow.lvclass"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
@@ -1189,7 +1199,7 @@
 				<Property Name="Destination[3].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/data/tubiao.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F28811EB-1AF9-45F2-B84C-24D7B0B594C2}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CED7229A-D577-4439-BA70-97B6109F9B02}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/UI/VIS/启动.vi</Property>
@@ -1534,6 +1544,7 @@
 				<Property Name="Source[9].itemID" Type="Ref">/我的电脑/流程文件</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">87</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">一体化微型水质监测站</Property>
 				<Property Name="TgtF_internalName" Type="Str">One station online monitoring system 4.0</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">版权 2019 </Property>
