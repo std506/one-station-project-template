@@ -371,6 +371,15 @@
 				<Item Name="纳清叶绿素a_量程写入.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_量程写入.vi"/>
 				<Item Name="纳清叶绿素a_校准量程写入.vi" Type="VI" URL="../属性/纳清/叶绿素a/纳清叶绿素a_校准量程写入.vi"/>
 			</Item>
+			<Item Name="余氯" Type="Folder">
+				<Item Name="纳清余氯_余氯零点校准写入.vi" Type="VI" URL="../属性/纳清/余氯/纳清余氯_余氯零点校准写入.vi"/>
+				<Item Name="纳清余氯_余氯灵敏度校准写入.vi" Type="VI" URL="../属性/纳清/余氯/纳清余氯_余氯灵敏度校准写入.vi"/>
+				<Item Name="纳清余氯_pH补偿值写入.vi" Type="VI" URL="../属性/纳清/余氯/纳清余氯_pH补偿值写入.vi"/>
+				<Item Name="纳清余氯_氯偏置写入.vi" Type="VI" URL="../属性/纳清/余氯/纳清余氯_氯偏置写入.vi"/>
+				<Item Name="纳清余氯_温度偏置写入.vi" Type="VI" URL="../属性/纳清/余氯/纳清余氯_温度偏置写入.vi"/>
+				<Item Name="纳清余氯_所有参数读取.vi" Type="VI" URL="../属性/纳清/余氯/纳清余氯_所有参数读取.vi"/>
+				<Item Name="余氯校准界面.vi" Type="VI" URL="../属性/纳清/余氯/余氯校准界面.vi"/>
+			</Item>
 			<Item Name="Public" Type="Folder">
 				<Item Name="纳清_第一点原始光强值写入.vi" Type="VI" URL="../属性/纳清/Public/纳清_第一点原始光强值写入.vi"/>
 				<Item Name="纳清_第一点校准数据写入.vi" Type="VI" URL="../属性/纳清/Public/纳清_第一点校准数据写入.vi"/>
@@ -497,6 +506,7 @@
 		<Item Name="探头恢复出厂.vi" Type="VI" URL="../校准/探头恢复出厂.vi"/>
 		<Item Name="探头温度系数.vi" Type="VI" URL="../校准/探头温度系数.vi"/>
 		<Item Name="信号曲线.vi" Type="VI" URL="../校准/信号曲线.vi"/>
+		<Item Name="校准Main.vi" Type="VI" URL="../校准/校准Main.vi"/>
 	</Item>
 	<Item Name="Interface" Type="Folder">
 		<Item Name="多参数 interface.vi" Type="VI" URL="../Interface/多参数 interface.vi"/>
