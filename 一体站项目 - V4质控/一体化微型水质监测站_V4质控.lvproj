@@ -171,6 +171,7 @@
 		<Item Name="国标启动命令.vi" Type="VI" URL="../Modbus Slave/启动命令/国标启动命令.vi"/>
 		<Item Name="DGUS.lvlib" Type="Library" URL="../API/DGUS/SourceCode/DGUS.lvlib"/>
 		<Item Name="余氯.lvlib" Type="Library" URL="../API/余氯/余氯.lvlib"/>
+		<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -570,7 +571,6 @@
 				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
 				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
 				<Item Name="NotifyIcon.lvlib" Type="Library" URL="/&lt;vilib&gt;/Averna/Notify Icon/NotifyIcon.llb/NotifyIcon.lvlib"/>
-				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
 				<Item Name="Time-Delay Override Options.ctl" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delay Override Options.ctl"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
@@ -588,6 +588,16 @@
 				<Item Name="Check if Data Type has User-Definable String__JKI EasyXML.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/Check if Data Type has User-Definable String__JKI EasyXML.vi"/>
 				<Item Name="Cluster to Array of VData--EasyXML__JKI EasyXML.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/Cluster to Array of VData--EasyXML__JKI EasyXML.vi"/>
 				<Item Name="XML Build Entity__JKI EasyXML.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/XML Build Entity__JKI EasyXML.vi"/>
+				<Item Name="Serializable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/AQ Character Lineator/Serializable/Serializable.lvclass"/>
+				<Item Name="Serializer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/AQ Character Lineator/Serializer/Serializer.lvclass"/>
+				<Item Name="Formatter.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/AQ Character Lineator/Formatter/Formatter.lvclass"/>
+				<Item Name="Serialization Common.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/AQ Character Lineator/Serialization Common/Serialization Common.lvlib"/>
+				<Item Name="Class Retrieval.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Class Retrieval/Name to Path Conversion/Class Retrieval.lvlib"/>
+				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
+				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
+				<Item Name="Deserializer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/AQ Character Lineator/Deserializer/Deserializer.lvclass"/>
+				<Item Name="Notify Icon Menu.rtm" Type="Document" URL="/&lt;vilib&gt;/Averna/Notify Icon/Notify Icon Menu.rtm"/>
+				<Item Name="Qualified Name Array To Single String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Qualified Name Array To Single String.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
@@ -1171,7 +1181,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/NI_AB_PROJECTNAME/一体化微型水质监测站</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2FBB827-1878-4DE1-A43E-88C2716D5DCE}</Property>
-				<Property Name="Bld_version.build" Type="Int">125</Property>
+				<Property Name="Bld_version.build" Type="Int">126</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.minor" Type="Int">8</Property>
 				<Property Name="Bld_version.patch" Type="Int">2</Property>
@@ -1191,7 +1201,7 @@
 				<Property Name="Destination[3].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/data/tubiao.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B2E48EF1-7739-4245-A3DA-E46B4801721F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2DB27282-91B3-43AF-BDB0-A764232827FD}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/UI/VIS/启动.vi</Property>
@@ -1524,6 +1534,7 @@
 				<Property Name="Source[9].itemID" Type="Ref">/我的电脑/流程文件</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">84</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">一体化微型水质监测站</Property>
 				<Property Name="TgtF_internalName" Type="Str">One station online monitoring system 4.0</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">版权 2019 </Property>
